@@ -8,4 +8,4 @@ Sitio estático, sin dependencias ni build: `index.html`, `css/styles.css`, `js/
 
 Vista local: `python3 -m http.server` y abrir http://localhost:8000
 
-Pendiente de verificar con el despacho: horario, datos del equipo (sin bio pública de Manuel Lugilde Valín), listado de servicios por área, y páginas legales (aviso legal, privacidad, cookies).
+Pendiente: migrar las páginas `/aviso-legal/`, `/accesibilidad/` y `/politica-de-cookies-ue/` (el sitio enlaza a ellas); confirmar el horario; completar las listas de servicios de penal, mercantil, tributario, civil y administrativo con el texto de cada página de área (solo laboral es literal).

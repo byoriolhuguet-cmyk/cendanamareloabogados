@@ -11,6 +11,8 @@
   --ivory-2: #ebe5d9;
   --gold: #b0905a;         /* oro envejecido */
   --gold-soft: #cdb489;
+  --gold-deep: #735a30;     /* oro legible sobre claro (AA) */
+  --accent: var(--gold-deep);
   --text: #2a2926;
   --text-soft: #6b675f;
   --on-dark: #e9e4d9;
@@ -70,9 +72,9 @@ strong { font-weight: 500; }
 .header-bar { height: 100%; display: flex; align-items: center; justify-content: space-between; }
 
 .brand { display: flex; align-items: center; gap: .75rem; min-height: 44px; }
-.brand-mark { width: 2.25rem; height: 2.25rem; color: var(--gold); flex: none; }
+.brand-mark { width: 2.25rem; height: 2.25rem; color: var(--accent); flex: none; }
 .brand-name { font-family: var(--serif); font-size: 1.25rem; line-height: 1; white-space: nowrap; display: flex; flex-direction: column; gap: .3rem; }
-.brand-name i { color: var(--gold); }
+.brand-name i { color: var(--accent); }
 .brand-name small { font-family: var(--sans); font-size: .625rem; letter-spacing: .28em; text-transform: uppercase; color: var(--on-dark-soft); }
 
 /* Botón menú: touch target 48px */
@@ -99,7 +101,7 @@ strong { font-weight: 500; }
   font-family: var(--serif); font-size: 1.75rem; transition: color .25s;
 }
 .nav a:hover { color: var(--gold-soft); }
-.nav .nav-cta { color: var(--gold); }
+.nav .nav-cta { color: var(--accent); }
 body.menu-open { overflow: hidden; }
 
 /* ---------- 4. Botones ---------- */
@@ -135,7 +137,7 @@ body.menu-open { overflow: hidden; }
 }
 .hero .wrap { position: relative; padding-inline: calc(var(--gutter) + 1.25rem); }
 .eyebrow {
-  font-size: .6875rem; letter-spacing: .32em; text-transform: uppercase; color: var(--gold);
+  font-size: .6875rem; letter-spacing: .32em; text-transform: uppercase; color: var(--accent);
   display: flex; align-items: center; gap: .9rem; margin-bottom: 1.75rem;
 }
 .eyebrow::before { content: ""; width: 2rem; height: 1px; background: var(--gold); }
@@ -160,7 +162,7 @@ body.menu-open { overflow: hidden; }
 
 .section-head { margin-bottom: 2.75rem; }
 .index {
-  font-family: var(--serif); font-style: italic; font-size: 1rem; color: var(--gold);
+  font-family: var(--serif); font-style: italic; font-size: 1rem; color: var(--accent);
   display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;
 }
 .index::after { content: ""; flex: 0 0 3rem; height: 1px; background: currentColor; opacity: .6; }
@@ -171,7 +173,7 @@ body.menu-open { overflow: hidden; }
 .prose p + p { margin-top: 1.25rem; }
 .dropcap::first-letter {
   float: left; font-family: var(--serif); font-size: 4.2em; line-height: .8;
-  padding: .08em .12em 0 0; color: var(--gold);
+  padding: .08em .12em 0 0; color: var(--accent);
 }
 .quote {
   margin-top: 2.5rem; padding: 1.75rem 0 0; border-top: 1px solid var(--line);
@@ -184,7 +186,7 @@ body.menu-open { overflow: hidden; }
   position: relative; padding: 2.25rem 0; border-bottom: 1px solid var(--line-dark);
   transition: background-color .4s var(--ease);
 }
-.area-num { font-family: var(--serif); font-style: italic; color: var(--gold); font-size: 1rem; }
+.area-num { font-family: var(--serif); font-style: italic; color: var(--accent); font-size: 1rem; }
 .area h3 { font-size: 1.75rem; margin: .5rem 0 1rem; }
 .area > p { color: var(--on-dark-soft); }
 .area ul { list-style: none; padding: 0; margin-top: 1.25rem; }
@@ -201,7 +203,7 @@ body.menu-open { overflow: hidden; }
 .steps li { counter-increment: step; padding: 1.75rem 0 1.75rem 3.25rem; border-bottom: 1px solid var(--line); position: relative; }
 .steps li::before {
   content: counter(step, decimal-leading-zero); position: absolute; left: 0; top: 1.9rem;
-  font-family: var(--serif); font-style: italic; color: var(--gold); font-size: 1.1rem;
+  font-family: var(--serif); font-style: italic; color: var(--accent); font-size: 1.1rem;
 }
 .steps h3 { font-size: 1.45rem; margin-bottom: .4rem; color: var(--ink); }
 .steps p { color: var(--text-soft); }
@@ -212,11 +214,11 @@ body.menu-open { overflow: hidden; }
 .member:hover { background: var(--ivory); }
 .monogram {
   flex: none; width: 3.5rem; height: 3.5rem; display: grid; place-items: center;
-  border: 1px solid var(--gold); color: var(--gold);
+  border: 1px solid var(--gold); color: var(--accent);
   font-family: var(--serif); font-size: 1.15rem; letter-spacing: .06em;
 }
 .member h3 { font-size: 1.4rem; color: var(--ink); }
-.role { font-size: .6875rem; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); margin: .35rem 0 .75rem; }
+.role { font-size: .6875rem; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); margin: .35rem 0 .75rem; }
 .member p:last-child { font-size: .9375rem; color: var(--text-soft); }
 
 /* FAQ */
@@ -240,12 +242,12 @@ body.menu-open { overflow: hidden; }
 .contact { display: grid; gap: 3.5rem; }
 .contact-data { font-style: normal; display: grid; gap: 0; border-top: 1px solid var(--line-dark); }
 .cd-block { padding: 1.5rem 0; border-bottom: 1px solid var(--line-dark); }
-.cd-block h3 { font-family: var(--sans); font-size: .625rem; font-weight: 400; letter-spacing: .28em; text-transform: uppercase; color: var(--gold); margin-bottom: .6rem; }
+.cd-block h3 { font-family: var(--sans); font-size: .625rem; font-weight: 400; letter-spacing: .28em; text-transform: uppercase; color: var(--accent); margin-bottom: .6rem; }
 .cd-block p { font-family: var(--serif); font-size: 1.3rem; line-height: 1.4; word-break: break-word; }
 .cd-block a { transition: color .25s; }
 .cd-block a:hover { color: var(--gold-soft); }
 .cd-block .muted { color: var(--on-dark-soft); font-size: 1rem; }
-.link-gold { display: inline-flex; align-items: center; min-height: 44px; margin-top: .25rem; font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); }
+.link-gold { display: inline-flex; align-items: center; min-height: 44px; margin-top: .25rem; font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
 
 .form { display: grid; gap: 1.25rem; }
 .field { position: relative; }
@@ -265,7 +267,7 @@ body.menu-open { overflow: hidden; }
 }
 .field input:focus + label, .field input:not(:placeholder-shown) + label,
 .field textarea:focus + label, .field textarea:not(:placeholder-shown) + label {
-  transform: translateY(-1.05rem) scale(.72); color: var(--gold);
+  transform: translateY(-1.05rem) scale(.72); color: var(--accent);
 }
 .field .is-invalid { border-color: #c27a6a; }
 .field :user-invalid { border-color: #c27a6a; }
@@ -277,13 +279,13 @@ body.menu-open { overflow: hidden; }
 .site-footer { background: var(--ink); color: var(--on-dark-soft); padding: 4rem 0 3rem; font-size: .875rem; border-top: 1px solid var(--line-dark); }
 .footer-grid { display: grid; gap: 2.5rem; }
 .footer-brand { font-family: var(--serif); font-size: 1.75rem; color: var(--on-dark); margin-bottom: .4rem; }
-.footer-brand i { color: var(--gold); }
+.footer-brand i { color: var(--accent); }
 .site-footer .muted { color: var(--on-dark-soft); }
 .footer-links { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; }
 .footer-links a { display: flex; align-items: center; min-height: 44px; transition: color .25s; }
 .footer-links a:hover, .footer-legal a:hover { color: var(--gold-soft); }
 .footer-legal p + p { margin-top: .75rem; }
-.footer-legal a { display: inline-flex; min-height: 44px; align-items: center; color: var(--gold); }
+.footer-legal a { display: inline-flex; min-height: 44px; align-items: center; color: var(--accent); }
 
 /* ---------- 9. Revelado suave (sólo si hay JS) ---------- */
 .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity .9s var(--ease), transform .9s var(--ease); }
@@ -343,3 +345,20 @@ body.menu-open { overflow: hidden; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
   .js .reveal { opacity: 1; transform: none; }
 }
+
+/* ---------- 13. Añadidos de contenido ---------- */
+.values { list-style: none; padding: 0; margin: 2rem 0; border-top: 1px solid var(--line); }
+.values li {
+  font-family: var(--serif); font-size: 1.35rem; line-height: 1.3; color: var(--ink);
+  padding: 1rem 0 1rem 2rem; border-bottom: 1px solid var(--line); position: relative;
+}
+.values li::before { content: ""; position: absolute; left: 0; top: 1.65rem; width: 1rem; height: 1px; background: var(--gold); }
+.area-note { margin-top: 1.25rem; font-size: .9375rem; font-style: italic; color: var(--on-dark-soft); }
+.link-inline { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.link-dark { margin-top: 1.5rem; }
+.footer-links-single { grid-template-columns: 1fr; margin: .5rem 0; }
+.footer-kicker { display: block; font-size: .625rem; letter-spacing: .28em; text-transform: uppercase; color: var(--on-dark-soft); }
+.social { display: flex; gap: 1.5rem; }
+
+/* Contextos oscuros: el acento vuelve al oro envejecido */
+.site-header, .hero, .figures, .section-dark, .site-footer, .nav { --accent: var(--gold); }
