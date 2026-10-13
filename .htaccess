@@ -33,18 +33,10 @@ AddType image/webp .webp
 AddDefaultCharset utf-8
 ErrorDocument 404 /404.html
 
-# Redirecciones 301 desde las URL de la web anterior (conserva el posicionamiento)
+# Redirecciones 301 desde URL antiguas que ya no existen (perfiles individuales del equipo)
 <IfModule mod_alias.c>
-  RedirectMatch 301 ^/despacho-abogados-lugo/?$ /#despacho
-  RedirectMatch 301 ^/areas-de-practica/?$ /#areas
-  RedirectMatch 301 ^/abogados-derecho-penal-lugo/?$ /#penal
-  RedirectMatch 301 ^/abogados-derecho-mercantil-concursal-lugo/?$ /#mercantil
-  RedirectMatch 301 ^/abogados-derecho-tributario-lugo/?$ /#tributario
-  RedirectMatch 301 ^/abogados-derecho-civil-procesal-lugo/?$ /#civil
-  RedirectMatch 301 ^/abogados-derecho-adminitrativo-lugo/?$ /#administrativo
-  RedirectMatch 301 ^/abogados-derecho-laboral-lugo/?$ /#laboral
-  RedirectMatch 301 ^/[eE]quipo-profesional(/.*)?$ /#equipo
-  RedirectMatch 301 ^/actualidad-juridica(/.*)?$ /#actualidad
-  RedirectMatch 301 ^/contacto/?$ /#contacto
+  RedirectMatch 301 ^/[eE]quipo-profesional/.+$ /equipo-profesional/
+  RedirectMatch 301 ^/Equipo-profesional/?$ /equipo-profesional/
   RedirectMatch 301 ^/politica-de-cookies/?$ /politica-de-cookies-ue/
+  RedirectMatch 301 ^/actualidad-juridica/.+$ /actualidad-juridica/
 </IfModule>

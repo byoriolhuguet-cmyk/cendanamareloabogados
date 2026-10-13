@@ -1,31 +1,33 @@
 # Cendán & Amarelo Abogados — web
 
-Sitio estático, sin dependencias ni build. Se sube tal cual a cualquier hosting.
+Sitio estático generado con un script de Python (sin dependencias de ejecución). Se publica tal cual en Vercel o en cualquier hosting.
 
-```
-index.html                    Inicio (una sola página con anclas)
-aviso-legal/                  Aviso legal y protección de datos
-politica-de-cookies-ue/       Política de cookies
-accesibilidad/                Declaración de accesibilidad
-404.html                      Página de error
-css/styles.css → .min.css     Estilos (mobile-first); se sirve la versión minificada
-js/main.js → .min.js          Menú, cursor, cortina de carga, revelados, formulario
-scripts/build.sh              Regenera los .min y las páginas legales
-scripts/build_legal.py        Genera las páginas legales con la cabecera y el pie de index.html
-assets/fonts/                 Cormorant Garamond y Jost autoalojadas (licencia OFL)
-assets/img/equipo/            Retratos del equipo (WebP + JPG)
-vercel.json                   Caché, cabeceras de seguridad y redirecciones 301 (Vercel)
-.htaccess                     Lo mismo para hosting Apache
-site.webmanifest · apple-touch-icon.png · assets/img/og-*.jpg (imagen para redes)
-robots.txt · sitemap.xml · llms.txt
-```
+## Páginas (mantienen las URL de la web anterior)
 
-- Lighthouse móvil: 100 / 100 / 100 / 100 (rendimiento, accesibilidad, buenas prácticas, SEO).
-- Sin cookies ni peticiones a terceros: las fuentes se sirven desde el propio dominio.
-- Animaciones: cortina de carga en la primera visita de la sesión, entrada escalonada, revelado de fotos, líneas que se dibujan, barra de progreso de lectura, transiciones entre páginas (View Transitions) y cursor personalizado en dispositivos con ratón. Todo se desactiva con "reducir movimiento".
-- El formulario abre el correo del usuario (`mailto:`). Para envío directo, conectar a un backend o servicio de formularios.
-- Tras editar `css/styles.css`, `js/main.js` o la cabecera/pie de `index.html`, ejecutar `sh scripts/build.sh`.
-- Las URL de la web anterior (`/despacho-abogados-lugo/`, `/abogados-derecho-penal-lugo/`, `/equipo-profesional/...`, `/contacto/`…) redirigen con 301 a su sección para conservar el posicionamiento.
-- Fuentes recortadas al subconjunto latino (70 KB en total) con `pyftsubset`.
+| URL | Página |
+|---|---|
+| `/` | Inicio |
+| `/despacho-abogados-lugo/` | La firma |
+| `/areas-de-practica/` | Áreas de práctica |
+| `/abogados-derecho-penal-lugo/` … `/abogados-derecho-laboral-lugo/` | Una página por área (6) |
+| `/equipo-profesional/` | Equipo |
+| `/actualidad-juridica/` | Actualidad |
+| `/contacto/` | Contacto, formulario y preguntas frecuentes |
+| `/aviso-legal/`, `/politica-de-cookies-ue/`, `/accesibilidad/` | Legales |
+
+## Editar
+
+- Textos y estructura: `scripts/build.py` (áreas, equipo, FAQ, plantillas). Legales: `scripts/legal_content.py`.
+- Estilos: `css/styles.css`. Interacción: `js/main.js`.
+- Después de cualquier cambio: `sh scripts/build.sh` (regenera el HTML, el sitemap, `llms.txt` y los `.min`).
+
+## Detalles técnicos
+
+- Diseño minimalista sobre blanco con los colores del logotipo; isotipo reconstruido en SVG para las animaciones (cortina de carga, entrada del hero con paralaje, bloques de contacto).
+- Una sola familia tipográfica (Jost, autoalojada y recortada, 25 KB). Sin cookies ni peticiones a terceros.
+- Lighthouse 99–100 en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
+- Datos estructurados: `LegalService`/`LocalBusiness`, `Service` por área, `FAQPage`, `BreadcrumbList`.
+- `vercel.json` / `.htaccess`: caché, cabeceras de seguridad y redirecciones 301 de los perfiles individuales antiguos.
+- El formulario abre el correo del usuario (`mailto:`); para envío directo hace falta un servicio de formularios.
 
 Vista local: `python3 -m http.server` y abrir http://localhost:8000

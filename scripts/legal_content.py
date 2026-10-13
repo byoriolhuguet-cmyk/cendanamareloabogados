@@ -1,23 +1,4 @@
-"""Genera las páginas legales reutilizando cabecera y pie de index.html.
-
-Uso: python3 scripts/build_legal.py .
-Ejecutar tras modificar la cabecera o el pie de index.html.
-"""
-import re, sys, os
-root = sys.argv[1]
-idx = open(os.path.join(root, 'index.html'), encoding='utf-8').read()
-
-def fix(html):
-    # Rutas relativas desde /<pagina>/
-    html = re.sub(r'href="#', 'href="../#', html)
-    html = html.replace('href="aviso-legal/"', 'href="../aviso-legal/"')
-    html = html.replace('href="accesibilidad/"', 'href="../accesibilidad/"')
-    html = html.replace('href="politica-de-cookies-ue/"', 'href="../politica-de-cookies-ue/"')
-    return html
-
-header = fix(re.search(r'  <!-- ============ CABECERA ============ -->.*?</header>', idx, re.S).group(0))
-header = header.replace('href="../#top"', 'href="../"')
-footer = fix(re.search(r'  <!-- ============ PIE ============ -->.*?</footer>', idx, re.S).group(0))
+"""Textos de las páginas legales (slug -> título, descripción, cuerpo HTML)."""
 
 PAGES = {}
 
@@ -59,7 +40,7 @@ PAGES['aviso-legal'] = ('Aviso legal', 'Aviso legal, condiciones de uso y polít
         <h3>Conservación y seguridad</h3>
         <p>El Abogado/Despacho guardará los datos de carácter personal que haya recabado durante los plazos necesarios para el cumplimiento de la relación contractual o durante los plazos legalmente obligatorios, y adoptará las medidas necesarias para evitar su alteración, pérdida, tratamiento o acceso no autorizados. El Abogado/Despacho cumplirá estos deberes de acuerdo con lo establecido por la normativa aplicable.</p>
         <p>No se contempla la realización de transferencias internacionales de datos a terceros países, ni la existencia de decisiones automatizadas o elaboración de perfiles, ni tampoco la cesión de sus datos a terceros más allá de las cesiones obligadas por la legislación vigente.</p>
-        <p><strong>Uso de cookies.</strong> Esta web utiliza cookies en los términos establecidos en nuestra <a href="../politica-de-cookies-ue/">política de cookies</a>.</p>
+        <p><strong>Uso de cookies.</strong> Esta web utiliza cookies en los términos establecidos en nuestra <a href="/politica-de-cookies-ue/">política de cookies</a>.</p>
         <p>Todos los datos facilitados, con independencia de su carácter, están protegidos por el deber de confidencialidad del abogado.</p>
 
         <h2 id="aviso-legal">4. Aviso legal</h2>
@@ -155,56 +136,3 @@ PAGES['accesibilidad'] = ('Accesibilidad', 'Declaración de accesibilidad de la 
         <h2 id="revision">5. Revisión</h2>
         <p>Esta declaración se revisará cada vez que se introduzcan cambios relevantes en el sitio y, en todo caso, una vez al año.</p>
 ''')
-
-head_tpl = '''<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>{title} · Cendán &amp; Amarelo Abogados</title>
-  <meta name="description" content="{desc}">
-  <link rel="canonical" href="https://www.cendanamareloabogados.com/{slug}/">
-  <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#121211">
-  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="es_ES">
-  <meta property="og:site_name" content="Cendán &amp; Amarelo Abogados">
-  <meta property="og:title" content="{title} · Cendán &amp; Amarelo Abogados">
-  <meta property="og:url" content="https://www.cendanamareloabogados.com/{slug}/">
-  <meta property="og:image" content="https://www.cendanamareloabogados.com/assets/img/og-cendan-amarelo.jpg">
-  <link rel="preload" href="../assets/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="../assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../css/styles.min.css">
-  <script>document.documentElement.classList.add('js')</script>
-  <script type="application/ld+json">
-  {{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.cendanamareloabogados.com/"}},{{"@type":"ListItem","position":2,"name":"{title}","item":"https://www.cendanamareloabogados.com/{slug}/"}}]}}
-  </script>
-</head>
-
-<body class="page-legal">
-  <div class="progress" aria-hidden="true"></div>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
-
-{header}
-
-  <main id="contenido" class="legal">
-    <article class="wrap">
-      <a class="back" href="../">← Volver al inicio</a>
-      <h1>{title}</h1>
-{body}
-    </article>
-  </main>
-
-{footer}
-
-  <script src="../js/main.min.js" defer></script>
-</body>
-</html>
-'''
-for slug, (title, desc, body) in PAGES.items():
-    os.makedirs(os.path.join(root, slug), exist_ok=True)
-    html = head_tpl.format(title=title, desc=desc.replace('&', '&amp;'), slug=slug, header=header, footer=footer, body=body.rstrip())
-    open(os.path.join(root, slug, 'index.html'), 'w', encoding='utf-8').write(html)
-    print('ok', slug)
