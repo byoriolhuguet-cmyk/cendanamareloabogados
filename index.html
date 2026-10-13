@@ -24,14 +24,15 @@
   <!-- Icono vectorial ligero (monograma) -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
-  <!-- Tipografías: carga no bloqueante -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap"></noscript>
+  <!-- Tipografías autoalojadas (sin terceros, RGPD): se precargan las dos críticas -->
+  <link rel="preload" href="assets/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="css/styles.css">
-  <script>document.documentElement.classList.add('js')</script>
+  <script>
+    /* Marca JS y muestra la cortina de carga sólo en la primera visita de la sesión */
+    (function(d){d.classList.add('js');try{if(!sessionStorage.getItem('ca-intro')){d.classList.add('is-intro');sessionStorage.setItem('ca-intro','1')}}catch(e){}})(document.documentElement);
+  </script>
 
   <!-- Datos estructurados: entidad, servicios, equipo y FAQ (geonavegación agéntica) -->
   <script type="application/ld+json">
@@ -98,11 +99,11 @@
           ]
         }
       },
-      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#jesus-amarelo", "name": "Jesús A. Amarelo Fernández", "jobTitle": "Socio", "knowsAbout": ["Derecho mercantil","Derecho laboral"], "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
-      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#francisco-gonzalez", "name": "Francisco González González", "jobTitle": "Socio", "alumniOf": "Universidad Complutense de Madrid", "knowsAbout": ["Derecho civil","Derecho de familia"], "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
-      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#ana-rey", "name": "Ana Belén Rey Vázquez", "jobTitle": "Abogada", "knowsAbout": ["Derecho civil","Derecho administrativo"], "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
-      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#david-couselo", "name": "David Couselo Cortegoso", "jobTitle": "Abogado", "knowsAbout": ["Derecho laboral","Derecho mercantil"], "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
-      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#manuel-lugilde", "name": "Manuel Lugilde Valín", "jobTitle": "Abogado", "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
+      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#jesus-amarelo", "name": "Jesús A. Amarelo Fernández", "jobTitle": "Socio", "image": "https://www.cendanamareloabogados.com/assets/img/equipo/jesus-a-amarelo-fernandez.jpg", "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
+      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#francisco-gonzalez", "name": "Francisco González González", "jobTitle": "Socio", "image": "https://www.cendanamareloabogados.com/assets/img/equipo/francisco-gonzalez-gonzalez.jpg", "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
+      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#ana-rey", "name": "Ana Belén Rey Vázquez", "jobTitle": "Abogada", "image": "https://www.cendanamareloabogados.com/assets/img/equipo/ana-belen-rey-vazquez.jpg", "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
+      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#david-couselo", "name": "David Couselo Cortegoso", "jobTitle": "Abogado", "image": "https://www.cendanamareloabogados.com/assets/img/equipo/david-couselo-cortegoso.jpg", "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
+      {"@type": "Person", "@id": "https://www.cendanamareloabogados.com/#manuel-lugilde", "name": "Manuel Lugilde Valín", "jobTitle": "Abogado", "image": "https://www.cendanamareloabogados.com/assets/img/equipo/manuel-lugilde-valin.jpg", "worksFor": {"@id": "https://www.cendanamareloabogados.com/#despacho"}},
       {
         "@type": "WebSite",
         "@id": "https://www.cendanamareloabogados.com/#web",
@@ -127,12 +128,18 @@
 </head>
 
 <body>
+  <!-- Cortina de carga (sólo primera visita; CSS + 1 temporizador) -->
+  <div class="intro" aria-hidden="true">
+    <svg class="intro-mark" viewBox="0 0 120 120"><rect x="1" y="1" width="118" height="118" pathLength="1"/><text x="60" y="74" text-anchor="middle">C&amp;A</text></svg>
+    <p class="intro-name">Cendán &amp; Amarelo · Abogados</p>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
   <a class="skip" href="#contenido">Saltar al contenido</a>
 
   <!-- ============ CABECERA ============ -->
   <header class="site-header" id="top">
     <div class="wrap header-bar">
-      <a class="brand" href="#top" aria-label="Cendán &amp; Amarelo Abogados, inicio">
+      <a class="brand" href="#top">
         <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect x=".5" y=".5" width="39" height="39" fill="none" stroke="currentColor"/><text x="20" y="26.5" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="17" fill="currentColor">C&amp;A</text></svg>
         <span class="brand-name"><span>Cendán <i>&amp;</i> Amarelo</span><small>Abogados · Lugo</small></span>
       </a>
@@ -326,45 +333,55 @@
         </header>
 
         <div class="team">
-          <article class="member reveal" id="jesus-amarelo">
-            <span class="monogram" aria-hidden="true">JA</span>
-            <div>
-              <h3>Jesús A. Amarelo Fernández</h3>
-              <p class="role">Socio</p>
-              <p>Se incorporó en 1992 al despacho de Antonio Cendán Corredoira y fundó con él la firma. Su práctica se centra en el Derecho mercantil y laboral.</p>
-            </div>
+          <article class="member reveal" id="jesus-amarelo" style="--d:0ms">
+            <figure class="member-photo">
+              <picture>
+                <source srcset="assets/img/equipo/jesus-a-amarelo-fernandez.webp" type="image/webp">
+                <img src="assets/img/equipo/jesus-a-amarelo-fernandez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Jesús A. Amarelo Fernández, socio de Cendán &amp; Amarelo Abogados en Lugo">
+              </picture>
+            </figure>
+            <h3>Jesús A. Amarelo Fernández</h3>
+            <p class="role">Socio</p>
           </article>
-          <article class="member reveal" id="francisco-gonzalez">
-            <span class="monogram" aria-hidden="true">FG</span>
-            <div>
-              <h3>Francisco González González</h3>
-              <p class="role">Socio</p>
-              <p>Licenciado en Derecho por la Universidad Complutense de Madrid (2000) y socio desde 2007. Se dedica al Derecho civil, sobre todo al Derecho de familia.</p>
-            </div>
+          <article class="member reveal" id="francisco-gonzalez" style="--d:90ms">
+            <figure class="member-photo">
+              <picture>
+                <source srcset="assets/img/equipo/francisco-gonzalez-gonzalez.webp" type="image/webp">
+                <img src="assets/img/equipo/francisco-gonzalez-gonzalez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Francisco González González, socio de Cendán &amp; Amarelo Abogados en Lugo">
+              </picture>
+            </figure>
+            <h3>Francisco González González</h3>
+            <p class="role">Socio</p>
           </article>
-          <article class="member reveal" id="ana-rey">
-            <span class="monogram" aria-hidden="true">AR</span>
-            <div>
-              <h3>Ana Belén Rey Vázquez</h3>
-              <p class="role">Abogada</p>
-              <p>Forma parte del despacho desde 2016. Sus áreas principales son el Derecho civil y el Derecho administrativo.</p>
-            </div>
+          <article class="member reveal" id="ana-rey" style="--d:180ms">
+            <figure class="member-photo">
+              <picture>
+                <source srcset="assets/img/equipo/ana-belen-rey-vazquez.webp" type="image/webp">
+                <img src="assets/img/equipo/ana-belen-rey-vazquez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Ana Belén Rey Vázquez, abogada de Cendán &amp; Amarelo Abogados en Lugo">
+              </picture>
+            </figure>
+            <h3>Ana Belén Rey Vázquez</h3>
+            <p class="role">Abogada</p>
           </article>
-          <article class="member reveal" id="manuel-lugilde">
-            <span class="monogram" aria-hidden="true">ML</span>
-            <div>
-              <h3>Manuel Lugilde Valín</h3>
-              <p class="role">Abogado</p>
-              <p>Miembro del equipo profesional de Cendán &amp; Amarelo Abogados.</p>
-            </div>
+          <article class="member reveal" id="manuel-lugilde" style="--d:270ms">
+            <figure class="member-photo">
+              <picture>
+                <source srcset="assets/img/equipo/manuel-lugilde-valin.webp" type="image/webp">
+                <img src="assets/img/equipo/manuel-lugilde-valin.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Manuel Lugilde Valín, abogado de Cendán &amp; Amarelo Abogados en Lugo">
+              </picture>
+            </figure>
+            <h3>Manuel Lugilde Valín</h3>
+            <p class="role">Abogado</p>
           </article>
-          <article class="member reveal" id="david-couselo">
-            <span class="monogram" aria-hidden="true">DC</span>
-            <div>
-              <h3>David Couselo Cortegoso</h3>
-              <p class="role">Abogado</p>
-              <p>Llegó al despacho tras trabajar en otras firmas de asesoramiento. Ejerce principalmente en Derecho laboral y mercantil.</p>
-            </div>
+          <article class="member reveal" id="david-couselo" style="--d:360ms">
+            <figure class="member-photo">
+              <picture>
+                <source srcset="assets/img/equipo/david-couselo-cortegoso.webp" type="image/webp">
+                <img src="assets/img/equipo/david-couselo-cortegoso.jpg" width="375" height="450" loading="lazy" decoding="async" alt="David Couselo Cortegoso, abogado de Cendán &amp; Amarelo Abogados en Lugo">
+              </picture>
+            </figure>
+            <h3>David Couselo Cortegoso</h3>
+            <p class="role">Abogado</p>
           </article>
         </div>
       </div>
@@ -411,7 +428,7 @@
         </header>
         <div class="prose">
           <p class="reveal">Seguimos a diario las novedades normativas y jurisprudenciales en materia fiscal, laboral, mercantil, penal y administrativa para anticiparnos a lo que afecta a nuestros clientes.</p>
-          <a class="link-gold link-dark reveal" href="https://www.iberley.es/noticias" rel="noopener" target="_blank">Noticias jurídicas en Iberley ↗</a>
+          <a class="link-gold reveal" href="https://www.iberley.es/noticias" rel="noopener" target="_blank">Noticias jurídicas en Iberley ↗</a>
         </div>
       </div>
     </section>
@@ -428,16 +445,16 @@
         <div class="contact">
           <address class="contact-data">
             <div class="cd-block">
-              <h3>Sede</h3>
-              <p>Avenida de A Coruña, 10-14, Entresuelo<br>27003 Lugo · Galicia</p>
+              <h3>Oficina</h3>
+              <p>Avda. de A Coruña 10-14, Entlo.<br>27003 Lugo · Galicia</p>
               <a class="link-gold" href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+de+A+Coru%C3%B1a+10-14+27003+Lugo" rel="noopener" target="_blank">Cómo llegar ↗</a>
             </div>
             <div class="cd-block">
-              <h3>Teléfono</h3>
+              <h3>Llámenos</h3>
               <p><a href="tel:+34982223053">982 223 053</a><br><span class="muted">Fax 982 223 947</span></p>
             </div>
             <div class="cd-block">
-              <h3>Correo</h3>
+              <h3>Envíe un mensaje</h3>
               <p><a href="mailto:despacho@cendanamareloabogados.com">despacho@cendanamareloabogados.com</a></p>
             </div>
             <div class="cd-block">
@@ -449,18 +466,18 @@
           <form class="form" id="form" novalidate>
             <div class="field">
               <input id="f-name" name="nombre" type="text" autocomplete="name" required placeholder=" ">
-              <label for="f-name">Nombre y apellidos</label>
+              <label for="f-name">Nombre y apellidos *</label>
             </div>
             <div class="field">
               <input id="f-mail" name="email" type="email" autocomplete="email" required placeholder=" ">
-              <label for="f-mail">Correo electrónico</label>
+              <label for="f-mail">Email *</label>
             </div>
             <div class="field">
               <input id="f-tel" name="telefono" type="tel" autocomplete="tel" placeholder=" ">
-              <label for="f-tel">Teléfono (opcional)</label>
+              <label for="f-tel">Teléfono</label>
             </div>
             <div class="field">
-              <select id="f-area" name="area">
+              <select id="f-area" name="area" aria-label="Área de práctica (opcional)">
                 <option value="">Área (opcional)</option>
                 <option>Derecho penal y penal económico</option>
                 <option>Derecho mercantil y concursal</option>
@@ -472,11 +489,15 @@
             </div>
             <div class="field">
               <textarea id="f-msg" name="mensaje" rows="4" required placeholder=" "></textarea>
-              <label for="f-msg">Breve descripción del asunto</label>
+              <label for="f-msg">Breve descripción del asunto *</label>
             </div>
             <label class="check">
               <input type="checkbox" name="privacidad" required>
-              <span>He leído y acepto el <a class="link-inline" href="/aviso-legal/">Aviso legal y la política de privacidad</a>.</span>
+              <span>He leído y acepto el <a class="link-inline" href="aviso-legal/">Aviso legal y la política de privacidad</a>. *</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="comunicaciones">
+              <span>Acepto recibir comunicaciones del despacho por correo electrónico (opcional).</span>
             </label>
             <button class="btn btn-gold btn-block" type="submit">Enviar consulta</button>
             <p class="form-status" role="status" aria-live="polite"></p>
@@ -489,31 +510,45 @@
   <!-- ============ PIE ============ -->
   <footer class="site-footer">
     <div class="wrap footer-grid">
-      <div>
+      <div class="footer-col">
         <p class="footer-brand">Cendán <i>&amp;</i> Amarelo</p>
         <p class="muted">Despacho de abogados en Lugo y Galicia desde 1973.</p>
+        <dl class="footer-contact">
+          <div><dt>Llámenos</dt><dd><a href="tel:+34982223053">982 223 053</a></dd></div>
+          <div><dt>Envíe un mensaje</dt><dd><a href="mailto:despacho@cendanamareloabogados.com">despacho@cendanamareloabogados.com</a></dd></div>
+          <div><dt>Oficina</dt><dd>Avda. de A Coruña 10-14 Entlo. 27003 Lugo</dd></div>
+        </dl>
       </div>
-      <nav aria-label="Áreas">
+      <nav class="footer-col" aria-label="Enlaces">
+        <p class="footer-kicker">Enlaces</p>
         <ul class="footer-links">
-          <li><a href="#penal">Penal</a></li>
-          <li><a href="#mercantil">Mercantil y concursal</a></li>
-          <li><a href="#laboral">Laboral</a></li>
-          <li><a href="#tributario">Tributario</a></li>
-          <li><a href="#administrativo">Administrativo</a></li>
-          <li><a href="#civil">Civil y procesal</a></li>
+          <li><a href="#despacho">Quiénes somos</a></li>
+          <li><a href="#areas">Áreas de práctica</a></li>
+          <li><a href="#equipo">Profesionales</a></li>
+          <li><a href="#actualidad">Actualidad</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
-      <div class="footer-legal">
-        <p>Cendán &amp; Amarelo Abogados SLP · CIF B27365667<br>Avda. de A Coruña, 10-14, Entresuelo · 27003 Lugo</p>
-        <ul class="footer-links footer-links-single">
-          <li><a href="/aviso-legal/">Aviso legal</a></li>
-          <li><a href="/accesibilidad/">Accesibilidad</a></li>
-          <li><a href="/politica-de-cookies-ue/">Política de cookies</a></li>
+      <nav class="footer-col" aria-label="Legales">
+        <p class="footer-kicker">Legales</p>
+        <ul class="footer-links">
+          <li><a href="aviso-legal/">Aviso legal</a></li>
+          <li><a href="accesibilidad/">Accesibilidad</a></li>
+          <li><a href="politica-de-cookies-ue/">Política de cookies</a></li>
         </ul>
-        <p><span class="footer-kicker">¿Quiere unirse?</span><a href="mailto:despacho@cendanamareloabogados.com?subject=Curr%C3%ADculum">Envíenos su CV</a></p>
-        <p class="social"><a href="https://es-es.facebook.com/pages/Cendan-Amarelo-Abogados/226246534135877" rel="noopener" target="_blank">Facebook</a><a href="https://twitter.com/cendanamarelo" rel="noopener" target="_blank">X / Twitter</a></p>
-        <p class="muted">© <span id="year">2026</span> Cendán &amp; Amarelo Abogados</p>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-kicker">¿Quiere unirse?</p>
+        <p><a class="link-gold" href="mailto:despacho@cendanamareloabogados.com?subject=Curr%C3%ADculum">Envíenos su CV</a></p>
+        <p class="social">
+          <a href="https://es-es.facebook.com/pages/Cendan-Amarelo-Abogados/226246534135877" rel="noopener" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></a>
+          <a href="https://twitter.com/cendanamarelo" rel="noopener" target="_blank" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg></a>
+        </p>
       </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>Cendán &amp; Amarelo Abogados, S.L.P. · NIF B27365667</p>
+      <p>© <span id="year">2026</span></p>
     </div>
   </footer>
 
