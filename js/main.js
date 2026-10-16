@@ -34,7 +34,7 @@
   }
 
   /* Revelado progresivo al entrar en pantalla */
-  var items = document.querySelectorAll('.reveal, .cta');
+  var items = document.querySelectorAll('.reveal, .contact-band');
   if ('IntersectionObserver' in window && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {

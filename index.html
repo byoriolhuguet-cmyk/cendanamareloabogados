@@ -7,7 +7,8 @@
   <meta name="description" content="Cendán &amp; Amarelo, despacho de abogados en Lugo desde 1973. Derecho penal económico, mercantil, tributario, civil, administrativo y laboral para empresas y particulares de Galicia.">
   <link rel="canonical" href="https://www.cendanamareloabogados.com/">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#fcfbfa">
+  <meta name="color-scheme" content="light">
   <meta name="geo.region" content="ES-GA">
   <meta name="geo.placename" content="Lugo">
   <meta property="og:type" content="website">
@@ -24,7 +25,9 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp" href="/assets/img/equipo/jesus-a-amarelo-fernandez.webp" fetchpriority="high">
   <link rel="stylesheet" href="/css/styles.min.css">
   <script>(function(d){d.classList.add('js');try{if(!sessionStorage.getItem('ca-intro')){d.classList.add('is-intro');sessionStorage.setItem('ca-intro','1')}}catch(e){}})(document.documentElement)</script>
   <script type="application/ld+json">
@@ -230,11 +233,11 @@
   <a class="skip" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
     <div class="wrap header-bar">
-      <a class="brand" href="/"><picture><source srcset="/assets/img/logo.webp" type="image/webp"><img src="/assets/img/logo.png" width="298" height="123" alt="Cendán &amp; Amarelo Abogados"></picture></a>
+      <a class="brand" href="/" aria-label="Cendán &amp; Amarelo Abogados, inicio"><picture><source srcset="/assets/img/logo.webp" type="image/webp"><img src="/assets/img/logo.png" width="298" height="123" alt=""></picture></a>
       <nav class="nav" id="nav" aria-label="Principal">
         <ul><li><a href="/despacho-abogados-lugo/">La firma</a></li><li><a href="/areas-de-practica/">Áreas de práctica</a></li><li><a href="/equipo-profesional/">Equipo</a></li><li><a href="/actualidad-juridica/">Actualidad</a></li></ul>
-        <a class="nav-phone" href="tel:+34982223053">982&nbsp;223&nbsp;053</a>
-        <a class="btn btn-dark btn-sm" href="/contacto/"><span>Contacto</span></a>
+        <a class="nav-phone" href="tel:+34982223053"><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M221.59,160.3l-47.24-21.17a14,14,0,0,0-13.28,1.22,4.81,4.81,0,0,0-.56.42l-24.69,21a1.88,1.88,0,0,1-1.68.06c-15.87-7.66-32.31-24-40-39.65a1.91,1.91,0,0,1,0-1.68l21.07-25a6.13,6.13,0,0,0,.42-.58,14,14,0,0,0,1.12-13.27L95.73,34.49a14,14,0,0,0-14.56-8.38A54.24,54.24,0,0,0,34,80c0,78.3,63.7,142,142,142a54.25,54.25,0,0,0,53.89-47.17A14,14,0,0,0,221.59,160.3ZM176,210C104.32,210,46,151.68,46,80A42.23,42.23,0,0,1,82.67,38h.23a2,2,0,0,1,1.84,1.31l21.1,47.11a2,2,0,0,1,0,1.67L84.73,113.15a4.73,4.73,0,0,0-.43.57,14,14,0,0,0-.91,13.73c8.87,18.16,27.17,36.32,45.53,45.19a14,14,0,0,0,13.77-1c.19-.13.38-.27.56-.42l24.68-21a1.92,1.92,0,0,1,1.6-.1l47.25,21.17a2,2,0,0,1,1.21,2A42.24,42.24,0,0,1,176,210Z"/></svg><span>982&nbsp;223&nbsp;053</span></a>
+        <a class="btn btn-dark btn-sm" href="/contacto/"><span>Solicitar consulta</span></a>
       </nav>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span></button>
     </div>
@@ -244,32 +247,48 @@
     <section class="hero" aria-labelledby="h1">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Despacho de abogados · Lugo · Galicia</p>
-          <h1 id="h1">Abogados en Lugo desde 1973<span class="dot" aria-hidden="true">.</span></h1>
+          <p class="eyebrow">Desde 1973</p>
+          <h1 id="h1">Despacho de abogados <em>en Lugo</em><span class="dot" aria-hidden="true">.</span></h1>
           <p class="lead">Asesoramiento jurídico a empresas y particulares en toda Galicia, de forma personal e individualizada.</p>
           <div class="actions">
-            <a class="btn btn-dark" href="/contacto/"><span>Solicitar consulta</span><i><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></i></a>
+            <a class="btn btn-dark" href="/contacto/"><span>Solicitar consulta</span><i><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></i></a>
             <a class="btn btn-line" href="/areas-de-practica/"><span>Áreas de práctica</span></a>
           </div>
         </div>
-        <div class="hero-art"><svg class="hero-tiles" viewBox="0 0 116 68" aria-hidden="true" focusable="false"><defs><linearGradient id="gh" x1="0" y1="0" x2="0" y2="68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8dac4"/><stop offset=".5" stop-color="#f0a479"/><stop offset="1" stop-color="#e8702a"/></linearGradient><clipPath id="ch"><rect width="116" height="67.6"/></clipPath></defs><g fill="url(#gh)" clip-path="url(#ch)"><polygon style="--i:0;--z:0.4" points="15.5,51.0 28.0,63.5 15.5,76.0 3.0,63.5"/><polygon style="--i:1;--z:0.75" points="36,23 53,40 36,57 19,40"/><polygon style="--i:2;--z:1.1" points="18,13.0 29.5,24.5 18,36.0 6.5,24.5"/><polygon style="--i:3;--z:1.45" points="56.5,37.0 76.0,56.5 56.5,76.0 37.0,56.5"/><polygon style="--i:4;--z:0.4" points="58,2 72,16 58,30 44,16"/><polygon style="--i:5;--z:0.75" points="77.5,16.5 94.0,33 77.5,49.5 61.0,33"/><polygon style="--i:6;--z:1.1" points="81.5,57.0 91.0,66.5 81.5,76.0 72.0,66.5"/><polygon style="--i:7;--z:1.45" points="97.5,35.0 112.0,49.5 97.5,64.0 83.0,49.5"/><polygon style="--i:8;--z:0.4" points="96.5,4 105.5,13 96.5,22 87.5,13"/></g></svg></div>
+        <figure class="hero-art">
+          <svg class="hero-tiles" viewBox="0 0 116 68" aria-hidden="true" focusable="false"><defs><linearGradient id="gh" x1="0" y1="0" x2="0" y2="68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8dac4"/><stop offset=".5" stop-color="#f0a479"/><stop offset="1" stop-color="#e8702a"/></linearGradient><clipPath id="ch"><rect width="116" height="67.6"/></clipPath></defs><g fill="url(#gh)" clip-path="url(#ch)"><polygon style="--i:0;--z:0.4" points="15.5,51.0 28.0,63.5 15.5,76.0 3.0,63.5"/><polygon style="--i:1;--z:0.75" points="36,23 53,40 36,57 19,40"/><polygon style="--i:2;--z:1.1" points="18,13.0 29.5,24.5 18,36.0 6.5,24.5"/><polygon style="--i:3;--z:1.45" points="56.5,37.0 76.0,56.5 56.5,76.0 37.0,56.5"/><polygon style="--i:4;--z:0.4" points="58,2 72,16 58,30 44,16"/><polygon style="--i:5;--z:0.75" points="77.5,16.5 94.0,33 77.5,49.5 61.0,33"/><polygon style="--i:6;--z:1.1" points="81.5,57.0 91.0,66.5 81.5,76.0 72.0,66.5"/><polygon style="--i:7;--z:1.45" points="97.5,35.0 112.0,49.5 97.5,64.0 83.0,49.5"/><polygon style="--i:8;--z:0.4" points="96.5,4 105.5,13 96.5,22 87.5,13"/></g></svg>
+          <picture class="hero-ph hero-ph-a"><source srcset="/assets/img/equipo/jesus-a-amarelo-fernandez.webp" type="image/webp"><img src="/assets/img/equipo/jesus-a-amarelo-fernandez.jpg" width="375" height="450" fetchpriority="high" decoding="async" alt="Jesús A. Amarelo Fernández, socio"></picture>
+          <picture class="hero-ph hero-ph-b"><source srcset="/assets/img/equipo/francisco-gonzalez-gonzalez.webp" type="image/webp"><img src="/assets/img/equipo/francisco-gonzalez-gonzalez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Francisco González González, socio"></picture>
+          <figcaption>Jesús A. Amarelo y Francisco González, socios</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <section class="facts" aria-label="El despacho en cifras">
       <div class="wrap">
-        <dl class="stats">
-          <div><dt>años de experiencia</dt><dd><sup>+</sup>40</dd></div>
-          <div><dt>áreas de práctica</dt><dd>6</dd></div>
-          <div><dt>abogados</dt><dd>5</dd></div>
+        <dl class="facts-row">
+          <div class="reveal"><dt>Año de fundación</dt><dd>1973</dd></div>
+          <div class="reveal" style="--d:90ms"><dt>Áreas de práctica</dt><dd>6</dd></div>
+          <div class="reveal" style="--d:180ms"><dt>Abogados en el equipo</dt><dd>5</dd></div>
+          <div class="reveal" style="--d:270ms"><dt>Ámbito de actuación</dt><dd>Galicia</dd></div>
         </dl>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="h-firma">
-      <div class="wrap split">
-        <p class="eyebrow reveal">La firma</p>
-        <div>
-          <h2 id="h-firma" class="statement reveal">Un equipo altamente cualificado, cuyo objetivo es la satisfacción de las necesidades de nuestros clientes.</h2>
-          <p class="reveal">La firma, fundada en 1973, ha crecido respondiendo a las demandas de sus clientes, ampliando sus campos de actuación e incorporando abogados especializados en las distintas materias.</p>
-          <a class="link reveal" href="/despacho-abogados-lugo/">Conocer la firma <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+    <section class="section firma" aria-labelledby="h-firma">
+      <div class="wrap">
+        <h2 id="h-firma" class="statement reveal">Un equipo altamente cualificado, cuyo objetivo es la satisfacción de las necesidades de nuestros clientes.</h2>
+        <div class="firma-grid">
+          <div class="prose">
+            <p class="reveal">La firma, fundada en 1973, ha crecido respondiendo a las demandas de sus clientes, ampliando sus campos de actuación e incorporando abogados especializados en las distintas materias.</p>
+            <p class="reveal">Asesoramos a empresas y particulares en todas las áreas, entre ellos importantes empresas a nivel regional y nacional.</p>
+            <a class="link reveal" href="/despacho-abogados-lugo/">Conocer la firma <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></a>
+          </div>
+          <ul class="values" role="list">
+            <li class="reveal">Perseguimos la más alta calidad en el servicio</li>
+            <li class="reveal" style="--d:90ms">Especialización y experiencia</li>
+            <li class="reveal" style="--d:180ms">Sólido compromiso por la excelencia y la integridad</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -278,73 +297,96 @@
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow reveal">Áreas de práctica</p>
-          <h2 id="h-areas" class="reveal">Más de cuatro décadas en el ámbito empresarial y personal.</h2>
+          <h2 id="h-areas" class="reveal">Seis especialidades, un mismo equipo.</h2>
         </div>
-        <ul class="area-list" role="list">
-          <li class="reveal" style="--d:0ms"><a class="area-row" href="/abogados-derecho-penal-lugo/">
-            <span class="area-n">01</span><span class="area-t">Derecho Penal</span><span class="area-s">Defensa y acusación, con especial experiencia en Derecho penal económico.</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a></li>
-          <li class="reveal" style="--d:60ms"><a class="area-row" href="/abogados-derecho-mercantil-concursal-lugo/">
-            <span class="area-n">02</span><span class="area-t">Derecho Mercantil y Concursal</span><span class="area-s">Asesoramiento a empresas, desde su constitución hasta las situaciones de insolvencia.</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a></li>
-          <li class="reveal" style="--d:120ms"><a class="area-row" href="/abogados-derecho-tributario-lugo/">
-            <span class="area-n">03</span><span class="area-t">Derecho Tributario</span><span class="area-s">Planificación fiscal y defensa del contribuyente ante la Administración.</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a></li>
-          <li class="reveal" style="--d:180ms"><a class="area-row" href="/abogados-derecho-civil-procesal-lugo/">
-            <span class="area-n">04</span><span class="area-t">Derecho Civil y Procesal</span><span class="area-s">Familia, sucesiones, contratos y litigación civil.</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a></li>
-          <li class="reveal" style="--d:240ms"><a class="area-row" href="/abogados-derecho-adminitrativo-lugo/">
-            <span class="area-n">05</span><span class="area-t">Derecho Administrativo</span><span class="area-s">Defensa de particulares y empresas frente a las administraciones públicas.</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a></li>
-          <li class="reveal" style="--d:300ms"><a class="area-row" href="/abogados-derecho-laboral-lugo/">
-            <span class="area-n">06</span><span class="area-t">Derecho Laboral</span><span class="area-s">Asesoramiento laboral integral a empresas y trabajadores.</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a></li>
+        <ul class="bento" role="list">
+          <li class="bento-cell cell-penal reveal" style="--d:0ms">
+            <a href="/abogados-derecho-penal-lugo/">
+              <h3>Derecho Penal</h3>
+              <p>Defensa y acusación, con especial experiencia en Derecho penal económico.</p>
+              <span class="cell-go">Ver área <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></span>
+            </a>
+          </li>
+          <li class="bento-cell cell-mercantil reveal" style="--d:70ms">
+            <a href="/abogados-derecho-mercantil-concursal-lugo/">
+              <h3>Derecho Mercantil y Concursal</h3>
+              <p>Asesoramiento a empresas, desde su constitución hasta las situaciones de insolvencia.</p>
+              <span class="cell-go">Ver área <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></span>
+            </a>
+          </li>
+          <li class="bento-cell cell-tributario reveal" style="--d:140ms">
+            <a href="/abogados-derecho-tributario-lugo/">
+              <h3>Derecho Tributario</h3>
+              <p>Planificación fiscal y defensa del contribuyente ante la Administración.</p>
+              <span class="cell-go">Ver área <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></span>
+            </a>
+          </li>
+          <li class="bento-cell cell-civil reveal" style="--d:210ms">
+            <a href="/abogados-derecho-civil-procesal-lugo/">
+              <h3>Derecho Civil y Procesal</h3>
+              <p>Familia, sucesiones, contratos y litigación civil.</p>
+              <span class="cell-go">Ver área <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></span>
+            </a>
+          </li>
+          <li class="bento-cell cell-administrativo reveal" style="--d:280ms">
+            <a href="/abogados-derecho-adminitrativo-lugo/">
+              <h3>Derecho Administrativo</h3>
+              <p>Defensa de particulares y empresas frente a las administraciones públicas.</p>
+              <span class="cell-go">Ver área <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></span>
+            </a>
+          </li>
+          <li class="bento-cell cell-laboral reveal" style="--d:350ms">
+            <a href="/abogados-derecho-laboral-lugo/">
+              <h3>Derecho Laboral</h3>
+              <p>Asesoramiento laboral integral a empresas y trabajadores.</p>
+              <span class="cell-go">Ver área <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></span>
+            </a>
+          </li>
         </ul>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="h-equipo">
+    <section class="section" aria-labelledby="h-metodo">
+      <div class="wrap">
+        <h2 id="h-metodo" class="reveal">Cómo trabajamos.</h2>
+        <ol class="method" role="list"><li class="reveal" style="--d:0ms"><h3>Primera valoración</h3><p>Estudiamos su caso sin compromiso y le explicamos con claridad sus opciones.</p></li><li class="reveal" style="--d:100ms"><h3>Estrategia coordinada</h3><p>Los departamentos trabajan juntos para abordar el asunto desde todos sus ángulos.</p></li><li class="reveal" style="--d:200ms"><h3>Un letrado responsable</h3><p>Un abogado dirige su asunto de principio a fin y le informa en cada paso.</p></li></ol>
+      </div>
+    </section>
+
+    <section class="section section-team" aria-labelledby="h-equipo">
       <div class="wrap">
         <div class="section-head section-head-row">
-          <div>
-            <p class="eyebrow reveal">Equipo profesional</p>
-            <h2 id="h-equipo" class="reveal">Conozca a nuestros abogados.</h2>
-          </div>
-          <a class="link reveal" href="/equipo-profesional/">Ver el equipo <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          <h2 id="h-equipo" class="reveal">Conozca a nuestros abogados.</h2>
+          <a class="link reveal" href="/equipo-profesional/">Ver el equipo <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></a>
         </div>
         <ul class="team" role="list">
           <li class="member reveal" style="--d:0ms" id="jesus-a-amarelo-fernandez">
             <figure>
-              <picture><source srcset="/assets/img/equipo/jesus-a-amarelo-fernandez.webp" type="image/webp">
-              <img src="/assets/img/equipo/jesus-a-amarelo-fernandez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Jesús A. Amarelo Fernández, socio de Cendán &amp; Amarelo Abogados"></picture>
+              <picture class=""><source srcset="/assets/img/equipo/jesus-a-amarelo-fernandez.webp" type="image/webp"><img src="/assets/img/equipo/jesus-a-amarelo-fernandez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Jesús A. Amarelo Fernández, socio de Cendán &amp; Amarelo Abogados"></picture>
               <figcaption><strong>Jesús A. Amarelo Fernández</strong><span>Socio</span></figcaption>
             </figure>
           </li>
           <li class="member reveal" style="--d:80ms" id="francisco-gonzalez-gonzalez">
             <figure>
-              <picture><source srcset="/assets/img/equipo/francisco-gonzalez-gonzalez.webp" type="image/webp">
-              <img src="/assets/img/equipo/francisco-gonzalez-gonzalez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Francisco González González, socio de Cendán &amp; Amarelo Abogados"></picture>
+              <picture class=""><source srcset="/assets/img/equipo/francisco-gonzalez-gonzalez.webp" type="image/webp"><img src="/assets/img/equipo/francisco-gonzalez-gonzalez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Francisco González González, socio de Cendán &amp; Amarelo Abogados"></picture>
               <figcaption><strong>Francisco González González</strong><span>Socio</span></figcaption>
             </figure>
           </li>
           <li class="member reveal" style="--d:160ms" id="ana-belen-rey-vazquez">
             <figure>
-              <picture><source srcset="/assets/img/equipo/ana-belen-rey-vazquez.webp" type="image/webp">
-              <img src="/assets/img/equipo/ana-belen-rey-vazquez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Ana Belén Rey Vázquez, abogada de Cendán &amp; Amarelo Abogados"></picture>
+              <picture class=""><source srcset="/assets/img/equipo/ana-belen-rey-vazquez.webp" type="image/webp"><img src="/assets/img/equipo/ana-belen-rey-vazquez.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Ana Belén Rey Vázquez, abogada de Cendán &amp; Amarelo Abogados"></picture>
               <figcaption><strong>Ana Belén Rey Vázquez</strong><span>Abogada</span></figcaption>
             </figure>
           </li>
           <li class="member reveal" style="--d:240ms" id="manuel-lugilde-valin">
             <figure>
-              <picture><source srcset="/assets/img/equipo/manuel-lugilde-valin.webp" type="image/webp">
-              <img src="/assets/img/equipo/manuel-lugilde-valin.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Manuel Lugilde Valín, abogado de Cendán &amp; Amarelo Abogados"></picture>
+              <picture class=""><source srcset="/assets/img/equipo/manuel-lugilde-valin.webp" type="image/webp"><img src="/assets/img/equipo/manuel-lugilde-valin.jpg" width="375" height="450" loading="lazy" decoding="async" alt="Manuel Lugilde Valín, abogado de Cendán &amp; Amarelo Abogados"></picture>
               <figcaption><strong>Manuel Lugilde Valín</strong><span>Abogado</span></figcaption>
             </figure>
           </li>
           <li class="member reveal" style="--d:320ms" id="david-couselo-cortegoso">
             <figure>
-              <picture><source srcset="/assets/img/equipo/david-couselo-cortegoso.webp" type="image/webp">
-              <img src="/assets/img/equipo/david-couselo-cortegoso.jpg" width="375" height="450" loading="lazy" decoding="async" alt="David Couselo Cortegoso, abogado de Cendán &amp; Amarelo Abogados"></picture>
+              <picture class=""><source srcset="/assets/img/equipo/david-couselo-cortegoso.webp" type="image/webp"><img src="/assets/img/equipo/david-couselo-cortegoso.jpg" width="375" height="450" loading="lazy" decoding="async" alt="David Couselo Cortegoso, abogado de Cendán &amp; Amarelo Abogados"></picture>
               <figcaption><strong>David Couselo Cortegoso</strong><span>Abogado</span></figcaption>
             </figure>
           </li>
@@ -352,17 +394,21 @@
       </div>
     </section>
 
-    <section class="cta" aria-labelledby="cta-title">
-      <div class="wrap cta-inner">
-        <svg class="cta-tiles" viewBox="0 0 116 68" aria-hidden="true" focusable="false"><defs><linearGradient id="gcta" x1="0" y1="0" x2="0" y2="68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8dac4"/><stop offset=".5" stop-color="#f0a479"/><stop offset="1" stop-color="#e8702a"/></linearGradient><clipPath id="ccta"><rect width="116" height="67.6"/></clipPath></defs><g fill="url(#gcta)" clip-path="url(#ccta)"><polygon style="--i:0;--z:0.4" points="15.5,51.0 28.0,63.5 15.5,76.0 3.0,63.5"/><polygon style="--i:1;--z:0.75" points="36,23 53,40 36,57 19,40"/><polygon style="--i:2;--z:1.1" points="18,13.0 29.5,24.5 18,36.0 6.5,24.5"/><polygon style="--i:3;--z:1.45" points="56.5,37.0 76.0,56.5 56.5,76.0 37.0,56.5"/><polygon style="--i:4;--z:0.4" points="58,2 72,16 58,30 44,16"/><polygon style="--i:5;--z:0.75" points="77.5,16.5 94.0,33 77.5,49.5 61.0,33"/><polygon style="--i:6;--z:1.1" points="81.5,57.0 91.0,66.5 81.5,76.0 72.0,66.5"/><polygon style="--i:7;--z:1.45" points="97.5,35.0 112.0,49.5 97.5,64.0 83.0,49.5"/><polygon style="--i:8;--z:0.4" points="96.5,4 105.5,13 96.5,22 87.5,13"/></g></svg>
-        <div>
-          <h2 id="cta-title" class="reveal">¿Necesita asesoramiento?</h2>
+    <section class="contact-band" aria-labelledby="cb-title">
+      <svg class="band-tiles" viewBox="0 0 116 68" aria-hidden="true" focusable="false"><defs><linearGradient id="gcb" x1="0" y1="0" x2="0" y2="68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8dac4"/><stop offset=".5" stop-color="#f0a479"/><stop offset="1" stop-color="#e8702a"/></linearGradient><clipPath id="ccb"><rect width="116" height="67.6"/></clipPath></defs><g fill="url(#gcb)" clip-path="url(#ccb)"><polygon style="--i:0;--z:0.4" points="15.5,51.0 28.0,63.5 15.5,76.0 3.0,63.5"/><polygon style="--i:1;--z:0.75" points="36,23 53,40 36,57 19,40"/><polygon style="--i:2;--z:1.1" points="18,13.0 29.5,24.5 18,36.0 6.5,24.5"/><polygon style="--i:3;--z:1.45" points="56.5,37.0 76.0,56.5 56.5,76.0 37.0,56.5"/><polygon style="--i:4;--z:0.4" points="58,2 72,16 58,30 44,16"/><polygon style="--i:5;--z:0.75" points="77.5,16.5 94.0,33 77.5,49.5 61.0,33"/><polygon style="--i:6;--z:1.1" points="81.5,57.0 91.0,66.5 81.5,76.0 72.0,66.5"/><polygon style="--i:7;--z:1.45" points="97.5,35.0 112.0,49.5 97.5,64.0 83.0,49.5"/><polygon style="--i:8;--z:0.4" points="96.5,4 105.5,13 96.5,22 87.5,13"/></g></svg>
+      <div class="wrap band-grid">
+        <div class="band-copy">
+          <p class="eyebrow reveal">Contacto</p>
+          <h2 id="cb-title" class="reveal">¿Necesita asesoramiento?</h2>
           <p class="reveal">Contacte con nosotros sin compromiso y le daremos una primera valoración.</p>
+          <a class="btn btn-dark reveal" href="/contacto/"><span>Solicitar consulta</span><i><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"/></svg></i></a>
         </div>
-        <div class="cta-actions reveal">
-          <a class="btn btn-dark" href="/contacto/"><span>Consúltenos</span><i><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></i></a>
-          <a class="cta-phone" href="tel:+34982223053">982&nbsp;223&nbsp;053</a>
-        </div>
+        <dl class="band-data">
+          <div class="reveal"><dt><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M221.59,160.3l-47.24-21.17a14,14,0,0,0-13.28,1.22,4.81,4.81,0,0,0-.56.42l-24.69,21a1.88,1.88,0,0,1-1.68.06c-15.87-7.66-32.31-24-40-39.65a1.91,1.91,0,0,1,0-1.68l21.07-25a6.13,6.13,0,0,0,.42-.58,14,14,0,0,0,1.12-13.27L95.73,34.49a14,14,0,0,0-14.56-8.38A54.24,54.24,0,0,0,34,80c0,78.3,63.7,142,142,142a54.25,54.25,0,0,0,53.89-47.17A14,14,0,0,0,221.59,160.3ZM176,210C104.32,210,46,151.68,46,80A42.23,42.23,0,0,1,82.67,38h.23a2,2,0,0,1,1.84,1.31l21.1,47.11a2,2,0,0,1,0,1.67L84.73,113.15a4.73,4.73,0,0,0-.43.57,14,14,0,0,0-.91,13.73c8.87,18.16,27.17,36.32,45.53,45.19a14,14,0,0,0,13.77-1c.19-.13.38-.27.56-.42l24.68-21a1.92,1.92,0,0,1,1.6-.1l47.25,21.17a2,2,0,0,1,1.21,2A42.24,42.24,0,0,1,176,210Z"/></svg>Teléfono</dt><dd><a href="tel:+34982223053">982&nbsp;223&nbsp;053</a></dd></div>
+          <div class="reveal" style="--d:80ms"><dt><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M224,50H32a6,6,0,0,0-6,6V192a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A6,6,0,0,0,224,50ZM208.58,62,128,135.86,47.42,62ZM216,194H40a2,2,0,0,1-2-2V69.64l86,78.78a6,6,0,0,0,8.1,0L218,69.64V192A2,2,0,0,1,216,194Z"/></svg>Correo</dt><dd><a href="mailto:despacho@cendanamareloabogados.com">despacho@cendanamareloabogados.com</a></dd></div>
+          <div class="reveal" style="--d:160ms"><dt><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M128,66a38,38,0,1,0,38,38A38,38,0,0,0,128,66Zm0,64a26,26,0,1,1,26-26A26,26,0,0,1,128,130Zm0-112a86.1,86.1,0,0,0-86,86c0,30.91,14.34,63.74,41.47,94.94a252.32,252.32,0,0,0,41.09,38,6,6,0,0,0,6.88,0,252.32,252.32,0,0,0,41.09-38c27.13-31.2,41.47-64,41.47-94.94A86.1,86.1,0,0,0,128,18Zm0,206.51C113,212.93,54,163.62,54,104a74,74,0,0,1,148,0C202,163.62,143,212.93,128,224.51Z"/></svg>Oficina</dt><dd>Avda. de A Coruña 10-14, Entlo.<br>27003 Lugo · <a class="u" href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+de+A+Coru%C3%B1a+10-14+27003+Lugo" rel="noopener" target="_blank">Cómo llegar</a></dd></div>
+          <div class="reveal" style="--d:240ms"><dt><svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm0,192a90,90,0,1,1,90-90A90.1,90.1,0,0,1,128,218Zm62-90a6,6,0,0,1-6,6H128a6,6,0,0,1-6-6V72a6,6,0,0,1,12,0v50h50A6,6,0,0,1,190,128Z"/></svg>Horario</dt><dd>Lunes a jueves, de 9:00 a 14:30 y de 16:00 a 19:30<br>Viernes, de 9:00 a 15:00</dd></div>
+        </dl>
       </div>
     </section>
   </main>
@@ -370,27 +416,29 @@
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div class="footer-brand">
-        <a class="brand brand-footer" href="/"><picture><source srcset="/assets/img/logo.webp" type="image/webp"><img src="/assets/img/logo.png" width="298" height="123" alt="Cendán &amp; Amarelo Abogados"></picture></a>
+        <a class="brand brand-footer" href="/" aria-label="Cendán &amp; Amarelo Abogados, inicio"><picture><source srcset="/assets/img/logo.webp" type="image/webp"><img src="/assets/img/logo.png" width="298" height="123" alt=""></picture></a>
         <p>Despacho de abogados en Lugo desde 1973. Asesoramiento a empresas y particulares en toda Galicia.</p>
       </div>
       <div>
-        <p class="kicker">Contacto</p>
+        <p class="footer-title">Despacho</p>
         <ul class="footer-list">
           <li><a href="tel:+34982223053">982&nbsp;223&nbsp;053</a></li>
           <li><a href="mailto:despacho@cendanamareloabogados.com">despacho@cendanamareloabogados.com</a></li>
-          <li>Avda. de A Coruña 10-14, Entlo. 27003 Lugo</li>
+          <li>Avda. de A Coruña 10-14, Entlo.<br>27003 Lugo</li>
+          <li>L a J: 9:00 a 14:30 y 16:00 a 19:30<br>V: 9:00 a 15:00</li>
         </ul>
       </div>
       <nav aria-label="Áreas de práctica">
-        <p class="kicker">Áreas</p>
+        <p class="footer-title">Áreas</p>
         <ul class="footer-list"><li><a href="/abogados-derecho-penal-lugo/">Derecho Penal</a></li><li><a href="/abogados-derecho-mercantil-concursal-lugo/">Derecho Mercantil y Concursal</a></li><li><a href="/abogados-derecho-tributario-lugo/">Derecho Tributario</a></li><li><a href="/abogados-derecho-civil-procesal-lugo/">Derecho Civil y Procesal</a></li><li><a href="/abogados-derecho-adminitrativo-lugo/">Derecho Administrativo</a></li><li><a href="/abogados-derecho-laboral-lugo/">Derecho Laboral</a></li></ul>
       </nav>
       <nav aria-label="Enlaces">
-        <p class="kicker">Enlaces</p>
+        <p class="footer-title">Enlaces</p>
         <ul class="footer-list">
           <li><a href="/despacho-abogados-lugo/">Quiénes somos</a></li>
           <li><a href="/equipo-profesional/">Profesionales</a></li>
           <li><a href="/actualidad-juridica/">Actualidad</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
           <li><a href="mailto:despacho@cendanamareloabogados.com?subject=Curr%C3%ADculum">Envíenos su CV</a></li>
         </ul>
       </nav>
@@ -403,8 +451,8 @@
         <li><a href="/politica-de-cookies-ue/">Política de cookies</a></li>
       </ul>
       <p class="social">
-        <a href="https://es-es.facebook.com/pages/Cendan-Amarelo-Abogados/226246534135877" rel="noopener" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></a>
-        <a href="https://twitter.com/cendanamarelo" rel="noopener" target="_blank" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg></a>
+        <a href="https://es-es.facebook.com/pages/Cendan-Amarelo-Abogados/226246534135877" rel="noopener" target="_blank" aria-label="Facebook"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a>
+        <a href="https://twitter.com/cendanamarelo" rel="noopener" target="_blank" aria-label="X (Twitter)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
       </p>
     </div>
   </footer>

@@ -17,14 +17,16 @@ Sitio estático generado con un script de Python (sin dependencias de ejecución
 
 ## Editar
 
-- Textos y estructura: `scripts/build.py` (áreas, equipo, FAQ, plantillas). Legales: `scripts/legal_content.py`.
+- Textos: `scripts/content.py` (áreas, equipo, FAQ, trayectoria, método). Legales: `scripts/legal_content.py`.
+- Plantillas: `scripts/build.py`. Iconos: `scripts/icons.py` (Phosphor, MIT; Simple Icons, CC0).
 - Estilos: `css/styles.css`. Interacción: `js/main.js`.
 - Después de cualquier cambio: `sh scripts/build.sh` (regenera el HTML, el sitemap, `llms.txt` y los `.min`).
 
 ## Detalles técnicos
 
 - Diseño minimalista sobre blanco con los colores del logotipo; isotipo reconstruido en SVG para las animaciones (cortina de carga, entrada del hero con paralaje, bloques de contacto).
-- Una sola familia tipográfica (Jost, autoalojada y recortada, 25 KB). Sin cookies ni peticiones a terceros.
+- Tipografía: Cormorant Garamond para titulares (en sintonía con las capitulares del logotipo) y Jost para el texto; autoalojadas y recortadas. Sin cookies ni peticiones a terceros.
+- Tema claro único, como marca el manual (fondo blanco); un solo acento (naranja del logotipo) y esquinas rectas en todo el sitio.
 - Lighthouse 99–100 en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
 - Datos estructurados: `LegalService`/`LocalBusiness`, `Service` por área, `FAQPage`, `BreadcrumbList`.
 - `vercel.json` / `.htaccess`: caché, cabeceras de seguridad y redirecciones 301 de los perfiles individuales antiguos.
