@@ -11,7 +11,7 @@
   "Cendán & Amarelo, Abogados y Asesores Tributarios"
  ],
  "taxID": "B27365667",
- "description": "Despacho de abogados en Lugo fundado en 1973, con servicio en toda Galicia. Derecho penal económico, mercantil y concursal, tributario, civil y procesal, administrativo y laboral.",
+ "description": "Despacho de abogados en Lugo fundado en 1973. Asesoramiento a empresas y particulares en Galicia y en toda España: Derecho penal económico, mercantil y concursal, tributario, civil y procesal, administrativo y laboral.",
  "url": "https://www.cendanamareloabogados.com/",
  "logo": "https://www.cendanamareloabogados.com/assets/img/logo.png",
  "image": "https://www.cendanamareloabogados.com/assets/img/og-cendan-amarelo.jpg",
@@ -44,11 +44,27 @@
   },
   {
    "@type": "AdministrativeArea",
-   "name": "Provincia de Lugo"
+   "name": "Lugo"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "A Coruña"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Ourense"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Pontevedra"
   },
   {
    "@type": "AdministrativeArea",
    "name": "Galicia"
+  },
+  {
+   "@type": "Country",
+   "name": "España"
   }
  ],
  "openingHoursSpecification": [
@@ -91,7 +107,7 @@
     "es",
     "gl"
    ],
-   "areaServed": "ES-GA"
+   "areaServed": "ES"
   }
  ],
  "sameAs": [
@@ -107,38 +123,49 @@
   "Derecho civil",
   "Derecho procesal",
   "Derecho de familia",
+  "Derecho civil de Galicia",
   "Derecho administrativo",
   "Derecho laboral"
  ],
  "employee": [
   {
    "@type": "Person",
+   "@id": "https://www.cendanamareloabogados.com/equipo-profesional/jesus-a-amarelo-fernandez/#persona",
    "name": "Jesús A. Amarelo Fernández",
    "jobTitle": "Socio",
+   "url": "https://www.cendanamareloabogados.com/equipo-profesional/jesus-a-amarelo-fernandez/",
    "image": "https://www.cendanamareloabogados.com/assets/img/equipo/jesus-a-amarelo-fernandez.jpg"
   },
   {
    "@type": "Person",
+   "@id": "https://www.cendanamareloabogados.com/equipo-profesional/francisco-gonzalez-gonzalez/#persona",
    "name": "Francisco González González",
    "jobTitle": "Socio",
+   "url": "https://www.cendanamareloabogados.com/equipo-profesional/francisco-gonzalez-gonzalez/",
    "image": "https://www.cendanamareloabogados.com/assets/img/equipo/francisco-gonzalez-gonzalez.jpg"
   },
   {
    "@type": "Person",
+   "@id": "https://www.cendanamareloabogados.com/equipo-profesional/ana-belen-rey-vazquez/#persona",
    "name": "Ana Belén Rey Vázquez",
    "jobTitle": "Abogada",
+   "url": "https://www.cendanamareloabogados.com/equipo-profesional/ana-belen-rey-vazquez/",
    "image": "https://www.cendanamareloabogados.com/assets/img/equipo/ana-belen-rey-vazquez.jpg"
   },
   {
    "@type": "Person",
+   "@id": "https://www.cendanamareloabogados.com/equipo-profesional/manuel-lugilde-valin/#persona",
    "name": "Manuel Lugilde Valín",
    "jobTitle": "Abogado",
+   "url": "https://www.cendanamareloabogados.com/equipo-profesional/manuel-lugilde-valin/",
    "image": "https://www.cendanamareloabogados.com/assets/img/equipo/manuel-lugilde-valin.jpg"
   },
   {
    "@type": "Person",
+   "@id": "https://www.cendanamareloabogados.com/equipo-profesional/david-couselo-cortegoso/#persona",
    "name": "David Couselo Cortegoso",
    "jobTitle": "Abogado",
+   "url": "https://www.cendanamareloabogados.com/equipo-profesional/david-couselo-cortegoso/",
    "image": "https://www.cendanamareloabogados.com/assets/img/equipo/david-couselo-cortegoso.jpg"
   }
  ],
@@ -233,5 +260,10 @@
   }
  ],
  "whatsapp": "https://wa.me/34982223053",
- "contacto": "https://www.cendanamareloabogados.com/contacto/"
+ "contacto": "https://www.cendanamareloabogados.com/contacto/",
+ "actualidad": {
+  "url": "https://www.cendanamareloabogados.com/actualidad-juridica/",
+  "rss": "https://www.cendanamareloabogados.com/actualidad-juridica/feed.xml",
+  "actualizado": "2026-10-17T09:12:45Z"
+ }
 }

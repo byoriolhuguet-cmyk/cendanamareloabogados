@@ -35,8 +35,6 @@ ErrorDocument 404 /404.html
 
 # Redirecciones 301 desde URL antiguas que ya no existen (perfiles individuales del equipo)
 <IfModule mod_alias.c>
-  RedirectMatch 301 ^/[eE]quipo-profesional/.+$ /equipo-profesional/
-  RedirectMatch 301 ^/Equipo-profesional/?$ /equipo-profesional/
+  RedirectMatch 301 ^/Equipo-profesional/(.*)$ /equipo-profesional/$1
   RedirectMatch 301 ^/politica-de-cookies/?$ /politica-de-cookies-ue/
-  RedirectMatch 301 ^/actualidad-juridica/.+$ /actualidad-juridica/
 </IfModule>

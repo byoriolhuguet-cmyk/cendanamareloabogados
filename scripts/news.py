@@ -1,6 +1,6 @@
 """Recolector de actualidad jurídica para Cendán & Amarelo Abogados.
 
-Lo ejecuta GitHub Actions cada dos días (.github/workflows/noticias.yml):
+Lo ejecuta GitHub Actions cada día (.github/workflows/noticias.yml):
   1. descarga los RSS/Atom de fuentes jurídicas de España y de Galicia,
   2. guarda en data/news.json titular, fuente, fecha, enlace y área (sin copiar el
      cuerpo de las noticias: sólo se enlaza a la fuente original),
@@ -22,9 +22,9 @@ from datetime import datetime, timedelta, timezone
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 OUT = os.path.join(ROOT, 'data', 'news.json')
-MAX_ITEMS = 60          # noticias que se conservan
-MAX_AGE_DAYS = 30       # antigüedad máxima
-PER_FEED = 15           # máximo por fuente y ejecución
+MAX_ITEMS = 150         # noticias que se conservan
+MAX_AGE_DAYS = 14       # antigüedad máxima (archivo de dos semanas)
+PER_FEED = 20           # máximo por fuente y ejecución
 
 # Fuentes: (nombre visible, URL, ámbito). Si una falla, se ignora y el resto sigue.
 GN = 'https://news.google.com/rss/search?hl=es&gl=ES&ceid=ES:es&q='
@@ -49,6 +49,28 @@ AREAS = {
     'administrativo': ['administrativ', 'contencioso', 'urbanismo', 'licencia', 'contratacion publica', 'sancion', 'funcion publica', 'expropiacion'],
     'laboral': ['laboral', 'despid', 'finiquito', 'trabajador', 'seguridad social', 'convenio', ' erte', 'jornada', 'salari', 'pension', 'incapacidad', 'vacaciones', 'sindicat', 'inspeccion de trabajo'],
 }
+# Importancia: las noticias con más peso se destacan como "las más importantes del día"
+WEIGHTS = [
+    (6, ['tribunal supremo', 'constitucional', 'tjue', 'tribunal de justicia de la ue', 'audiencia nacional']),
+    (5, ['boe', 'real decreto', 'ley organica', 'nueva ley', 'reforma', 'entra en vigor', 'aprueba']),
+    (4, ['tsxg', 'tribunal superior de xustiza', 'xunta', 'galicia', 'lugo']),
+    (3, ['sentencia', 'doctrina', 'jurisprudencia', 'hacienda', 'seguridad social', 'despido', 'concurso']),
+    (2, ['cgpj', 'fiscalia', 'abogacia', 'colegio de abogados']),
+]
+SOURCE_WEIGHT = {'Confilegal': 2, 'Noticias Jurídicas': 2, 'Iberley': 2, 'Legal Today': 1, 'Economist & Jurist': 1, 'Lawyerpress': 1}
+
+
+def score(title, source, scope):
+    t = norm(title)
+    s = SOURCE_WEIGHT.get(source, 1) + (3 if scope == 'galicia' else 0)
+    for w, words in WEIGHTS:
+        if any(x in t for x in words):
+            s += w
+    if any(x in t for x in ['nombra', 'ficha', 'incorpora', 'premio', 'ranking', 'socio de']):
+        s -= 4   # movimientos de despachos y premios: menos relevantes para el cliente
+    return s
+
+
 GALICIA_WORDS = ['galicia', 'galleg', 'xunta', 'tsxg', 'lugo', 'coruna', 'santiago', 'ourense', 'pontevedra', 'vigo', 'ferrol', 'monforte']
 
 
@@ -137,11 +159,13 @@ def main():
                     continue
                 seen.add(key)
                 t = norm(title)
+                sc = 'galicia' if scope == 'galicia' or any(w in t for w in GALICIA_WORDS) else 'españa'
                 fresh.append({
                     'title': title[:220], 'url': link, 'source': source[:60],
                     'date': d.astimezone(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
                     'area': classify(title),
-                    'scope': 'galicia' if scope == 'galicia' or any(w in t for w in GALICIA_WORDS) else 'españa',
+                    'scope': sc,
+                    'score': score(title, source, sc),
                 })
                 n += 1
                 if n >= PER_FEED:
@@ -152,6 +176,7 @@ def main():
             print(f'fallo {name}: {exc}', file=sys.stderr)
     for i in old:
         i['area'] = classify(i['title'])
+        i['score'] = score(i['title'], i['source'], i.get('scope', 'españa'))
     items = [i for i in fresh + old if parse_date(i['date']) and parse_date(i['date']) >= now - timedelta(days=MAX_AGE_DAYS)]
     items.sort(key=lambda i: i['date'], reverse=True)
     items = items[:MAX_ITEMS]

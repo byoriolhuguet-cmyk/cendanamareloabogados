@@ -3,23 +3,13 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/(e|E)quipo-profesional/:slug+",
-      "destination": "/equipo-profesional/",
-      "permanent": true
-    },
-    {
-      "source": "/Equipo-profesional/",
-      "destination": "/equipo-profesional/",
+      "source": "/Equipo-profesional/:slug*",
+      "destination": "/equipo-profesional/:slug*",
       "permanent": true
     },
     {
       "source": "/politica-de-cookies/",
       "destination": "/politica-de-cookies-ue/",
-      "permanent": true
-    },
-    {
-      "source": "/actualidad-juridica/:path+",
-      "destination": "/actualidad-juridica/",
       "permanent": true
     }
   ],

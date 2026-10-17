@@ -217,3 +217,17 @@ PROVINCES = [
     ('Ourense', 'Juzgados y Audiencia Provincial de Ourense.'),
     ('Pontevedra', 'Juzgados de Pontevedra y Vigo, y la Audiencia Provincial.'),
 ]
+
+# Fichas individuales (mantienen las URL de la web anterior /equipo-profesional/<slug>/).
+# 'areas': ids de AREAS en las que ejerce principalmente. 'colegiado': según el aviso legal del despacho.
+LAWYERS = {
+    'jesus-a-amarelo-fernandez': {'areas': ['mercantil', 'laboral'], 'colegiado': '864',
+                                  'text': 'Socio de Cendán &amp; Amarelo desde 1992, cuando se incorporó al despacho fundado por Antonio Cendán Corredoira. Su práctica se centra en el Derecho mercantil y laboral.'},
+    'francisco-gonzalez-gonzalez': {'areas': ['civil'], 'colegiado': '1.625',
+                                    'text': 'Licenciado en Derecho por la Universidad Complutense de Madrid y socio del despacho desde 2007. Se dedica al Derecho civil, con especial atención al Derecho de familia.'},
+    'ana-belen-rey-vazquez': {'areas': ['civil', 'administrativo'], 'colegiado': '2.062',
+                              'text': 'Forma parte del equipo desde 2016. Ejerce principalmente en Derecho civil y Derecho administrativo.'},
+    'manuel-lugilde-valin': {'areas': [], 'colegiado': '', 'text': 'Abogado del equipo de Cendán &amp; Amarelo.'},
+    'david-couselo-cortegoso': {'areas': ['laboral', 'mercantil'], 'colegiado': '',
+                                'text': 'Abogado del despacho. Su práctica se centra en el Derecho laboral y mercantil.'},
+}
