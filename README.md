@@ -15,6 +15,19 @@ Sitio estático generado con un script de Python (sin dependencias de ejecución
 | `/contacto/` | Contacto, formulario y preguntas frecuentes |
 | `/aviso-legal/`, `/politica-de-cookies-ue/`, `/accesibilidad/` | Legales |
 
+## Actualidad jurídica automática
+
+- `.github/workflows/noticias.yml` se ejecuta cada dos días (y a mano desde la pestaña Actions).
+- `scripts/news.py` descarga RSS de fuentes jurídicas de España y Galicia y guarda en `data/news.json` sólo titular, fuente, fecha, enlace y área (no copia el cuerpo de las noticias).
+- Después regenera la web y hace push; Vercel publica el cambio.
+- Fuentes: lista `FEEDS` en `scripts/news.py`.
+
+## Navegación agéntica y SEO
+
+- `llms.txt` (resumen), `llms-full.txt` (todo el contenido en texto), `despacho.json` (datos estructurados), `actualidad-juridica/feed.xml` (RSS).
+- `robots.txt` permite explícitamente a los rastreadores de IA.
+- Guías propias en `/guias-juridicas/` (contenido en `scripts/content.py`, revisar por un letrado) y página `/abogados-galicia/` para posicionar en Galicia y España.
+
 ## Editar
 
 - Textos: `scripts/content.py` (áreas, equipo, FAQ, trayectoria, método). Legales: `scripts/legal_content.py`.

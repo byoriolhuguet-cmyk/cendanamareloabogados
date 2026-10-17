@@ -1,4 +1,26 @@
+# Cendán & Amarelo Abogados
 User-agent: *
 Allow: /
 
+# Asistentes y buscadores de IA (navegación agéntica): acceso permitido
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://www.cendanamareloabogados.com/sitemap.xml
+# Información para modelos de lenguaje: /llms.txt y /llms-full.txt

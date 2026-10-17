@@ -1,0 +1,47 @@
+# Actualidad jurídica: cada dos días descarga las últimas noticias del sector,
+# regenera la web y publica el cambio (Vercel despliega automáticamente al recibir el push).
+name: Noticias jurídicas
+
+on:
+  schedule:
+    - cron: "17 6 */2 * *"   # 06:17 UTC, cada dos días
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noticias
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Descargar noticias
+        run: python3 scripts/news.py
+
+      - name: Regenerar la web
+        run: sh scripts/build.sh
+
+      - name: Publicar si hay cambios
+        run: |
+          git config user.name "Noticias Cendán & Amarelo"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/news.json actualidad-juridica index.html abogados-* sitemap.xml llms.txt llms-full.txt despacho.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+          else
+            git commit -m "Actualidad jurídica: noticias del $(date -u +%d/%m/%Y)"
+            git push
+          fi

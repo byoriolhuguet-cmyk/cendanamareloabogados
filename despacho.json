@@ -1,0 +1,237 @@
+{
+ "@type": [
+  "LegalService",
+  "LocalBusiness"
+ ],
+ "@id": "https://www.cendanamareloabogados.com/#despacho",
+ "name": "Cendán & Amarelo Abogados",
+ "legalName": "Cendán & Amarelo Abogados, S.L.P.",
+ "alternateName": [
+  "Cendán y Amarelo Abogados",
+  "Cendán & Amarelo, Abogados y Asesores Tributarios"
+ ],
+ "taxID": "B27365667",
+ "description": "Despacho de abogados en Lugo fundado en 1973, con servicio en toda Galicia. Derecho penal económico, mercantil y concursal, tributario, civil y procesal, administrativo y laboral.",
+ "url": "https://www.cendanamareloabogados.com/",
+ "logo": "https://www.cendanamareloabogados.com/assets/img/logo.png",
+ "image": "https://www.cendanamareloabogados.com/assets/img/og-cendan-amarelo.jpg",
+ "foundingDate": "1973",
+ "founder": {
+  "@type": "Person",
+  "name": "Antonio Cendán Corredoira"
+ },
+ "telephone": "+34982223053",
+ "faxNumber": "+34982223947",
+ "email": "despacho@cendanamareloabogados.com",
+ "priceRange": "€€",
+ "knowsLanguage": [
+  "es",
+  "gl"
+ ],
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "Avenida de A Coruña, 10-14, Entresuelo",
+  "addressLocality": "Lugo",
+  "postalCode": "27003",
+  "addressRegion": "Galicia",
+  "addressCountry": "ES"
+ },
+ "hasMap": "https://www.google.com/maps/search/?api=1&query=Avenida+de+A+Coru%C3%B1a+10-14+27003+Lugo",
+ "areaServed": [
+  {
+   "@type": "City",
+   "name": "Lugo"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Provincia de Lugo"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Galicia"
+  }
+ ],
+ "openingHoursSpecification": [
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "opens": "09:00",
+   "closes": "14:30"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "opens": "16:00",
+   "closes": "19:30"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Friday",
+   "opens": "09:00",
+   "closes": "15:00"
+  }
+ ],
+ "contactPoint": [
+  {
+   "@type": "ContactPoint",
+   "contactType": "customer service",
+   "telephone": "+34982223053",
+   "email": "despacho@cendanamareloabogados.com",
+   "availableLanguage": [
+    "es",
+    "gl"
+   ],
+   "areaServed": "ES-GA"
+  }
+ ],
+ "sameAs": [
+  "https://twitter.com/cendanamarelo",
+  "https://es-es.facebook.com/pages/Cendan-Amarelo-Abogados/226246534135877"
+ ],
+ "knowsAbout": [
+  "Derecho penal económico",
+  "Derecho penal",
+  "Derecho mercantil",
+  "Derecho concursal",
+  "Derecho tributario",
+  "Derecho civil",
+  "Derecho procesal",
+  "Derecho de familia",
+  "Derecho administrativo",
+  "Derecho laboral"
+ ],
+ "employee": [
+  {
+   "@type": "Person",
+   "name": "Jesús A. Amarelo Fernández",
+   "jobTitle": "Socio",
+   "image": "https://www.cendanamareloabogados.com/assets/img/equipo/jesus-a-amarelo-fernandez.jpg"
+  },
+  {
+   "@type": "Person",
+   "name": "Francisco González González",
+   "jobTitle": "Socio",
+   "image": "https://www.cendanamareloabogados.com/assets/img/equipo/francisco-gonzalez-gonzalez.jpg"
+  },
+  {
+   "@type": "Person",
+   "name": "Ana Belén Rey Vázquez",
+   "jobTitle": "Abogada",
+   "image": "https://www.cendanamareloabogados.com/assets/img/equipo/ana-belen-rey-vazquez.jpg"
+  },
+  {
+   "@type": "Person",
+   "name": "Manuel Lugilde Valín",
+   "jobTitle": "Abogado",
+   "image": "https://www.cendanamareloabogados.com/assets/img/equipo/manuel-lugilde-valin.jpg"
+  },
+  {
+   "@type": "Person",
+   "name": "David Couselo Cortegoso",
+   "jobTitle": "Abogado",
+   "image": "https://www.cendanamareloabogados.com/assets/img/equipo/david-couselo-cortegoso.jpg"
+  }
+ ],
+ "@context": "https://schema.org",
+ "areas": [
+  {
+   "nombre": "Derecho Penal",
+   "url": "https://www.cendanamareloabogados.com/abogados-derecho-penal-lugo/",
+   "resumen": "Defensa y acusación, con especial experiencia en Derecho penal económico.",
+   "servicios": [
+    "Delitos societarios, estafas, apropiación indebida y administración desleal",
+    "Delitos contra la Hacienda Pública y la Seguridad Social",
+    "Insolvencias punibles y alzamiento de bienes",
+    "Responsabilidad penal de la persona jurídica y programas de cumplimiento (compliance)",
+    "Delitos contra el patrimonio y el orden socioeconómico",
+    "Acusación particular y defensa de víctimas",
+    "Recursos de apelación y casación"
+   ]
+  },
+  {
+   "nombre": "Derecho Mercantil y Concursal",
+   "url": "https://www.cendanamareloabogados.com/abogados-derecho-mercantil-concursal-lugo/",
+   "resumen": "Asesoramiento a empresas, desde su constitución hasta las situaciones de insolvencia.",
+   "servicios": [
+    "Constitución de sociedades, modificaciones estatutarias y operaciones societarias",
+    "Pactos de socios y protocolos familiares",
+    "Contratación mercantil",
+    "Conflictos entre socios e impugnación de acuerdos sociales",
+    "Responsabilidad de administradores",
+    "Planes de reestructuración y refinanciación",
+    "Concurso de acreedores y exoneración del pasivo (segunda oportunidad)"
+   ]
+  },
+  {
+   "nombre": "Derecho Tributario",
+   "url": "https://www.cendanamareloabogados.com/abogados-derecho-tributario-lugo/",
+   "resumen": "Planificación fiscal y defensa del contribuyente ante la Administración.",
+   "servicios": [
+    "Planificación fiscal de empresas y patrimonios familiares",
+    "Procedimientos de inspección, comprobación y gestión",
+    "Procedimientos de recaudación y embargos",
+    "Procedimientos sancionadores",
+    "Reclamaciones económico-administrativas y recursos contencioso-administrativos",
+    "Fiscalidad de sucesiones, donaciones y operaciones societarias"
+   ]
+  },
+  {
+   "nombre": "Derecho Civil y Procesal",
+   "url": "https://www.cendanamareloabogados.com/abogados-derecho-civil-procesal-lugo/",
+   "resumen": "Familia, sucesiones, contratos y litigación civil.",
+   "servicios": [
+    "Separaciones y divorcios, de mutuo acuerdo y contenciosos",
+    "Guarda y custodia, régimen de visitas y pensiones",
+    "Herencias, testamentos y particiones",
+    "Contratos, obligaciones y responsabilidad civil",
+    "Arrendamientos urbanos y rústicos",
+    "Propiedad, comunidades y derechos reales",
+    "Reclamaciones de cantidad y ejecuciones"
+   ]
+  },
+  {
+   "nombre": "Derecho Administrativo",
+   "url": "https://www.cendanamareloabogados.com/abogados-derecho-adminitrativo-lugo/",
+   "resumen": "Defensa de particulares y empresas frente a las administraciones públicas.",
+   "servicios": [
+    "Urbanismo, licencias y disciplina urbanística",
+    "Expedientes sancionadores",
+    "Contratación pública",
+    "Responsabilidad patrimonial de la Administración",
+    "Expropiación forzosa",
+    "Función pública",
+    "Recursos administrativos y contencioso-administrativos"
+   ]
+  },
+  {
+   "nombre": "Derecho Laboral",
+   "url": "https://www.cendanamareloabogados.com/abogados-derecho-laboral-lugo/",
+   "resumen": "Asesoramiento laboral integral a empresas y trabajadores.",
+   "servicios": [
+    "Reestructuraciones de plantillas y Expedientes de Regulación de Empleo (ERE)",
+    "Negociación de convenios colectivos y acuerdos de empresa",
+    "Asesoramiento en la contratación",
+    "Despidos y extinciones de contratos",
+    "Arbitrajes laborales",
+    "Incapacidades laborales y jubilaciones",
+    "Relaciones laborales con altos directivos",
+    "Due diligence laboral",
+    "Actas de liquidación y/o infracción en materia de Seguridad Social o motivadas por accidentes de trabajo",
+    "Manuales sobre políticas y protocolos de conducta",
+    "Prevención de riesgos laborales"
+   ]
+  }
+ ],
+ "whatsapp": "https://wa.me/34982223053",
+ "contacto": "https://www.cendanamareloabogados.com/contacto/"
+}

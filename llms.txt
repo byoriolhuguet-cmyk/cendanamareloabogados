@@ -37,4 +37,11 @@
 - [La firma](https://www.cendanamareloabogados.com/despacho-abogados-lugo/)
 - [Equipo profesional](https://www.cendanamareloabogados.com/equipo-profesional/)
 - [Contacto y preguntas frecuentes](https://www.cendanamareloabogados.com/contacto/)
+- [Galicia y España](https://www.cendanamareloabogados.com/abogados-galicia/)
+- [Actualidad jurídica](https://www.cendanamareloabogados.com/actualidad-juridica/) (RSS: https://www.cendanamareloabogados.com/actualidad-juridica/feed.xml)
+- [Guías jurídicas](https://www.cendanamareloabogados.com/guias-juridicas/)
+
+## Para agentes
+- Información completa: https://www.cendanamareloabogados.com/llms-full.txt
+- Datos estructurados: https://www.cendanamareloabogados.com/despacho.json
 - [Aviso legal](https://www.cendanamareloabogados.com/aviso-legal/)

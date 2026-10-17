@@ -36,6 +36,20 @@
     window.matchMedia('(min-width: 1024px)').addEventListener('change', function (m) { if (m.matches) setMenu(false); });
   }
 
+
+  /* Titulares palabra a palabra: sólo h2 de texto plano (el texto sigue siendo legible para lectores de pantalla) */
+  if (!reduce) {
+    document.querySelectorAll('h2.reveal').forEach(function (h) {
+      if (h.children.length || h.classList.contains('statement')) return;
+      var words = h.textContent.trim().split(/\s+/);
+      h.setAttribute('aria-label', h.textContent.trim());
+      h.innerHTML = words.map(function (w, i) {
+        return '<span class="w" aria-hidden="true"><span style="--wi:' + i + '">' + w + '</span></span>';
+      }).join(' ');
+      h.classList.add('split');
+    });
+  }
+
   /* Cifras: cuentan hasta su valor al entrar en pantalla */
   var countUp = function (el) {
     var end = parseInt(el.getAttribute('data-count'), 10);
@@ -88,6 +102,45 @@
       });
     }, { passive: true });
     hero.addEventListener('pointerleave', function () { mark.style.setProperty('--px', '0px'); mark.style.setProperty('--py', '0px'); });
+  }
+
+
+  /* Filtros de noticias */
+  var chips = document.querySelectorAll('.chip');
+  if (chips.length) {
+    var list = document.querySelectorAll('.news-filterable .news-item');
+    var empty = document.querySelector('.news-empty');
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        var f = c.getAttribute('data-filter'), shown = 0;
+        chips.forEach(function (o) { o.setAttribute('aria-pressed', String(o === c)); });
+        list.forEach(function (li) {
+          var ok = f === 'all' || li.getAttribute('data-area') === f || (f === 'galicia' && li.getAttribute('data-scope') === 'galicia');
+          li.hidden = !ok; if (ok) { shown++; li.classList.add('is-in'); }
+        });
+        if (empty) empty.hidden = shown > 0;
+      });
+    });
+  }
+
+  /* Foco de luz en las celdas y botones magnéticos (sólo ratón) */
+  if (finePointer && !reduce) {
+    document.querySelectorAll('.bento-cell').forEach(function (cell) {
+      cell.addEventListener('pointermove', function (e) {
+        var r = cell.getBoundingClientRect();
+        cell.style.setProperty('--sx', (e.clientX - r.left) + 'px');
+        cell.style.setProperty('--sy', (e.clientY - r.top) + 'px');
+      }, { passive: true });
+    });
+    document.querySelectorAll('.btn-dark, .wa-float').forEach(function (b) {
+      b.classList.add('magnetic');
+      b.addEventListener('pointermove', function (e) {
+        var r = b.getBoundingClientRect();
+        b.style.setProperty('--mx', ((e.clientX - r.left - r.width / 2) * 0.18).toFixed(1) + 'px');
+        b.style.setProperty('--my', ((e.clientY - r.top - r.height / 2) * 0.3).toFixed(1) + 'px');
+      }, { passive: true });
+      b.addEventListener('pointerleave', function () { b.style.setProperty('--mx', '0px'); b.style.setProperty('--my', '0px'); });
+    });
   }
 
   /* Cursor: rombo naranja + anillo con inercia (petición expresa del cliente) */

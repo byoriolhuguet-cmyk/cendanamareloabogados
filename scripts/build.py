@@ -11,7 +11,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from content import AREAS, FAQ, HISTORY, KEYS, METHOD, NAV, TEAM  # noqa: E402
+from content import AREAS, FAQ, GUIDES, HISTORY, KEYS, METHOD, NAV, PROVINCES, TEAM  # noqa: E402
 from icons import ICONS  # noqa: E402
 from legal_content import PAGES as LEGAL  # noqa: E402
 
@@ -28,6 +28,28 @@ WA_URL = f'https://wa.me/{WHATSAPP}?text={WA_TEXT}'
 MAPS = 'https://www.google.com/maps/search/?api=1&amp;query=Avenida+de+A+Coru%C3%B1a+10-14+27003+Lugo'
 CTA_LABEL = 'Solicitar consulta'   # una sola etiqueta para la intención "contactar por formulario"
 SITEMAP = []
+AREA_BY_ID = {a['id']: a for a in AREAS}
+AREA_LABEL = {a['id']: a['name'].replace('Derecho ', '').replace('Dº ', '').split(' y ')[0] for a in AREAS}
+AREA_LABEL['general'] = 'General'
+MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+
+
+def load_news():
+    path = os.path.join(ROOT, 'data', 'news.json')
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {'updated': None, 'items': []}
+
+
+NEWS = load_news()
+
+
+def fecha(iso):
+    """'2026-10-17...' -> '17 de octubre de 2026'."""
+    y, m, d = int(iso[:4]), int(iso[5:7]), int(iso[8:10])
+    return f'{d} de {MONTHS[m - 1]} de {y}'
 
 
 # ---------------------------------------------------------------- Piezas comunes
@@ -140,6 +162,8 @@ def footer():
           <li><a href="/despacho-abogados-lugo/">Quiénes somos</a></li>
           <li><a href="/equipo-profesional/">Profesionales</a></li>
           <li><a href="/actualidad-juridica/">Actualidad</a></li>
+          <li><a href="/guias-juridicas/">Guías jurídicas</a></li>
+          <li><a href="/abogados-galicia/">Galicia y España</a></li>
           <li><a href="/contacto/">Contacto</a></li>
           <li><a href="mailto:{EMAIL}?subject=Curr%C3%ADculum">Envíenos su CV</a></li>
         </ul>
@@ -234,6 +258,39 @@ def faq_list(items):
     return ''.join(
         f'<details class="reveal" style="--d:{n * 60}ms"><summary><h3>{q}</h3>{ico("ph_caret_down", "ico caret")}</summary><p>{r}</p></details>'
         for n, (q, r) in enumerate(items))
+
+
+def news_list(items, cls=''):
+    """Noticias externas: titular, fuente y fecha, enlazando a la fuente original."""
+    out = ''
+    for n, it in enumerate(items):
+        area = it.get('area', 'general')
+        out += (f'<li class="news-item reveal" style="--d:{(n % 6) * 50}ms" data-area="{area}" data-scope="{it.get("scope", "españa")}">'
+                f'<a href="{esc(it["url"])}" rel="noopener nofollow" target="_blank">'
+                f'<span class="news-meta"><span class="news-tag">{AREA_LABEL.get(area, "General")}</span>'
+                f'<time datetime="{it["date"]}">{fecha(it["date"])}</time></span>'
+                f'<span class="news-title">{html_escape(it["title"])}</span>'
+                f'<span class="news-src">{html_escape(it["source"])} {ARROW}</span></a></li>')
+    return f'<ol class="news-list {cls}" role="list">{out}</ol>'
+
+
+def html_escape(t):
+    return t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+
+
+def marquee():
+    words = ''.join(f'<span>{a["name"].replace("Derecho ", "")}</span><i aria-hidden="true"></i>' for a in AREAS)
+    return f'''    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track"><div>{words}</div><div>{words}</div></div>
+    </div>'''
+
+
+def guide_cards(guides, heading='h3'):
+    cards = ''.join(
+        f'<li class="guide-card reveal" style="--d:{n * 80}ms"><a href="/guias-juridicas/{g["slug"]}/">'
+        f'<span class="news-tag">{AREA_LABEL[g["area"]]}</span><{heading}>{g["title"]}</{heading}><p>{g["desc"]}</p>'
+        f'<span class="cell-go">Leer la guía {ARROW}</span></a></li>' for n, g in enumerate(guides))
+    return f'<ul class="guides" role="list">{cards}</ul>'
 
 
 def page_hero(eyebrow, h1, lead, crumbs, ctas=True):
@@ -344,6 +401,8 @@ def page_head(title, desc, path, crumbs=None, extra_schema=None, home=False, rob
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>{preload_img}
+  <link rel="alternate" type="application/rss+xml" title="Actualidad jurídica · Cendán &amp; Amarelo" href="/actualidad-juridica/feed.xml">
+  <link rel="alternate" type="text/plain" title="Información para asistentes de IA" href="/llms.txt">
   <link rel="stylesheet" href="/css/styles.min.css">
   <script>(function(d){{d.classList.add('js');{intro_js}}})(document.documentElement)</script>
   <script type="application/ld+json">
@@ -381,6 +440,23 @@ def page(path, title, desc, main, active='', crumbs=None, extra_schema=None, hom
 
 # ---------------------------------------------------------------- Páginas
 
+def home_news():
+    items = NEWS['items'][:4]
+    news_html = news_list(items, 'news-compact') if items else '<p class="lead">Cada dos días, los titulares jurídicos más relevantes de Galicia y España.</p>'
+    return f'''    <section class="section section-paper" aria-labelledby="h-actualidad">
+      <div class="wrap">
+        <div class="section-head section-head-row">
+          <h2 id="h-actualidad" class="reveal">Actualidad jurídica.</h2>
+          <a class="link reveal" href="/actualidad-juridica/">Ver la actualidad {ARROW}</a>
+        </div>
+        <div class="home-news">
+          {news_html}
+          {guide_cards(GUIDES[:2])}
+        </div>
+      </div>
+    </section>'''
+
+
 def build_home():
     intro = f'''  <div class="intro" aria-hidden="true">
     <div class="intro-logo">{tiles_svg('intro-tiles', 'in')}
@@ -411,6 +487,8 @@ def build_home():
     </section>
 
 {quickbar()}
+
+{marquee()}
 
     <section class="section section-paper" aria-labelledby="h-areas">
       <div class="wrap">
@@ -460,6 +538,8 @@ def build_home():
       </div>
     </section>
 
+{home_news()}
+
     <section class="section" aria-labelledby="h-faq">
       <div class="wrap faq-grid">
         <div>
@@ -473,9 +553,12 @@ def build_home():
 {contact_block()}'''
     faq_ld = {'@type': 'FAQPage', 'mainEntity': [
         {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': r}} for q, r in FAQ[:4]]}
+    speak = {'@type': 'WebPage', 'url': DOMAIN + '/', 'name': 'Despacho de abogados en Lugo', 'inLanguage': 'es-ES',
+             'about': {'@id': DOMAIN + '/#despacho'},
+             'speakable': {'@type': 'SpeakableSpecification', 'cssSelector': ['#h1', '.hero .lead', '.quick-grid']}}
     page('/', 'Despacho de abogados en Lugo | Cendán & Amarelo Abogados',
          'Cendán & Amarelo, despacho de abogados en Lugo desde 1973. Derecho penal económico, mercantil, tributario, civil, administrativo y laboral para empresas y particulares de Galicia.',
-         main, home=True, intro=intro, extra_schema=[faq_ld])
+         main, home=True, intro=intro, extra_schema=[faq_ld, speak])
 
 
 def build_firma():
@@ -544,6 +627,25 @@ def build_areas_index():
          main, '/areas-de-practica/', crumbs)
 
 
+def area_related(a):
+    news = [i for i in NEWS['items'] if i.get('area') == a['id']][:4]
+    guides = [g for g in GUIDES if g['area'] == a['id']]
+    if not news and not guides:
+        return ''
+    news_html = news_list(news) if news else ''
+    guide_html = guide_cards(guides) if guides else ''
+    return f'''    <section class="section" aria-labelledby="h-act">
+      <div class="wrap">
+        <div class="section-head section-head-row">
+          <h2 id="h-act" class="reveal">Actualidad de {a['name']}.</h2>
+          <a class="link reveal" href="/actualidad-juridica/">Toda la actualidad {ARROW}</a>
+        </div>
+        {guide_html}
+        {news_html}
+      </div>
+    </section>'''
+
+
 def build_area(a):
     crumbs = [('Áreas de práctica', '/areas-de-practica/'), (a['name'], f'/{a["slug"]}/')]
     lead_p, *rest = a['intro']
@@ -565,6 +667,7 @@ def build_area(a):
       </div>
     </section>
 
+{area_related(a)}
 {contact_block('¿Necesita alguna consulta legal?', eyebrow=False)}
 
     <section class="section-tight" aria-labelledby="h-otras">
@@ -609,22 +712,171 @@ def build_equipo():
 
 def build_actualidad():
     crumbs = [('Actualidad jurídica', '/actualidad-juridica/')]
-    main = f'''{page_hero('Noticias', 'Actualidad jurídica', 'Seguimos a diario las novedades normativas y jurisprudenciales que afectan a nuestros clientes.', crumbs, ctas=False)}
+    items = NEWS['items']
+    upd = f'Actualizado el {fecha(NEWS["updated"])}. ' if NEWS.get('updated') else ''
+    galicia = [i for i in items if i.get('scope') == 'galicia'][:8]
+    chips = '<button type="button" class="chip" aria-pressed="true" data-filter="all">Todas</button>' + \
+        '<button type="button" class="chip" aria-pressed="false" data-filter="galicia">Galicia</button>' + \
+        ''.join(f'<button type="button" class="chip" aria-pressed="false" data-filter="{a["id"]}">{AREA_LABEL[a["id"]]}</button>' for a in AREAS)
+    if items:
+        news_html = f'''
+        <div class="chips" role="group" aria-label="Filtrar noticias">{chips}</div>
+        {news_list(items, 'news-filterable')}
+        <p class="news-empty" hidden>No hay noticias recientes en esta categoría.</p>'''
+    else:
+        news_html = '''<div class="empty"><p class="statement">Las noticias se están actualizando.</p><p>Cada dos días recopilamos los titulares jurídicos más relevantes de España y de Galicia. Vuelva en unas horas.</p></div>'''
+    gal_html = f'''
+    <section class="section section-paper" aria-labelledby="h-galicia">
+      <div class="wrap">
+        <div class="section-head section-head-row">
+          <h2 id="h-galicia" class="reveal">En Galicia.</h2>
+          <a class="link reveal" href="/abogados-galicia/">Nuestro ámbito de actuación {ARROW}</a>
+        </div>
+        {news_list(galicia)}
+      </div>
+    </section>''' if galicia else ''
+    main = f'''{page_hero('Noticias', 'Actualidad jurídica en Galicia y España', f'Los titulares jurídicos más relevantes, seleccionados cada dos días. {upd}Cada noticia enlaza a su fuente original.', crumbs, ctas=False)}
+
+    <section class="section" aria-labelledby="h-ultimas">
+      <div class="wrap">
+        <h2 id="h-ultimas" class="reveal">Últimas noticias.</h2>
+        {news_html}
+      </div>
+    </section>
+{gal_html}
+
+    <section class="section" aria-labelledby="h-guias">
+      <div class="wrap">
+        <div class="section-head section-head-row">
+          <h2 id="h-guias" class="reveal">Guías del despacho.</h2>
+          <a class="link reveal" href="/guias-juridicas/">Ver todas las guías {ARROW}</a>
+        </div>
+        {guide_cards(GUIDES)}
+      </div>
+    </section>
+
+{contact_block('¿Le afecta alguna novedad?', 'Contacte con nosotros y le explicaremos cómo puede afectarle. Primera valoración sin compromiso.', eyebrow=False)}'''
+    schema = [{'@type': 'CollectionPage', 'name': 'Actualidad jurídica en Galicia y España', 'url': f'{DOMAIN}/actualidad-juridica/',
+               'dateModified': NEWS.get('updated') or UPDATED, 'inLanguage': 'es-ES', 'publisher': {'@id': DOMAIN + '/#despacho'},
+               'mainEntity': {'@type': 'ItemList', 'itemListElement': [
+                   {'@type': 'ListItem', 'position': n, 'url': it['url'], 'name': it['title']} for n, it in enumerate(items[:20], 1)]}}]
+    page('/actualidad-juridica/', 'Actualidad jurídica en Galicia y España | Cendán & Amarelo Abogados',
+         'Noticias jurídicas de Galicia y España actualizadas cada dos días: penal, mercantil, tributario, civil, administrativo y laboral. Cendán & Amarelo Abogados, Lugo.',
+         main, '/actualidad-juridica/', crumbs, schema)
+    build_feed(items)
+
+
+def build_feed(items):
+    """RSS propio con los titulares seleccionados (enlazan a la fuente original)."""
+    def rfc(iso):
+        from email.utils import format_datetime
+        from datetime import datetime
+        return format_datetime(datetime.strptime(iso, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=__import__('datetime').timezone.utc))
+    entries = ''.join(
+        f'<item><title>{html_escape(i["title"])}</title><link>{html_escape(i["url"])}</link><guid isPermaLink="false">{html_escape(i["url"])}</guid>'
+        f'<pubDate>{rfc(i["date"])}</pubDate><category>{AREA_LABEL.get(i["area"], "General")}</category><source url="{DOMAIN}/actualidad-juridica/feed.xml">{html_escape(i["source"])}</source></item>'
+        for i in items[:30])
+    xml = (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Actualidad jurídica · Cendán &amp; Amarelo Abogados</title>'
+           f'<link>{DOMAIN}/actualidad-juridica/</link><description>Titulares jurídicos de Galicia y España seleccionados por Cendán &amp; Amarelo Abogados (Lugo).</description>'
+           f'<language>es-ES</language>{entries}</channel></rss>\n')
+    os.makedirs(os.path.join(ROOT, 'actualidad-juridica'), exist_ok=True)
+    with open(os.path.join(ROOT, 'actualidad-juridica', 'feed.xml'), 'w', encoding='utf-8') as f:
+        f.write(xml)
+
+
+def build_guides():
+    crumbs = [('Guías jurídicas', '/guias-juridicas/')]
+    main = f'''{page_hero('Guías', 'Guías jurídicas', 'Respuestas claras a las dudas legales más habituales, redactadas por el despacho.', crumbs)}
 
     <section class="section">
-      <div class="wrap narrow">
-        <p class="statement reveal">Novedades en materia fiscal, laboral, mercantil, penal y administrativa.</p>
-        <div class="prose">
-          <p class="reveal">Recomendamos las noticias jurídicas de Iberley, actualizadas cada día. Si alguna novedad le afecta, contacte con nosotros y le asesoraremos.</p>
-        </div>
-        <a class="btn btn-line reveal" href="https://www.iberley.es/noticias" rel="noopener" target="_blank"><span>Noticias en Iberley</span><i>{ARROW}</i></a>
+      <div class="wrap">
+        {guide_cards(GUIDES, 'h2')}
       </div>
     </section>
 
 {contact_block(eyebrow=False)}'''
-    page('/actualidad-juridica/', 'Actualidad jurídica | Cendán & Amarelo Abogados',
-         'Actualidad jurídica: novedades fiscales, laborales, mercantiles, penales y administrativas. Cendán & Amarelo Abogados, Lugo.',
+    page('/guias-juridicas/', 'Guías jurídicas | Cendán & Amarelo Abogados, Lugo',
+         'Guías jurídicas del despacho Cendán & Amarelo: despidos, herencias en Galicia, inspecciones de Hacienda y más.',
          main, '/actualidad-juridica/', crumbs)
+    for g in GUIDES:
+        area = AREA_BY_ID[g['area']]
+        crumbs_g = crumbs + [(g['title'], f'/guias-juridicas/{g["slug"]}/')]
+        toc = ''.join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(g['sections'], 1))
+        summary = ''.join(f'<li>{ico("ph_check")}<span>{x}</span></li>' for x in g['summary'])
+        body = ''.join(f'<h2 id="s{n}" class="reveal">{t}</h2>' + ''.join(f'<p class="reveal">{p}</p>' for p in ps)
+                       for n, (t, ps) in enumerate(g['sections'], 1))
+        related = [x for x in GUIDES if x is not g]
+        main_g = f'''{page_hero(AREA_LABEL[g['area']], g['title'], g['desc'], crumbs_g, ctas=False)}
+
+    <section class="section">
+      <div class="wrap with-aside">
+        <article class="main-col article">
+          <p class="article-meta">Cendán &amp; Amarelo Abogados · <time datetime="{g['date']}">{fecha(g['date'])}</time></p>
+          <div class="summary-box reveal">
+            <p class="summary-title">En resumen</p>
+            <ul role="list">{summary}</ul>
+          </div>
+          <nav class="toc" aria-label="Contenido de la guía"><p>Contenido</p><ol>{toc}</ol></nav>
+          <div class="prose">{body}</div>
+          <p class="note reveal">Esta guía ofrece información general y no sustituye al asesoramiento profesional. Cada caso requiere un estudio individual.</p>
+          <a class="link reveal" href="/{area['slug']}/">Más sobre {area['name']} {ARROW}</a>
+        </article>
+        {aside_contact()}
+      </div>
+    </section>
+
+    <section class="section section-paper" aria-labelledby="h-mas">
+      <div class="wrap">
+        <h2 id="h-mas" class="reveal">Otras guías.</h2>
+        {guide_cards(related)}
+      </div>
+    </section>'''
+        art = {'@type': 'Article', 'headline': g['title'], 'description': g['desc'], 'datePublished': g['date'], 'dateModified': g['date'],
+               'inLanguage': 'es-ES', 'author': {'@id': DOMAIN + '/#despacho'}, 'publisher': {'@id': DOMAIN + '/#despacho'},
+               'mainEntityOfPage': f'{DOMAIN}/guias-juridicas/{g["slug"]}/', 'image': DOMAIN + '/assets/img/og-cendan-amarelo.jpg',
+               'about': area['name'], 'spatialCoverage': 'Galicia, España'}
+        page(f'/guias-juridicas/{g["slug"]}/', f'{g["title"]} | Cendán & Amarelo Abogados', g['desc'], main_g, '/actualidad-juridica/', crumbs_g, [art])
+
+
+def build_galicia():
+    crumbs = [('Galicia y España', '/abogados-galicia/')]
+    prov = ''.join(f'<li class="reveal" style="--d:{n * 80}ms"><h3>{p}</h3><p>{t}</p></li>' for n, (p, t) in enumerate(PROVINCES))
+    main = f'''{page_hero('Ámbito de actuación', 'Abogados en Galicia y en toda España', 'Desde Lugo, asesoramos y defendemos a empresas y particulares en las cuatro provincias gallegas y ante los tribunales de toda España.', crumbs)}
+
+    <section class="section">
+      <div class="wrap narrow">
+        <p class="statement reveal">Un despacho gallego, con más de cuarenta años de ejercicio, que acompaña a sus clientes allí donde esté su asunto.</p>
+        <div class="prose two-col">
+          <p class="reveal">Nuestra sede está en Lugo, en la Avenida de A Coruña. Desde ella atendemos a clientes de toda Galicia, a los que asesoramos de forma presencial, por teléfono o por correo, y representamos ante juzgados, audiencias provinciales y el Tribunal Superior de Xustiza de Galicia.</p>
+          <p class="reveal">Muchos de nuestros clientes son empresas con actividad en toda España. Por eso intervenimos también ante órganos de ámbito nacional, como la Audiencia Nacional, el Tribunal Supremo y las administraciones del Estado, coordinando cada asunto desde Lugo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" aria-labelledby="h-provincias">
+      <div class="wrap">
+        <h2 id="h-provincias" class="reveal">Las cuatro provincias gallegas.</h2>
+        <ul class="provinces" role="list">{prov}</ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="h-espana">
+      <div class="wrap firma-grid">
+        <h2 id="h-espana" class="reveal">También en el resto de España.</h2>
+        <ul class="values" role="list">
+          <li class="reveal">Audiencia Nacional y Tribunal Supremo</li>
+          <li class="reveal" style="--d:90ms">Administración General del Estado y Agencia Tributaria</li>
+          <li class="reveal" style="--d:180ms">Empresas con actividad en varias comunidades</li>
+        </ul>
+      </div>
+    </section>
+
+{contact_block()}'''
+    schema = [{'@type': 'Service', 'name': 'Asesoramiento jurídico en Galicia y España', 'provider': {'@id': DOMAIN + '/#despacho'},
+               'areaServed': [{'@type': 'AdministrativeArea', 'name': p} for p, _ in PROVINCES] + [{'@type': 'Country', 'name': 'España'}]}]
+    page('/abogados-galicia/', 'Abogados en Galicia y España: Lugo, A Coruña, Ourense y Pontevedra | Cendán & Amarelo',
+         'Despacho de abogados con sede en Lugo que actúa en toda Galicia (Lugo, A Coruña, Ourense, Pontevedra) y ante los tribunales de toda España.',
+         main, '', crumbs, schema)
 
 
 def build_contacto():
@@ -766,10 +1018,53 @@ def build_llms():
 - [La firma]({DOMAIN}/despacho-abogados-lugo/)
 - [Equipo profesional]({DOMAIN}/equipo-profesional/)
 - [Contacto y preguntas frecuentes]({DOMAIN}/contacto/)
+- [Galicia y España]({DOMAIN}/abogados-galicia/)
+- [Actualidad jurídica]({DOMAIN}/actualidad-juridica/) (RSS: {DOMAIN}/actualidad-juridica/feed.xml)
+- [Guías jurídicas]({DOMAIN}/guias-juridicas/)
+
+## Para agentes
+- Información completa: {DOMAIN}/llms-full.txt
+- Datos estructurados: {DOMAIN}/despacho.json
 - [Aviso legal]({DOMAIN}/aviso-legal/)
 '''
     with open(os.path.join(ROOT, 'llms.txt'), 'w', encoding='utf-8') as f:
         f.write(txt)
+
+
+def build_agent_files():
+    """Navegación agéntica: versión completa en texto y datos estructurados del despacho."""
+    lines = ['# Cendán & Amarelo Abogados: información completa', '',
+             'Despacho de abogados en Lugo (Galicia, España), fundado en 1973 por Antonio Cendán Corredoira.',
+             f'Teléfono y WhatsApp: +34 982 223 053. Email: {EMAIL}. Dirección: Avenida de A Coruña, 10-14, Entresuelo, 27003 Lugo.',
+             'Horario: lunes a jueves de 9:00 a 14:30 y de 16:00 a 19:30; viernes de 9:00 a 15:00.',
+             'Primera valoración sin compromiso. Formulario: ' + DOMAIN + '/contacto/', '']
+    for a in AREAS:
+        lines += [f'## {a["name"]} ({DOMAIN}/{a["slug"]}/)', a['short']]
+        lines += [p.replace('&amp;', '&') for p in a['intro']]
+        lines += ['Servicios:'] + [f'- {re_tags(x)}' for x in a['services']] + [a['note'], '']
+    lines += ['## Equipo'] + [f'- {n}, {r}' for _, n, r in TEAM] + ['']
+    lines += ['## Trayectoria'] + [f'- {y}: {d}'.replace('&amp;', '&') for y, _, d in HISTORY] + ['']
+    lines += ['## Ámbito'] + [f'- {p}: {t}' for p, t in PROVINCES] + ['- Resto de España: Audiencia Nacional, Tribunal Supremo y administraciones del Estado.', '']
+    lines += ['## Preguntas frecuentes'] + [f'P: {q}\nR: {r}' for q, r in FAQ] + ['']
+    for g in GUIDES:
+        lines += [f'## Guía: {g["title"]} ({DOMAIN}/guias-juridicas/{g["slug"]}/)', g['desc']]
+        for t, ps in g['sections']:
+            lines += [f'### {t}'] + ps
+        lines += ['']
+    with open(os.path.join(ROOT, 'llms-full.txt'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+    data = {k: v for k, v in ORG.items() if k != 'hasOfferCatalog'}
+    data['@context'] = 'https://schema.org'
+    data['areas'] = [{'nombre': a['name'], 'url': f'{DOMAIN}/{a["slug"]}/', 'resumen': a['short'], 'servicios': [re_tags(x) for x in a['services']]} for a in AREAS]
+    data['whatsapp'] = f'https://wa.me/{WHATSAPP}'
+    data['contacto'] = DOMAIN + '/contacto/'
+    with open(os.path.join(ROOT, 'despacho.json'), 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+
+
+def re_tags(t):
+    import re
+    return re.sub(r'<[^>]+>', '', t).replace('&amp;', '&')
 
 
 if __name__ == '__main__':
@@ -780,10 +1075,13 @@ if __name__ == '__main__':
         build_area(area)
     build_equipo()
     build_actualidad()
+    build_guides()
+    build_galicia()
     build_contacto()
     build_legal()
     build_404()
     build_isotipo()
     build_sitemap()
     build_llms()
+    build_agent_files()
     print(f'{len(SITEMAP)} páginas + 404 generadas')

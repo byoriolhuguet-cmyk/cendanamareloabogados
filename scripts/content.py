@@ -163,3 +163,57 @@ KEYS = {
     'administrativo': ['Urbanismo y licencias', 'Sanciones administrativas', 'Contratación pública'],
     'laboral': ['Despidos y ERE', 'Convenios colectivos', 'Inspección y Seguridad Social'],
 }
+
+# Guías jurídicas propias (contenido original para SEO). Revisar por un letrado antes de publicar cambios.
+# Cada sección: (subtítulo, [párrafos]). 'area' enlaza con la página del área correspondiente.
+GUIDES = [
+    {
+        'slug': 'despido-plazos-para-reclamar',
+        'title': 'Despido: qué hacer y en qué plazo reclamar',
+        'desc': 'Si le han despedido, dispone de 20 días hábiles para reclamar. Le explicamos los pasos, la conciliación previa y las indemnizaciones.',
+        'area': 'laboral', 'date': '2026-10-17',
+        'summary': ['El plazo para impugnar un despido es de 20 días hábiles desde su efectividad.', 'Antes de la demanda hay que intentar la conciliación previa.', 'Firme la carta de despido sólo como "recibí", sin mostrar conformidad.'],
+        'sections': [
+            ('El plazo: 20 días hábiles', ['La acción contra el despido caduca a los 20 días hábiles siguientes a aquel en que se produjo (artículo 59.3 del Estatuto de los Trabajadores). No cuentan sábados, domingos ni festivos. Es un plazo de caducidad: si se deja pasar, no se puede reclamar.']),
+            ('Primer paso: la conciliación previa', ['Antes de acudir al juzgado de lo social hay que presentar la papeleta de conciliación ante el servicio de mediación, arbitraje y conciliación. En Galicia depende de la Xunta. Presentarla suspende el plazo de caducidad, que se reanuda al día siguiente del intento de conciliación o, como máximo, a los quince días de presentarla.', 'Si no hay acuerdo, se presenta la demanda ante el Juzgado de lo Social.']),
+            ('Procedente, improcedente o nulo', ['El juzgado puede declarar el despido procedente, improcedente o nulo. Si es improcedente, la empresa elige entre readmitir al trabajador o indemnizarle con 33 días de salario por año de servicio, con un máximo de 24 mensualidades (los periodos anteriores a febrero de 2012 se calculan a 45 días). Si es nulo, la readmisión es obligatoria y se abonan los salarios dejados de percibir.']),
+            ('Qué hacer el día del despido', ['Firme la carta sólo como "recibí" o "no conforme", anote la fecha de entrega y guarde nóminas, contrato y cualquier comunicación. Revise la liquidación (finiquito) antes de firmarla. Y consulte cuanto antes: el plazo corre desde el primer día.']),
+        ],
+    },
+    {
+        'slug': 'herencias-en-galicia-derecho-civil-gallego',
+        'title': 'Herencias en Galicia: lo esencial del Derecho civil gallego',
+        'desc': 'Legítimas, derechos del cónyuge viudo, testamento mancomunado y pactos sucesorios: lo que cambia cuando la herencia se rige por la Ley de Derecho civil de Galicia.',
+        'area': 'civil', 'date': '2026-10-17',
+        'summary': ['En Galicia rige la Ley 2/2006 de Derecho civil de Galicia para quienes tienen vecindad civil gallega.', 'La legítima de los descendientes es una cuarta parte de la herencia.', 'Se admiten el testamento mancomunado y los pactos sucesorios de mejora y apartación.'],
+        'sections': [
+            ('¿Cuándo se aplica el Derecho gallego?', ['La sucesión se rige por la ley de la vecindad civil del fallecido. Si tenía vecindad civil gallega, se aplica la Ley 2/2006, de 14 de junio, de Derecho civil de Galicia, que tiene reglas propias y, en muchos aspectos, más flexibles que el Código civil.']),
+            ('Legítimas más reducidas', ['La legítima de los descendientes es una cuarta parte del valor del haber hereditario líquido, frente a los dos tercios del Código civil. Esto deja al testador mayor libertad para distribuir su patrimonio. Los ascendientes no son legitimarios.']),
+            ('Los derechos del cónyuge viudo', ['Si concurre con descendientes, el viudo tiene el usufructo vitalicio de una cuarta parte de la herencia; si no hay descendientes, de la mitad. Además, el Derecho gallego permite pactar fórmulas de usufructo voluntario universal.']),
+            ('Instituciones propias', ['El testamento mancomunado, otorgado conjuntamente por los cónyuges, es válido en Galicia. También los pactos sucesorios: la mejora, que permite atribuir bienes en vida a un futuro heredero, y la apartación, que excluye a un legitimario a cambio de bienes concretos.']),
+            ('El impuesto de sucesiones', ['Galicia aplica reducciones y bonificaciones autonómicas propias, que pueden reducir mucho la cuota en las herencias entre padres e hijos o entre cónyuges. Conviene calcularlo antes de aceptar la herencia y dentro del plazo de seis meses desde el fallecimiento.']),
+        ],
+    },
+    {
+        'slug': 'inspeccion-de-hacienda-como-actuar',
+        'title': 'Inspección de Hacienda: cómo actuar desde la primera notificación',
+        'desc': 'Plazos, derechos del contribuyente, actas de conformidad y disconformidad y recursos ante una inspección de la Agencia Tributaria.',
+        'area': 'tributario', 'date': '2026-10-17',
+        'summary': ['La inspección tiene un plazo general de 18 meses (27 en casos de mayor complejidad).', 'Tiene derecho a ser asistido por un asesor y a presentar alegaciones.', 'Contra la liquidación cabe reclamación económico-administrativa en el plazo de un mes.'],
+        'sections': [
+            ('La comunicación de inicio', ['El procedimiento comienza con una comunicación que indica los impuestos y periodos que se revisarán y la documentación que debe aportarse. Desde ese momento, conviene contar con un asesor: puede actuar en su nombre y acompañarle en todas las comparecencias.']),
+            ('Plazos del procedimiento', ['La Ley General Tributaria fija un plazo de 18 meses para concluir la inspección, ampliable a 27 meses cuando concurren determinadas circunstancias, como un volumen de negocio elevado. Superarlo tiene consecuencias, por ejemplo sobre la prescripción.']),
+            ('Sus derechos', ['Tiene derecho a conocer el estado del procedimiento, a no aportar documentos que ya obren en poder de la Administración, a presentar alegaciones y pruebas antes de la propuesta de liquidación y a que se respete la confidencialidad de sus datos.']),
+            ('Actas de conformidad o de disconformidad', ['Si firma en conformidad, la sanción que pudiera imponerse se reduce un 30 %, y un 25 % adicional si paga en plazo sin recurrir. Si firma en disconformidad, dispone de un plazo para presentar alegaciones antes de la liquidación.']),
+            ('Cómo recurrir', ['Contra la liquidación y la sanción puede interponer recurso de reposición o reclamación económico-administrativa en el plazo de un mes. Agotada la vía administrativa, queda el recurso contencioso-administrativo.']),
+        ],
+    },
+]
+
+# Ámbito geográfico (página "Abogados en Galicia y España")
+PROVINCES = [
+    ('Lugo', 'Sede del despacho. Juzgados de Lugo, Monforte de Lemos, Vilalba, Mondoñedo, Viveiro y el resto de partidos judiciales de la provincia.'),
+    ('A Coruña', 'Juzgados de A Coruña, Santiago de Compostela y Ferrol, y el Tribunal Superior de Xustiza de Galicia.'),
+    ('Ourense', 'Juzgados y Audiencia Provincial de Ourense.'),
+    ('Pontevedra', 'Juzgados de Pontevedra y Vigo, y la Audiencia Provincial.'),
+]
