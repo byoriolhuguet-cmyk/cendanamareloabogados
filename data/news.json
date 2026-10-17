@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:12:45Z",
+ "updated": "2026-10-17T09:36:52Z",
  "items": [
   {
    "title": "Con un 48% de discapacidad, fue despedido y el finiquito le hizo perder la renta garantizada",
@@ -162,6 +162,15 @@
    "area": "penal",
    "scope": "galicia",
    "score": 8
+  },
+  {
+   "title": "Cinco años de cárcel por agredir sexualmente a una menor mientras dormía en Ourense",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLWhpNE4zeTZMTjY2UG5yWmFKLWtDOWhrbVFfOEZETUlKVjF1SDBHR3lxTWRXTFZwVjdJakYyTnlETkgwZ192U2NaRE9QRnBUQy1HWW9FWlFtVW5UbGtxMDN5UEdYeXlFOG5VNHNiMVZzQ1VzdXNneTY3aDFWUmk5UDl0SEtDSmM3SWJGTFlYUEdJd2xnVFZMZmhjUlFFak95R3hhSmI4eGsxalVkeFdqNzFsaFdCUGppN3ltLTdUeXFhRFFSUDJvNzJmSHhRWGtO0gHWAUFVX3lxTFBmUGJoTnc4clQ4UTJXWXFZSUEtREhGdF8xTi1zcjBza0pVelcyeXNFd21JenV6X2FlNWNEQkl1S2JVSGlpVml4VXhPbFRBbGxyRFpPbzdMWDNvenBScG5BQlBkLVZMNWNJNDZfUWJqdld3SllJenRNLXZRaU81cnI5TUtyUVFFZUZITkktR2drdDJjdERXYXB0UmVSNHYtajFsQVZ4SUlCeFhhUUlkRFFUSV9fTk0yWXlZRHVrdzMxMWJxU09NY3liTlBxRUlqY0stMXNnVUE?oc=5",
+   "source": "Galiciae",
+   "date": "2026-10-16T15:19:14Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 4
   },
   {
    "title": "Eólica Así Non! recurrirá al Supremo el traslado de cientos de pleitos eólicos en el TSXG",
@@ -540,6 +549,195 @@
    "area": "general",
    "scope": "españa",
    "score": 1
+  },
+  {
+   "title": "La sentencia del TSXG condena a la UVigo a pagar 346.000 euros por la urbanización de As Lagoas, en Ourense",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMGpCNGk3WmpQUmdXZmNhUkpQV0Q0VnBBZUFOS1p2SGU0X0JwWFFKaXdza3FGRmNjZ1UzRXh4UUhZSlc5QkZ0Qm8yWkNlSTRZZ0tNdWlzSW9vdDN1b3FVaTVmcGJzUjlEM2lHcG9UUVJVOEVDVFBRaFJWSHFYb0V0VF9LUFdMYWw1clJ4TXU5ODg3YjdB?oc=5",
+   "source": "MONCLOA.COM",
+   "date": "2026-10-14T10:27:04Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 11
+  },
+  {
+   "title": "El TSXG reconoce el derecho a plaza en Navantia Ferrol a un aspirante tras un error de valoración",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMzhZd1NBNnNaU1VqMUk1a2F3RDRHV2cwaHE4clBZMEdKeVRZOWo1YVFuMl8zSV80WUN5UWNaMjhzV09MdFlPTjRyLTZ2NTJmeHR4MHFvdExzMHVFY0pnRDU1Y2pZVnU1Y01nanpLeEhndVFWYkIxSWFGZENVVERuaGNoRWlxMXZuUk5aelU5aXY3ZDh6R3dpWXR6b0JTOE5tb1JzRU9HUFpkZVg4WGZYdHlFb21oWEEwSkt5bVBPZEFrRVFCaENfYV9iOXotWjFpeEt4ZXE4aU5ocDZ4dXJONGtiU0ZsOFRYcFl0a2FabXpNUUxCZ1RvMG1zNldsZw?oc=5",
+   "source": "Diario de Ferrol",
+   "date": "2026-10-14T02:30:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "La reforma de la LOGP reconoce a los funcionarios penitenciarios el carácter de agentes de la autoridad",
+   "url": "https://www.iberley.es/noticias/la-reforma-logp-reconoce-los-funcionarios-penitenciarios-caracter-agentes-autoridad-37099",
+   "source": "Iberley",
+   "date": "2026-10-14T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 7
+  },
+  {
+   "title": "El TSXG obliga a Correos a respetar el turno de mañana de una trabajadora sin cambiarla de su centro de trabajo en Val Miñor",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcnlZUG5DT3g3ZHdSalJQTUREVzJDNTdxLXpNOXY2ZmlWT0pNRE1YbkFuQVdERWlRWTJQd3UzRzExSEs5RXZDRWRYaUtkZnRjM1dOU2dXdVNxakY5dlhybU4wSHhHQ29TUzBMUHduU0ZtUjJJREZJN0hwaTNLcGM3QzRCaTNCWFJ1VWNIYktaRHYyMlo2V0J3Zzhocy0wSTZ3UWp6ZjVTb0NXbWt4bVBUY01pZEZNZEt1S2JPMzJTRDBubnd1UnfSAcsBQVVfeXFMT01sQUhIT2ZRN2s4V2RKNkF3VnVsRlAxdTd2WGpVeTFBdFRGNEJCVXJWSnV2cENHQzNDdG11RkRJZ013bXhPZnFQQVVPcHg0NHFfYldCc29mNk0zZFFfdERpeWhGTm91NnNLeFQ5d0VWTzRpbVVmNld4NlJaaFd6UjNGajJRSW9Bc3VrOHZQeFRIbXFCVzhHVmZlWDAtY0VzT1VlRGEyRkYwTXZMMHlYUFdkWmlnMTVQTHFWNjcyaXpVbjQ0d2E2UE90Mjg?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-10-13T18:51:38Z",
+   "area": "laboral",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Galicia sumará 19 jueces y nueve fiscales en 2027, con nuevas plazas en Lugo",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLTNIOXl6cDBfMHFnMlZRVlZHb3BpcFF6LUpIX1p4a1JlRC1DclNVSmZPYmdERXV1aE5jYVUwc29oWlJnQVNmTUNSWlFHSVZtQkFYMXd5R3NaRUE5ZlVlYkQwRkhIRXBKUHM3am9MSy1HTElZM1ZYV2QyenpaOExXbEVWR0RXZTV2dTdjNm9qQjBHTXVldG9pRVl3eVVETzYyYS12ZjN0Q1NNV3FtbXdtTm9GZkNpTmk3dG1oeWpmTjBrdzI4VEdTRdIBzgFBVV95cUxQakZtbHQzRHgtektZaTVVcXFUQXFOX2F2UUFRZ0U1REFsdkRCd1pZY0FLNERFcmN0TlB3Ty1EYnAtdVlCU2RfUnN5UE13OWd0N1lQeXp2YXNIRDRxZDVYejBFS0pfWHpMSE83WUlpa2pLaHVOMTN6c2RpX1pBc0s5MmtlQmtvcTRIcTY1U29FZ3JWMDQteElrd0F4bUVPdEIzNkVrcjQzT04zVFBWYzRFNWlPV1NVeVBjWjRQcmtFdWtaVGRxSXVaRlZSRG5lUQ?oc=5",
+   "source": "El Progreso de Lugo",
+   "date": "2026-10-13T17:20:01Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG condena a Navantia a contratar a un aspirante al que no valoró su conocimiento de gallego",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRU1aY192aVdlWjJrelBDYlctdEd3VjBNVzYzTFFnQnNienFQQU9TbGFNRXpwdWR1Q1lLbjNaT2VkOU5FT1J1TFdIMFEwVF9abVJqS05uclV0QXhsTUY5VkhXc2lfOVlVRnVvUldoQVJVeG5XNDFzaXdQM1E3VVhTRXJkamY0M2g3VWtBLTAzbHE0b1duVHlvZGdGZDhYSDl5SVRpM09RT1ZrZGhrRDN4WkVuM1JkRUpMX0xxbDZYdTF6WFVrZ25QdkN3QU1mWU9JM2NDRWhEaFMzWjkyOU1WdXI3YmPSAeoBQVVfeXFMTS1BYXhVcU1JYXVCaW9wMU0xYzZKRzNYNHZlZmtMbm9nYkZkaG9IT2N5RnhnbmxaZDVxWUR2ZkZEcDZ5UERweHAtN3AxNjFtWHlkR19WS1pyb3NSbldIUzBjMlAwYVpocXI5WlFScGNWUzRkekdCUWJJUHY0a00xNWlFcV9xSjNFdVRPR0Zwa01FM3FNQ0lQVlM5VFB0V21jUmJGa3VWeW1UUUozOF9LY3ZHNDZNMl93c1Y1MllyVjhIUGdQeUdEUUx6YVcwTm5rYTN5aXhRbXpUU0l1SFZXMjgwMUg0MmJFREJ3?oc=5",
+   "source": "El Español",
+   "date": "2026-10-13T17:15:20Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG condena a Navantia a contratar a un aspirante al que se valoró de forma errónea su conocimiento del gallego",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdlAtNWtXX2k4S3dTd2VxSzQ3YUlnYXVoQ2RXTVB6WFlqbDZvYkc4MFJHUjFVS2RCWmd1a3IxQmhqbG85cjJEOGk3VlIyVnlQVEViWjdvLWN6Ukh2bkhza2I0ZzUyWVdRWXdFbk5KcXFYdEcwRk1UcWlacktUT2tCc21KWlZjd1ROdW9LZkRfbkR4OGtVTU1FZlZOdDVSYktNdzdKWUFneDhrUDk2Z1dXY1RITkJuNzYxVDBlTVBxRGNDVWlqOEVQOXJCa1hBNVE4ZXVJVGYxYVFRdUJDYzhv?oc=5",
+   "source": "Europa Press",
+   "date": "2026-10-13T14:04:19Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG reconoce el derecho de un aspirante a entrar en Navantia tras una valoración errónea de su gallego",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcHphV1RwZjh2VzRTLUJwVkN0NTRYN1V2djFJRTBVNXc5YVZPcFlJWUdFbnhnUW85UGVhTTBzQUY2dTFGaHhsamJUNkduLWdMMXJxRXprLXo0Zm5DdXEydUF3VlpnOGxxNFVUUU9ZU1QyWkwwa19ldHVRLTNsS3FUb3pKUk9qSnlUbFpmQVlIRVpoWEdWbTlZVGlDdGxFaV9sNk9jOTlubWNGOEgwdWo5TGtrb3RMVnRjdkVFTmU4U3ZhWmNuMERSOWxxank4dko0TWp1aE40TTl5Q3pPVkF0ZXpn?oc=5",
+   "source": "Diario de Santiago",
+   "date": "2026-10-13T11:49:50Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG obliga a reconocer los certificados de gallego de un aspirante que optaba a una plaza en Navantia",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSkVUdTRKNU52clBuQWh3NnVnR1RpWVFScnIyMW91QUVlVGZJYUtXQjF5ZW5SV2o2NjBTLW1SZ2VzMVF1Q2xrUU55LUtSWTdDRmF4cjloM0NpWFVSTFNUQXIwM2N2RE5zUk5fblpiT1JON191eW1GYkdqOHdiQi1hU28wakpoOVFPb1dGMHQxOHJQaUlCb1F0SjNRV0dkSDNVLWR5dnFmQ1lVZ2vSAbABQVVfeXFMTWVVVjJhWDA1UzVwZTgyZkh4S0dSeGZGZnBTR2dvejk2Y1EzZHlaWlRwSXlzdXJpSDA3VElxOVRzY0NnSVNDRWgxQURiZ3VCWDlYRGVHaGpHYk5WMmZYSllxQ0RJaFIyNEJzV2lhOXJfQVVQb2lTMzJnUVZSS1NxR3VSWUptbUpqY1FXbzFmZXZ1V1BXN05BQlRmNjh2RmRPY3RMNWI5QlBNU3NwVWs4SXg?oc=5",
+   "source": "El Correo Gallego",
+   "date": "2026-10-13T09:53:57Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG obliga al Sergas a reconocer a una sanitaria de Vigo el grado profesional obtenido en Andalucía",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSjFyV1BVNFBGMUlkaWw3X3cwamx1SEg1N3AxM1poQzRNV29rNHJ0RXQ4R0pQMlV2T3VER0ZlM0lfdFBrOU1fZ2FrWDByQWxHYkJGRVhTb3FRdEhHeE9XTmJkRkVSZ25raDZTa1BqU1p3WHQ1QjlYSU5TbkZ2RlV4VjhuZjNMeTZ2TE1UdThlZXlIWjRIdGh0NEQ0bEUtOTNKZTI0THZIclIwNm1XdjNLaWwzS0dTcVdqZWdMedIBwgFBVV95cUxNSC1Oc1Q0ZDBhaGVXTl9TNkNmQnJYeEhwX2FVS3JHcXJiQWJvRmRaSUZOM0p4N2pJeGswOVhFMHRDNktCQzJyREs1dGduamRNb2I0ZlZhRmxNdlVnaTdmWmtLYnlxQ3FPWEZwY1dMM3VuOVgtMXFzLTB3U2g4dkItM2RuS2lReTh2SkprdGx6QzczeEZ3cExLZHJoeTEwVFY5MnZlSWl0c2gxcTdnQ1Q1c1pERHduMDJrNG1iREZ6MnJWZw?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-10-12T16:48:46Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG anula el nombramiento de Eladio Santos como subdelegado del Gobierno en Ourense",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbnQ4Ulp1cENpam80dzRHMWMtQ0FMNnNyUFF3bzVOVDNhb01ibkcxR1d4b0M1a3N0MXBkbUxYdGpKWHRWUVFCV09lUWdhTzFVbUtxSXY3dUw5T0FDMXVzenBBdmtJbzI0dlJnN0ZodWlxRm9fN0dBdl9Pa0ZIaF9DWHdhRTZwY1dJaU5R?oc=5",
+   "source": "MONCLOA.COM",
+   "date": "2026-10-10T17:43:41Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "El TSXG anula el nombramiento de Eladio Santos como subdelegado del Gobierno en Ourense por falta de motivación",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdlltWUtTM0NieXAwZGdVU2F2ckU0MXZkUms3Rmk1LVN2ODBmS0pEMHRSSFRWN2JpaUZmOWQ5alNsUDdBTFRsQkk4MWdfemx0R2xUWnYtRTFEd096T2lGaFBocExyRk1Wb1hFbE1TZ2U4c1dNME92cUQyd05HNUI4Nkw1SWRHUkExSHRxSGs5c1J5VjlteWZuajhMemFhakZH?oc=5",
+   "source": "La Región",
+   "date": "2026-10-10T03:50:00Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "El magistrado del TSXG Fernando Lousada, premiado por el uso del Derecho Internacional de los Derechos Humanos",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTGJGQXZHY2V4T0d6WE1tVHN6Nnk2b1RYcE9ndTFzT0g5T1NtQ1dIcmRqRDJ0bDA4YUphY2pCNzVZNHZYOXQ0SDZpVDRYNUR0dkFSc1pSWXhaa0R1NHpjemZ1Y1BMb3FMZzg0cm04OXNjMWVBYzFsLVBHNkg1SHVfUUlvTjlvTFBUQ3RpUERKc09lLU9uVjJVS0E0OTY2NlRlVk8zYjNEZy1kMER3ZE03eG5YZHZyODNhZF9NY0pSd3pjUWZKbGJaQTRKQnhSWXoxLU1ZeDFHX01ZYXRQVlB2MExn?oc=5",
+   "source": "GaliciaPress",
+   "date": "2026-10-08T12:25:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG confirma una sanción a una vigilante del hospital Álvaro Cunqueiro de Vigo por abofetear a un paciente agresivo",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNHhBVjRYVjlkSEpTaEtGTkpOSGVQTFp4NUJHWWROeWxhTFZkU3UxSjA3LWVadnNVSms1Q0d0MHBhbFhRb1AyOVVpeTRsVkZid3E4ODE1VVlXdEkzdllXZzJtYlU4MG5lVmVGcDlobkVjeUc0enRHWFZDZTV2dHRFWUU2T0ZCUktTLTRDay1MR0hfN3pqZlJHWUVoWnVwNEFZS2w2MjN3ZmRfTE1GNFdvWU1SLWR6RlNDaV94cTNvRDVpMVR0MDI0V3FVVG1GanBaV3dwNDNKS1BQZnpuVDNlVTdjZkxoR1p0Tl95V1l4UQ?oc=5",
+   "source": "GaliciaPress",
+   "date": "2026-10-07T10:15:00Z",
+   "area": "administrativo",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG avala la sanción a una vigilante del Cunqueiro por abofetear a un paciente",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDdKdnREQnVqNmxaMTNkREhGam1DRzhiZGFVNzNCZmN0ZjcyLW9xNGpDNFgzQWxwSGo5Wnc3WERvR2FkV1FHWGFRb2NNeVd0NWpxbndoZ3U3VFRraVI1Z2RkT2V4RDd1OGJGVGNrSEY0SmZZYVVMdXVwQWpmZk43SkFBdXN4TDlBa01jM2lEalBuX1JMUDJ4WW1yem1iUGdIMExvUThZOUI0X1lRQnFmRXhn?oc=5",
+   "source": "Atlántico",
+   "date": "2026-10-07T07:00:00Z",
+   "area": "administrativo",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "La Xunta de Galicia avanza que el TSXG le ha dado la razón respecto a otros dos parques eólicos",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQmtHMEZhZjUyVTJfVGJ4NXRfWTFrTmQ3cVRsWmRXUVZDSW1WRDdQOEVRMGNiZEdZUXpnM1dIbjJFbVhHS2dvUG55VXdveUZhOTFudGRBZDc5dXd5cERnUXVwTWRqMmw4Smd3amMxTVNqaXVxY3RKSnBoVTJJTncxTzhOWHZQM1VzZTgxaGRpZEtIbFo1eXIycUVDUE9NN2RqLVNTYkJVbkxvOUxDb1cxTXB2Q28wX2dLbmRhUl9KX19DRi1PN05acDVzVQ?oc=5",
+   "source": "El Periódico de la Energía",
+   "date": "2026-10-06T15:31:38Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El giro del TSXG sobre el eólico se asienta tras rechazar otros dos recursos por la utilidad pública de parques",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObExOX3BoUW9va3NrRHp0ZnJzMnFTaUFiVUV1ZmlNaEJMbnhXWnVmdkE0YjJpWEZwNXR5TmV0YjZDYThjSkdNQ0RHeFNFMW56T2tnVFVOSDV0R05WdER3RmNOOW1RTUFRV0hQNDNtU2NDNWRJWGhrcGlFWmMySzRQVDJHamNUbzdsa0hEMFdyRlYtOVUwQ2lIWjlMWnJDdjcwZkdFa2dPTV9CWUNpU0dGN2NvUU5Ka0xXdV9KYVJvY09XeGhWNWQ5aEZGbDVnTmdYRGZzcTJMNV9YcXM4ejZrTk9lOEU2aXlVVWVxNUFCelQwUWNnTXduYjVuNmZlUkXSAZsCQVVfeXFMTWJGb1pGSmNLS3d2ejZOenJFM2dJeGR4cTViQTZGdEx1c3pwOHVEeDRyWWFHVEN0Q2FuVkRBZW1tMWRqS0tBRXFyMGxVWGtnSExjb1hrRE41UDJGdzFPWl9LamV2ZlhkU1pvUnktZmExNDh4T1kxQW5ObDU2OE9mQ0tGZHlSZURJOEtENVVmZ3dqQ1RNV2FwbnJiOTRJVFNJdTVHZUJGWGoxUzBEcFNhM3E4S0ZJU05iS0NCUzlzSloydlZqb2ZDY0ZpSTA0blM0Mkprd01US29LUlNnOVdHTWpYc0dyelhPR21nSTdnTy1qelJMLVp2ME5POWRJekduQjluSXktQkJkOG5kOERxX3hncHdsbnhHZ3JaUQ?oc=5",
+   "source": "La Voz de Galicia",
+   "date": "2026-10-06T07:00:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG trasladó de sección 188 de los 253 pleitos eólicos aún sin resolver",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUDNtSWNXTHNCOGx6ZzQ3UFRDTEw3Y3Z1ejBlWEFoTGh0R1NZdDh6SVkzd3A3dF94Q1hUZV8xdjJhRmNlRG9vbnM2dlVRWDdYdzN5Z1BncFZOSXdhSjFzaVNwbWI5SHY5WURQOU5EcVl2ZnNvZFF2VEhhS3YzMzdwNXN4dTEtWUFyQUl6aXIzcmZmcXJvOVRnMEV5OWtIYVQ5WkNOaVpDM3VDV0l4QlYtTHRmS3VFai05cWdaMXpDVWV6VzFaT0syQWtPbEFfeXl3a2c?oc=5",
+   "source": "La Voz de Galicia",
+   "date": "2026-10-06T07:00:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Dos nuevas sentencias del TSXG dan alas al sector eólico en Galicia y ponen coto al aluvión de recursos",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX3NaVW12ZTdEd3VKY0dkTGJCbEE2aUtGdVdnclhTMW41Q29aSUhrTHA0QXE1OVpONnBZYTlZM1RGMHFXYjYwM0JWa3Y5Nm9fSE94dDlWdEpQSkpVSkdNRWZmNFZlbVRzQW1EN1A4WkZNc0ZhMmVnOXlpVEJhQnVpTHdnUVFrZ3dRdVdJNEVQcXZhWjhrcGpYNWJiOW1kQzVfdHF5NVRXalRMVG_SAbABQVVfeXFMTjBGcjU5RWE5cC03QjI1a2FJRmVqT3E0cjMxR09rTTQ5MHoxM2lVYmhfaFRCWWR6OHpnbFRxSENUeGJGVHlUNk84NG5JM1FJS3pmSGwyUDZKWnE3WTVQeTBrNkFGMldfLUR5VDlsUVhvV2FPRTdGX1dMVkhtZHJHQklDVGxoZUVhSWhlZDB6SXM2a2xfdHJvN3JEQWJteDhuT1g3NGdhblgzYjVYQ1hTRUs?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-10-06T07:00:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 11
+  },
+  {
+   "title": "El TSXG rechaza el recurso ecologista contra el parque eólico Bustelo y mantiene los permisos de Coto Muíño",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORlljd1pjeXI1SnR6Y2FpbE1td00yMVAybmNBdVR3RnItM2JYbk0tNHZYMjRCT0V2VkxsNjd0SnNjQlc5RVdaRERfU3RONm91RDI1YW1SX0hROGgxWjRPcGMyRWVhdmVwcUI4cVJWUkh1c2w1NVI4bE52bkJ1RjJWUFhOTXNTcXJCRzZtVWlLTDRvMEpyUTdxTlZNNDI?oc=5",
+   "source": "Energías Renovables, el periodismo de las energías limpias.",
+   "date": "2026-10-05T07:00:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG otorga el derecho de una mariscadora al cese de actividad",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2FHbW9BRkxUUHpTRjZZVEIwajJrM25jdkROcV85bDljbG51eE5YM1JCWlVic3Yzd0M1WGtCV2lMY05CeVRqbWxDTE1zLVNXYmRZUUU4bDcxbFZsd3k1NUgtWHh5OGZMQ3drME13NlZYTnZzd3hsNWFVcEdZTmZXUEFadnBkaktKOEtmQXFsNmx2WkVfeVpCZDVKY9IBoAFBVV95cUxNYk1IWHBQQWl0blpma3FTZ1VQNS1rQ2o4MkphSjlQZFY3bnhJMUtlUERfa1BHRTVXaDhtcl9kWEFYQVhXaTJ0V2hhdmhlY2p3TG5wVGFlOHpLcl9UMDRmRFlpcHg5RFI5ZE14QzFzRDAxRFd0Q2twWUZtVkpoa2pRTGlqUExxZE51U0VkcjNkbVRzUjJJRUNEbHJyUDV4OFkt?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-10-05T07:00:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
   }
  ]
 }
