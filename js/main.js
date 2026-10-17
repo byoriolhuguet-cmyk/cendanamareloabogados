@@ -1,22 +1,24 @@
-/* Cendán & Amarelo Abogados — interacción mínima, sin dependencias */
+/* Cendán & Amarelo Abogados: interacción mínima, sin dependencias ni escuchas de scroll */
 (function () {
   'use strict';
   var doc = document.documentElement;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  var hasIO = 'IntersectionObserver' in window;
 
   /* Cortina de carga (sólo inicio, primera visita): se retira al terminar */
   var intro = document.querySelector('.intro');
   if (intro) {
     if (!doc.classList.contains('is-intro') || reduce) intro.remove();
-    else setTimeout(function () { intro.remove(); }, 2500);
+    else setTimeout(function () { intro.remove(); }, 2400);
   }
 
-  /* Cabecera: línea inferior al hacer scroll */
+  /* Cabecera: sombra al salir de la parte superior (IntersectionObserver, sin escuchar el scroll) */
   var header = document.querySelector('.site-header');
-  var onScroll = function () { header.classList.toggle('is-scrolled', window.scrollY > 8); };
-  onScroll();
-  window.addEventListener('scroll', onScroll, { passive: true });
+  var sentinel = document.querySelector('.top-sentinel');
+  if (header && sentinel && hasIO) {
+    new IntersectionObserver(function (e) { header.classList.toggle('is-scrolled', !e[0].isIntersecting); }).observe(sentinel);
+  }
 
   /* Menú móvil */
   var toggle = document.querySelector('.nav-toggle');
@@ -31,14 +33,36 @@
     toggle.addEventListener('click', function () { setMenu(toggle.getAttribute('aria-expanded') !== 'true'); });
     nav.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+    window.matchMedia('(min-width: 1024px)').addEventListener('change', function (m) { if (m.matches) setMenu(false); });
   }
+
+  /* Cifras: cuentan hasta su valor al entrar en pantalla */
+  var countUp = function (el) {
+    var end = parseInt(el.getAttribute('data-count'), 10);
+    var prefix = el.getAttribute('data-prefix') || '';
+    if (!end || reduce) return;
+    var start = end > 1000 ? end - 60 : 0;
+    var t0 = null, dur = 1400;
+    var step = function (t) {
+      if (!t0) t0 = t;
+      var p = Math.min((t - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 4);
+      el.textContent = prefix + Math.round(start + (end - start) * eased);
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
 
   /* Revelado progresivo al entrar en pantalla */
   var items = document.querySelectorAll('.reveal, .contact-band');
-  if ('IntersectionObserver' in window && !reduce) {
+  if (hasIO && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
-        if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+        if (!en.isIntersecting) return;
+        en.target.classList.add('is-in');
+        var n = en.target.querySelector && en.target.querySelector('[data-count]');
+        if (n) countUp(n);
+        io.unobserve(en.target);
       });
     }, { rootMargin: '0px 0px -8% 0px' });
     items.forEach(function (el) { io.observe(el); });
@@ -46,19 +70,27 @@
     items.forEach(function (el) { el.classList.add('is-in'); });
   }
 
-  /* Paralaje de las teselas del hero con el ratón */
+  /* Paralaje del isotipo: se mueve entero, nunca tesela a tesela (no deforma el logotipo) */
   var hero = document.querySelector('.hero');
-  if (hero && finePointer && !reduce) {
-    var art = hero.querySelector('.hero-tiles');
+  var mark = hero && hero.querySelector('.hero-mark');
+  if (mark && finePointer && !reduce) {
+    var pending = false, nx = 0, ny = 0;
     hero.addEventListener('pointermove', function (e) {
       var r = hero.getBoundingClientRect();
-      art.style.setProperty('--mx', ((e.clientX - r.left) / r.width - 0.5).toFixed(3));
-      art.style.setProperty('--my', ((e.clientY - r.top) / r.height - 0.5).toFixed(3));
+      nx = (e.clientX - r.left) / r.width - 0.5;
+      ny = (e.clientY - r.top) / r.height - 0.5;
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(function () {
+        mark.style.setProperty('--px', (nx * 18).toFixed(1) + 'px');
+        mark.style.setProperty('--py', (ny * 14).toFixed(1) + 'px');
+        pending = false;
+      });
     }, { passive: true });
-    hero.addEventListener('pointerleave', function () { art.style.setProperty('--mx', 0); art.style.setProperty('--my', 0); });
+    hero.addEventListener('pointerleave', function () { mark.style.setProperty('--px', '0px'); mark.style.setProperty('--py', '0px'); });
   }
 
-  /* Cursor: rombo naranja + anillo con inercia */
+  /* Cursor: rombo naranja + anillo con inercia (petición expresa del cliente) */
   if (finePointer && !reduce) {
     var dot = document.createElement('div'), ring = document.createElement('div');
     dot.className = 'cursor-dot'; ring.className = 'cursor-ring';
@@ -86,17 +118,20 @@
     doc.addEventListener('mouseleave', function () { doc.classList.remove('cursor-on'); });
   }
 
-  /* Formulario de contacto: validación y envío por correo (sin servidor) */
+  /* Formulario de contacto: errores en línea y envío por correo (sin servidor) */
   var form = document.getElementById('form');
   if (form) {
     var status = form.querySelector('.form-status');
+    var check = function (f) {
+      var bad = f.willValidate && !f.checkValidity();
+      f.classList.toggle('is-invalid', bad);
+      f.setAttribute('aria-invalid', String(bad));
+      return bad;
+    };
+    form.addEventListener('blur', function (e) { if (e.target.matches('input, textarea')) check(e.target); }, true);
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var invalid = Array.prototype.filter.call(form.elements, function (f) {
-        var bad = f.willValidate && !f.checkValidity();
-        f.classList.toggle('is-invalid', bad);
-        return bad;
-      });
+      var invalid = Array.prototype.filter.call(form.elements, check);
       if (invalid.length) {
         status.textContent = 'Revise los campos obligatorios (*) y acepte el aviso legal.';
         invalid[0].focus();
@@ -113,7 +148,7 @@
         d.get('mensaje')
       ].join('\n');
       window.location.href = 'mailto:despacho@cendanamareloabogados.com' +
-        '?subject=' + encodeURIComponent('Consulta web · ' + d.get('nombre')) +
+        '?subject=' + encodeURIComponent('Consulta web: ' + d.get('nombre')) +
         '&body=' + encodeURIComponent(body);
       status.textContent = 'Se abrirá su programa de correo para enviar la consulta. Gracias por su confianza.';
     });

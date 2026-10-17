@@ -153,3 +153,13 @@ METHOD = [
     ('Estrategia coordinada', 'Los departamentos trabajan juntos para abordar el asunto desde todos sus ángulos.'),
     ('Un letrado responsable', 'Un abogado dirige su asunto de principio a fin y le informa en cada paso.'),
 ]
+
+# Tres puntos clave por área para la vista "de un vistazo" (inicio y listado de áreas)
+KEYS = {
+    'penal': ['Derecho penal económico', 'Delitos societarios y fiscales', 'Defensa y acusación particular'],
+    'mercantil': ['Sociedades y pactos de socios', 'Contratación mercantil', 'Concurso de acreedores'],
+    'tributario': ['Planificación fiscal', 'Inspecciones de Hacienda', 'Recursos y reclamaciones'],
+    'civil': ['Familia y divorcios', 'Herencias y testamentos', 'Contratos y reclamaciones'],
+    'administrativo': ['Urbanismo y licencias', 'Sanciones administrativas', 'Contratación pública'],
+    'laboral': ['Despidos y ERE', 'Convenios colectivos', 'Inspección y Seguridad Social'],
+}

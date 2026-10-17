@@ -24,7 +24,8 @@ Sitio estático generado con un script de Python (sin dependencias de ejecución
 
 ## Detalles técnicos
 
-- Diseño minimalista sobre blanco con los colores del logotipo; isotipo reconstruido en SVG para las animaciones (cortina de carga, entrada del hero con paralaje, bloques de contacto).
+- Diseño minimalista sobre blanco con los colores del logotipo. El isotipo está reconstruido en SVG con la geometría exacta del logotipo y sólo se anima por opacidad (nunca se gira ni se escala), para no deformarlo.
+- Contacto en todas las páginas: botón «Solicitar consulta», teléfono, WhatsApp flotante y tarjeta lateral fija en las áreas. El número de WhatsApp se cambia en `WHATSAPP` dentro de `scripts/build.py`.
 - Tipografía: Cormorant Garamond para titulares (en sintonía con las capitulares del logotipo) y Jost para el texto; autoalojadas y recortadas. Sin cookies ni peticiones a terceros.
 - Tema claro único, como marca el manual (fondo blanco); un solo acento (naranja del logotipo) y esquinas rectas en todo el sitio.
 - Lighthouse 99–100 en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
