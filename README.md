@@ -42,13 +42,15 @@ Sitio estático generado con un script de Python (sin dependencias de ejecución
 
 ## Detalles técnicos
 
-- Diseño minimalista sobre blanco con los colores del logotipo. El isotipo está reconstruido en SVG con la geometría exacta del logotipo y sólo se anima por opacidad (nunca se gira ni se escala), para no deformarlo.
-- Contacto en todas las páginas: botón «Solicitar consulta», teléfono, WhatsApp flotante y tarjeta lateral fija en las áreas. El número de WhatsApp se cambia en `WHATSAPP` dentro de `scripts/build.py`.
-- Tipografía: Bodoni Moda (titulares) y Hanken Grotesk (texto), autoalojadas y recortadas. Sin cookies ni peticiones a terceros.
-- Concepto "Noche en Lugo": portada y cierre en negro cálido, cuerpo marfil y el naranja del logotipo como único acento. Sobre fondo oscuro el logotipo se compone con el isotipo vectorial y las letras en marfil, con las proporciones exactas del original.
-- Lighthouse 99–100 en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
+- Diseño minimalista y legible sobre blanco: una sola familia tipográfica (Hanken Grotesk, autoalojada), texto oscuro de alto contraste y el naranja del logotipo como único acento.
+- Logotipo: se usa el archivo ORIGINAL (`assets/img/logo-original.png/.webp`, 300x128) sin redibujar ni recolorear, siempre sobre fondo blanco, con anchura fija y altura automática para que nunca se deforme. Para máxima nitidez conviene sustituirlo por la versión vectorial (SVG) cuando el despacho la facilite.
+- Cortina de carga (sólo primera visita a la portada): nombre del despacho y una barra fina de progreso, sin logotipo.
+- Foto del despacho (`assets/img/despacho-lugo.*`) en la portada, en «La firma» y en «Contacto».
+- Contacto en todas las páginas: botón «Solicitar consulta», teléfono, WhatsApp flotante, formulario en el hero y en el cierre. El número de WhatsApp se cambia en `WHATSAPP` dentro de `scripts/build.py`.
+- Cursor (sólo ratón): un punto negro que se abre en un aro fino naranja sobre enlaces y botones, sin rellenos ni fusiones de color. Todo el movimiento se desactiva con «reducir movimiento».
+- Lighthouse 98–100 en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
 - Datos estructurados: `LegalService`/`LocalBusiness`, `Service` por área, `FAQPage`, `BreadcrumbList`.
 - `vercel.json` / `.htaccess`: caché, cabeceras de seguridad y redirecciones 301 de los perfiles individuales antiguos.
-- El formulario abre el correo del usuario (`mailto:`); para envío directo hace falta un servicio de formularios.
+- El formulario envía a `/api/contact` (Vercel + Resend, variables `RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`); si no está configurado, abre el correo del usuario.
 
 Vista local: `python3 -m http.server` y abrir http://localhost:8000

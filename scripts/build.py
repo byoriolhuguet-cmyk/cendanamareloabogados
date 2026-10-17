@@ -88,27 +88,20 @@ def ico(name, cls='ico'):
 
 ARROW = ico('arrow_up_right')
 
-# Isotipo: geometría exacta del logotipo (116x68). Orden = secuencia de aparición, de la base a la cima.
-TILES = [(15.5, 63.5, 12.5), (56.5, 56.5, 19.5), (81.5, 66.5, 9.5), (36, 40, 17), (97.5, 49.5, 14.5),
-         (77.5, 33, 16.5), (18, 24.5, 11.5), (58, 16, 14), (96.5, 13, 9)]
+def logo_img(cls=''):
+    """Logotipo ORIGINAL del despacho (300x128 px, fondo blanco), sin modificar ni redibujar.
+    Siempre sobre fondo blanco, con altura automática (nunca se deforma) y como máximo a la mitad
+    de su tamaño para que se vea nítido en pantallas de alta densidad."""
+    return (f'<picture class="logo {cls}"><source srcset="/assets/img/logo-original.webp" type="image/webp">'
+            f'<img src="/assets/img/logo-original.png" width="300" height="128" alt="Cendán &amp; Amarelo Abogados"></picture>')
 
 
-def tiles_svg(cls, uid):
-    """Isotipo vectorial. Las teselas sólo cambian de opacidad al animarse: el logotipo nunca se deforma."""
-    polys = ''.join(f'<polygon style="--i:{i}" points="{x},{y - r} {x + r},{y} {x},{y + r} {x - r},{y}"/>'
-                    for i, (x, y, r) in enumerate(TILES))
-    return (f'<svg class="{cls}" viewBox="0 0 116 68" aria-hidden="true" focusable="false">'
-            f'<defs><linearGradient id="g{uid}" x1="0" y1="0" x2="0" y2="68" gradientUnits="userSpaceOnUse">'
-            '<stop offset="0" stop-color="#f8dac4"/><stop offset=".5" stop-color="#f0a479"/><stop offset="1" stop-color="#e8702a"/>'
-            f'</linearGradient><clipPath id="c{uid}"><rect width="116" height="67.6"/></clipPath></defs>'
-            f'<g fill="url(#g{uid})" clip-path="url(#c{uid})">{polys}</g></svg>')
-
-
-def lockup(uid, cls=''):
-    """Logotipo para fondos oscuros: isotipo vectorial + letras en marfil, con las proporciones exactas del original."""
-    return (f'<span class="lockup {cls}">{tiles_svg("lockup-tiles", uid)}'
-            '<picture><source srcset="/assets/img/logo-texto-blanco.webp" type="image/webp">'
-            '<img class="lockup-word" src="/assets/img/logo-texto-blanco.png" width="298" height="52" alt=""></picture></span>')
+def office(cls='', eager=False):
+    load = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    return (f'<picture class="office {cls}"><source media="(max-width: 700px)" srcset="/assets/img/despacho-lugo-760.webp" type="image/webp">'
+            '<source srcset="/assets/img/despacho-lugo.webp" type="image/webp">'
+            f'<img src="/assets/img/despacho-lugo.jpg" width="1200" height="769" {load} decoding="async" '
+            'alt="Entrada del despacho Cendán &amp; Amarelo Abogados en Lugo, con el logotipo en la mampara de cristal"></picture>')
 
 
 def picture(slug, alt, cls='', eager=False):
@@ -122,7 +115,7 @@ def btn(label, href, kind='dark', extra='', arrow=True):
     return f'<a class="btn btn-{kind} {extra}" href="{href}"><span>{label}</span>{tail}</a>'
 
 
-def wa_link(cls='btn btn-ghost', label='WhatsApp'):
+def wa_link(cls='btn btn-line', label='WhatsApp'):
     return f'<a class="{cls}" href="{WA_URL}" rel="noopener" target="_blank">{ico("whatsapp")}<span>{label}</span></a>'
 
 
@@ -130,7 +123,7 @@ def contact_form(uid, compact=False):
     """Formulario de contacto (hero y cierre). Envía a /api/contact; si no está configurado, abre el correo."""
     options = ''.join(f'<option>{a["name"]}</option>' for a in AREAS)
     extra = '' if compact else f'''
-          <div class="f-field"><label for="{uid}-mail">Email</label><input id="{uid}-mail" name="email" type="email" autocomplete="email" inputmode="email"><p class="f-err">Revise el email.</p></div>'''
+          <div class="f-field f-wide"><label for="{uid}-mail">Email</label><input id="{uid}-mail" name="email" type="email" autocomplete="email" inputmode="email"><p class="f-err">Revise el email.</p></div>'''
     rows = 3 if compact else 5
     comms = '' if compact else '<label class="f-check"><input type="checkbox" name="comunicaciones"><span>Acepto recibir comunicaciones del despacho (opcional).</span></label>'
     return f'''<form class="cform{' cform-compact' if compact else ''}" id="{uid}" novalidate data-form>
@@ -141,7 +134,7 @@ def contact_form(uid, compact=False):
           <div class="f-field f-wide"><label for="{uid}-msg">Su consulta *</label><textarea id="{uid}-msg" name="mensaje" rows="{rows}" required></textarea><p class="f-err">Cuéntenos brevemente su caso.</p></div>
         </div>
         <div class="f-hp" aria-hidden="true"><label>Web <input type="text" name="web" tabindex="-1" autocomplete="off"></label></div>
-        <label class="f-check"><input type="checkbox" name="privacidad" required><span>Acepto el <a href="/aviso-legal/">aviso legal y la política de privacidad</a>. *</span></label>
+        <label class="f-check"><input type="checkbox" name="privacidad" required><span>Acepto el <a href="/aviso-legal/">aviso legal y la política de privacidad</a>.&nbsp;*</span></label>
         {comms}
         <button class="btn btn-accent btn-block" type="submit"><span>Enviar consulta</span><i>{ARROW}</i></button>
         <p class="f-status" role="status" aria-live="polite"></p>
@@ -165,10 +158,7 @@ def header(active):
                 f'{label}{ico("ph_caret_down", "ico caret")}</button>')
     return f'''  <header class="site-header" data-header>
     <div class="wrap header-bar">
-      <a class="brand" href="/" aria-label="Cendán &amp; Amarelo Abogados, inicio">
-        {lockup('hd', 'brand-dark')}
-        <picture class="brand-light"><source srcset="/assets/img/logo.webp" type="image/webp"><img src="/assets/img/logo.png" width="298" height="123" alt=""></picture>
-      </a>
+      <a class="brand" href="/">{logo_img()}</a>
       <nav class="nav" id="nav" aria-label="Principal">
         <ul class="nav-list">
           <li>{top('/despacho-abogados-lugo/', 'La firma', 'firma')}</li>
@@ -222,7 +212,7 @@ def footer():
     return f'''  <footer class="site-footer">
     <div class="wrap">
       <div class="footer-top">
-        <a class="footer-brand" href="/" aria-label="Cendán &amp; Amarelo Abogados, inicio">{lockup('ft')}</a>
+        <a class="footer-brand" href="/">{logo_img()}</a>
         <p class="footer-claim">Despacho de abogados en Lugo desde 1973. Asesoramiento a empresas y particulares en Galicia y en toda España.</p>
       </div>
       <div class="footer-grid">
@@ -268,12 +258,11 @@ def footer():
 
 
 def finale(title='Hablemos de su caso.', text='Primera valoración sin compromiso. Le respondemos en el menor plazo posible.'):
-    """Cierre oscuro de cada página: formulario completo y datos de contacto."""
-    return f'''    <section class="finale" id="consulta-final" data-dark aria-labelledby="fin-title">
-      {tiles_svg('finale-tiles', 'fn')}
+    """Cierre de cada página: formulario completo y datos de contacto."""
+    return f'''    <section class="finale" id="consulta-final" aria-labelledby="fin-title">
       <div class="wrap finale-grid">
         <div class="finale-copy">
-          <p class="eyebrow eyebrow-light">Contacto</p>
+          <p class="eyebrow">Contacto</p>
           <h2 id="fin-title" class="display-lg reveal">{title}</h2>
           <p class="reveal">{text}</p>
           <dl class="finale-data">
@@ -296,15 +285,14 @@ def page_hero(eyebrow, title, lead, crumbs, art=''):
     trail = '<li><a href="/">Inicio</a></li>' + ''.join(
         f'<li><a href="{u}">{n}</a></li>' if i < len(crumbs) - 1 else f'<li aria-current="page">{n}</li>'
         for i, (n, u) in enumerate(crumbs))
-    return f'''    <section class="phero" data-dark>
-      {tiles_svg('phero-tiles', 'ph')}
+    return f'''    <section class="phero">
       <div class="wrap phero-grid">
         <div class="phero-copy">
           <nav class="crumbs" aria-label="Migas de pan"><ol>{trail}</ol></nav>
-          <p class="eyebrow eyebrow-light">{eyebrow}</p>
+          <p class="eyebrow">{eyebrow}</p>
           <h1 class="display-xl">{title}</h1>
-          {f'<p class="lead lead-light">{lead}</p>' if lead else ''}
-          <div class="actions">{btn(CTA, '#consulta-final', 'accent')}<a class="btn btn-ghost" href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a></div>
+          {f'<p class="lead">{lead}</p>' if lead else ''}
+          <div class="actions">{btn(CTA, '#consulta-final', 'accent')}<a class="btn btn-line" href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a></div>
         </div>
         {art}
       </div>
@@ -356,7 +344,7 @@ def tcard(i, s, n, r, level):
 
 
 def team_rail(level='h3'):
-    return '<ul class="team-rail" role="list" data-rail>' + ''.join(tcard(i, s, n, r, level) for i, (s, n, r) in enumerate(TEAM)) + '\n        </ul>'
+    return '<ul class="team-grid" role="list">' + ''.join(tcard(i, s, n, r, level) for i, (s, n, r) in enumerate(TEAM)) + '\n        </ul>'
 
 
 def faq_list(items):
@@ -372,7 +360,7 @@ def timeline():
 
 
 def method_stack():
-    nums = ['I', 'II', 'III']
+    nums = ['01', '02', '03']
     return '<ol class="mstack" role="list">' + ''.join(
         f'<li class="mcard" style="--n:{n}"><span class="mcard-n" aria-hidden="true">{nums[n]}</span><h3>{t}</h3><p>{d}</p></li>'
         for n, (t, d) in enumerate(METHOD)) + '</ol>'
@@ -396,7 +384,7 @@ ORG = {
     'alternateName': ['Cendán y Amarelo Abogados', 'Cendán & Amarelo, Abogados y Asesores Tributarios'],
     'taxID': 'B27365667',
     'description': 'Despacho de abogados en Lugo fundado en 1973. Asesoramiento a empresas y particulares en Galicia y en toda España: Derecho penal económico, mercantil y concursal, tributario, civil y procesal, administrativo y laboral.',
-    'url': DOMAIN + '/', 'logo': DOMAIN + '/assets/img/logo.png', 'image': DOMAIN + '/assets/img/og-cendan-amarelo.jpg',
+    'url': DOMAIN + '/', 'logo': DOMAIN + '/assets/img/logo-original.png', 'image': DOMAIN + '/assets/img/og-cendan-amarelo.jpg',
     'foundingDate': '1973', 'founder': {'@type': 'Person', 'name': 'Antonio Cendán Corredoira'},
     'telephone': PHONE_TEL, 'faxNumber': '+34982223947', 'email': EMAIL, 'priceRange': '€€', 'knowsLanguage': ['es', 'gl'],
     'address': {'@type': 'PostalAddress', 'streetAddress': 'Avenida de A Coruña, 10-14, Entresuelo', 'addressLocality': 'Lugo',
@@ -439,7 +427,7 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
   <meta name="description" content="{esc(desc)}">
   <link rel="canonical" href="{DOMAIN}{path}">
   <meta name="robots" content="{robots}">
-  <meta name="theme-color" content="#141312">
+  <meta name="theme-color" content="#ffffff">
   <meta name="color-scheme" content="light">
   <meta name="geo.region" content="ES-GA">
   <meta name="geo.placename" content="Lugo">
@@ -454,12 +442,12 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@cendanamarelo">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="Actualidad jurídica · Cendán &amp; Amarelo" href="/actualidad-juridica/feed.xml">
   <link rel="alternate" type="text/plain" title="Información para asistentes de IA" href="/llms.txt">
-  <link rel="preload" href="/assets/fonts/bodoni.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/hanken.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/styles.min.css">
   <script>(function(d){{d.classList.add('js');{intro_js}}})(document.documentElement)</script>
@@ -498,7 +486,7 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
 # ---------------------------------------------------------------- Páginas
 
 def build_home():
-    intro = f'''  <div class="intro" aria-hidden="true"><div class="intro-logo">{lockup('in', 'intro-lockup')}</div></div>
+    intro = '''  <div class="intro" aria-hidden="true"><div class="intro-box"><p class="intro-name">Cendán &amp; Amarelo</p><p class="intro-sub">Abogados</p><span class="intro-bar"><span></span></span></div></div>
 '''
     facts = [('1973', 'Año de fundación'), ('6', 'Áreas de práctica'), ('5', 'Abogados'), ('+40', 'Años de experiencia')]
     pre = ' data-prefix="+"'
@@ -509,13 +497,12 @@ def build_home():
     top = top_news(5)
     news_block = news_list(top, 'news-compact') if top else '<p class="lead">Cada mañana, lo más importante del mundo jurídico en Galicia y España.</p>'
     upd = f'<p class="news-date">{fecha(NEWS["updated"], weekday=True).capitalize()}</p>' if NEWS.get('updated') else ''
-    main = f'''    <section class="hero" data-dark aria-labelledby="h1" id="consulta">
-      <div class="hero-bg" aria-hidden="true">{tiles_svg('hero-tiles', 'h')}</div>
+    main = f'''    <section class="hero" aria-labelledby="h1" id="consulta">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow eyebrow-light">Abogados en Lugo · Desde 1973</p>
+          <p class="eyebrow">Abogados en Lugo · Desde 1973</p>
           <h1 id="h1" class="display-hero">Despacho de abogados <em>en Lugo</em><span class="dot">.</span></h1>
-          <p class="lead lead-light">Asesoramiento jurídico a empresas y particulares en Galicia y en toda España, de forma personal e individualizada.</p>
+          <p class="lead">Asesoramiento jurídico a empresas y particulares en Galicia y en toda España, de forma personal e individualizada.</p>
           <ul class="hero-facts" role="list">
             <li><strong>6</strong> áreas de práctica</li>
             <li><strong>5</strong> abogados</li>
@@ -551,9 +538,8 @@ def build_home():
             {btn('Conocer la firma', '/despacho-abogados-lugo/', 'line')}
           </div>
           <figure class="firma-art">
-            {picture('jesus-a-amarelo-fernandez', 'Jesús A. Amarelo Fernández, socio', 'firma-ph firma-ph-a')}
-            {picture('francisco-gonzalez-gonzalez', 'Francisco González González, socio', 'firma-ph firma-ph-b')}
-            <figcaption>Jesús A. Amarelo y Francisco González, socios</figcaption>
+            {office('firma-ph')}
+            <figcaption>Nuestro despacho en la Avenida de A Coruña, Lugo</figcaption>
           </figure>
         </div>
         <dl class="facts">{facts_html}</dl>
@@ -586,8 +572,8 @@ def build_home():
           <h2 id="h-equipo" class="display-lg reveal">El equipo.</h2>
           <a class="link reveal" href="/equipo-profesional/">Conocer al equipo {ARROW}</a>
         </div>
+        {team_rail()}
       </div>
-      <div class="rail-wrap">{team_rail()}</div>
     </section>
 
     <section class="section section-paper" aria-labelledby="h-tray">
@@ -625,7 +611,7 @@ def build_home():
 
 def build_firma():
     crumbs = [('La firma', '/despacho-abogados-lugo/')]
-    main = f'''{page_hero('La firma', 'Despacho de abogados en Lugo', 'Una trayectoria iniciada en 1973 al servicio de empresas y particulares.', crumbs)}
+    main = f'''{page_hero('La firma', 'Despacho de abogados en Lugo', 'Una trayectoria iniciada en 1973 al servicio de empresas y particulares.', crumbs, f'<figure class="phero-photo">{office(eager=True)}</figure>')}
 
     <section class="section">
       <div class="wrap narrow">
@@ -658,8 +644,9 @@ def build_firma():
     </section>
 
     <section class="section section-paper section-team" aria-labelledby="h-equipo">
-      <div class="wrap"><div class="head-row"><h2 id="h-equipo" class="display-lg reveal">El equipo.</h2><a class="link reveal" href="/equipo-profesional/">Ver el equipo {ARROW}</a></div></div>
-      <div class="rail-wrap">{team_rail()}</div>
+      <div class="wrap"><div class="head-row"><h2 id="h-equipo" class="display-lg reveal">El equipo.</h2><a class="link reveal" href="/equipo-profesional/">Ver el equipo {ARROW}</a></div>
+        {team_rail()}
+      </div>
     </section>
 
 {finale()}'''
@@ -960,6 +947,7 @@ def build_contacto():
             <a class="btn btn-dark btn-block" href="tel:{PHONE_TEL}">{ico('phone')}<span>Llamar&nbsp;al&nbsp;{PHONE_HTML}</span></a>
             {wa_link('btn btn-line btn-block')}
           </div>
+          <figure class="contact-photo reveal">{office()}</figure>
           <dl class="data-list">
             <div class="reveal"><dt>{ico('envelope_simple')}Correo</dt><dd><a href="mailto:{EMAIL}">{EMAIL}</a></dd></div>
             <div class="reveal"><dt>{ico('map_pin')}Oficina</dt><dd>Avda. de A Coruña 10-14, Entlo.<br>27003 Lugo<br><a class="link" href="{MAPS}" rel="noopener" target="_blank">Cómo llegar {ARROW}</a></dd></div>
@@ -998,14 +986,6 @@ def build_404():
 
     <section class="section"><div class="wrap">{areas_rows()}</div></section>'''
     page('/404.html', 'Página no encontrada | Cendán & Amarelo Abogados', 'La página solicitada no existe.', main, robots='noindex')
-
-
-def build_isotipo():
-    polys = ''.join(f'<polygon points="{x},{y - r} {x + r},{y} {x},{y + r} {x - r},{y}"/>' for x, y, r in TILES)
-    with open(os.path.join(ROOT, 'assets', 'img', 'isotipo.svg'), 'w', encoding='utf-8') as f:
-        f.write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 68"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="68" gradientUnits="userSpaceOnUse">'
-                '<stop offset="0" stop-color="#f8dac4"/><stop offset=".5" stop-color="#f0a479"/><stop offset="1" stop-color="#e8702a"/></linearGradient>'
-                f'<clipPath id="c"><rect width="116" height="67.6"/></clipPath></defs><g fill="url(#g)" clip-path="url(#c)">{polys}</g></svg>')
 
 
 def build_sitemap():
@@ -1098,7 +1078,6 @@ if __name__ == '__main__':
     build_contacto()
     build_legal()
     build_404()
-    build_isotipo()
     build_sitemap()
     build_agent_files()
     print(f'{len(SITEMAP)} páginas indexables + 404 generadas')
