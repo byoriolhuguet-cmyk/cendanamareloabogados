@@ -42,12 +42,12 @@ FEEDS = [
 
 # Clasificación por área (palabras clave sin tildes, en minúsculas)
 AREAS = {
-    'penal': ['penal', 'delito', 'fiscalia', 'condena', 'prision', 'estafa', 'blanqueo', 'compliance', 'imputad', 'investigad'],
+    'penal': ['penal', 'delito', 'fiscalia', 'condena', 'prision', 'estafa', 'blanqueo', 'compliance', 'imputad', 'investigad', 'fraude', 'mulero', 'ciberdelinc', 'juicio oral'],
     'mercantil': ['mercantil', 'concurso', 'concursal', 'sociedad', 'societari', 'insolvencia', 'acreedores', 'empresa', 'administradores'],
     'tributario': ['hacienda', 'tributari', 'fiscal', 'irpf', 'iva', 'impuesto', 'aeat', 'dgt', 'teac', 'sucesiones'],
-    'civil': ['civil', 'herencia', 'divorcio', 'custodia', 'arrendamiento', 'alquiler', 'hipoteca', 'consumidor', 'familia', 'testamento'],
+    'civil': ['civil', 'herencia', 'divorcio', 'custodia', 'arrendamiento', 'alquiler', 'hipoteca', 'consumidor', 'familia', 'testamento', 'indemnizacion', 'vivienda', 'banco', 'clausula'],
     'administrativo': ['administrativ', 'contencioso', 'urbanismo', 'licencia', 'contratacion publica', 'sancion', 'funcion publica', 'expropiacion'],
-    'laboral': ['laboral', 'despido', 'trabajador', 'seguridad social', 'convenio', 'ere', 'erte', 'jornada', 'salario', 'social'],
+    'laboral': ['laboral', 'despid', 'finiquito', 'trabajador', 'seguridad social', 'convenio', ' erte', 'jornada', 'salari', 'pension', 'incapacidad', 'vacaciones', 'sindicat', 'inspeccion de trabajo'],
 }
 GALICIA_WORDS = ['galicia', 'galleg', 'xunta', 'tsxg', 'lugo', 'coruna', 'santiago', 'ourense', 'pontevedra', 'vigo', 'ferrol', 'monforte']
 
@@ -150,6 +150,8 @@ def main():
             print(f'ok   {name}: {n}')
         except Exception as exc:  # una fuente caída no detiene el resto
             print(f'fallo {name}: {exc}', file=sys.stderr)
+    for i in old:
+        i['area'] = classify(i['title'])
     items = [i for i in fresh + old if parse_date(i['date']) and parse_date(i['date']) >= now - timedelta(days=MAX_AGE_DAYS)]
     items.sort(key=lambda i: i['date'], reverse=True)
     items = items[:MAX_ITEMS]
