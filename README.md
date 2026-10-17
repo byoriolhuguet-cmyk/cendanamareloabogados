@@ -42,13 +42,14 @@ Sitio estático generado con un script de Python (sin dependencias de ejecución
 
 ## Detalles técnicos
 
-- Diseño minimalista y legible sobre blanco: una sola familia tipográfica (Hanken Grotesk, autoalojada), texto oscuro de alto contraste y el naranja del logotipo como único acento.
+- Sistema visual «Retícula», derivado del logotipo: titulares en Cinzel (capitales romanas de la familia de la Trajan del logotipo), texto en EB Garamond (el «&» naranja del logotipo es una cursiva garamond, y así se repite en el nombre y en los énfasis) y teselas a 45° con el degradado del isotipo.
+- Teselas: `tess()` en `scripts/build.py` genera para cada página una composición propia (la semilla es la ruta), apoyada en una línea base como el isotipo sobre el nombre. Aparecen sobre los formularios, en la cabecera de las páginas interiores y en el pie. El rombo se usa también como viñeta, flecha, cursor y botón de WhatsApp, y las fotos llevan una esquina cortada a 45°.
 - Logotipo: se usa el archivo ORIGINAL (`assets/img/logo-original.png/.webp`, 300x128) sin redibujar ni recolorear, siempre sobre fondo blanco, con anchura fija y altura automática para que nunca se deforme. Para máxima nitidez conviene sustituirlo por la versión vectorial (SVG) cuando el despacho la facilite.
 - Cortina de carga (sólo primera visita a la portada): nombre del despacho y una barra fina de progreso, sin logotipo.
 - Foto del despacho (`assets/img/despacho-lugo.*`) en la portada, en «La firma» y en «Contacto».
 - Contacto en todas las páginas: botón «Solicitar consulta», teléfono, WhatsApp flotante, formulario en el hero y en el cierre. El número de WhatsApp se cambia en `WHATSAPP` dentro de `scripts/build.py`.
 - Cursor (sólo ratón): un punto negro que se abre en un aro fino naranja sobre enlaces y botones, sin rellenos ni fusiones de color. Todo el movimiento se desactiva con «reducir movimiento».
-- Lighthouse 98–100 en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
+- Lighthouse 96–100 (móvil) y 98–100 (escritorio) en rendimiento, accesibilidad, buenas prácticas y SEO (móvil y escritorio).
 - Datos estructurados: `LegalService`/`LocalBusiness`, `Service` por área, `FAQPage`, `BreadcrumbList`.
 - `vercel.json` / `.htaccess`: caché, cabeceras de seguridad y redirecciones 301 de los perfiles individuales antiguos.
 - El formulario envía a `/api/contact` (Vercel + Resend, variables `RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`); si no está configurado, abre el correo del usuario.

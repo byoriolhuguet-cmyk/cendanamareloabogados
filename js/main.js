@@ -99,7 +99,7 @@
   };
 
   /* Revelado al entrar en pantalla */
-  var items = document.querySelectorAll('.reveal, .firma-art');
+  var items = document.querySelectorAll('.reveal, .firma-art, .tess');
   if (hasIO && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {

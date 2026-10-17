@@ -6,7 +6,9 @@ Uso:  sh scripts/build.sh        (genera el HTML y minifica CSS/JS)
 Contenido editable: scripts/content.py y scripts/legal_content.py. Noticias: data/news.json (scripts/news.py).
 Rutas absolutas que conservan las URL de la web anterior.
 """
+import hashlib
 import json
+import math
 import os
 import re
 import sys
@@ -88,12 +90,12 @@ def ico(name, cls='ico'):
 
 ARROW = ico('arrow_up_right')
 
-def logo_img(cls=''):
+def logo_img(cls='', eager=False):
     """Logotipo ORIGINAL del despacho (300x128 px, fondo blanco), sin modificar ni redibujar.
     Siempre sobre fondo blanco, con altura automática (nunca se deforma) y como máximo a la mitad
     de su tamaño para que se vea nítido en pantallas de alta densidad."""
     return (f'<picture class="logo {cls}"><source srcset="/assets/img/logo-original.webp" type="image/webp">'
-            f'<img src="/assets/img/logo-original.png" width="300" height="128" alt="Cendán &amp; Amarelo Abogados"></picture>')
+            f'<img src="/assets/img/logo-original.png" width="300" height="128" {'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'} alt="Cendán &amp; Amarelo Abogados"></picture>')
 
 
 def office(cls='', eager=False):
@@ -102,6 +104,43 @@ def office(cls='', eager=False):
             '<source srcset="/assets/img/despacho-lugo.webp" type="image/webp">'
             f'<img src="/assets/img/despacho-lugo.jpg" width="1200" height="769" {load} decoding="async" '
             'alt="Entrada del despacho Cendán &amp; Amarelo Abogados en Lugo, con el logotipo en la mampara de cristal"></picture>')
+
+
+def tess(key, cols=19, peak=6, cls=''):
+    """Retícula de teselas inspirada en el isotipo: rombos a 45°, el mismo degradado
+    (melocotón arriba, naranja abajo) y la fila inferior cortada por una línea base.
+    No es el logotipo: cada página tiene su propia composición (semilla = ruta)."""
+    rnd = int(hashlib.md5(key.encode()).hexdigest(), 16)
+    r = 10                      # semidiagonal del módulo
+    t = r * .84                 # tesela con junta, como en el logotipo
+    H = r * (peak + 1)
+    centre = .35 + (rnd % 30) / 100          # cumbre desplazada según la página
+    heights = []
+    for m in range(cols):
+        d = abs(m / (cols - 1) - centre)
+        jitter = (rnd >> (m * 3)) % 3 - 1
+        heights.append(max(0, round(peak * (1 - d * 1.7)) + jitter))
+    def keep(m, n):             # huecos como los del isotipo: cuanto más alto, más aire
+        return n <= 1 or (rnd >> ((m * 7 + n * 13) % 120)) % 10 < 9 - n
+    cells = [(m, n) for m in range(cols) for n in range(peak + 1) if (m + n) % 2 == 0 and n <= heights[m] and keep(m, n)]
+    # una tesela suelta sobre la cumbre, como la del ángulo superior del logotipo
+    top = max(range(cols), key=lambda m: heights[m])
+    fm = min(cols - 1, top + 2 + rnd % 2)
+    fn = heights[top] + 1 + (fm + heights[top] + 1) % 2
+    if fn <= peak + 1:
+        cells.append((fm, fn))
+    cells.sort(key=lambda c: (c[1], abs(c[0] - top)))
+    W = r * (cols - 1)
+    uid = 'g' + hashlib.md5(key.encode()).hexdigest()[:6]
+    polys = ''.join(
+        f'<polygon style="--i:{i}" points="{m*r:g},{H - n*r - t:.1f} {m*r + t:.1f},{H - n*r:g} {m*r:g},{H - n*r + t:.1f} {m*r - t:.1f},{H - n*r:g}"/>'
+        for i, (m, n) in enumerate(cells))
+    top_y = H - (peak + 2) * r
+    return (f'<svg class="tess {cls}" viewBox="{-r} {top_y:g} {W + 2 * r:g} {H - top_y:g}" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMax meet">'
+            f'<defs><linearGradient id="{uid}" x1="0" y1="{top_y:g}" x2="0" y2="{H:g}" gradientUnits="userSpaceOnUse">'
+            f'<stop offset="0" stop-color="#fae0cb"/><stop offset=".55" stop-color="#f0a273"/><stop offset="1" stop-color="#e8702a"/></linearGradient>'
+            f'<clipPath id="{uid}c"><rect x="{-r}" y="{top_y:g}" width="{W + 2 * r:g}" height="{H - top_y:g}"/></clipPath></defs>'
+            f'<g fill="url(#{uid})" clip-path="url(#{uid}c)">{polys}</g></svg>')
 
 
 def picture(slug, alt, cls='', eager=False):
@@ -158,7 +197,7 @@ def header(active):
                 f'{label}{ico("ph_caret_down", "ico caret")}</button>')
     return f'''  <header class="site-header" data-header>
     <div class="wrap header-bar">
-      <a class="brand" href="/">{logo_img()}</a>
+      <a class="brand" href="/">{logo_img(eager=True)}</a>
       <nav class="nav" id="nav" aria-label="Principal">
         <ul class="nav-list">
           <li>{top('/despacho-abogados-lugo/', 'La firma', 'firma')}</li>
@@ -213,6 +252,7 @@ def footer():
     <div class="wrap">
       <div class="footer-top">
         <a class="footer-brand" href="/">{logo_img()}</a>
+        <!--tess:tess-foot-->
         <p class="footer-claim">Despacho de abogados en Lugo desde 1973. Asesoramiento a empresas y particulares en Galicia y en toda España.</p>
       </div>
       <div class="footer-grid">
@@ -274,6 +314,7 @@ def finale(title='Hablemos de su caso.', text='Primera valoración sin compromis
           </dl>
         </div>
         <div class="finale-form reveal">
+          <!--tess:tess-card-->
           <p class="form-title">Escríbanos</p>
           {contact_form('form-fin')}
         </div>
@@ -294,7 +335,7 @@ def page_hero(eyebrow, title, lead, crumbs, art=''):
           {f'<p class="lead">{lead}</p>' if lead else ''}
           <div class="actions">{btn(CTA, '#consulta-final', 'accent')}<a class="btn btn-line" href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a></div>
         </div>
-        {art}
+        {art or '<!--tess:tess-phero-->'}
       </div>
     </section>'''
 
@@ -448,7 +489,7 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
   <link rel="manifest" href="/site.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="Actualidad jurídica · Cendán &amp; Amarelo" href="/actualidad-juridica/feed.xml">
   <link rel="alternate" type="text/plain" title="Información para asistentes de IA" href="/llms.txt">
-  <link rel="preload" href="/assets/fonts/hanken.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/cinzel.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/styles.min.css">
   <script>(function(d){{d.classList.add('js');{intro_js}}})(document.documentElement)</script>
   <script type="application/ld+json">
@@ -470,6 +511,9 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
 </body>
 </html>
 '''
+    html = re.sub(r'(<p class="statement[^>]*>[^<]*?)Cendán &amp; Amarelo', r'\1Cendán <span class="amp">&amp;</span> Amarelo', html)
+    html = re.sub(r'<!--tess:([\w-]+)-->', lambda m: tess(path + m.group(1), cls=m.group(1),
+                  **({'cols': 15, 'peak': 4} if m.group(1) == 'tess-foot' else {})), html)
     if path == '/404.html':
         out = os.path.join(ROOT, '404.html')
     elif path == '/':
@@ -486,7 +530,7 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
 # ---------------------------------------------------------------- Páginas
 
 def build_home():
-    intro = '''  <div class="intro" aria-hidden="true"><div class="intro-box"><p class="intro-name">Cendán &amp; Amarelo</p><p class="intro-sub">Abogados</p><span class="intro-bar"><span></span></span></div></div>
+    intro = '''  <div class="intro" aria-hidden="true"><div class="intro-box"><p class="intro-name">Cendán <span class="amp">&amp;</span> Amarelo</p><p class="intro-sub">Abogados</p><span class="intro-bar"><span></span></span></div></div>
 '''
     facts = [('1973', 'Año de fundación'), ('6', 'Áreas de práctica'), ('5', 'Abogados'), ('+40', 'Años de experiencia')]
     pre = ' data-prefix="+"'
@@ -514,6 +558,7 @@ def build_home():
           </div>
         </div>
         <div class="hero-form">
+          <!--tess:tess-card-->
           <p class="form-title">Primera valoración sin compromiso</p>
           <p class="form-sub">Déjenos sus datos y le llamamos.</p>
           {contact_form('form-hero', compact=True)}
@@ -954,7 +999,7 @@ def build_contacto():
             <div class="reveal"><dt>{ico('clock')}Horario</dt><dd>Lunes a jueves, de 9:00 a 14:30 y de 16:00 a 19:30<br>Viernes, de 9:00 a 15:00</dd></div>
           </dl>
         </div>
-        <div class="contact-form reveal" id="consulta-final"><p class="form-title">Formulario de contacto</p>{contact_form('form-contacto')}</div>
+        <div class="contact-form reveal" id="consulta-final"><!--tess:tess-card--><p class="form-title">Formulario de contacto</p>{contact_form('form-contacto')}</div>
       </div>
     </section>
 
