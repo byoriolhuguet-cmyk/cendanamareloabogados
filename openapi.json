@@ -1,0 +1,86 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Cendán & Amarelo Abogados: consultas",
+  "version": "1.0.0",
+  "description": "Permite a personas y agentes enviar una consulta al despacho. El usuario debe aceptar el aviso legal y la política de privacidad."
+ },
+ "servers": [
+  {
+   "url": "https://www.cendanamareloabogados.com"
+  }
+ ],
+ "paths": {
+  "/api/contact": {
+   "post": {
+    "operationId": "solicitarConsulta",
+    "summary": "Enviar una consulta al despacho",
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "type": "object",
+        "required": [
+         "nombre",
+         "telefono",
+         "mensaje",
+         "privacidad"
+        ],
+        "properties": {
+         "nombre": {
+          "type": "string",
+          "maxLength": 120
+         },
+         "telefono": {
+          "type": "string",
+          "description": "Al menos 9 dígitos",
+          "maxLength": 40
+         },
+         "email": {
+          "type": "string",
+          "format": "email"
+         },
+         "area": {
+          "type": "string",
+          "enum": [
+           "Derecho Penal",
+           "Derecho Mercantil y Concursal",
+           "Derecho Tributario",
+           "Derecho Civil y Procesal",
+           "Derecho Administrativo",
+           "Derecho Laboral"
+          ]
+         },
+         "mensaje": {
+          "type": "string",
+          "maxLength": 4000
+         },
+         "privacidad": {
+          "type": "boolean",
+          "const": true,
+          "description": "Aceptación expresa del aviso legal y la política de privacidad"
+         },
+         "comunicaciones": {
+          "type": "boolean"
+         }
+        }
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Consulta recibida"
+     },
+     "400": {
+      "description": "Datos incompletos"
+     },
+     "503": {
+      "description": "Envío no disponible: use teléfono, WhatsApp o correo"
+     }
+    }
+   }
+  }
+ }
+}

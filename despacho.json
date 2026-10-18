@@ -169,6 +169,33 @@
    "image": "https://www.cendanamareloabogados.com/assets/img/equipo/david-couselo-cortegoso.jpg"
   }
  ],
+ "potentialAction": [
+  {
+   "@type": "CommunicateAction",
+   "name": "Solicitar una consulta",
+   "description": "Envía una consulta al despacho (requiere aceptar la política de privacidad).",
+   "target": {
+    "@type": "EntryPoint",
+    "urlTemplate": "https://www.cendanamareloabogados.com/api/contact",
+    "httpMethod": "POST",
+    "contentType": "application/json",
+    "actionPlatform": [
+     "https://schema.org/DesktopWebPlatform",
+     "https://schema.org/MobileWebPlatform"
+    ]
+   }
+  },
+  {
+   "@type": "CommunicateAction",
+   "name": "Llamar al despacho",
+   "target": "tel:+34982223053"
+  },
+  {
+   "@type": "CommunicateAction",
+   "name": "Escribir por WhatsApp",
+   "target": "https://wa.me/34982223053"
+  }
+ ],
  "@context": "https://schema.org",
  "areas": [
   {
@@ -264,6 +291,30 @@
  "actualidad": {
   "url": "https://www.cendanamareloabogados.com/actualidad-juridica/",
   "rss": "https://www.cendanamareloabogados.com/actualidad-juridica/feed.xml",
+  "json": "https://www.cendanamareloabogados.com/actualidad-juridica/noticias.json",
   "actualizado": "2026-10-18T05:46:31Z"
- }
+ },
+ "cifras": [
+  {
+   "valor": 53,
+   "prefijo": "+",
+   "rotulo": "Años de ejercicio"
+  },
+  {
+   "valor": 5,
+   "prefijo": "",
+   "rotulo": "Abogados colegiados"
+  },
+  {
+   "valor": 500,
+   "prefijo": "+",
+   "rotulo": "Clientes de confianza"
+  },
+  {
+   "valor": 10000,
+   "prefijo": "+",
+   "rotulo": "Casos llevados"
+  }
+ ],
+ "openapi": "https://www.cendanamareloabogados.com/openapi.json"
 }

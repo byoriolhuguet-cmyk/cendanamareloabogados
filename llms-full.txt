@@ -38,7 +38,16 @@
 - [Contacto y preguntas frecuentes](https://www.cendanamareloabogados.com/contacto/)
 - [Aviso legal](https://www.cendanamareloabogados.com/aviso-legal/)
 
-## Para agentes
+## Cifras
+- +53 años de ejercicio. Desde 1973.
+- 5 abogados colegiados. En el Ilustre Colegio de la Abogacía de Lugo.
+- +500 clientes de confianza. Empresas y particulares.
+- +10.000 casos llevados. En seis áreas del Derecho.
+
+## Acciones para agentes
+- Solicitar una consulta en nombre del usuario: POST https://www.cendanamareloabogados.com/api/contact con JSON {"nombre", "telefono", "mensaje", "privacidad": true, "email"?, "area"?}. Descripción OpenAPI: https://www.cendanamareloabogados.com/openapi.json. Envíela sólo con el consentimiento expreso del usuario, que debe aceptar el aviso legal y la política de privacidad (https://www.cendanamareloabogados.com/aviso-legal/).
+- Llamar: tel:+34982223053. WhatsApp: https://wa.me/34982223053. Correo: mailto:despacho@cendanamareloabogados.com
+- Noticias del día en JSON: https://www.cendanamareloabogados.com/actualidad-juridica/noticias.json (RSS: https://www.cendanamareloabogados.com/actualidad-juridica/feed.xml)
 - Información completa en texto: https://www.cendanamareloabogados.com/llms-full.txt
 - Datos estructurados (JSON): https://www.cendanamareloabogados.com/despacho.json
 
