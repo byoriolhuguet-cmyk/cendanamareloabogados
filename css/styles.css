@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Cendán & Amarelo Abogados · Piedra y luz
-   Portadas en negro, cuerpo en blanco y el naranja del isotipo como única luz.
+   Cendán & Amarelo Abogados · Piedra y luz (versión clara)
+   Fondos claros (blanco y piedra) y el naranja del isotipo como única luz.
    Tipografía del logotipo: capitales romanas (Cinzel, familia de la Trajan) y
    EB Garamond para el texto. Las teselas a 45° son el recurso gráfico propio:
    el logotipo original nunca se redibuja ni se deforma y siempre va sobre su
@@ -19,13 +19,15 @@
   --muted: #5d5b57;          /* AA sobre blanco y --paper */
   --line: #e4e3e0;
   --line-strong: #c9c7c2;
-  --night: #0c0c0b;          /* negro de las portadas */
-  --night-2: #161614;
-  --on-night: #f4f2ef;
-  --on-night-mute: #aaa69f;  /* AA sobre --night */
-  --night-line: rgba(244, 242, 239, .14);
+  /* Secciones destacadas (antes en negro): ahora claras, en blanco y piedra */
+  --night: #ffffff;          /* portadas */
+  --night-2: #ffffff;        /* tarjetas sobre piedra */
+  --stone: #f4f2ee;          /* gris piedra muy claro: áreas, cierre */
+  --on-night: #0a0a0a;
+  --on-night-mute: #5d5b57;  /* AA sobre blanco y piedra */
+  --night-line: #dedbd5;
   --orange: #e8702a;
-  --orange-light: #f2a676;   /* naranja legible sobre negro */
+  --orange-light: #b04c15;   /* naranja de los textos destacados (AA sobre claro) */
   --orange-text: #b04c15;    /* naranja legible sobre blanco */
   --peach: #fae0cb;
   --tile: linear-gradient(180deg, #f6c4a0, #e8702a);
@@ -76,8 +78,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .dark .eyebrow, .dark .lead { color: var(--on-night-mute); }
 .dark .btn-line { color: var(--on-night); border-color: var(--night-line); }
 .dark .btn-line:hover { border-color: var(--on-night); }
-.dark .btn-accent { background: var(--tile); color: var(--ink); }
-.dark .btn-accent:hover { background: var(--on-night); }
+.dark .btn-accent { background: var(--ink); color: var(--white); }
+.dark .btn-accent:hover { background: var(--tile); color: var(--ink); }
 .dark .link { color: var(--on-night); text-decoration-color: var(--night-line); }
 .dark .link:hover { color: var(--orange-light); }
 .card { background: var(--white); color: var(--text); }
@@ -85,7 +87,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .card .btn-accent:hover { background: var(--tile); color: var(--ink); }
 /* Retícula de líneas a 45° (la geometría del isotipo) que deriva muy despacio */
 .lines { position: absolute; inset: -20% -10%; pointer-events: none; opacity: .55;
-  background-image: repeating-linear-gradient(45deg, rgba(232, 112, 42, .16) 0 1px, transparent 1px 88px), repeating-linear-gradient(-45deg, rgba(232, 112, 42, .16) 0 1px, transparent 1px 88px);
+  background-image: repeating-linear-gradient(45deg, rgba(232, 112, 42, .18) 0 1px, transparent 1px 88px), repeating-linear-gradient(-45deg, rgba(232, 112, 42, .18) 0 1px, transparent 1px 88px);
   -webkit-mask-image: radial-gradient(70% 60% at 75% 40%, #000, transparent 75%); mask-image: radial-gradient(70% 60% at 75% 40%, #000, transparent 75%); }
 
 /* ---------- Tipografía ---------- */
@@ -139,7 +141,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .site-header { position: fixed; inset: 0 0 auto; z-index: var(--z-header); height: var(--header-h); color: var(--on-night); transition: color .4s, background-color .4s, border-color .4s; border-bottom: 1px solid transparent; }
 .site-header.is-scrolled, .site-header.mega-open, body.menu-open .site-header { background: var(--white); color: var(--ink); border-bottom-color: var(--line); }
 .header-bar { height: 100%; display: flex; align-items: center; gap: .25rem; }
-.brand { display: block; flex: none; width: 128px; margin-right: auto; padding: 7px 10px; background: var(--white); }
+.brand { display: block; flex: none; width: 128px; margin-right: auto; }
 .head-call { width: 48px; height: 48px; display: grid; place-items: center; color: inherit; font-size: 1.15rem; }
 .nav-toggle { width: 48px; height: 48px; margin-right: -12px; padding: 0; background: none; border: 0; cursor: pointer; display: grid; place-content: center; gap: 7px; }
 .nav-toggle span { display: block; width: 24px; height: 1.5px; background: currentColor; transition: transform .4s var(--ease); }
@@ -148,7 +150,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .nav-link { display: flex; align-items: center; gap: .35rem; background: none; border: 0; padding: 0; cursor: pointer; white-space: nowrap; }
 .nav-link .caret { font-size: .85rem; transition: transform .3s var(--ease); }
 .nav-cta { justify-content: center; }
-.site-header:not(.is-scrolled):not(.mega-open) .nav-cta { background: var(--tile); color: var(--ink); }
+
 
 /* Móvil: menú a pantalla completa, submenús en acordeón */
 .nav { position: fixed; inset: var(--header-h) 0 0; padding: 1rem var(--gutter) 2rem; background: var(--white); color: var(--ink);
@@ -177,7 +179,7 @@ body.menu-open { overflow: hidden; }
 
 /* ---------- Hero (inicio): negro, el formulario manda ---------- */
 .hero { position: relative; overflow: hidden; padding: calc(var(--header-h) + 2.5rem) 0 4rem; }
-.hero::after { content: ""; position: absolute; right: -20vmax; bottom: -30vmax; width: 70vmax; height: 70vmax; pointer-events: none; background: radial-gradient(closest-side, rgba(232, 112, 42, .22), transparent); }
+.hero::after { content: ""; position: absolute; right: -20vmax; bottom: -30vmax; width: 70vmax; height: 70vmax; pointer-events: none; background: radial-gradient(closest-side, rgba(232, 112, 42, .12), transparent); }
 .hero-grid { position: relative; z-index: 1; display: grid; gap: 3rem; align-items: end; }
 .hero h1 { max-width: 14ch; }
 .hero h1 .ln { display: block; }
@@ -187,21 +189,12 @@ body.menu-open { overflow: hidden; }
 .hero-phone { display: inline-flex; align-items: center; gap: .6rem; min-height: 48px; margin-top: 1.5rem; font-size: 1.35rem; color: var(--on-night); transition: color .25s; }
 .hero-phone .ico { color: var(--orange-light); }
 .hero-phone:hover { color: var(--orange-light); }
-.hero-form { position: relative; margin-top: 6rem; padding: 1.75rem 1.4rem 1.5rem; box-shadow: 0 40px 80px -40px rgba(0, 0, 0, .8); }
+.hero-form { position: relative; margin-top: 7rem; padding: 1.75rem 1.4rem 1.5rem; border: 1px solid var(--line); box-shadow: 0 40px 80px -48px rgba(176, 76, 21, .45); }
 .form-title { font: 400 1.35rem/1.25 var(--display); letter-spacing: .04em; color: var(--ink); }
 .form-sub { margin-top: .4rem; color: var(--muted); }
 .hero-scroll { position: absolute; left: 50%; bottom: 1.25rem; z-index: 1; display: none; width: 44px; height: 64px; translate: -50% 0; }
 .hero-scroll span { position: absolute; left: 50%; top: 4px; bottom: 4px; width: 1px; background: var(--night-line); }
 .hero-scroll span::after { content: ""; position: absolute; left: -4px; top: 0; width: 9px; height: 9px; transform: rotate(45deg); background: var(--tile); }
-
-/* Teselas con fotografías apoyadas en el borde del formulario y cortadas por él, como el isotipo sobre el nombre */
-.card-tiles { position: absolute; left: 8%; right: 8%; bottom: 100%; aspect-ratio: 2.3; overflow: hidden; pointer-events: none; }
-.mt { position: absolute; left: calc(var(--x) - var(--r)); top: calc(var(--y) - var(--r) * 2.3); width: calc(var(--r) * 2); aspect-ratio: 1; margin: 0; clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
-.mt-plain { background: var(--tile); }
-.mt-photo { overflow: hidden; background: var(--night-2); }
-.mt-photo picture { position: absolute; inset: 0; }
-.mt-photo picture + picture { opacity: 0; }
-.mt-photo img { width: 100%; height: 100%; object-fit: cover; }
 
 /* ---------- Secciones ---------- */
 .section { padding: var(--section) 0; }
@@ -215,9 +208,16 @@ body.menu-open { overflow: hidden; }
 /* La firma: frase que se rellena al hacer scroll */
 .firma-grid { display: grid; gap: 3.5rem; align-items: center; }
 .manifesto { font: 400 clamp(1.75rem, 4vw, 2.9rem)/1.28 var(--sans); color: var(--ink); max-width: 30ch; letter-spacing: -.005em; }
-.firma-copy .values { margin-top: 2.5rem; }
-.firma-copy .btn { margin-top: 2.25rem; }
+.firma-side .btn { margin-top: 2.25rem; }
 .firma-art { margin: 0; }
+/* Galería: apartado propio para las fotografías */
+.gallery { padding-top: 0; }
+.gallery-lead { color: var(--muted); max-width: 30rem; }
+.gal-grid { display: grid; gap: 2rem; }
+.gal-item { margin: 0; }
+.gal-item .office { aspect-ratio: 16 / 10; }
+.gal-item figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; margin-top: .9rem; padding-top: .75rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 1rem; }
+.gal-item figcaption strong { font: 500 .75rem/1.6 var(--display); letter-spacing: .2em; text-transform: uppercase; color: var(--ink); }
 .office { display: block; overflow: hidden; background: var(--paper); aspect-ratio: 1200 / 769; --cut: 44px; clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); }
 .office img { width: 100%; height: 100%; object-fit: cover; }
 .firma-art figcaption, .contact-photo figcaption { margin-top: .75rem; font-size: .95rem; color: var(--muted); }
@@ -236,7 +236,7 @@ body.menu-open { overflow: hidden; }
 .stat-c { margin-top: .3rem; font-size: 1.0625rem; line-height: 1.5; color: var(--muted); max-width: 26ch; }
 
 /* Áreas: carril horizontal */
-.areas-sec { position: relative; }
+.areas-sec { position: relative; background: var(--stone); }
 .atrack-sticky { padding: var(--section) 0; overflow: hidden; }
 .atrack-head { display: grid; gap: .75rem; align-items: end; margin-bottom: 2.75rem; }
 .atrack-head .link { justify-self: start; }
@@ -253,7 +253,7 @@ body.menu-open { overflow: hidden; }
 .acard-keys li::before { width: 5px; height: 5px; }
 .acard-go { display: inline-flex; align-items: center; gap: .5rem; margin-top: 1.75rem; font: 500 .75rem/1 var(--display); letter-spacing: .16em; text-transform: uppercase; color: var(--orange-light); }
 .acard-go .ico { transition: transform .35s var(--ease); }
-.acard a:hover { border-color: rgba(242, 166, 118, .6); background: #1b1a18; }
+.acard a:hover { border-color: var(--orange); background: var(--white); box-shadow: 0 30px 60px -40px rgba(176, 76, 21, .4); }
 .acard a:hover::before { transform: rotate(45deg) scale(1.35); }
 .acard a:hover .acard-go .ico { transform: translate(3px, -3px); }
 .atrack-bar { display: block; height: 1px; margin-top: 2rem; background: var(--night-line); }
@@ -451,7 +451,7 @@ body.menu-open { overflow: hidden; }
 
 
 /* ---------- Cierre (negro) con formulario ---------- */
-.finale { position: relative; overflow: hidden; padding: var(--section) 0; }
+.finale { position: relative; overflow: hidden; padding: var(--section) 0; background: var(--stone); }
 .finale-grid { position: relative; z-index: 1; display: grid; gap: 3rem; }
 .finale h2 { max-width: 13ch; }
 .finale-copy > p:not(.eyebrow) { margin-top: 1.1rem; max-width: 32rem; }
@@ -467,7 +467,7 @@ body.menu-open { overflow: hidden; }
 .tess-card { position: absolute; left: 1.25rem; bottom: 100%; width: calc(100% - 2.5rem); max-height: 8.5rem; pointer-events: none; }
 
 /* ---------- Páginas interiores: portada negra ---------- */
-.phero { position: relative; overflow: hidden; padding: calc(var(--header-h) + 2.5rem) 0 3.75rem; }
+.phero { position: relative; overflow: hidden; padding: calc(var(--header-h) + 2.5rem) 0 3.75rem; border-bottom: 1px solid var(--line); }
 .phero-grid { position: relative; z-index: 1; display: grid; gap: 2.5rem; align-items: end; }
 .phero h1 { max-width: 17ch; }
 .phero .lead { margin-top: 1.25rem; }
@@ -481,16 +481,16 @@ body.menu-open { overflow: hidden; }
 .crumbs a { transition: color .25s; }
 .crumbs a:hover { color: var(--on-night); }
 .contact-form { position: relative; margin-top: 8rem; padding: 1.75rem 1.25rem; background: var(--paper); }
-.aside-card { display: grid; gap: .75rem; align-content: start; padding: 1.75rem 1.5rem; background: var(--night); color: var(--on-night-mute); }
+.aside-card { display: grid; gap: .75rem; align-content: start; padding: 1.75rem 1.5rem; border-top: 2px solid var(--orange); background: var(--stone); color: var(--on-night-mute); }
 .aside-card .aside-title { color: var(--on-night); }
-.aside-card .btn-accent { background: var(--tile); color: var(--ink); }
-.aside-card .btn-accent:hover { background: var(--on-night); }
+.aside-card .btn-accent { background: var(--ink); color: var(--white); }
+.aside-card .btn-accent:hover { background: var(--tile); color: var(--ink); }
 .aside-card .aside-phone { color: var(--on-night); }
 
 /* ---------- Pie (negro) ---------- */
-.site-footer { position: relative; overflow: hidden; background: var(--night); color: var(--on-night-mute); padding: 4rem 0 0; border-top: 1px solid var(--night-line); font-size: 1rem; }
+.site-footer { position: relative; overflow: hidden; background: var(--white); color: var(--on-night-mute); padding: 4rem 0 0; border-top: 1px solid var(--night-line); font-size: 1rem; }
 .footer-top { display: grid; gap: 1.5rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--night-line); }
-.footer-brand { display: block; width: 168px; padding: 9px 12px; background: var(--white); }
+.footer-brand { display: block; width: 160px; }
 .footer-claim { font-size: 1.3rem; font-style: italic; line-height: 1.45; color: var(--on-night); max-width: 34ch; }
 .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.25rem 1.5rem; padding: 2.75rem 0; }
 .footer-title { font: 500 .72rem/1.3 var(--display); letter-spacing: .2em; text-transform: uppercase; color: var(--on-night); margin-bottom: .75rem; }
@@ -506,7 +506,7 @@ body.menu-open { overflow: hidden; }
 .social a:hover { border-color: var(--orange-light); }
 .social .ico { width: 16px; height: 16px; }
 .footer-mark { margin: 2.5rem 0 0; padding: 0 var(--gutter); overflow: hidden; text-align: center; line-height: .8; white-space: nowrap;
-  font: 500 clamp(1.6rem, 7.9vw, 9.5rem)/1.05 var(--display); letter-spacing: .02em; text-transform: uppercase; color: transparent; -webkit-text-stroke: 1px rgba(244, 242, 239, .45); }
+  font: 500 clamp(1.6rem, 7.9vw, 9.5rem)/1.05 var(--display); letter-spacing: .02em; text-transform: uppercase; color: transparent; -webkit-text-stroke: 1px rgba(10, 10, 10, .45); }
 .footer-mark > span { display: inline-block; padding-top: .12em; margin-bottom: -.22em; }
 .footer-mark .amp { color: var(--orange); -webkit-text-stroke: 0; }
 
@@ -540,7 +540,7 @@ body.menu-open .a11y { visibility: hidden; }
 html.a11y-gray { --orange: #707070; --orange-text: #3d3d3d; --peach: #dddddd; --tile: linear-gradient(180deg, #d6d6d6, #707070); }
 html.a11y-gray img, html.a11y-gray .tess { filter: grayscale(1); }
 html.a11y-contrast { --text: #000; --muted: #111; --line: #000; --line-strong: #000; --orange-text: #7a2c00; --paper: #fff; }
-html.a11y-invert .dark { --night: #000; }
+html.a11y-invert .dark { --night: #000; --night-2: #000; --stone: #121212; --on-night: #fff; --on-night-mute: #d4d4d4; --night-line: #4a4a4a; }
 html.a11y-invert { --white: #000; --paper: #121212; --ink: #fff; --text: #f2f2f2; --muted: #d4d4d4; --line: #4a4a4a; --line-strong: #8a8a8a; --orange-text: #ffa56f; }
 html.a11y-light { --paper: #fff; }
 html.a11y-light .dark { background: var(--white); color: var(--muted); }
@@ -578,19 +578,12 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
   .js .hero-form { animation: card-in 1.2s var(--ease) .25s both; }
   .js .lines { animation: fade-in 2s ease .2s both; }
   .is-live .lines { animation: drift 60s linear infinite; }
-  .js .mt { animation: tile-in 1.1s var(--ease) both; animation-delay: calc(.5s + var(--k) * 90ms); }
-  .is-live .mt-plain { animation: shimmer 7s ease-in-out infinite; animation-delay: calc(var(--k) * 1.3s); }
-  .is-live .mt-photo picture { --o: 0s; animation: cycle 18s linear infinite; animation-delay: calc(var(--o) - var(--k) * .4s); }
-  .is-live .mt-photo picture:nth-child(2) { --o: -12s; }
-  .is-live .mt-photo picture:nth-child(3) { --o: -6s; }
-  .is-live .mt-photo img { animation: zoom 12s ease-in-out infinite alternate; }
   .is-live .hero-scroll span::after { animation: fall 2.4s var(--ease-io) infinite; }
   .is-intro.js .hero h1 .ln { animation-delay: 1.3s; }
   .is-intro.js .hero h1 .ln:nth-child(2) { animation-delay: 1.38s; }
   .is-intro.js .hero h1 .ln:nth-child(3) { animation-delay: 1.46s; }
   .is-intro.js .hero-copy > :not(h1) { animation-delay: 1.5s; }
   .is-intro.js .hero-form { animation-delay: 1.5s; }
-  .is-intro.js .mt { animation-delay: calc(1.8s + var(--k) * 90ms); }
 
   .js .phero-copy > * { animation: lift 1s var(--ease) both; }
   .js .phero-copy > h1 { animation-delay: .06s; }
@@ -607,8 +600,8 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
   .js .tess polygon { opacity: 0; transition: opacity .7s var(--ease); transition-delay: calc(.15s + var(--i) * 45ms); }
   .js .tess.is-in polygon { opacity: 1; }
   /* Fotografías: se despliegan desde un rombo hasta su marco con la esquina a 45° */
-  .js .firma-art .office, .js .contact-photo .office, .js .tcard .tcard-ph { clip-path: polygon(30% 50%, 50% 20%, 70% 50%, 50% 80%, 50% 80%); transition: clip-path 1.5s var(--ease-io) var(--d, 0ms); }
-  .js .firma-art.is-in .office, .js .contact-photo.is-in .office, .js .tcard.is-in .tcard-ph { clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); }
+  .js .gal-item .office, .js .contact-photo .office, .js .tcard .tcard-ph { clip-path: polygon(30% 50%, 50% 20%, 70% 50%, 50% 80%, 50% 80%); transition: clip-path 1.5s var(--ease-io) var(--d, 0ms); }
+  .js .gal-item.is-in .office, .js .contact-photo.is-in .office, .js .tcard.is-in .tcard-ph { clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); }
   /* El nombre del pie sube al llegar al final */
   .js .footer-mark > span { transform: translateY(70%); transition: transform 1.6s var(--ease); }
   .js .footer-mark.is-in > span { transform: none; }
@@ -616,7 +609,7 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
   /* Animaciones ligadas al scroll (sin JavaScript) donde el navegador las admite */
   @supports (animation-timeline: view()) {
     .manifesto [aria-hidden] span { color: #8f8b84; animation: ink linear both; animation-timeline: view(); animation-range: cover 18% cover 42%; }
-    .firma-art .office img { animation: drift-y linear both; animation-timeline: view(); scale: 1.12; }
+    .gal-item .office img { animation: drift-y linear both; animation-timeline: view(); scale: 1.12; }
     .mcard-n { animation: fill-n linear both; animation-timeline: view(); animation-range: cover 25% cover 45%; }
   }
   .js .cta-float { animation: rise .9s var(--ease) 1.2s both; }
@@ -666,7 +659,7 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
 /* ---------- Tablet (>= 640px) ---------- */
 @media (min-width: 640px) {
   :root { --gutter: 2.5rem; }
-  .brand { width: 140px; }
+  .brand { width: 132px; }
   .hero-form, .finale-form, .contact-form { padding: 2.25rem; }
   .f-grid { grid-template-columns: 1fr 1fr; column-gap: 1.25rem; }
   .f-wide { grid-column: 1 / -1; }
@@ -687,7 +680,7 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
 /* ---------- Escritorio (>= 1024px) ---------- */
 @media (min-width: 1024px) {
   :root { --gutter: 4rem; --header-h: 5.25rem; }
-  .brand { width: 150px; }
+  .brand { width: 140px; }
   .head-call, .nav-toggle, .nav-mobile-extra { display: none; }
   .header-bar { gap: 2rem; }
   .nav { position: static; inset: auto; padding: 0; background: none; color: inherit; flex-direction: row; align-items: center; gap: 2rem; overflow: visible; visibility: visible; clip-path: none; transition: none; flex: 1; justify-content: flex-end; }
@@ -737,7 +730,11 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
 
   .head-row, .atrack-head { grid-template-columns: 1fr auto; }
   .head-row .link, .atrack-head .link { justify-self: end; }
-  .firma-grid { grid-template-columns: 7fr 5fr; gap: 6rem; }
+  .firma-grid { grid-template-columns: 7fr 5fr; gap: 6rem; align-items: end; }
+  .gal-grid { grid-template-columns: 7fr 5fr; grid-template-rows: auto auto; gap: 2rem 3rem; }
+  .gal-a { grid-row: span 2; }
+  .gal-a .office { aspect-ratio: auto; height: calc(100% - 3.4rem); min-height: 28rem; }
+  .gal-c { margin-left: 3rem; }
   .stats-grid { grid-template-columns: repeat(4, 1fr); }
   .stat { padding: 0 2rem; border-top: 0; border-left: 1px solid var(--line); }
   .stat:first-child { padding-left: 0; border-left: 0; }

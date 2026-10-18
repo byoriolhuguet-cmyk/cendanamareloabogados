@@ -189,31 +189,33 @@ def contact_form(uid, compact=False):
       </form>'''
 
 
-HERO_PHOTOS = [
-    ('despacho', 'Entrada del despacho Cendán &amp; Amarelo Abogados en Lugo'),
-    ('muralla-lugo', 'Muralla romana de Lugo'),
-    ('empresas', 'Edificios de oficinas: asesoramiento a empresas'),
-]
-
-
-def card_tiles():
-    """Tres fotografías en rombo apoyadas en el borde superior del formulario, como las teselas
-    del isotipo sobre el nombre. Cada rombo releva sus fotos con un fundido; nunca es el logotipo."""
-    def photos(k):
-        out = ''
-        for j in range(3):
-            slug, alt = HERO_PHOTOS[(k + j) % 3]
-            load = '' if j == 0 else 'loading="lazy"'
-            out += (f'<picture><source srcset="/assets/img/hero/{slug}-400.webp" type="image/webp">'
-                    f'<img src="/assets/img/hero/{slug}.jpg" width="400" height="400" {load} decoding="async" alt="{alt if j == 0 else ""}"></picture>')
-        return out
-    photo_tiles = [(50, 96, 25), (80.5, 98, 14), (19.5, 98, 12.5)]
-    plain = [(31, 46, 5), (66, 32, 4.5), (95, 66, 3.6), (5, 72, 3.2)]
-    tiles = ''.join(f'<figure class="mt mt-photo" style="--x:{x}%;--y:{y}%;--r:{r}%;--k:{k}">{photos(k)}</figure>'
-                    for k, (x, y, r) in enumerate(photo_tiles))
-    tiles += ''.join(f'<span class="mt mt-plain" style="--x:{x}%;--y:{y}%;--r:{r}%;--k:{k + 3}"></span>'
-                     for k, (x, y, r) in enumerate(plain))
-    return f'<div class="card-tiles" data-mosaic>{tiles}</div>'
+def gallery():
+    """Apartado propio para las fotografías: el despacho, Lugo y el mundo de la empresa."""
+    def pic(src_webp, src_jpg, w, h, alt, small=''):
+        mob = f'<source media="(max-width: 700px)" srcset="{small}" type="image/webp">' if small else ''
+        return (f'<picture class="office">{mob}<source srcset="{src_webp}" type="image/webp">'
+                f'<img src="{src_jpg}" width="{w}" height="{h}" loading="lazy" decoding="async" alt="{alt}"></picture>')
+    items = [
+        ('gal-a', pic('/assets/img/despacho-lugo.webp', '/assets/img/despacho-lugo.jpg', 1200, 769,
+                      'Entrada del despacho Cendán &amp; Amarelo Abogados en Lugo', '/assets/img/despacho-lugo-760.webp'),
+         'El despacho', 'Avenida de A Coruña, 10-14, Lugo'),
+        ('gal-b', pic('/assets/img/muralla-lugo.webp', '/assets/img/muralla-lugo.jpg', 1200, 798,
+                      'Muralla romana de Lugo, Patrimonio de la Humanidad', '/assets/img/muralla-lugo-760.webp'),
+         'Lugo', 'Desde aquí, para toda Galicia'),
+        ('gal-c', pic('/assets/img/hero/empresas.webp', '/assets/img/hero/empresas.jpg', 720, 720,
+                      'Edificios de oficinas: asesoramiento a empresas'),
+         'Empresas', 'Compañías de ámbito regional y nacional'),
+    ]
+    figs = ''.join(f'''
+          <figure class="gal-item {cls} reveal" style="--d:{n * 120}ms">{img}<figcaption><strong>{t}</strong>{c}</figcaption></figure>'''
+                   for n, (cls, img, t, c) in enumerate(items))
+    return f'''    <section class="section gallery" aria-labelledby="h-galeria">
+      <div class="wrap">
+        <div class="head-row"><h2 id="h-galeria" class="display-lg reveal">El despacho.</h2><p class="gallery-lead reveal">Un despacho de Lugo que asesora a empresas y particulares de Galicia y de toda España.</p></div>
+        <div class="gal-grid">{figs}
+        </div>
+      </div>
+    </section>'''
 
 
 STATS = [
@@ -673,7 +675,7 @@ def build_home():
           <a class="hero-phone" href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a>
         </div>
         <div class="hero-form card" id="consulta-hero">
-          {card_tiles()}
+          <!--tess:tess-card-->
           <p class="form-title">Primera valoración<br>sin compromiso</p>
           <p class="form-sub">Déjenos sus datos y le llamamos.</p>
           {contact_form('form-hero', compact=True)}
@@ -687,6 +689,8 @@ def build_home():
         <div class="firma-copy">
           <h2 id="h-firma" class="eyebrow">La firma</h2>
           {manifesto('Fundada en 1973 por el letrado Antonio Cendán Corredoira, la firma ha crecido respondiendo a las demandas de sus clientes, incorporando abogados especializados en cada materia.')}
+        </div>
+        <div class="firma-side">
           <ul class="values" role="list">
             <li class="reveal">Perseguimos la más alta calidad en el servicio</li>
             <li class="reveal" style="--d:90ms">Especialización y experiencia</li>
@@ -694,12 +698,10 @@ def build_home():
           </ul>
           {btn('Conocer la firma', '/despacho-abogados-lugo/', 'line')}
         </div>
-        <figure class="firma-art">
-          {office('firma-ph')}
-          <figcaption>Nuestro despacho en la Avenida de A Coruña, Lugo</figcaption>
-        </figure>
       </div>
     </section>
+
+{gallery()}
 
 {stats_band()}
 
