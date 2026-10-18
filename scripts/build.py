@@ -149,11 +149,11 @@ def tess(key, cols=19, peak=6, cls=''):
 
 
 def photo(name, alt, eager=False):
-    """Fotografía apaisada de 1200x798 con versión móvil."""
+    """Fotografía apaisada de 1100x731 con versión móvil."""
     load = 'fetchpriority="high"' if eager else 'loading="lazy"'
     return (f'<picture class="office"><source media="(max-width: 700px)" srcset="/assets/img/{name}-760.webp" type="image/webp">'
             f'<source srcset="/assets/img/{name}.webp" type="image/webp">'
-            f'<img src="/assets/img/{name}.jpg" width="1200" height="798" {load} decoding="async" alt="{alt}"></picture>')
+            f'<img src="/assets/img/{name}.jpg" width="1100" height="731" {load} decoding="async" alt="{alt}"></picture>')
 
 
 def picture(slug, alt, cls='', eager=False):
@@ -199,10 +199,10 @@ def gallery():
         ('gal-a', pic('/assets/img/despacho-lugo.webp', '/assets/img/despacho-lugo.jpg', 1200, 769,
                       'Entrada del despacho Cendán &amp; Amarelo Abogados en Lugo', '/assets/img/despacho-lugo-760.webp'),
          'El despacho', 'Avenida de A Coruña, 10-14, Lugo'),
-        ('gal-b', pic('/assets/img/muralla-lugo.webp', '/assets/img/muralla-lugo.jpg', 1200, 798,
+        ('gal-b', pic('/assets/img/muralla-lugo.webp', '/assets/img/muralla-lugo.jpg', 1100, 731,
                       'Muralla romana de Lugo, Patrimonio de la Humanidad', '/assets/img/muralla-lugo-760.webp'),
          'Lugo', 'Desde aquí, para toda Galicia'),
-        ('gal-c', pic('/assets/img/hero/empresas.webp', '/assets/img/hero/empresas.jpg', 720, 720,
+        ('gal-c', pic('/assets/img/empresas.webp', '/assets/img/empresas.jpg', 1024, 400,
                       'Edificios de oficinas: asesoramiento a empresas'),
          'Empresas', 'Compañías de ámbito regional y nacional'),
     ]
@@ -386,7 +386,7 @@ def footer():
         </p>
       </div>
     </div>
-    <p class="footer-mark" aria-hidden="true"><span>Cendán<span class="amp">&amp;</span>Amarelo</span></p>
+    <p class="footer-mark" aria-hidden="true"><span class="fm-name">Cendán<span class="amp">&amp;</span>Amarelo</span><span class="fm-sub">Abogados</span></p>
   </footer>
   <div class="a11y" data-a11y>
     <button class="a11y-btn" type="button" aria-expanded="false" aria-controls="a11y-panel" aria-label="Herramientas de accesibilidad">{ico('ph_access')}</button>
@@ -681,8 +681,10 @@ def build_home():
           {contact_form('form-hero', compact=True)}
         </div>
       </div>
-      <a class="hero-scroll" href="#h-firma" aria-label="Seguir leyendo"><span></span></a>
+      <a class="hero-scroll" href="#h-galeria" aria-label="Seguir leyendo"><span></span></a>
     </section>
+
+{gallery()}
 
     <section class="section firma" aria-labelledby="h-firma">
       <div class="wrap firma-grid">
@@ -700,8 +702,6 @@ def build_home():
         </div>
       </div>
     </section>
-
-{gallery()}
 
 {stats_band()}
 

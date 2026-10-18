@@ -200,7 +200,7 @@
   var track = document.querySelector('[data-track]');
   if (track) {
     var list = track.querySelector('.atrack-list');
-    var measure = function () { track.style.setProperty('--dist', Math.max(list.scrollWidth - window.innerWidth, 0) + 'px'); };
+    var measure = function () { track.style.setProperty('--dist', Math.max(list.scrollWidth - document.documentElement.clientWidth, 0) + 'px'); };
     var rt;
     window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(measure, 150); });
     window.addEventListener('load', measure);

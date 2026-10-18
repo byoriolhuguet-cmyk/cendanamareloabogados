@@ -211,7 +211,7 @@ body.menu-open { overflow: hidden; }
 .firma-side .btn { margin-top: 2.25rem; }
 .firma-art { margin: 0; }
 /* Galería: apartado propio para las fotografías */
-.gallery { padding-top: 0; }
+.gallery { padding: clamp(3.5rem, 7vw, 6rem) 0 0; }
 .gallery-lead { color: var(--muted); max-width: 30rem; }
 .gal-grid { display: grid; gap: 2rem; }
 .gal-item { margin: 0; }
@@ -240,7 +240,7 @@ body.menu-open { overflow: hidden; }
 .atrack-sticky { padding: var(--section) 0; overflow: hidden; }
 .atrack-head { display: grid; gap: .75rem; align-items: end; margin-bottom: 2.75rem; }
 .atrack-head .link { justify-self: start; }
-.atrack-list { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 var(--gutter) 1rem; scroll-padding-inline: var(--gutter); scrollbar-width: none; }
+.atrack .atrack-list { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 var(--gutter) 1rem; scroll-padding-inline: var(--gutter); scrollbar-width: none; }
 .atrack-list::-webkit-scrollbar { display: none; }
 .acard { flex: none; width: min(84vw, 25rem); scroll-snap-align: start; }
 .acard a { position: relative; display: flex; flex-direction: column; height: 100%; min-height: 27rem; padding: 2rem 1.75rem; border: 1px solid var(--night-line); background: var(--night-2); overflow: hidden; transition: border-color .4s, background-color .4s; }
@@ -505,10 +505,10 @@ body.menu-open { overflow: hidden; }
 .social a { width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid var(--night-line); color: var(--on-night); transition: border-color .25s; }
 .social a:hover { border-color: var(--orange-light); }
 .social .ico { width: 16px; height: 16px; }
-.footer-mark { margin: 2.5rem 0 0; padding: 0 var(--gutter); overflow: hidden; text-align: center; line-height: .8; white-space: nowrap;
-  font: 500 clamp(1.6rem, 7.9vw, 9.5rem)/1.05 var(--display); letter-spacing: .02em; text-transform: uppercase; color: transparent; -webkit-text-stroke: 1px rgba(10, 10, 10, .45); }
-.footer-mark > span { display: inline-block; padding-top: .12em; margin-bottom: -.22em; }
-.footer-mark .amp { color: var(--orange); -webkit-text-stroke: 0; }
+.footer-mark { display: grid; justify-items: center; margin: 3rem 0 0; padding: 0 var(--gutter) 2.5rem; overflow: hidden; text-align: center; white-space: nowrap; color: var(--ink); }
+.fm-name { display: block; font: 500 clamp(1.5rem, 7.2vw, 8.6rem)/1.05 var(--display); letter-spacing: .045em; text-transform: uppercase; padding-top: .1em; }
+.fm-name .amp { margin: 0 .03em; color: var(--orange); }
+.fm-sub { display: block; margin-top: .45em; font: 500 clamp(.66rem, 3.15vw, 3.8rem)/1 var(--display); letter-spacing: .06em; text-transform: uppercase; }
 
 /* ---------- Botón flotante: solicitar consulta ---------- */
 .cta-float { position: fixed; right: max(.75rem, env(safe-area-inset-right)); bottom: max(.75rem, env(safe-area-inset-bottom)); z-index: var(--z-float);
@@ -603,13 +603,13 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
   .js .gal-item .office, .js .contact-photo .office, .js .tcard .tcard-ph { clip-path: polygon(30% 50%, 50% 20%, 70% 50%, 50% 80%, 50% 80%); transition: clip-path 1.5s var(--ease-io) var(--d, 0ms); }
   .js .gal-item.is-in .office, .js .contact-photo.is-in .office, .js .tcard.is-in .tcard-ph { clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); }
   /* El nombre del pie sube al llegar al final */
-  .js .footer-mark > span { transform: translateY(70%); transition: transform 1.6s var(--ease); }
-  .js .footer-mark.is-in > span { transform: none; }
+  .js .footer-mark > span { opacity: 0; transform: translateY(40%); transition: opacity 1.2s var(--ease), transform 1.6s var(--ease); }
+  .js .footer-mark .fm-sub { transition-delay: .15s; }
+  .js .footer-mark.is-in > span { opacity: 1; transform: none; }
 
   /* Animaciones ligadas al scroll (sin JavaScript) donde el navegador las admite */
   @supports (animation-timeline: view()) {
     .manifesto [aria-hidden] span { color: #8f8b84; animation: ink linear both; animation-timeline: view(); animation-range: cover 18% cover 42%; }
-    .gal-item .office img { animation: drift-y linear both; animation-timeline: view(); scale: 1.12; }
     .mcard-n { animation: fill-n linear both; animation-timeline: view(); animation-range: cover 25% cover 45%; }
   }
   .js .cta-float { animation: rise .9s var(--ease) 1.2s both; }
@@ -638,8 +638,8 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
 @keyframes unfold { from { clip-path: polygon(30% 50%, 50% 20%, 70% 50%, 50% 80%, 50% 80%); } to { clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); } }
 @keyframes ink { to { color: var(--ink); } }
 @keyframes fill-n { to { color: var(--orange-text); } }
-@keyframes track { to { transform: translateX(calc(-1 * var(--dist, 0px))); } }
-@keyframes track-bar { from { transform: scaleX(.02); } to { transform: scaleX(1); } }
+@keyframes track { 0%, 15% { transform: translateX(0); } 85%, 100% { transform: translateX(calc(-1 * var(--dist, 0px))); } }
+@keyframes track-bar { 0%, 15% { transform: scaleX(.02); } 85%, 100% { transform: scaleX(1); } }
 
 /* ---------- Cursor (sólo ratón, sin "reducir movimiento") ----------
    Una tesela negra; sobre enlaces se abre en un rombo de línea naranja y, sobre
@@ -774,9 +774,9 @@ html.a11y-font .btn, html.a11y-font .eyebrow, html.a11y-font .stat-n, html.a11y-
 /* Carril de áreas fijado mientras avanza en horizontal con el scroll (escritorio, navegadores compatibles) */
 @media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
   @supports (animation-timeline: view()) {
-    .atrack { height: calc(100vh + var(--dist, 0px)); view-timeline-name: --atrack; }
+    .atrack { height: calc(100vh + var(--dist, 0px) * 1.6); view-timeline-name: --atrack; }
     .atrack-sticky { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: calc(var(--header-h) + 1rem) 0 2rem; }
-    .atrack-list { overflow: visible; scroll-snap-type: none; width: max-content; padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))); animation: track linear both; animation-timeline: --atrack; animation-range: contain 0% contain 100%; }
+    .atrack .atrack-list { overflow: visible; scroll-snap-type: none; width: max-content; padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))); animation: track linear both; animation-timeline: --atrack; animation-range: contain 0% contain 100%; }
     .atrack-bar span { animation: track-bar linear both; animation-timeline: --atrack; animation-range: contain 0% contain 100%; }
     .acard { width: 25rem; }
   }
