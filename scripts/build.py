@@ -251,12 +251,12 @@ def manifesto(text):
 
 
 def areas_track():
-    """Áreas en un carril horizontal que avanza con el scroll (escritorio) o con el dedo (móvil)."""
+    """Las seis áreas a la vista, en una rejilla de tarjetas."""
     cards = ''
     for i, a in enumerate(AREAS):
         keys = ''.join(f'<li>{k}</li>' for k in KEYS[a['id']])
         cards += f'''
-            <li class="acard"><a href="/{a["slug"]}/" data-cursor="Ver el área">
+            <li class="acard reveal" style="--d:{(i % 3) * 90}ms"><a href="/{a["slug"]}/" data-cursor="Ver el área">
               <span class="acard-n">{i + 1:02d}</span>
               <h3 class="acard-name">{a["name"]}</h3>
               <p class="acard-short">{a["short"]}</p>
@@ -269,9 +269,8 @@ def areas_track():
             <h2 id="h-areas" class="display-lg">Seis áreas, un solo equipo.</h2>
             <a class="link" href="/areas-de-practica/">Todas las áreas {ARROW}</a>
           </div>
-          <ol class="atrack-list" role="list">{cards}
-          </ol>
-          <div class="wrap"><span class="atrack-bar" aria-hidden="true"><span></span></span></div>
+          <div class="wrap"><ol class="atrack-list" role="list">{cards}
+          </ol></div>
         </div>
       </div>'''
 

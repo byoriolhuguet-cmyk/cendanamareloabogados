@@ -196,17 +196,6 @@
   /* Animaciones continuas (relevo de fotos, brillo de teselas) sólo cuando la página ya ha cargado */
   if (!reduce) window.addEventListener('load', function () { setTimeout(function () { doc.classList.add('is-live'); }, 2500); });
 
-  /* Carril de áreas: recorrido horizontal = ancho del carril menos el de la ventana (sólo se mide al cargar y al redimensionar) */
-  var track = document.querySelector('[data-track]');
-  if (track) {
-    var list = track.querySelector('.atrack-list');
-    var measure = function () { track.style.setProperty('--dist', Math.max(list.scrollWidth - document.documentElement.clientWidth, 0) + 'px'); };
-    var rt;
-    window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(measure, 150); });
-    window.addEventListener('load', measure);
-    measure();
-  }
-
   /* El botón flotante se oculta mientras hay un formulario a la vista */
   var forms = document.querySelectorAll('[data-form]');
   if (hasIO && forms.length) {
