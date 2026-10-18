@@ -189,11 +189,6 @@
    "@type": "CommunicateAction",
    "name": "Llamar al despacho",
    "target": "tel:+34982223053"
-  },
-  {
-   "@type": "CommunicateAction",
-   "name": "Escribir por WhatsApp",
-   "target": "https://wa.me/34982223053"
   }
  ],
  "@context": "https://schema.org",
@@ -201,83 +196,107 @@
   {
    "nombre": "Derecho Penal",
    "url": "https://www.cendanamareloabogados.com/abogados-derecho-penal-lugo/",
-   "resumen": "Defensa y acusación, con especial experiencia en Derecho penal económico.",
+   "resumen": "Gran experiencia en Derecho penal económico y en procesos de relevancia jurídica.",
    "servicios": [
-    "Delitos societarios, estafas, apropiación indebida y administración desleal",
-    "Delitos contra la Hacienda Pública y la Seguridad Social",
-    "Insolvencias punibles y alzamiento de bienes",
-    "Responsabilidad penal de la persona jurídica y programas de cumplimiento (compliance)",
-    "Delitos contra el patrimonio y el orden socioeconómico",
-    "Acusación particular y defensa de víctimas",
-    "Recursos de apelación y casación"
+    "Delitos económicos (apropiaciones indebidas, insolvencias punibles o estafas)",
+    "Delitos contra la Hacienda Pública y contra la Seguridad Social u otras instituciones de carácter público",
+    "Delitos societarios (administración fraudulenta, adopción de acuerdos abusivos e infracción de los derechos políticos de los socios)",
+    "Blanqueo de capitales",
+    "Delitos contra la propiedad industrial o intelectual (derechos de autor, marca, patentes, etc.)",
+    "Delitos contra el honor, la intimidad y el derecho a la propia imagen",
+    "Responsabilidad penal de las personas jurídicas"
    ]
   },
   {
    "nombre": "Derecho Mercantil y Concursal",
    "url": "https://www.cendanamareloabogados.com/abogados-derecho-mercantil-concursal-lugo/",
-   "resumen": "Asesoramiento a empresas, desde su constitución hasta las situaciones de insolvencia.",
+   "resumen": "Asesoramiento empresarial integral, desde la constitución hasta la disolución y liquidación.",
    "servicios": [
-    "Constitución de sociedades, modificaciones estatutarias y operaciones societarias",
-    "Pactos de socios y protocolos familiares",
+    "Constitución de sociedades",
+    "Resolución de conflictos entre socios",
     "Contratación mercantil",
-    "Conflictos entre socios e impugnación de acuerdos sociales",
-    "Responsabilidad de administradores",
-    "Planes de reestructuración y refinanciación",
-    "Concurso de acreedores y exoneración del pasivo (segunda oportunidad)"
+    "Asesoramiento en ampliaciones y reducciones de capital, fusiones, escisiones, y transmisión y adquisición de empresas",
+    "Pactos entre socios",
+    "Due diligence mercantil",
+    "Asesoramiento en la planificación de la sucesión empresarial en el grupo familiar, redacción de protocolos familiares",
+    "Procedimientos judiciales en materia societaria",
+    "Asesoramiento en reestructuraciones de deuda",
+    "Asesoramiento en fase preconcursal",
+    "Planificación y tramitación de procesos concursales",
+    "Procedimiento especial para microempresas",
+    "Concursos personales, segunda oportunidad y exoneración de pasivo"
    ]
   },
   {
    "nombre": "Derecho Tributario",
    "url": "https://www.cendanamareloabogados.com/abogados-derecho-tributario-lugo/",
-   "resumen": "Planificación fiscal y defensa del contribuyente ante la Administración.",
+   "resumen": "Eficiencia fiscal en cada operación, para empresas, particulares y grandes patrimonios.",
    "servicios": [
-    "Planificación fiscal de empresas y patrimonios familiares",
-    "Procedimientos de inspección, comprobación y gestión",
-    "Procedimientos de recaudación y embargos",
-    "Procedimientos sancionadores",
-    "Reclamaciones económico-administrativas y recursos contencioso-administrativos",
-    "Fiscalidad de sucesiones, donaciones y operaciones societarias"
+    "Procedimientos tributarios y contencioso-administrativos",
+    "Régimen de operaciones vinculadas",
+    "Planificación y asesoramiento fiscal a empresas y particulares",
+    "Planificación y asesoramiento de grandes patrimonios",
+    "Planificación y asesoramiento en operaciones de reestructuración empresarial (fusiones, escisiones, transmisión de sociedades…)",
+    "Planificación de métodos de retribución variables a directivos (stock options, variabilización de la retribución…)",
+    "Planificación sucesoria",
+    "Asesoramiento y liquidación de sucesiones y donaciones",
+    "Impuesto sobre el Valor Añadido",
+    "Planificación fiscal internacional",
+    "Régimen fiscal de no residentes en España",
+    "Régimen fiscal de expatriados",
+    "Due diligence fiscal"
    ]
   },
   {
    "nombre": "Derecho Civil y Procesal",
    "url": "https://www.cendanamareloabogados.com/abogados-derecho-civil-procesal-lugo/",
-   "resumen": "Familia, sucesiones, contratos y litigación civil.",
+   "resumen": "Familia, sucesiones, arrendamientos y propiedad horizontal, con abogados y mediadores.",
    "servicios": [
-    "Separaciones y divorcios, de mutuo acuerdo y contenciosos",
-    "Guarda y custodia, régimen de visitas y pensiones",
-    "Herencias, testamentos y particiones",
-    "Contratos, obligaciones y responsabilidad civil",
-    "Arrendamientos urbanos y rústicos",
-    "Propiedad, comunidades y derechos reales",
-    "Reclamaciones de cantidad y ejecuciones"
+    "Separaciones y divorcios, bien contenciosos, bien de mutuo acuerdo entre los cónyuges",
+    "Guarda y custodia de menores",
+    "Modificación de medidas",
+    "Reclamaciones de pensión de alimentos y/o compensatoria",
+    "Procesos sobre la capacidad de las personas",
+    "Procesos sobre autorización judicial de venta",
+    "Declaración de herederos",
+    "Testamentos",
+    "Cuadernos particionales",
+    "Impuesto sobre Sucesiones",
+    "Desahucios por falta de pago y expiraciones de plazo",
+    "Resoluciones de contrato",
+    "Traspasos, cesiones y subarriendos",
+    "Actualizaciones de renta, repercusiones de servicios, suministros y obras",
+    "Contratos de alquiler de locales, viviendas, garajes, etc.",
+    "Reclamaciones de cantidad",
+    "Asistencia a juntas",
+    "Redacción de estatutos y normas de régimen interior",
+    "Comunidades de propietarios"
    ]
   },
   {
    "nombre": "Derecho Administrativo",
    "url": "https://www.cendanamareloabogados.com/abogados-derecho-adminitrativo-lugo/",
-   "resumen": "Defensa de particulares y empresas frente a las administraciones públicas.",
+   "resumen": "Asesoramiento a entidades del sector público, empresas privadas y particulares.",
    "servicios": [
-    "Urbanismo, licencias y disciplina urbanística",
-    "Expedientes sancionadores",
-    "Contratación pública",
-    "Responsabilidad patrimonial de la Administración",
+    "Contratación administrativa",
     "Expropiación forzosa",
-    "Función pública",
-    "Recursos administrativos y contencioso-administrativos"
+    "Responsabilidad patrimonial",
+    "Recursos administrativos y contencioso-administrativos",
+    "Expedientes sancionadores",
+    "Función pública"
    ]
   },
   {
    "nombre": "Derecho Laboral",
    "url": "https://www.cendanamareloabogados.com/abogados-derecho-laboral-lugo/",
-   "resumen": "Asesoramiento laboral integral a empresas y trabajadores.",
+   "resumen": "Una de las especialidades de mayor prestigio de la firma: asesoramiento laboral integral.",
    "servicios": [
     "Reestructuraciones de plantillas y Expedientes de Regulación de Empleo (ERE)",
     "Negociación de convenios colectivos y acuerdos de empresa",
     "Asesoramiento en la contratación",
     "Despidos y extinciones de contratos",
     "Arbitrajes laborales",
-    "Incapacidades laborales y jubilaciones",
+    "Incapacidades laborales, jubilaciones",
     "Relaciones laborales con altos directivos",
     "Due diligence laboral",
     "Actas de liquidación y/o infracción en materia de Seguridad Social o motivadas por accidentes de trabajo",
@@ -286,7 +305,6 @@
    ]
   }
  ],
- "whatsapp": "https://wa.me/34982223053",
  "contacto": "https://www.cendanamareloabogados.com/contacto/",
  "actualidad": {
   "url": "https://www.cendanamareloabogados.com/actualidad-juridica/",

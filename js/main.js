@@ -99,7 +99,7 @@
   };
 
   /* Revelado al entrar en pantalla */
-  var items = document.querySelectorAll('.reveal, .firma-art, .tess, .stats');
+  var items = document.querySelectorAll('.reveal, .firma-art, .tess, .footer-mark');
   if (hasIO && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
@@ -183,6 +183,9 @@
       doc.classList.add('cursor-on');
       doc.classList.toggle('cursor-text', !!e.target.closest('input:not([type=checkbox]), textarea, select'));
       doc.classList.toggle('cursor-link', !!e.target.closest('a, button, summary, label'));
+      var lab = e.target.closest('[data-cursor]');
+      if (lab) dot.setAttribute('data-label', lab.getAttribute('data-cursor'));
+      doc.classList.toggle('cursor-label', !!lab);
       if (pending) return;
       pending = true;
       requestAnimationFrame(function () { dot.style.transform = 'translate3d(' + mx + 'px,' + my + 'px,0)'; pending = false; });
@@ -193,19 +196,26 @@
   /* Animaciones continuas (relevo de fotos, brillo de teselas) sólo cuando la página ya ha cargado */
   if (!reduce) window.addEventListener('load', function () { setTimeout(function () { doc.classList.add('is-live'); }, 2500); });
 
-  /* Mosaico del hero: cada rombo se desplaza con el ratón a su propia profundidad (sólo traslación) */
-  var mosaicEl = document.querySelector('[data-mosaic]');
-  if (mosaicEl && finePointer && !reduce) {
-    var mq = false, mvx = 0, mvy = 0;
-    mosaicEl.closest('section').addEventListener('pointermove', function (e) {
-      mvx = e.clientX / window.innerWidth - 0.5; mvy = e.clientY / window.innerHeight - 0.5;
-      if (mq) return; mq = true;
-      requestAnimationFrame(function () {
-        mosaicEl.style.setProperty('--mx', (mvx * 18).toFixed(2) + 'px');
-        mosaicEl.style.setProperty('--my', (mvy * 14).toFixed(2) + 'px');
-        mq = false;
-      });
-    }, { passive: true });
+  /* Carril de áreas: recorrido horizontal = ancho del carril menos el de la ventana (sólo se mide al cargar y al redimensionar) */
+  var track = document.querySelector('[data-track]');
+  if (track) {
+    var list = track.querySelector('.atrack-list');
+    var measure = function () { track.style.setProperty('--dist', Math.max(list.scrollWidth - window.innerWidth, 0) + 'px'); };
+    var rt;
+    window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(measure, 150); });
+    window.addEventListener('load', measure);
+    measure();
+  }
+
+  /* El botón flotante se oculta mientras hay un formulario a la vista */
+  var forms = document.querySelectorAll('[data-form]');
+  if (hasIO && forms.length) {
+    var visible = new Set();
+    var fio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) visible.add(en.target); else visible.delete(en.target); });
+      document.body.classList.toggle('form-in-view', visible.size > 0);
+    }, { threshold: .25 });
+    forms.forEach(function (f) { fio.observe(f); });
   }
 
   /* Herramientas de accesibilidad: preferencias guardadas en este navegador */

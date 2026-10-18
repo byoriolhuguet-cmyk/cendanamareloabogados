@@ -26,8 +26,6 @@ UPDATED = '2026-10-17'
 PHONE_TEL = '+34982223053'
 PHONE_HTML = '982&nbsp;223&nbsp;053'
 EMAIL = 'despacho@cendanamareloabogados.com'
-WHATSAPP = '34982223053'      # cambiar aquí si el WhatsApp es un móvil distinto (formato internacional, sin "+")
-WA_URL = f'https://wa.me/{WHATSAPP}?text=Hola,%20quisiera%20hacer%20una%20consulta%20al%20despacho.'
 MAPS = 'https://www.google.com/maps/search/?api=1&amp;query=Avenida+de+A+Coru%C3%B1a+10-14+27003+Lugo'
 CTA = 'Solicitar consulta'
 SITEMAP = []
@@ -169,29 +167,13 @@ def btn(label, href, kind='dark', extra='', arrow=True):
     return f'<a class="btn btn-{kind} {extra}" href="{href}"><span>{label}</span>{tail}</a>'
 
 
-def wa_link(cls='btn btn-line', label='WhatsApp'):
-    return f'<a class="{cls}" href="{WA_URL}" rel="noopener" target="_blank">{ico("whatsapp")}<span>{label}</span></a>'
-
-
 def contact_form(uid, compact=False):
     """Formulario de contacto (hero y cierre). Envía a /api/contact; si no está configurado, abre el correo."""
     options = ''.join(f'<option>{a["name"]}</option>' for a in AREAS)
     extra = '' if compact else f'''
           <div class="f-field f-wide"><label for="{uid}-mail">Email</label><input id="{uid}-mail" name="email" type="email" autocomplete="email" inputmode="email"><p class="f-err">Revise el email.</p></div>'''
-    rows = 5
+    rows = 3 if compact else 5
     comms = '' if compact else '<label class="f-check"><input type="checkbox" name="comunicaciones"><span>Acepto recibir comunicaciones del despacho (opcional).</span></label>'
-    if compact:
-        return f'''<form class="cform cform-bar" id="{uid}" novalidate data-form>
-        <div class="f-grid">
-          <div class="f-field"><label for="{uid}-name">Nombre *</label><input id="{uid}-name" name="nombre" type="text" autocomplete="name" required><p class="f-err">Indique su nombre.</p></div>
-          <div class="f-field"><label for="{uid}-tel">Teléfono *</label><input id="{uid}-tel" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required minlength="9"><p class="f-err">Indique un teléfono.</p></div>
-          <div class="f-field"><label for="{uid}-area">Área</label><select id="{uid}-area" name="area"><option value="">Opcional</option>{options}</select></div>
-          <div class="f-field f-msg"><label for="{uid}-msg">Su consulta *</label><input id="{uid}-msg" name="mensaje" type="text" required><p class="f-err">Cuéntenos brevemente su caso.</p></div>
-          <button class="btn btn-accent" type="submit"><span>Enviar</span><i>{ARROW}</i></button>
-        </div>
-        <div class="f-hp" aria-hidden="true"><label>Web <input type="text" name="web" tabindex="-1" autocomplete="off"></label></div>
-        <div class="f-foot"><label class="f-check"><input type="checkbox" name="privacidad" required><span>Acepto el <a href="/aviso-legal/">aviso legal y la política de privacidad</a>.&nbsp;*</span></label><p class="f-status" role="status" aria-live="polite"></p></div>
-      </form>'''
     return f'''<form class="cform" id="{uid}" novalidate data-form>
         <div class="f-grid">
           <div class="f-field"><label for="{uid}-name">Nombre *</label><input id="{uid}-name" name="nombre" type="text" autocomplete="name" required><p class="f-err">Indique su nombre.</p></div>
@@ -202,7 +184,7 @@ def contact_form(uid, compact=False):
         <div class="f-hp" aria-hidden="true"><label>Web <input type="text" name="web" tabindex="-1" autocomplete="off"></label></div>
         <label class="f-check"><input type="checkbox" name="privacidad" required><span>Acepto el <a href="/aviso-legal/">aviso legal y la política de privacidad</a>.&nbsp;*</span></label>
         {comms}
-        <button class="btn btn-accent btn-block" type="submit"><span>Enviar consulta</span><i>{ARROW}</i></button>
+        <button class="btn btn-accent btn-block" type="submit"><span>{'Solicitar valoración' if compact else 'Enviar consulta'}</span><i>{ARROW}</i></button>
         <p class="f-status" role="status" aria-live="polite"></p>
       </form>'''
 
@@ -214,56 +196,82 @@ HERO_PHOTOS = [
 ]
 
 
-def mosaic():
-    """Mosaico del hero: fotografías recortadas en rombo, con la geometría y el degradado
-    del isotipo. Cada rombo pasa por las tres fotos con un desfase (fundido y zoom lento)."""
+def card_tiles():
+    """Tres fotografías en rombo apoyadas en el borde superior del formulario, como las teselas
+    del isotipo sobre el nombre. Cada rombo releva sus fotos con un fundido; nunca es el logotipo."""
     def photos(k):
         out = ''
         for j in range(3):
             slug, alt = HERO_PHOTOS[(k + j) % 3]
-            load = 'fetchpriority="high"' if k == 0 and j == 0 else ('' if j == 0 else 'loading="lazy"')
-            out += (f'<picture style="--j:{j}"><source media="(max-width: 700px)" srcset="/assets/img/hero/{slug}-400.webp" type="image/webp">'
-                    f'<source srcset="/assets/img/hero/{slug}.webp" type="image/webp">'
-                    f'<img src="/assets/img/hero/{slug}.jpg" width="720" height="720" {load} decoding="async" alt="{alt if j == 0 else ""}"></picture>')
+            load = '' if j == 0 else 'loading="lazy"'
+            out += (f'<picture><source srcset="/assets/img/hero/{slug}-400.webp" type="image/webp">'
+                    f'<img src="/assets/img/hero/{slug}.jpg" width="400" height="400" {load} decoding="async" alt="{alt if j == 0 else ""}"></picture>')
         return out
-    photo_tiles = [(46, 55, 27, .6), (69.5, 31.5, 15.5, 1.1), (22.5, 78.5, 15.5, 1.4)]
-    plain = [(26.5, 34.5, 8, 1.8), (66.5, 75, 9, .9), (85.5, 54.5, 6.5, 2.2), (87, 13, 5, 2.6), (44, 12, 4.5, 1.6), (8, 58, 4, 2)]
-    tiles = ''.join(f'<figure class="mt mt-photo" style="--x:{x}%;--y:{y}%;--r:{r}%;--d:{d};--k:{k}">{photos(k)}</figure>'
-                    for k, (x, y, r, d) in enumerate(photo_tiles))
-    tiles += ''.join(f'<span class="mt mt-plain" style="--x:{x}%;--y:{y}%;--r:{r}%;--d:{d};--k:{k + 3}"></span>'
-                     for k, (x, y, r, d) in enumerate(plain))
-    return f'<div class="mosaic" data-mosaic>{tiles}<span class="mosaic-base" aria-hidden="true"></span></div>'
+    photo_tiles = [(50, 96, 25), (80.5, 98, 14), (19.5, 98, 12.5)]
+    plain = [(31, 46, 5), (66, 32, 4.5), (95, 66, 3.6), (5, 72, 3.2)]
+    tiles = ''.join(f'<figure class="mt mt-photo" style="--x:{x}%;--y:{y}%;--r:{r}%;--k:{k}">{photos(k)}</figure>'
+                    for k, (x, y, r) in enumerate(photo_tiles))
+    tiles += ''.join(f'<span class="mt mt-plain" style="--x:{x}%;--y:{y}%;--r:{r}%;--k:{k + 3}"></span>'
+                     for k, (x, y, r) in enumerate(plain))
+    return f'<div class="card-tiles" data-mosaic>{tiles}</div>'
 
 
 STATS = [
-    # (cifra, prefijo, unidad visual, rombos, rótulo, contexto)
-    (datetime.now().year - 1973, '+', 'años', datetime.now().year - 1973, 'Años de ejercicio', 'Desde 1973. Cada rombo, un año del despacho.'),
-    (5, '', 'abogados', 5, 'Abogados colegiados', 'En el Ilustre Colegio de la Abogacía de Lugo.'),
-    (500, '+', 'clientes', 50, 'Clientes de confianza', 'Empresas y particulares. Cada rombo, diez clientes.'),
-    (10000, '+', 'casos', 100, 'Casos llevados', 'En seis áreas del Derecho. Cada rombo, cien casos.'),
+    # (cifra, prefijo, rótulo, contexto)
+    (datetime.now().year - 1973, '+', 'Años de ejercicio', 'Desde 1973, en Lugo.'),
+    (5, '', 'Abogados colegiados', 'En el Ilustre Colegio de la Abogacía de Lugo.'),
+    (500, '+', 'Clientes de confianza', 'Empresas y particulares de Galicia y de toda España.'),
+    (10000, '+', 'Casos llevados', 'En seis áreas del Derecho.'),
 ]
 
 
-def stats_band():
-    """Las cifras del despacho, con su escala dibujada en teselas."""
-    cells = ''
-    for n, (v, pre, _, units, label, ctx) in enumerate(STATS):
-        shown = f'{pre}{v:,}'.replace(',', '.')
-        dots = ''.join(f'<i style="--u:{u}"></i>' for u in range(units))
-        cells += f'''
+def stats_band(dark=False):
+    """Las cifras del despacho: sólo el dato, grande, con su contexto."""
+    cells = ''.join(f'''
           <div class="stat reveal" style="--d:{n * 110}ms">
             <dt class="stat-l">{label}</dt>
-            <dd class="stat-n" data-count="{v}" data-prefix="{pre}">{shown}</dd>
-            <dd class="stat-units stat-u{units}" aria-hidden="true">{dots}</dd>
+            <dd class="stat-n" data-count="{v}" data-prefix="{pre}">{pre}{f"{v:,}".replace(",", ".")}</dd>
             <dd class="stat-c">{ctx}</dd>
-          </div>'''
-    return f'''    <section class="stats" aria-labelledby="h-datos">
+          </div>''' for n, (v, pre, label, ctx) in enumerate(STATS))
+    return f'''    <section class="stats{' stats-dark' if dark else ''}" aria-labelledby="h-datos">
       <div class="wrap">
-        <h2 id="h-datos" class="stats-title">El despacho en cifras</h2>
+        <h2 id="h-datos" class="eyebrow">El despacho en cifras</h2>
         <dl class="stats-grid">{cells}
         </dl>
       </div>
     </section>'''
+
+
+def manifesto(text):
+    """Frase que se rellena palabra a palabra al hacer scroll (animación ligada al scroll, sin JS)."""
+    words = ' '.join(f'<span>{w}</span>' for w in text.split())
+    return f'<p class="manifesto"><span class="sr-only">{text}</span><span aria-hidden="true">{words}</span></p>'
+
+
+def areas_track():
+    """Áreas en un carril horizontal que avanza con el scroll (escritorio) o con el dedo (móvil)."""
+    cards = ''
+    for i, a in enumerate(AREAS):
+        keys = ''.join(f'<li>{k}</li>' for k in KEYS[a['id']])
+        cards += f'''
+            <li class="acard"><a href="/{a["slug"]}/" data-cursor="Ver el área">
+              <span class="acard-n">{i + 1:02d}</span>
+              <h3 class="acard-name">{a["name"]}</h3>
+              <p class="acard-short">{a["short"]}</p>
+              <ul class="acard-keys">{keys}</ul>
+              <span class="acard-go">Ver el área {ARROW}</span>
+            </a></li>'''
+    return f'''<div class="atrack" data-track>
+        <div class="atrack-sticky">
+          <div class="wrap atrack-head">
+            <h2 id="h-areas" class="display-lg">Seis áreas, un solo equipo.</h2>
+            <a class="link" href="/areas-de-practica/">Todas las áreas {ARROW}</a>
+          </div>
+          <ol class="atrack-list" role="list">{cards}
+          </ol>
+          <div class="wrap"><span class="atrack-bar" aria-hidden="true"><span></span></span></div>
+        </div>
+      </div>'''
 
 
 # ---------------------------------------------------------------- Cabecera con menús desplegables
@@ -320,7 +328,6 @@ def header(active):
           <a class="nav-phone" href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a>
           {btn(CTA, '#consulta-final', 'accent', 'btn-sm nav-cta', arrow=False)}
           <div class="nav-mobile-extra">
-            {wa_link('btn btn-line btn-block')}
             <p>Avda. de A Coruña 10-14, Entlo. 27003 Lugo<br>Lunes a jueves, 9:00 a 14:30 y 16:00 a 19:30. Viernes, 9:00 a 15:00</p>
           </div>
         </div>
@@ -334,11 +341,10 @@ def header(active):
 def footer():
     areas = ''.join(f'<li><a href="/{a["slug"]}/">{a["name"]}</a></li>' for a in AREAS)
     team = ''.join(f'<li><a href="/equipo-profesional/{s}/">{n}</a></li>' for s, n, _ in TEAM)
-    return f'''  <footer class="site-footer">
+    return f'''  <footer class="site-footer dark">
     <div class="wrap">
       <div class="footer-top">
         <a class="footer-brand" href="/">{logo_img()}</a>
-        <!--tess:tess-foot-->
         <p class="footer-claim">Despacho de abogados en Lugo desde 1973. Asesoramiento a empresas y particulares en Galicia y en toda España.</p>
       </div>
       <div class="footer-grid">
@@ -346,7 +352,6 @@ def footer():
           <p class="footer-title">Despacho</p>
           <ul class="footer-list">
             <li><a href="tel:{PHONE_TEL}">{PHONE_HTML}</a></li>
-            <li><a href="{WA_URL}" rel="noopener" target="_blank">WhatsApp</a></li>
             <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
             <li><a href="{MAPS}" rel="noopener" target="_blank">Avda. de A Coruña 10-14, Entlo.<br>27003 Lugo</a></li>
             <li>L a J: 9:00 a 14:30 y 16:00 a 19:30<br>V: 9:00 a 15:00</li>
@@ -379,6 +384,7 @@ def footer():
         </p>
       </div>
     </div>
+    <p class="footer-mark" aria-hidden="true"><span>Cendán<span class="amp">&amp;</span>Amarelo</span></p>
   </footer>
   <div class="a11y" data-a11y>
     <button class="a11y-btn" type="button" aria-expanded="false" aria-controls="a11y-panel" aria-label="Herramientas de accesibilidad">{ico('ph_access')}</button>
@@ -397,12 +403,13 @@ def footer():
       </ul>
     </div>
   </div>
-  <a class="wa-float" href="{WA_URL}" rel="noopener" target="_blank" aria-label="Escríbanos por WhatsApp">{ico('whatsapp')}<span>Escríbanos</span></a>'''
+  <a class="cta-float" href="#consulta-final" data-cta-float><i aria-hidden="true"></i><span>{CTA}</span></a>'''
 
 
 def finale(title='Hablemos de su caso.', text='Primera valoración sin compromiso. Le respondemos en el menor plazo posible.'):
     """Cierre de cada página: formulario completo y datos de contacto."""
-    return f'''    <section class="finale" id="consulta-final" aria-labelledby="fin-title">
+    return f'''    <section class="finale dark" id="consulta-final" aria-labelledby="fin-title">
+      <div class="lines" aria-hidden="true"></div>
       <div class="wrap finale-grid">
         <div class="finale-copy">
           <p class="eyebrow">Contacto</p>
@@ -410,13 +417,12 @@ def finale(title='Hablemos de su caso.', text='Primera valoración sin compromis
           <p class="reveal">{text}</p>
           <dl class="finale-data">
             <div class="reveal"><dt>{ico('phone')}Teléfono</dt><dd><a href="tel:{PHONE_TEL}">{PHONE_HTML}</a></dd></div>
-            <div class="reveal"><dt>{ico('whatsapp')}WhatsApp</dt><dd><a href="{WA_URL}" rel="noopener" target="_blank">Escríbanos ahora</a></dd></div>
             <div class="reveal"><dt>{ico('envelope_simple')}Correo</dt><dd><a href="mailto:{EMAIL}">{EMAIL}</a></dd></div>
             <div class="reveal"><dt>{ico('map_pin')}Oficina</dt><dd><a href="{MAPS}" rel="noopener" target="_blank">Avda. de A Coruña 10-14, Entlo. 27003 Lugo</a></dd></div>
             <div class="reveal"><dt>{ico('clock')}Horario</dt><dd>Lunes a jueves, de 9:00 a 14:30 y de 16:00 a 19:30. Viernes, de 9:00 a 15:00</dd></div>
           </dl>
         </div>
-        <div class="finale-form reveal">
+        <div class="finale-form card reveal">
           <!--tess:tess-card-->
           <p class="form-title">Escríbanos</p>
           {contact_form('form-fin')}
@@ -429,7 +435,8 @@ def page_hero(eyebrow, title, lead, crumbs, art=''):
     trail = '<li><a href="/">Inicio</a></li>' + ''.join(
         f'<li><a href="{u}">{n}</a></li>' if i < len(crumbs) - 1 else f'<li aria-current="page">{n}</li>'
         for i, (n, u) in enumerate(crumbs))
-    return f'''    <section class="phero">
+    return f'''    <section class="phero dark">
+      <div class="lines" aria-hidden="true"></div>
       <div class="wrap phero-grid">
         <div class="phero-copy">
           <nav class="crumbs" aria-label="Migas de pan"><ol>{trail}</ol></nav>
@@ -481,9 +488,9 @@ def areas_rows(level='h3'):
 def tcard(i, s, n, r, level):
     areas = ', '.join(AREA_LABEL[x] for x in LAWYERS[s]['areas']) or 'Equipo jurídico'
     return f'''
-          <li class="tcard reveal" style="--d:{i * 80}ms"><a href="/equipo-profesional/{s}/">
+          <li class="tcard reveal" style="--d:{i * 80}ms"><a href="/equipo-profesional/{s}/" data-cursor="Ver perfil">
             {picture(s, f'{n}, {r.lower()} de Cendán &amp; Amarelo Abogados', 'tcard-ph')}
-            <div class="tcard-body"><{level}>{n}</{level}><span class="tcard-role">{r}</span><span class="tcard-areas">{areas}</span></div>
+            <div class="tcard-body"><span class="tcard-role">{r}</span><{level}>{n}</{level}><span class="tcard-areas">{areas}</span></div>
           </a></li>'''
 
 
@@ -515,7 +522,6 @@ def aside_card():
           <p class="aside-title">¿Hablamos de su caso?</p>
           <p>Primera valoración sin compromiso.</p>
           {btn(CTA, '#consulta-final', 'accent', 'btn-block')}
-          {wa_link('btn btn-line btn-block')}
           <a class="aside-phone" href="tel:{PHONE_TEL}">{ico('phone')}{PHONE_HTML}</a>
         </aside>'''
 
@@ -551,8 +557,7 @@ ORG = {
         {'@type': 'CommunicateAction', 'name': 'Solicitar una consulta', 'description': 'Envía una consulta al despacho (requiere aceptar la política de privacidad).',
          'target': {'@type': 'EntryPoint', 'urlTemplate': DOMAIN + '/api/contact', 'httpMethod': 'POST', 'contentType': 'application/json',
                     'actionPlatform': ['https://schema.org/DesktopWebPlatform', 'https://schema.org/MobileWebPlatform']}},
-        {'@type': 'CommunicateAction', 'name': 'Llamar al despacho', 'target': f'tel:{PHONE_TEL}'},
-        {'@type': 'CommunicateAction', 'name': 'Escribir por WhatsApp', 'target': f'https://wa.me/{WHATSAPP}'}],
+        {'@type': 'CommunicateAction', 'name': 'Llamar al despacho', 'target': f'tel:{PHONE_TEL}'}],
     'hasOfferCatalog': {'@type': 'OfferCatalog', 'name': 'Áreas de práctica', 'itemListElement': [
         {'@type': 'Offer', 'itemOffered': {'@type': 'Service', 'name': a['name'], 'url': f'{DOMAIN}/{a["slug"]}/'}} for a in AREAS]},
 }
@@ -650,64 +655,56 @@ def page(path, title, desc, main, active='', crumbs=None, schema=None, home=Fals
 def build_home():
     intro = '''  <div class="intro" aria-hidden="true"><div class="intro-box"><p class="intro-name">Cendán<span class="amp">&amp;</span>Amarelo</p><p class="intro-sub">Abogados</p><span class="intro-bar"><span></span><b></b></span></div></div>
 '''
-    words = ''.join(f'<span>{a["name"].replace("Derecho ", "")}</span><i aria-hidden="true"></i>' for a in AREAS)
     top = top_news(5)
     news_block = news_list(top, 'news-compact') if top else '<p class="lead">Cada mañana, lo más importante del mundo jurídico en Galicia y España.</p>'
     upd = f'<p class="news-date">{fecha(NEWS["updated"], weekday=True).capitalize()}</p>' if NEWS.get('updated') else ''
-    main = f'''    <section class="hero" aria-labelledby="h1" id="consulta">
+    main = f'''    <section class="hero dark" aria-labelledby="h1" id="consulta">
+      <div class="lines" aria-hidden="true"></div>
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Abogados en Lugo · Desde 1973</p>
-          <h1 id="h1" class="display-hero">Despacho de abogados <em>en Lugo</em><span class="dot">.</span></h1>
+          <h1 id="h1" class="display-hero"><span class="ln"><span>Despacho</span></span> <span class="ln"><span>de abogados</span></span> <span class="ln"><span><em>en Lugo</em><span class="dot">.</span></span></span></h1>
           <p class="lead">Asesoramiento jurídico a empresas y particulares en Galicia y en toda España, de forma personal e individualizada.</p>
-          <div class="hero-links">
-            <a class="btn btn-accent" href="#form-hero"><span>{CTA}</span><i>{ARROW}</i></a>
-            <a href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a>
-            <a href="{WA_URL}" rel="noopener" target="_blank">{ico('whatsapp')}<span>WhatsApp</span></a>
-          </div>
+          <ul class="hero-facts" role="list">
+            <li><strong>1973</strong> año de fundación</li>
+            <li><strong>6</strong> áreas de práctica</li>
+            <li><strong>5</strong> abogados</li>
+          </ul>
+          <a class="hero-phone" href="tel:{PHONE_TEL}">{ico('phone')}<span>{PHONE_HTML}</span></a>
         </div>
-        {mosaic()}
-        <div class="hero-form">
-          <p class="form-title">Primera valoración sin compromiso <span>Déjenos sus datos y le llamamos.</span></p>
+        <div class="hero-form card" id="consulta-hero">
+          {card_tiles()}
+          <p class="form-title">Primera valoración<br>sin compromiso</p>
+          <p class="form-sub">Déjenos sus datos y le llamamos.</p>
           {contact_form('form-hero', compact=True)}
         </div>
+      </div>
+      <a class="hero-scroll" href="#h-firma" aria-label="Seguir leyendo"><span></span></a>
+    </section>
+
+    <section class="section firma" aria-labelledby="h-firma">
+      <div class="wrap firma-grid">
+        <div class="firma-copy">
+          <h2 id="h-firma" class="eyebrow">La firma</h2>
+          {manifesto('Fundada en 1973 por el letrado Antonio Cendán Corredoira, la firma ha crecido respondiendo a las demandas de sus clientes, incorporando abogados especializados en cada materia.')}
+          <ul class="values" role="list">
+            <li class="reveal">Perseguimos la más alta calidad en el servicio</li>
+            <li class="reveal" style="--d:90ms">Especialización y experiencia</li>
+            <li class="reveal" style="--d:180ms">Compromiso por la excelencia y la integridad</li>
+          </ul>
+          {btn('Conocer la firma', '/despacho-abogados-lugo/', 'line')}
+        </div>
+        <figure class="firma-art">
+          {office('firma-ph')}
+          <figcaption>Nuestro despacho en la Avenida de A Coruña, Lugo</figcaption>
+        </figure>
       </div>
     </section>
 
 {stats_band()}
 
-    <div class="marquee" aria-hidden="true"><div class="marquee-track"><div>{words}</div><div>{words}</div></div></div>
-
-    <section class="section firma" aria-labelledby="h-firma">
-      <div class="wrap">
-        <div class="firma-grid">
-          <div class="firma-copy">
-            <p class="eyebrow">La firma</p>
-            <h2 id="h-firma" class="display-lg reveal">Un equipo altamente cualificado al servicio de sus clientes.</h2>
-            <p class="firma-text reveal">Fundada en 1973 por el letrado Antonio Cendán Corredoira, la firma ha crecido respondiendo a las demandas de sus clientes, ampliando sus campos de actuación e incorporando abogados especializados en las distintas materias. Asesora a empresas y particulares, entre ellos importantes compañías de ámbito regional y nacional.</p>
-            <ul class="values" role="list">
-              <li class="reveal">Perseguimos la más alta calidad en el servicio</li>
-              <li class="reveal" style="--d:90ms">Especialización y experiencia</li>
-              <li class="reveal" style="--d:180ms">Compromiso por la excelencia y la integridad</li>
-            </ul>
-            {btn('Conocer la firma', '/despacho-abogados-lugo/', 'line')}
-          </div>
-          <figure class="firma-art">
-            {office('firma-ph')}
-            <figcaption>Nuestro despacho en la Avenida de A Coruña, Lugo</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-paper" aria-labelledby="h-areas">
-      <div class="wrap">
-        <div class="head-row">
-          <h2 id="h-areas" class="display-lg reveal">Áreas de práctica.</h2>
-          <a class="link reveal" href="/areas-de-practica/">Todas las áreas {ARROW}</a>
-        </div>
-        {areas_rows()}
-      </div>
+    <section class="areas-sec dark" aria-labelledby="h-areas">
+      {areas_track()}
     </section>
 
     <section class="section method" aria-labelledby="h-metodo">
@@ -750,7 +747,7 @@ def build_home():
 {finale()}'''
     faq_ld = {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': r}} for q, r in FAQ[:4]]}
     speak = {'@type': 'WebPage', 'url': DOMAIN + '/', 'name': 'Despacho de abogados en Lugo', 'inLanguage': 'es-ES',
-             'about': {'@id': DOMAIN + '/#despacho'}, 'speakable': {'@type': 'SpeakableSpecification', 'cssSelector': ['#h1', '.hero .lead', '.stats']}}
+             'about': {'@id': DOMAIN + '/#despacho'}, 'speakable': {'@type': 'SpeakableSpecification', 'cssSelector': ['#h1', '.hero .lead', '.manifesto', '.stats']}}
     page('/', 'Despacho de abogados en Lugo · Galicia y España | Cendán & Amarelo Abogados',
          'Cendán & Amarelo, despacho de abogados en Lugo desde 1973. Derecho penal económico, mercantil, tributario, civil, administrativo y laboral para empresas y particulares de Galicia y toda España.',
          main, home=True, intro=intro, schema=[faq_ld, speak])
@@ -825,7 +822,10 @@ def build_area(a):
     crumbs = [('Áreas de práctica', '/areas-de-practica/'), (a['name'], f'/{a["slug"]}/')]
     lead_p, *rest = a['intro']
     rest_html = ''.join(f'<p class="reveal">{p}</p>' for p in rest)
-    services = ''.join(f'<li class="reveal" style="--d:{(n % 2) * 60}ms">{ico("ph_check")}<span>{s}</span></li>' for n, s in enumerate(a['services']))
+    services = ''
+    for title, items in a['groups']:
+        lis = ''.join(f'<li class="reveal" style="--d:{(n % 2) * 60}ms">{ico("ph_check")}<span>{x}</span></li>' for n, x in enumerate(items))
+        services += (f'<div class="sgroup">{f'<h3 class="sgroup-title">{title}</h3>' if title else ''}<ul class="services" role="list">{lis}</ul></div>')
     lawyers = [(s, n, r) for s, n, r in TEAM if a['id'] in LAWYERS[s]['areas']]
     law_html = ''.join(f'<li><a href="/equipo-profesional/{s}/">{picture(s, n, "mini-ph")}<span><strong>{n}</strong><small>{r}</small></span></a></li>' for s, n, r in lawyers)
     news = [i for i in NEWS['items'] if i.get('area') == a['id']][:4]
@@ -850,7 +850,7 @@ def build_area(a):
           <p class="statement reveal">{lead_p}</p>
           <div class="prose">{rest_html}</div>
           <h2 class="display-md sub reveal">Qué hacemos.</h2>
-          <ul class="services" role="list">{services}</ul>
+          {services}
           <p class="note reveal">{a['note']}</p>
           {team_block}
         </div>
@@ -906,12 +906,17 @@ def build_equipo():
         others = ''.join(f'<li><a href="/equipo-profesional/{o}/">{on} {ARROW}</a></li>' for o, on, _ in TEAM if o != s)
         art = f'<figure class="phero-portrait">{picture(s, f"{n}, {r.lower()} de Cendán &amp; Amarelo Abogados", eager=True)}</figure>'
         areas_block = f'<h2 class="display-md sub reveal">Áreas de práctica.</h2><ul class="pills" role="list">{areas}</ul>' if areas else ''
+        facts = ''.join(f'<li class="reveal" style="--d:{k * 70}ms">{x}</li>' for k, x in enumerate(info['facts']))
+        bio = ''.join(f'<p class="reveal">{x}</p>' for x in info['bio'])
         main_l = f'''{page_hero(r, n, '', crumbs_l, art)}
 
     <section class="section">
       <div class="wrap with-aside">
         <div class="main-col">
           <p class="statement reveal">{info['text']}</p>
+          <ul class="facts-list" role="list">{facts}</ul>
+          <h2 class="display-md sub reveal">Trayectoria.</h2>
+          <div class="prose bio">{bio}</div>
           <dl class="profile-data">
             <div><dt>Cargo</dt><dd>{r}</dd></div>
             {col}
@@ -930,7 +935,8 @@ def build_equipo():
 {finale()}'''
         person = {'@type': 'Person', '@id': f'{DOMAIN}/equipo-profesional/{s}/#persona', 'name': n, 'jobTitle': r,
                   'image': f'{DOMAIN}/assets/img/equipo/{s}.jpg', 'worksFor': {'@id': DOMAIN + '/#despacho'},
-                  'knowsAbout': [AREA_BY_ID[x]['name'] for x in info['areas']], 'workLocation': {'@type': 'Place', 'name': 'Lugo'}}
+                  'knowsAbout': [AREA_BY_ID[x]['name'] for x in info['areas']], 'workLocation': {'@type': 'Place', 'name': 'Lugo'},
+                  'description': strip_tags(' '.join(info['bio']))[:600]}
         if info['colegiado']:
             person['memberOf'] = {'@type': 'Organization', 'name': 'Ilustre Colegio de la Abogacía de Lugo'}
         page(f'/equipo-profesional/{s}/', f'{n}, {r.lower()} · Cendán & Amarelo Abogados, Lugo',
@@ -1095,14 +1101,13 @@ def build_galicia():
 
 def build_contacto():
     crumbs = [('Contacto', '/contacto/')]
-    main = f'''{page_hero('Contacto', 'Hablemos de su caso', 'Consúltenos sin compromiso: por teléfono, por WhatsApp, por correo o con el formulario.', crumbs)}
+    main = f'''{page_hero('Contacto', 'Hablemos de su caso', 'Consúltenos sin compromiso: por teléfono, por correo o con el formulario.', crumbs)}
 
     <section class="section">
       <div class="wrap contact-grid">
         <div>
           <div class="contact-quick">
             <a class="btn btn-dark btn-block" href="tel:{PHONE_TEL}">{ico('phone')}<span>Llamar&nbsp;al&nbsp;{PHONE_HTML}</span></a>
-            {wa_link('btn btn-line btn-block')}
           </div>
           <figure class="contact-photo reveal">{office()}</figure>
           <dl class="data-list">
@@ -1123,7 +1128,7 @@ def build_contacto():
     </section>'''
     faq_ld = {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': r}} for q, r in FAQ]}
     page('/contacto/', 'Contacto · Abogados en Lugo | Cendán & Amarelo',
-         'Contacte con Cendán & Amarelo Abogados: Avda. de A Coruña 10-14, Lugo. Teléfono y WhatsApp 982 223 053. Primera valoración sin compromiso.',
+         'Contacte con Cendán & Amarelo Abogados: Avda. de A Coruña 10-14, Lugo. Teléfono 982 223 053. Primera valoración sin compromiso.',
          main, 'contacto', crumbs, [faq_ld])
 
 
@@ -1163,14 +1168,14 @@ def build_agent_files():
     areas = '\n'.join(f'- [{a["name"]}]({DOMAIN}/{a["slug"]}/): {a["short"]}' for a in AREAS)
     team = '\n'.join(f'- [{n}]({DOMAIN}/equipo-profesional/{s}/), {r}' for s, n, r in TEAM)
     hist = '\n'.join(f'- {y}: {strip_tags(d)}' for y, _, d in HISTORY)
-    cifras = '\n'.join(f'- {pre}{v:,}'.replace(',', '.') + f' {label.lower()}. {ctx.split(". Cada")[0].rstrip(".")}.' for v, pre, _, _, label, ctx in STATS)
+    cifras = '\n'.join(f'- {pre}{v:,}'.replace(',', '.') + f' {label.lower()}. {ctx}' for v, pre, label, ctx in STATS)
     llms = f'''# Cendán & Amarelo Abogados
 
 > Despacho de abogados en Lugo (Galicia, España), fundado en 1973 por el letrado Antonio Cendán Corredoira. Asesora a empresas y particulares de Galicia y de toda España, de forma personal e individualizada. Primera valoración sin compromiso.
 
 - Razón social: Cendán & Amarelo Abogados, S.L.P. (NIF B27365667). Registro Mercantil de Lugo, Tomo 385, Folio 42, Hoja LU-12246
 - Dirección: Avenida de A Coruña, 10-14, Entresuelo, 27003 Lugo
-- Teléfono: +34 982 223 053. WhatsApp: https://wa.me/{WHATSAPP}. Email: {EMAIL}
+- Teléfono: +34 982 223 053. Email: {EMAIL}
 - Horario: lunes a jueves de 9:00 a 14:30 y de 16:00 a 19:30; viernes de 9:00 a 15:00
 - Formulario de contacto: {DOMAIN}/contacto/
 
@@ -1197,7 +1202,7 @@ def build_agent_files():
 
 ## Acciones para agentes
 - Solicitar una consulta en nombre del usuario: POST {DOMAIN}/api/contact con JSON {{"nombre", "telefono", "mensaje", "privacidad": true, "email"?, "area"?}}. Descripción OpenAPI: {DOMAIN}/openapi.json. Envíela sólo con el consentimiento expreso del usuario, que debe aceptar el aviso legal y la política de privacidad ({DOMAIN}/aviso-legal/).
-- Llamar: tel:{PHONE_TEL}. WhatsApp: https://wa.me/{WHATSAPP}. Correo: mailto:{EMAIL}
+- Llamar: tel:{PHONE_TEL}. Correo: mailto:{EMAIL}
 - Noticias del día en JSON: {DOMAIN}/actualidad-juridica/noticias.json (RSS: {DOMAIN}/actualidad-juridica/feed.xml)
 - Información completa en texto: {DOMAIN}/llms-full.txt
 - Datos estructurados (JSON): {DOMAIN}/despacho.json
@@ -1207,9 +1212,11 @@ def build_agent_files():
     lines = ['# Cendán & Amarelo Abogados: información completa', '', llms.split('\n', 2)[2], '']
     for a in AREAS:
         lines += [f'## {a["name"]} ({DOMAIN}/{a["slug"]}/)', a['short']] + [strip_tags(p) for p in a['intro']]
-        lines += ['Servicios:'] + [f'- {strip_tags(x)}' for x in a['services']] + [strip_tags(a['note']), '']
+        for title, items in a['groups']:
+            lines += [f'{title}:' if title else 'Servicios:'] + [f'- {strip_tags(x)}' for x in items]
+        lines += [strip_tags(a['note']), '']
     for s, n, r in TEAM:
-        lines += [f'## {n} ({r})', strip_tags(LAWYERS[s]['text']), '']
+        lines += [f'## {n} ({r})', strip_tags(LAWYERS[s]['text'])] + [strip_tags(x) for x in LAWYERS[s]['bio']] + ['']
     lines += ['## Ámbito'] + [f'- {p}: {t}' for p, t in PROVINCES] + ['- Resto de España: Audiencia Nacional, Tribunal Supremo y administraciones del Estado.', '']
     lines += ['## Preguntas frecuentes'] + [f'P: {q}\nR: {r}' for q, r in FAQ] + ['']
     for g in GUIDES:
@@ -1222,11 +1229,10 @@ def build_agent_files():
     data = {k: v for k, v in ORG.items() if k != 'hasOfferCatalog'}
     data['@context'] = 'https://schema.org'
     data['areas'] = [{'nombre': a['name'], 'url': f'{DOMAIN}/{a["slug"]}/', 'resumen': a['short'], 'servicios': [strip_tags(x) for x in a['services']]} for a in AREAS]
-    data['whatsapp'] = f'https://wa.me/{WHATSAPP}'
     data['contacto'] = DOMAIN + '/contacto/'
     data['actualidad'] = {'url': DOMAIN + '/actualidad-juridica/', 'rss': DOMAIN + '/actualidad-juridica/feed.xml',
                           'json': DOMAIN + '/actualidad-juridica/noticias.json', 'actualizado': NEWS.get('updated')}
-    data['cifras'] = [{'valor': v, 'prefijo': pre, 'rotulo': label} for v, pre, _, _, label, _ in STATS]
+    data['cifras'] = [{'valor': v, 'prefijo': pre, 'rotulo': label} for v, pre, label, _ in STATS]
     data['openapi'] = DOMAIN + '/openapi.json'
     openapi = {
         'openapi': '3.1.0',
@@ -1246,7 +1252,7 @@ def build_agent_files():
                     'privacidad': {'type': 'boolean', 'const': True, 'description': 'Aceptación expresa del aviso legal y la política de privacidad'},
                     'comunicaciones': {'type': 'boolean'}}}}}},
             'responses': {'200': {'description': 'Consulta recibida'}, '400': {'description': 'Datos incompletos'},
-                          '503': {'description': 'Envío no disponible: use teléfono, WhatsApp o correo'}}}}}}
+                          '503': {'description': 'Envío no disponible: use el teléfono o el correo'}}}}}}
     with open(os.path.join(ROOT, 'openapi.json'), 'w', encoding='utf-8') as f:
         json.dump(openapi, f, ensure_ascii=False, indent=1)
     with open(os.path.join(ROOT, 'despacho.json'), 'w', encoding='utf-8') as f:

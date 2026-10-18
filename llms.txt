@@ -4,17 +4,17 @@
 
 - Razón social: Cendán & Amarelo Abogados, S.L.P. (NIF B27365667). Registro Mercantil de Lugo, Tomo 385, Folio 42, Hoja LU-12246
 - Dirección: Avenida de A Coruña, 10-14, Entresuelo, 27003 Lugo
-- Teléfono: +34 982 223 053. WhatsApp: https://wa.me/34982223053. Email: despacho@cendanamareloabogados.com
+- Teléfono: +34 982 223 053. Email: despacho@cendanamareloabogados.com
 - Horario: lunes a jueves de 9:00 a 14:30 y de 16:00 a 19:30; viernes de 9:00 a 15:00
 - Formulario de contacto: https://www.cendanamareloabogados.com/contacto/
 
 ## Áreas de práctica
-- [Derecho Penal](https://www.cendanamareloabogados.com/abogados-derecho-penal-lugo/): Defensa y acusación, con especial experiencia en Derecho penal económico.
-- [Derecho Mercantil y Concursal](https://www.cendanamareloabogados.com/abogados-derecho-mercantil-concursal-lugo/): Asesoramiento a empresas, desde su constitución hasta las situaciones de insolvencia.
-- [Derecho Tributario](https://www.cendanamareloabogados.com/abogados-derecho-tributario-lugo/): Planificación fiscal y defensa del contribuyente ante la Administración.
-- [Derecho Civil y Procesal](https://www.cendanamareloabogados.com/abogados-derecho-civil-procesal-lugo/): Familia, sucesiones, contratos y litigación civil.
-- [Derecho Administrativo](https://www.cendanamareloabogados.com/abogados-derecho-adminitrativo-lugo/): Defensa de particulares y empresas frente a las administraciones públicas.
-- [Derecho Laboral](https://www.cendanamareloabogados.com/abogados-derecho-laboral-lugo/): Asesoramiento laboral integral a empresas y trabajadores.
+- [Derecho Penal](https://www.cendanamareloabogados.com/abogados-derecho-penal-lugo/): Gran experiencia en Derecho penal económico y en procesos de relevancia jurídica.
+- [Derecho Mercantil y Concursal](https://www.cendanamareloabogados.com/abogados-derecho-mercantil-concursal-lugo/): Asesoramiento empresarial integral, desde la constitución hasta la disolución y liquidación.
+- [Derecho Tributario](https://www.cendanamareloabogados.com/abogados-derecho-tributario-lugo/): Eficiencia fiscal en cada operación, para empresas, particulares y grandes patrimonios.
+- [Derecho Civil y Procesal](https://www.cendanamareloabogados.com/abogados-derecho-civil-procesal-lugo/): Familia, sucesiones, arrendamientos y propiedad horizontal, con abogados y mediadores.
+- [Derecho Administrativo](https://www.cendanamareloabogados.com/abogados-derecho-adminitrativo-lugo/): Asesoramiento a entidades del sector público, empresas privadas y particulares.
+- [Derecho Laboral](https://www.cendanamareloabogados.com/abogados-derecho-laboral-lugo/): Una de las especialidades de mayor prestigio de la firma: asesoramiento laboral integral.
 
 ## Equipo
 - [Jesús A. Amarelo Fernández](https://www.cendanamareloabogados.com/equipo-profesional/jesus-a-amarelo-fernandez/), Socio
@@ -39,14 +39,14 @@
 - [Aviso legal](https://www.cendanamareloabogados.com/aviso-legal/)
 
 ## Cifras
-- +53 años de ejercicio. Desde 1973.
+- +53 años de ejercicio. Desde 1973, en Lugo.
 - 5 abogados colegiados. En el Ilustre Colegio de la Abogacía de Lugo.
-- +500 clientes de confianza. Empresas y particulares.
+- +500 clientes de confianza. Empresas y particulares de Galicia y de toda España.
 - +10.000 casos llevados. En seis áreas del Derecho.
 
 ## Acciones para agentes
 - Solicitar una consulta en nombre del usuario: POST https://www.cendanamareloabogados.com/api/contact con JSON {"nombre", "telefono", "mensaje", "privacidad": true, "email"?, "area"?}. Descripción OpenAPI: https://www.cendanamareloabogados.com/openapi.json. Envíela sólo con el consentimiento expreso del usuario, que debe aceptar el aviso legal y la política de privacidad (https://www.cendanamareloabogados.com/aviso-legal/).
-- Llamar: tel:+34982223053. WhatsApp: https://wa.me/34982223053. Correo: mailto:despacho@cendanamareloabogados.com
+- Llamar: tel:+34982223053. Correo: mailto:despacho@cendanamareloabogados.com
 - Noticias del día en JSON: https://www.cendanamareloabogados.com/actualidad-juridica/noticias.json (RSS: https://www.cendanamareloabogados.com/actualidad-juridica/feed.xml)
 - Información completa en texto: https://www.cendanamareloabogados.com/llms-full.txt
 - Datos estructurados (JSON): https://www.cendanamareloabogados.com/despacho.json

@@ -77,7 +77,7 @@
       "description": "Datos incompletos"
      },
      "503": {
-      "description": "Envío no disponible: use teléfono, WhatsApp o correo"
+      "description": "Envío no disponible: use el teléfono o el correo"
      }
     }
    }
