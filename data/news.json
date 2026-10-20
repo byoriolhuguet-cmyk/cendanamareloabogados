@@ -1,6 +1,303 @@
 {
- "updated": "2026-10-19T05:50:19Z",
+ "updated": "2026-10-20T05:49:25Z",
  "items": [
+  {
+   "title": "La justicia rechaza convertir a una interina de la CAM en funcionaria fija a pesar de llevar 17 años continuados prestando servicios",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-rechaza-convertir-a-una-interina-de-la-cam-en-funcionaria-fija-a-pesar-de-llevar-17-anos-continuados-prestando-servicios/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T05:00:31Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La necesidad habitacional no frena el desahucio en la cesión gratuita de vivienda",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-necesidad-habitacional-no-frena-el-desahucio-en-la-cesion-gratuita-de-vivienda/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T05:00:21Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El Supremo zanja el pleito de los Goya de Tabacalera: los retratos de Carlos IV y María Luisa de Parma son del Estado",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-supremo-zanja-el-pleito-de-los-goya-de-tabacalera-los-retratos-de-carlos-iv-y-maria-luisa-de-parma-son-del-estado/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T05:00:20Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La peligrosa doctrina que permite cobrar un impuesto medioambiental sin destinar directamente su recaudación a proteger el medio ambiente",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-peligrosa-doctrina-que-permite-cobrar-un-impuesto-medioambiental-sin-destinar-directamente-su-recaudacion-a-proteger-el-medio-ambiente/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T05:00:10Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "Ocho de cada diez abogados ya utilizan Inteligencia Artificial, según un estudio impulsado por el Grupo Tirant",
+   "url": "https://confilegal.com/20261020-ia-generalista-juridica-abogados-estudio-tirant-2026/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:45:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Un músico, condenado a prisión por utilizar «bots» de inteligencia artificial para cobrar millones en derechos de autor",
+   "url": "https://confilegal.com/20261020-un-musico-condenado-a-prision-por-utilizar-bots-de-inteligencia-artificial-para-cobrar-millones-en-derechos-de-autor/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:44:00Z",
+   "area": "penal",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La Abogacía Española apoya a los abogados candidatos a ocupar plazas de magistrados en el Tribunal Supremo",
+   "url": "https://confilegal.com/20261020-bogacia-espanola-respalda-abogados-plaza-sala-primera-supremo/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:43:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 10
+  },
+  {
+   "title": "La Ciudad de la Justicia de Madrid deja atrás la cimentación y empieza a crecer: TSJM y Audiencia Provincial, operativos tras el verano de 2028",
+   "url": "https://confilegal.com/20261020-ciudad-justicia-madrid-fin-cimentacion-alzado-estructura/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:42:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Hidalgo Abogados y Asesores nombra gerente a Nagore Maeso para impulsar su expansión fuera del País Vasco",
+   "url": "https://confilegal.com/20261020-hidalgo-abogados-y-asesores-nombra-gerente-a-nagore-maeso-para-impulsar-su-expansion-fuera-del-pais-vasco/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:41:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": -2
+  },
+  {
+   "title": "Opinión | Análisis de la STS 1032/2026: límites del control judicial y no intercambiabilidad entre calificación y simulación",
+   "url": "https://confilegal.com/20261020-supremo-limites-control-judicial-liquidaciones-tributarias/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:40:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | La «Solicitors Regulation Authority», el ojo de la Abogacía inglesa que quiere verlo todo (y IV)",
+   "url": "https://confilegal.com/20261020-limites-sra-confidencialidad-abogado-cliente-josep-galvez/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:40:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "Opinión | La autonomía del médico en la sanidad privada: entre el negocio y los derechos del paciente",
+   "url": "https://confilegal.com/20261020-autonomia-medica-sanidad-privada-derechos-pacientes/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:39:00Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | La inscripción en el CERA no crea el derecho al voto: la Administración debe garantizarla",
+   "url": "https://confilegal.com/20261020-derecho-voto-espanoles-exterior-exclusiones-cera-elecciones/",
+   "source": "Confilegal",
+   "date": "2026-10-20T03:39:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Los cambios en la legislación de vivienda disparan las consultas y la incertidumbre en los despachos de abogados",
+   "url": "https://confilegal.com/20261020-los-cambios-en-la-legislacion-de-vivienda-disparan-las-consultas-y-la-incertidumbre-en-los-despachos-de-abogados/",
+   "source": "Confilegal",
+   "date": "2026-10-19T22:45:00Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El Tribunal Supremo confirma la sentencia del TSXG que valida el plan rector de las Fragas do Eume aprobado por la Xunta",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSUNRRW16VG8tLXY3bXZ5czNFY2QteUgwRl9wenRMdll2OWt3U0s4YTVlc0Jla2pVbkhsOXE1N1FjLWhfdndVMlNKXzUyaEo2dVhwdnBvNUpPV2padTRZN3BIMmZPWVNVSDJaOUVEUUJzRXdtd0lyZW13am9HRGxZQ00tdnZ0S0RVX1UwTHFCMXE5T2FHcEFhTGdzbENHaTFjQ0IybXRWdXFyYzVtVDJYcWVlOGdudkcwRkJTenROWUxsMWRRQk9iSFhYbzVhSWp1Sk95NnMyTjE5T3lCUE9Td3d5MGI0SGM?oc=5",
+   "source": "Europa Press",
+   "date": "2026-10-19T17:33:52Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 17
+  },
+  {
+   "title": "Riña tumultuaria: quién responde de la muerte",
+   "url": "https://www.lawyerpress.com/2026/10/19/rina-tumultuaria-quien-responde-de-la-muerte/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T15:32:05Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "DECLARACIÓN INSTITUCIONAL",
+   "url": "https://www.lawyerpress.com/2026/10/19/declaracion-institucional/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T15:28:40Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Eugenio Ribón reivindica en el ICAM la seguridad jurídica como motor de las inversiones en Iberoamérica",
+   "url": "https://www.lawyerpress.com/2026/10/19/eugenio-ribon-reivindica-en-el-icam-la-seguridad-juridica-como-motor-de-las-inversiones-en-iberoamerica/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T15:23:16Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Nagore Maeso, nueva gerente de Hidalgo Abogados y Asesores para impulsar su expansión fuera del País Vasco",
+   "url": "https://www.lawyerpress.com/2026/10/19/nagore-maeso-nueva-gerente-de-hidalgo-abogados-y-asesores-para-impulsar-su-expansion-fuera-del-pais-vasco/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T15:18:17Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Baño León y Soriano i Piqueras defienden intereses enfrentados en el conflicto por los alojamientos turísticos de Benicalap",
+   "url": "https://www.lawyerpress.com/2026/10/19/bano-leon-y-soriano-i-piqueras-defienden-intereses-enfrentados-en-el-conflicto-por-los-alojamientos-turisticos-de-benicalap/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T15:13:35Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Virtual Mike gana el Metrovacesa AI Challenge con una herramienta de inteligencia artificial para el análisis jurídico de suelo",
+   "url": "https://www.lawyerpress.com/2026/10/19/virtual-mike-gana-el-metrovacesa-ai-challenge-con-una-herramienta-de-inteligencia-artificial-para-el-analisis-juridico-de-suelo/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T15:07:01Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Te roban por ‘phishing’ y el banco te culpa: el TJUE le obliga a devolverte el dinero al día hábil siguiente",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/te-roban-por-phishing-y-el-banco-te-culpa-el-tjue-le-obliga-a-devolverte-el-dinero-al-dia-habil-siguiente/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-19T14:00:48Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 7
+  },
+  {
+   "title": "Economía social y vivienda: ampliar las formas de habitar y construir comunidad",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/economia-social-y-vivienda-ampliar-las-formas-de-habitar-y-construir-comunidad/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-19T14:00:40Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Incendió la casa de un conocido por ocho euros y el perro le salvó la vida: 10 años y medio de cárcel",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/incendio-la-casa-de-un-conocido-por-ocho-euros-y-el-perro-le-salvo-la-vida-10-anos-y-medio-de-carcel/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-19T14:00:37Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Hacienda no puede pedir una segunda oportunidad para buscar nuevos motivos después de perder contra el contribuyente",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/hacienda-no-puede-pedir-una-segunda-oportunidad-para-buscar-nuevos-motivos-despues-de-perder-contra-el-contribuyente/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-19T14:00:23Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "El TSXG acuerda la paralización cautelar del proyecto eólico Estivada, en Agolada y Antas de Ulla",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZ3ltYmpic1ZMTHNsbU9ncEtwSUd1WjloZXhUakQwYUxJOWlvNDU2QjFtX28wSmZUQTRpZld2SHVwa1ZEekc4RWVDLWtWcUNOcjhCTGxSdUplcng5dzZVaG1TMkpRV1g1eHNxQ3dHLWUwbUxsVTBPbS12SklSTVg3ckl6SEVjR3pmQkladTByTTRRaTk3UkZhQW1XdlVPNGNDb0FzQk5POWhuQ0xDMDVVTnVVenNtMkJXUjVNV3VfWkd0bFJGNFc2VkRKelZNa0VONjZNZTdrYTU?oc=5",
+   "source": "Europa Press",
+   "date": "2026-10-19T11:02:56Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Luxemburgo avala el control europeo de Tik-tok",
+   "url": "https://www.lawyerpress.com/2026/10/19/luxemburgo-avala-el-control-europeo-de-tik-tok/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T10:25:05Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Fundación Notariado presenta la segunda edición de «El certificado sucesorio europeo», de Isidoro Antonio Calvo Vidal",
+   "url": "https://www.lawyerpress.com/2026/10/19/fundacion-notariado-presenta-la-segunda-edicion-de-el-certificado-sucesorio-europeo-de-isidoro-antonio-calvo-vidal/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T10:20:52Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Marlen Estévez funda MAREST LAW, un nuevo despacho de abogados de negocios con la inteligencia artificial integrada desde su origen",
+   "url": "https://www.lawyerpress.com/2026/10/19/marlen-estevez-funda-marest-law-un-nuevo-despacho-de-abogados-de-negocios-con-la-inteligencia-artificial-integrada-desde-su-origen/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T10:12:57Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El Supremo no frena el campamento de migrantes en Ceuta porque considera que se puede desmontar",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-supremo-no-frena-el-campamento-de-migrantes-en-ceuta-porque-considera-que-se-puede-desmontar/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-19T10:00:30Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La Justicia avala el freno a los pisos turísticos en Valencia, pero deja una puerta abierta",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-avala-el-freno-a-los-pisos-turisticos-en-valencia-pero-deja-una-puerta-abierta/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-19T10:00:28Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TSXG absuelve a una médica del Chuac condenada por acceder al historial clínico de una compañera",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTUxObTY0MU1GNDlYZGNsdWdrTlg5eDFuSnN3NWppVWs5QlB3Tld2MC1NZkI3bE8yRGh4SlhjZmg1ckM1V2lKR0RoYnVYOERJd1pTa0FhbzVWbHJXd1dBaFNSUU1Zd25BYWljemxpRmNKNDJ4R0RPS1ROOWJCbGVrcEhxMXdpT2pRQTRlV0J5WmVBd2FCNFBTaHZXYkprLWc0eTdWSG5ERXRvN0pza3pUekxuWFRIbXRCVFdMNFRpRjRwdlJ4SDBhd184aGs5WFFQNXRxZGxnRk4zT2JXaGxvTA?oc=5",
+   "source": "ConSalud",
+   "date": "2026-10-19T08:36:00Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Una segunda oportunidad frente a 52.456 euros de deuda, acumulada porque Destinaba todo el paro a tratar su adicción",
+   "url": "https://www.lawyerpress.com/2026/10/19/una-segunda-oportunidad-frente-a-52-456-euros-de-deuda-acumulada-porque-destinaba-todo-el-paro-a-tratar-su-adiccion/",
+   "source": "Lawyerpress",
+   "date": "2026-10-19T07:12:19Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
   {
    "title": "La fiscal general del Estado, Teresa Peramato, se atreve a manifestar su preocupación por la angustia que sufre la juez que condenó al hermano del presidente Sánchez",
    "url": "https://www.economistjurist.es/noticias-juridicas/la-fiscal-general-del-estado-teresa-peramato-se-atreve-a-manifestar-su-preocupacion-por-la-angustia-que-sufre-la-juez-que-condeno-al-hermano-del-presidente-sanchez/",
@@ -115,6 +412,42 @@
    "source": "Confilegal",
    "date": "2026-10-19T03:39:00Z",
    "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La UE establece un sistema común para el retorno de migrantes irregulares",
+   "url": "https://www.iberley.es/noticias/la-ue-establece-un-sistema-comun-retorno-migrantes-irregulares-37115",
+   "source": "Iberley",
+   "date": "2026-10-19T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La DGT aclara el IVA aplicable a los servicios de disc-jockeys",
+   "url": "https://www.iberley.es/noticias/la-dgt-aclara-iva-aplicable-los-servicios-disc-jockeys-37070",
+   "source": "Iberley",
+   "date": "2026-10-19T00:00:00Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El Supremo reserva a la Inspección la comprobación del régimen FEAC antes de la reforma de 2022",
+   "url": "https://www.iberley.es/noticias/el-supremo-reserva-inspeccion-comprobacion-regimen-feac-antes-reforma-2022-36996",
+   "source": "Iberley",
+   "date": "2026-10-19T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 7
+  },
+  {
+   "title": "El TSJ de Madrid delimita la no competencia laboral",
+   "url": "https://www.iberley.es/noticias/el-tsj-madrid-delimita-no-competencia-laboral-37093",
+   "source": "Iberley",
+   "date": "2026-10-19T00:00:00Z",
+   "area": "laboral",
    "scope": "españa",
    "score": 2
   },
@@ -659,6 +992,15 @@
    "score": 1
   },
   {
+   "title": "En vigor la obligación de usar el prefijo 400 para determinadas llamadas comerciales",
+   "url": "https://www.iberley.es/noticias/en-vigor-obligacion-usar-prefijo-400-determinadas-llamadas-comerciales-37110",
+   "source": "Iberley",
+   "date": "2026-10-16T00:00:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 5
+  },
+  {
    "title": "Entra en vigor la obligación de usar el prefijo 400 para las llamadas comerciales",
    "url": "https://www.iberley.es/noticias/entra-vigor-obligacion-usar-prefijo-400-las-llamadas-comerciales-37110",
    "source": "Iberley",
@@ -1005,123 +1347,6 @@
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdjFlQVBYamF6emk4cEVmU2tpLTdhUWF0TVVUQjNraDQ5VzNEdWNHNUFlUmIwVWMyeUFmdTktQ1FZQTJjWDQ2ZXRPMUxjMXRjMzAwSTBaVXVnbTFQV05KNWsxaWtpd2tEZWszdVdIdWNWSm1mU1B6X1FZUml5cGp5RFlEbl9BbjNROFBsMnJBVDAzRW44UmpaRzZLMGNlb1FDNmxqQjB4VnhiTTlQakE3T3puN253cFFXOUVzc0EtbHJBcGQtbE1xOG9MWUtVRmJxd0tON3pkeVFabUNvZUYyMmNtTWhKUHc?oc=5",
    "source": "Diario de Santiago",
    "date": "2026-10-08T14:48:09Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El magistrado del TSXG Fernando Lousada, premiado por el uso del Derecho Internacional de los Derechos Humanos",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTGJGQXZHY2V4T0d6WE1tVHN6Nnk2b1RYcE9ndTFzT0g5T1NtQ1dIcmRqRDJ0bDA4YUphY2pCNzVZNHZYOXQ0SDZpVDRYNUR0dkFSc1pSWXhaa0R1NHpjemZ1Y1BMb3FMZzg0cm04OXNjMWVBYzFsLVBHNkg1SHVfUUlvTjlvTFBUQ3RpUERKc09lLU9uVjJVS0E0OTY2NlRlVk8zYjNEZy1kMER3ZE03eG5YZHZyODNhZF9NY0pSd3pjUWZKbGJaQTRKQnhSWXoxLU1ZeDFHX01ZYXRQVlB2MExn?oc=5",
-   "source": "GaliciaPress",
-   "date": "2026-10-08T12:25:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG confirma una sanción a una vigilante del hospital Álvaro Cunqueiro de Vigo por abofetear a un paciente agresivo",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNHhBVjRYVjlkSEpTaEtGTkpOSGVQTFp4NUJHWWROeWxhTFZkU3UxSjA3LWVadnNVSms1Q0d0MHBhbFhRb1AyOVVpeTRsVkZid3E4ODE1VVlXdEkzdllXZzJtYlU4MG5lVmVGcDlobkVjeUc0enRHWFZDZTV2dHRFWUU2T0ZCUktTLTRDay1MR0hfN3pqZlJHWUVoWnVwNEFZS2w2MjN3ZmRfTE1GNFdvWU1SLWR6RlNDaV94cTNvRDVpMVR0MDI0V3FVVG1GanBaV3dwNDNKS1BQZnpuVDNlVTdjZkxoR1p0Tl95V1l4UQ?oc=5",
-   "source": "GaliciaPress",
-   "date": "2026-10-07T10:15:00Z",
-   "area": "administrativo",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG avala la sanción a una vigilante del Cunqueiro por abofetear a un paciente",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDdKdnREQnVqNmxaMTNkREhGam1DRzhiZGFVNzNCZmN0ZjcyLW9xNGpDNFgzQWxwSGo5Wnc3WERvR2FkV1FHWGFRb2NNeVd0NWpxbndoZ3U3VFRraVI1Z2RkT2V4RDd1OGJGVGNrSEY0SmZZYVVMdXVwQWpmZk43SkFBdXN4TDlBa01jM2lEalBuX1JMUDJ4WW1yem1iUGdIMExvUThZOUI0X1lRQnFmRXhn?oc=5",
-   "source": "Atlántico",
-   "date": "2026-10-07T07:00:00Z",
-   "area": "administrativo",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG confirma la utilidad pública de Treboada y Coto da Mina mientras en Valdeorras hay varios proyectos eólicos pendientes",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQRV9wNWVFYml1VzY3enRpeWppTmVDRWlpYnMxVVhwNTl0eUFSdm10cTNiQmQ3SmtYOGxScG1QX0ZPclp5d1g4MkhOSGV2OUcwTGJmWTNfbWQwSzVfT1VEb1pQQ0dFWW1uRUgxdEh4bjFHUkFiSW1xTGdrOTktRl9fSDV5VTRQRXRsQUxjXzJWekVVNUI0R0ZpbFlkbW5MSHp6YUNocTZZNGdYaTE1bXQ1X2tXY3U0VVI4WXFqbl9NeU55ODd5czFyaEo2MnZtT1UyMzNXaDk3SUVLa1gtU0lCbzhaRVZhVEs1S2FsVWZjYXVIM2lVMHJzSUZnbkJ3SnR3T0RmcEtrdGR3dUJ3VnNz0gGUAkFVX3lxTE1QUU9aaEp4S2N3R1ZKdlJobXRIV0xKeWxFTG1ia1R1WHR4dDZaa3hvaXZLUkpPLU16WTRCRDNDcEZwS21BNEdvaEJpbzNUZlhMaU5FUTlxeWkxeFZjS1kxTDBicGF3S2RWdUJEaHlnOVczdW55YjNVRm9ZMk1WN3BpLVA1dnZLbFNjRXBzSThWTUljTU1fQWZ5M3N0UUF6TVVOWjJKSlZqT2t5Zzd0WWp5QXZmeGZxSkl4Z0lvRHc1UEJZNksyMnRfTVg4dHo5My14ejM2Y3pVUWIySjRoNm9Ba0lQbVo4bXB2cVROZ0dnNVFNZFB5ZGEtMXFUV1FMU1doQVNTMHZfTlFrZ2xsYUtPelRuXw?oc=5",
-   "source": "Somos Comarca",
-   "date": "2026-10-07T03:30:13Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "La Xunta de Galicia avanza que el TSXG le ha dado la razón respecto a otros dos parques eólicos",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQmtHMEZhZjUyVTJfVGJ4NXRfWTFrTmQ3cVRsWmRXUVZDSW1WRDdQOEVRMGNiZEdZUXpnM1dIbjJFbVhHS2dvUG55VXdveUZhOTFudGRBZDc5dXd5cERnUXVwTWRqMmw4Smd3amMxTVNqaXVxY3RKSnBoVTJJTncxTzhOWHZQM1VzZTgxaGRpZEtIbFo1eXIycUVDUE9NN2RqLVNTYkJVbkxvOUxDb1cxTXB2Q28wX2dLbmRhUl9KX19DRi1PN05acDVzVQ?oc=5",
-   "source": "El Periódico de la Energía",
-   "date": "2026-10-06T15:31:38Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG da la razón a la Xunta respecto a otros dos parques eólicos en Lugo y Ourense",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeWZRWTlMWFo5OTUzTDJNLVRvRDV1enBHYU1yNWRLcWZxRmlIVmo3VC1saWhoM0ZtVGZSZWpQNWxmaTJFRzBrU2RvMVp6UG1TVER3Y0JXTDNBX0hpa1lsRld4WlBsc3pBdTBDRll0aHVkZVVvOGFqZTNjZVRuZWFOT21HOTNtVDcwc0RiOEkybWkxR2tmUW1FcDl4aktZVkN6RExNX2RaQ0ZqQ19pVlpZRGsyTTBuNTVPLVZMQ09qallFdTctOFpqc01wM2JTa0J0VlgteE1rYUpIQVRnWGF1cg?oc=5",
-   "source": "El Ideal Gallego",
-   "date": "2026-10-06T14:42:33Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "La Xunta avanza que el TSXG le ha dado la razón respecto a otros dos parques eólicos",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSVlwSHhOeVdzVnhzdUhmMVlDYnk3NW5memFCa0IteDJjLXZuTWFIRGZ1MFdoLWU2OGEtMFhPQVo2OGpVRzdyc2hfeVVWV0hlQWJWT0p2eGg1VGR2dWt1d052czUwR2ZlaVU2TlJHcGR3bjI3WGhROGRPcFBiR1FqQXpIdDdqR2FBUnJUaDFodWRyTHRuSG9Oc0JMWGpwRm5GYy1uZGtDZThRbWV1NFk2eDVkb1JYR3dDOE9MSmduTkFsMnFlaDNNbl9LNThHZWVIT2NlX2NRMzVKRWxqMkwwQ002aXF2b18xZ0lQV0FhY3ZzS3hSOG41ODVR?oc=5",
-   "source": "Diario de Bergantiños",
-   "date": "2026-10-06T14:25:11Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "La Xunta asegura que el TSXG avala por primera vez la tramitación de los proyectos eólicos en Galicia",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaTMzUXlIV0FJS2Vjd3FhY000R0N6RGV1RzNRT1VlaU1jLXBDQkZyY081VFJsc0wzSEM5dWNwc2xuenFXNWllLUtONUx6QmpnaWZiMlIzT2s2OVJkaVg4X3ktUF9hMUFTUEgxekk2VmNFMXJZYWhTNUw0a1J4OTNsczI0ZEpTTkZTbjgzU1k1N3FaSUZ0Y0VCWExMWmNNQkFSNVdvcF9PZGVEWkJ2WUlONW1FVTFKZnFMaWtwc3E0Ym1DQTZJT2h6eWJ0N05hM25zZjhjVkJ5Wk9RZw?oc=5",
-   "source": "Diario de Santiago",
-   "date": "2026-10-06T07:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El giro del TSXG sobre el eólico se asienta tras rechazar otros dos recursos por la utilidad pública de parques",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObExOX3BoUW9va3NrRHp0ZnJzMnFTaUFiVUV1ZmlNaEJMbnhXWnVmdkE0YjJpWEZwNXR5TmV0YjZDYThjSkdNQ0RHeFNFMW56T2tnVFVOSDV0R05WdER3RmNOOW1RTUFRV0hQNDNtU2NDNWRJWGhrcGlFWmMySzRQVDJHamNUbzdsa0hEMFdyRlYtOVUwQ2lIWjlMWnJDdjcwZkdFa2dPTV9CWUNpU0dGN2NvUU5Ka0xXdV9KYVJvY09XeGhWNWQ5aEZGbDVnTmdYRGZzcTJMNV9YcXM4ejZrTk9lOEU2aXlVVWVxNUFCelQwUWNnTXduYjVuNmZlUkXSAZsCQVVfeXFMTWJGb1pGSmNLS3d2ejZOenJFM2dJeGR4cTViQTZGdEx1c3pwOHVEeDRyWWFHVEN0Q2FuVkRBZW1tMWRqS0tBRXFyMGxVWGtnSExjb1hrRE41UDJGdzFPWl9LamV2ZlhkU1pvUnktZmExNDh4T1kxQW5ObDU2OE9mQ0tGZHlSZURJOEtENVVmZ3dqQ1RNV2FwbnJiOTRJVFNJdTVHZUJGWGoxUzBEcFNhM3E4S0ZJU05iS0NCUzlzSloydlZqb2ZDY0ZpSTA0blM0Mkprd01US29LUlNnOVdHTWpYc0dyelhPR21nSTdnTy1qelJMLVp2ME5POWRJekduQjluSXktQkJkOG5kOERxX3hncHdsbnhHZ3JaUQ?oc=5",
-   "source": "La Voz de Galicia",
-   "date": "2026-10-06T07:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG trasladó de sección 188 de los 253 pleitos eólicos aún sin resolver",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUDNtSWNXTHNCOGx6ZzQ3UFRDTEw3Y3Z1ejBlWEFoTGh0R1NZdDh6SVkzd3A3dF94Q1hUZV8xdjJhRmNlRG9vbnM2dlVRWDdYdzN5Z1BncFZOSXdhSjFzaVNwbWI5SHY5WURQOU5EcVl2ZnNvZFF2VEhhS3YzMzdwNXN4dTEtWUFyQUl6aXIzcmZmcXJvOVRnMEV5OWtIYVQ5WkNOaVpDM3VDV0l4QlYtTHRmS3VFai05cWdaMXpDVWV6VzFaT0syQWtPbEFfeXl3a2c?oc=5",
-   "source": "La Voz de Galicia",
-   "date": "2026-10-06T07:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "Dos nuevas sentencias del TSXG dan alas al sector eólico en Galicia y ponen coto al aluvión de recursos",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX3NaVW12ZTdEd3VKY0dkTGJCbEE2aUtGdVdnclhTMW41Q29aSUhrTHA0QXE1OVpONnBZYTlZM1RGMHFXYjYwM0JWa3Y5Nm9fSE94dDlWdEpQSkpVSkdNRWZmNFZlbVRzQW1EN1A4WkZNc0ZhMmVnOXlpVEJhQnVpTHdnUVFrZ3dRdVdJNEVQcXZhWjhrcGpYNWJiOW1kQzVfdHF5NVRXalRMVG_SAbABQVVfeXFMTjBGcjU5RWE5cC03QjI1a2FJRmVqT3E0cjMxR09rTTQ5MHoxM2lVYmhfaFRCWWR6OHpnbFRxSENUeGJGVHlUNk84NG5JM1FJS3pmSGwyUDZKWnE3WTVQeTBrNkFGMldfLUR5VDlsUVhvV2FPRTdGX1dMVkhtZHJHQklDVGxoZUVhSWhlZDB6SXM2a2xfdHJvN3JEQWJteDhuT1g3NGdhblgzYjVYQ1hTRUs?oc=5",
-   "source": "Faro de Vigo",
-   "date": "2026-10-06T07:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 11
-  },
-  {
-   "title": "El TSXG rechaza el recurso ecologista contra el parque eólico Bustelo y mantiene los permisos de Coto Muíño",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORlljd1pjeXI1SnR6Y2FpbE1td00yMVAybmNBdVR3RnItM2JYbk0tNHZYMjRCT0V2VkxsNjd0SnNjQlc5RVdaRERfU3RONm91RDI1YW1SX0hROGgxWjRPcGMyRWVhdmVwcUI4cVJWUkh1c2w1NVI4bE52bkJ1RjJWUFhOTXNTcXJCRzZtVWlLTDRvMEpyUTdxTlZNNDI?oc=5",
-   "source": "Energías Renovables, el periodismo de las energías limpias.",
-   "date": "2026-10-05T07:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG otorga el derecho de una mariscadora al cese de actividad",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2FHbW9BRkxUUHpTRjZZVEIwajJrM25jdkROcV85bDljbG51eE5YM1JCWlVic3Yzd0M1WGtCV2lMY05CeVRqbWxDTE1zLVNXYmRZUUU4bDcxbFZsd3k1NUgtWHh5OGZMQ3drME13NlZYTnZzd3hsNWFVcEdZTmZXUEFadnBkaktKOEtmQXFsNmx2WkVfeVpCZDVKY9IBoAFBVV95cUxNYk1IWHBQQWl0blpma3FTZ1VQNS1rQ2o4MkphSjlQZFY3bnhJMUtlUERfa1BHRTVXaDhtcl9kWEFYQVhXaTJ0V2hhdmhlY2p3TG5wVGFlOHpLcl9UMDRmRFlpcHg5RFI5ZE14QzFzRDAxRFd0Q2twWUZtVkpoa2pRTGlqUExxZE51U0VkcjNkbVRzUjJJRUNEbHJyUDV4OFkt?oc=5",
-   "source": "Faro de Vigo",
-   "date": "2026-10-05T07:00:00Z",
    "area": "general",
    "scope": "galicia",
    "score": 8
