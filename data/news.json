@@ -1,6 +1,375 @@
 {
- "updated": "2026-10-20T05:49:25Z",
+ "updated": "2026-10-21T05:50:14Z",
  "items": [
+  {
+   "title": "El importante incremento del protagonismo de la salud mental en los pleitos",
+   "url": "https://www.economistjurist.es/noticias-juridicas/el-importante-incremento-del-protagonismo-de-la-salud-mental-en-los-pleitos/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-21T05:00:48Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El ‘fumus boni iuris’ que frenó un derecho fundamental (IV): el Defensor del Pueblo y la cautelarísima ante el Constitucional: ¿puede suspenderse una suspensión cautelar?",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/el-fumus-boni-iuris-que-freno-un-derecho-fundamental-iv-el-defensor-del-pueblo-y-la-cautelarisima-ante-el-constitucional-puede-suspenderse-una-suspension-cautelar/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-21T05:00:33Z",
+   "area": "laboral",
+   "scope": "españa",
+   "score": 7
+  },
+  {
+   "title": "Su fregadero tenía una fuga, no se defendió a tiempo y deberá pagar 9.095 euros por daños en una sala de radiología",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/su-fregadero-tenia-una-fuga-no-se-defendio-a-tiempo-y-debera-pagar-9-095-euros-por-danos-en-una-sala-de-radiologia/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-21T05:00:05Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Indemnizada con 30.000 euros una trabajadora víctima de violencia de género cuyo despido estuvo relacionado con la solicitud de conciliación que presentó",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/indemnizada-con-30-000-euros-una-trabajadora-victima-de-violencia-de-genero-cuyo-despido-estuvo-relacionado-con-la-solicitud-de-conciliacion-que-presento/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-21T05:00:03Z",
+   "area": "laboral",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "La Audiencia Nacional recibe el Premio Convivencia y Tolerancia de la Procura a las puertas de cumplir 50 años",
+   "url": "https://confilegal.com/20261021-audiencia-nacional-premio-convivencia-tolerancia-procuradores-50-anos/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:45:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "Cinco artículos para desmontar una dictadura: los protagonistas de la Transición recuerdan cómo fue posible",
+   "url": "https://confilegal.com/20261021-broseta-50-anos-ley-reforma-politica-transicion-democracia/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:44:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "6 miembros de Desokupa, absueltos: un desalojo de una vivienda no es coacciones si no hay violencia",
+   "url": "https://confilegal.com/20261021-6-miembros-de-desokupa-absueltos-un-desalojo-de-una-vivienda-no-es-coacciones-si-no-hay-violencia/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:43:00Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La opinión médica prevalece sobre el criterio administrativo: el SERMAS, obligado a pagar 55.184€ por la hormona del crecimiento",
+   "url": "https://confilegal.com/20261021-la-opinion-medica-prevalece-sobre-el-criterio-administrativo-el-sermas-obligado-a-pagar-55-184e-por-la-hormona-del-crecimiento/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:42:00Z",
+   "area": "administrativo",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La Justicia anula tres testamentos de un anciano que desheredó a su hija y nombró beneficiaria a su cuidadora",
+   "url": "https://confilegal.com/20261021-la-justicia-anula-tres-testamentos-de-un-anciano-que-desheredo-a-su-hija-y-nombro-beneficiaria-a-su-cuidadora/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:42:00Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Freshfields busca inversores para su IA y un envío por error deja al descubierto su «plan secreto»",
+   "url": "https://confilegal.com/20261021-freshfields-segregar-negocio-inteligencia-artificial-inversores-bolsa/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:41:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | Detención policial y abogacía de trinchera: tensiones y mentiras por el derecho de acceso al atestado (y II)",
+   "url": "https://confilegal.com/20261021-asistencia-detenido-acceso-atestado-habeas-corpus/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:39:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "Opinión | La delgada línea entre el deber de colaboración y el derecho a la no autoincriminación de la persona jurídica",
+   "url": "https://confilegal.com/20261021-opinion-la-delgada-linea-entre-el-deber-de-colaboracion-y-el-derecho-a-la-no-autoincriminacion-de-la-persona-juridica/",
+   "source": "Confilegal",
+   "date": "2026-10-21T03:38:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Ratifican la condena por estafa de 95.000 euros para el antiguo dueño de una tienda veterinaria de Carballo",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRXI5STZiR0ZJWGFhei1hTGhzMVRuY01KWUJyWU5RZjRUc3ZqVF9sc2xtN19MZmphQTZrS3dvTXdYbnZlWjlEMDJUaFpqTGpISm1wTTZPNzg4QS1nN0IxeUV2T2NtaWV0TUZrOUhneXZjWnU0UlB3WEhxcEhva3pqaGI4THYtekZDb2VEd19RRlVwdUxwM05zOGsxLVAyazlhRmR0VE9ubk1NUDdTejJ5VVJSdlUzYXAzbWhuWUNzTVRVaXRFMUZSSjBqb3N1djI0YnJTTnpQaG1haUM1TjhWdUVnbnRSZw?oc=5",
+   "source": "La Voz de Galicia",
+   "date": "2026-10-21T03:00:53Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "Conde-Pumpido reclama “respeto” a la jurisdicción constitucional horas después del reproche del Supremo por el aval a la amnistía de la malversación",
+   "url": "https://confilegal.com/20261021-conde-pumpido-respeto-jurisdiccion-constitucional-supremo-amnistia-malversacion/",
+   "source": "Confilegal",
+   "date": "2026-10-20T23:45:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 8
+  },
+  {
+   "title": "Rebajan de siete a cuatro años de cárcel la condena por violar a una menor en Ourense",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMGV3VVV4OTJVVUp4eDJTWVlqd05aQWMtSzhNaVZiZUZPZlc3RjFNV1hFekR2R2NaV3hrWEpHa3Y1dk5adURNXzBHYUFYa3NPNEJlQjlqZlVGU2pRZWhMSFAtOXFPNEpqT2FSVE54Rl8tUENXQzZUUzR5OTNEcHc1WVVrWVA5dkJ5cjZZcGQweUJncTdQUHFIdUFkVENSdkVPbEpiQW43ekVoTUdfbjktRVFwZFhNN3hzNGJDM0NvRQ?oc=5",
+   "source": "La Región",
+   "date": "2026-10-20T17:53:00Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "Diego Solier analiza con ENATIC los desafíos jurídicos de la soberanía tecnológica europea y la inteligencia artificial",
+   "url": "https://www.lawyerpress.com/2026/10/20/diego-solier-analiza-con-enatic-los-desafios-juridicos-de-la-soberania-tecnologica-europea-y-la-inteligencia-artificial/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T17:13:23Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Ulloa Viva lleva al TSXG el archivo de la Xunta al proyecto de Altri: “Es una estrategia para dejarlo en standby”",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOS2pTVFM5Zng0aThqQ1NoMzg2TzRGRUMycXVLOTBiVmdSUkR2QkpDb0pySzREbFBpZUtuWFh6dkhmOGFETG1GeUhGREVnNkx4cTVZd0JXRFFNNGJ4NGxOdDNxOW1zRmI3SzE2aE1hYWF4dkRscXZqc3ZZaFdMX2x5RUtLdEhNVHJEc1prdjNJUTA1N0xienNSZmNXdS1SWDVKa01WWWZuVTJDZWZGdUpsT3lEMVlMQV9OYlRPT2E4dVlOR3NYV1d0b0hpd2lQRkhhQzZWci1tTmRxSk810gHiAUFVX3lxTE0xZEpkUk0wYUNoa0RYUnk2MUdyV3lFODJZYjk2SE5wTFY5RV9HVUxVcFQ2cjY1WkVlSC0wekkyUkFBc2VtcjRCT1U5Mk5PaW5sdGFKTEgyT0d3QmMwZ2thX21xUjZZWnNYcUNXMVRoTVJDS2lwazFJX2lnR05xWDFocG5pU21hVFVwYldjQVZONWIza1JYdE1SMHdld2x2ZXQ5V1gyRGZVQXVwRU9mYXlzcVY4MEFTN05SMDdmTXIzb1R6d3RWYlNwM0hRUmN2NHM0U2dPZTdfUi10TUNFZVBFY3c?oc=5",
+   "source": "Demócrata",
+   "date": "2026-10-20T17:06:50Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Ulloa Viva recurre ante el TSXG el archivo de la Xunta al proyecto de Altri: \"Es una estrategia para dejarlo en standby\"",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOX2pwN1dqcEplbGRnQ0t5VXRIUVJsZms3VkZfT1hLWmNxRXBlTXdlU0kwMkF6NzNuRTdWX1ZaOXMyOEdrd0tNQ3NwTDB2d09DMHZQWEVPZDBwMTN0VjNkbVNkcGhkNGFUeUJiczd4dG9NcG9TUm04VEtsaEdQMzNGY3lXTXlHQUdSdUV1QkIzNEl0S0lFRG5MbEFPU3NuTGFZWDhWQnIzUVZGZUZ1S2pkVFVoS3NTaENrLVRieHlaaEtQVTY0eEFTSTlTT0ZraVh3aVI1MFROWUdXdUVkRXc3Z0kxbw?oc=5",
+   "source": "GaliciaPress",
+   "date": "2026-10-20T17:03:00Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Administrativando Abogados logra un hito histórico en el Supremo en relación con la multimillonaria opa de MásMóvil",
+   "url": "https://www.lawyerpress.com/2026/10/20/administrativando-abogados-logra-un-hito-historico-en-el-supremo-en-relacion-con-la-multimillonaria-opa-de-masmovil/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T16:55:23Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Antonio Arteaga Pérez gana por segundo año consecutivo el Premio Literario Jubilare del Colegio de Registradores",
+   "url": "https://www.lawyerpress.com/2026/10/20/antonio-arteaga-perez-gana-por-segundo-ano-consecutivo-el-premio-literario-jubilare-del-colegio-de-registradores/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T16:51:32Z",
+   "area": "general",
+   "scope": "españa",
+   "score": -3
+  },
+  {
+   "title": "Abogacía Española anuncia una nueva subida de los baremos del Turno de Oficio que alcanzaría el 16,6 % acumulado desde 2025",
+   "url": "https://www.lawyerpress.com/2026/10/20/abogacia-espanola-anuncia-una-nueva-subida-de-los-baremos-del-turno-de-oficio-que-alcanzaria-el-166-acumulado-desde-2025/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T16:45:54Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 3
+  },
+  {
+   "title": "El IV Congreso de Derecho Civil Catalán apuesta por reforzar la práctica profesional",
+   "url": "https://www.lawyerpress.com/2026/10/20/el-iv-congreso-de-derecho-civil-catalan-apuesta-por-reforzar-la-practica-profesional/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T16:40:17Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TSXG confirma un año de cárcel por acosar a su esposa con hasta 54 llamadas en un día",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHRSZWxaekx1cVg0bzhDa1RvZWJjVGM4RnlKWVdnTzNkWHpOZWVYYXpYNllYSlZkbk9uY2NGRnZYc0NQRDhseFB2TDFmUGI4YkhGdnk4N0E0bjVRQzJyeXkzLTRxOG1uWGtNckNuaTZ1TUpLdjNmUTk2aDhoZ3I3R3pUdzNqeDBCZ3kxbTA3Zjlmenp6Vi13TUlOSUlVQko2OXBHMGwxONIBrAFBVV95cUxPZk5SSGhhX2tmY01oQXRHUTZkLVNicDhMTG5VdFV5dHA3bWtQdkhXT3d2NDhTTmxIMzlzWGw5aUdFbzV5cDVzZVd6WVMyRHNBclFJRFRTaUdwT2ktWkxNUFA2cVl1bnVyTjk1bjd2UjVfbzZ6c3hQYmlzZERJU1FTYmo1Z0J5MEVsbHB3NThjdmVnRkdtRmFfd0N2R29teGFWY0U1c3hEQmhiNmta?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-10-20T15:40:30Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Reducen de siete a cuatro años la pena por violar a una menor ebria en un callejón de Ourense",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdzcweWpMVlNSck1oSEpLLVRacF9pWUs1bFJjVVlzN2RvWHR2dFhyeFQza0lFU0Vyd1ViUl9qRG5XQldZZlRhT3FTczgzdWViOVBDUUNYbDhoVmhwbkZmVGljeDJSRW9xekZuclFVbE9MSUZJRnlWSTJxQnBva1dFWmloN19BTXV4OFpPdWtJa2lkUl9pM01zTG1GT2M3TXlNQnVIMnFseGd1MVMwQkd0LWExcTdMcEg1Q19Bb0w2dTBOYlFlQ0dzck130gHPAUFVX3lxTE96bXp5VWMtMDhjZEtyaVNyU0o5QTM3Q2h6Uk8zMGowclN5QUVyeEh5OFM5WTdBaUR5OEJNcGpya2ZUMDZpZEVSRGdzdDQ3WE1FdFIzcWZqU0RsQXZSYmY1b3g3NjE3VGptX3U4RjI4Z0dVSURSaW92WkMySE4wUUZxeUhzWVdCNURCcW5oT091RjlZSjNGWnZhaWx2LWJ2Tml2ZUNNSUFtZ3VpOG1jQXlmOTRYa21CcWM3SnJGbnpPcUhYc2FQLVVpeV9BY1ZWWQ?oc=5",
+   "source": "Demócrata",
+   "date": "2026-10-20T14:36:58Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "Hipotecaba pisos para comprarlos, cobraba los alquileres y no pagaba al banco: condenada junto a ocho cómplices",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/hipotecaba-pisos-para-comprarlos-cobraba-los-alquileres-y-no-pagaba-al-banco-condenada-junto-a-ocho-complices/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T14:00:52Z",
+   "area": "penal",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Aitor Martínez, de ILOCAD: «Se está instrumentalizando la justicia norteamericana para perseguir políticamente»",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/derecho-penal/aitor-martinez-de-ilocad-se-esta-instrumentalizando-la-justicia-norteamericana-para-perseguir-politicamente/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T14:00:39Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "En el supuesto de doble venta de inmueble, ¿qué comprador se queda con el inmueble?",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/en-el-supuesto-de-doble-venta-de-inmueble-que-comprador-se-queda-con-el-inmueble/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T14:00:15Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "¿Pueden los Estatutos Sociales atribuir al acreedor pignoraticio el ejercicio de los derechos de socio?",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/pueden-los-estatutos-sociales-atribuir-al-acreedor-pignoraticio-el-ejercicio-de-los-derechos-de-socio/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T14:00:07Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La AP de Madrid amplía la investigación de la UCO sobre González Amador a sus datos fiscales y Seguridad Social",
+   "url": "https://confilegal.com/20261020-la-ap-de-madrid-amplia-la-investigacion-de-la-uco-sobre-gonzalez-amador-a-sus-datos-fiscales-y-seguridad-social/",
+   "source": "Confilegal",
+   "date": "2026-10-20T13:56:51Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 5
+  },
+  {
+   "title": "El TSXG confirma la condena a la joven universitaria que actuó como «mula bancaria» para estafar a un vigués",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV2FzaTFZR3hldTdIMkNzRWctSTc1VGJpZ0E5bnVidUtLdjNZREtKZnYzWlVuSmhGZXdVLU9BNzQzb19VOVQ3a3RjenZLeFlTQl81RUY3T0tOT3VYaV9TVzNtR29KbEpjaEs0bWZkQ24wUWNJZnA5RXFUaEt4NmJpQ0lFWXlQVEtlUTN5YWhTMHhmZWppSEdkMXNJMUc4SkN1TjdLcllB0gGrAUFVX3lxTE5iUmVybDBxbk94N0JQalpfc1lQZ19MT25vRnU2elhCd1FVWkhBZGFBZzdZS2c2RGhOMTJkQkJEb0tXdUZHX0tFUnhMMG5JRVBROGROM3VHemxFSmRrUUxhVHpQMnRLZ2FHZ2ttS2w3WVcxdmZmc3A4aXdBUUxFMlJRSXotX1VqOGN2eW5zQlJUaXhqTUFCV09mb043Yl9MTkdMWEo4WlFzZHhZQQ?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-10-20T13:51:02Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Demanda de juicio ordinario por incumplimiento de un contrato mercantil",
+   "url": "https://www.economistjurist.es/premium/sala-2-0/demanda-de-juicio-ordinario-por-incumplimiento-de-un-contrato-mercantil/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T13:09:55Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "\"Me temí lo peor y me tiré por la ventana\", relata la víctima de un caso de violencia de género juzgado en Lugo",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONi04dUhQRkxRN3VnTmlEbmRmWElRRUNIYU1tVkhUN1FacXNUeGJzdHN2ZDBia3hyaDJzc1J3WjZkRFlpRkRCQmJsSTVMbUVETURybEhKSDV0VWIwOW41c3JsM2lHZzNGRXhVU1JCU2VvNXZZQU0zU1BxSjB2aUFEeC16Tnc2YkhuLWNZZGg3czJ0SkQtWnM1Yl9HQnRpa0t5UmlkcXljaFJYVnl6ZVQtUXdkUGlDSG1lRTdWTEk4aXd0VzYzeDhIRWZZaUdQZVJUMXo1dXVSZ1lSaTDSAeABQVVfeXFMT3dIT0YzdWN0WVBnc25JbDZHM3JuOXpTS2trM21BNmlGZFpZUHQwWEMyMjZkcEFSa0RQdzczeHc3NjBwcXVDNlRhd1lpZUZLWUl5NEItem4zRFRtUE9reXBhU2RhX3BkUUpvWEpGb2xtc21JX1ktTlc4ZDRzR19vMXdYQ25OYlFXTU5SODg2Vy1wUmxWdzV6ak9DWDJod3BYRmNFTUJ0NUZmbDk0NnFtVVpoc0JfbUJwS0VxdzZZalJCQ3dEck5hNUNOdUJVbHlkSTZhRWlqZllJbVdoRG1fa3g?oc=5",
+   "source": "El Progreso de Lugo",
+   "date": "2026-10-20T11:34:41Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Ulloa Viva recurre al TSXG para \"enterrar definitivamente\" el proyecto de Altri en Palas (Lugo)",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZ3RtbTFoaTkzYWs4LXdnMkZHdHI0MFdBQm5xSlM1dmlNUnFvNHczQWxlMzRqQktiRnJEVkdteVAzMWg3UWxWTzk1ckMyM0dRczZLNE9tWWlMQzhlekRpOEgxSTJQRDBEUzRPeTRSOUdTMjhESnlEbEVUMG1jajFpUmVRdHJMc0c5eUJ0OGdDcXVidGpwSWdZblRwdXF2UUFjOGtHREVJbFRIWDhyT2dIbWhneENUQ2hRYWthTnc5akF3dzFJUmYzVHVwb1hpMTdwNG1BYTBFVzJCRDBfeTVUNl9KX3JnZVM1dHI4cDdRaENZemxT0gH6AUFVX3lxTE5QdmFkTjc0aVIzc3FzbUV0TGhRR05wcVFySDN2cmpzZHBuaXE1bXNLbHMzTnlJRFpXOEMtM0t1UDVtajdFaDFzVXlUcUVJLVE5TzhXYlFtUWFMMm5Ba1JaVXNyYlhMTnFNeHJ6dU9GNFpDLVIxN0V3OVJubmNISU80RUJ2bE1XUjl5SzZ1cUEyd2dKZy1jVWt1RG5MUzNSQ2xTLWtnTTNfOEVwUFUxWkxQcWY3dC16Y0VQQVBVVV9rOGJCb3NqWUtlTmxoZFpvTkVBUk95LTR1dGZEZUhYZy0yMmFHSXp3MzFsc045a0tGdTVod2pvV2ZIcUE?oc=5",
+   "source": "COPE",
+   "date": "2026-10-20T11:28:42Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El 78,4 % de los abogados españoles ya utiliza inteligencia artificial, según un estudio de Grupo Tirant",
+   "url": "https://www.lawyerpress.com/2026/10/20/el-784-de-los-abogados-espanoles-ya-utiliza-inteligencia-artificial-segun-un-estudio-de-grupo-tirant/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T11:17:57Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Claudia Ambrós Biern asciende a socia de M&B Abogados tras catorce años en la firma",
+   "url": "https://www.lawyerpress.com/2026/10/20/claudia-ambros-biern-asciende-a-socia-de-mb-abogados-tras-catorce-anos-en-la-firma/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T10:56:09Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El III Encuentro Abogacía de Empresa ICAM-ICAB reunirá la abogacía in-house para abordar los grandes retos que marcan el rumbo de las empresas",
+   "url": "https://www.lawyerpress.com/2026/10/20/el-iii-encuentro-abogacia-de-empresa-icam-icab-reunira-la-abogacia-in-house-para-abordar-los-grandes-retos-que-marcan-el-rumbo-de-las-empresas/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T10:49:56Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 3
+  },
+  {
+   "title": "Guía legal ante una DANA: qué ocurre si desobedeces el confinamiento, faltas al trabajo o sufres daños en tu vivienda",
+   "url": "https://www.lawyerpress.com/2026/10/20/guia-legal-ante-una-dana-que-ocurre-si-desobedeces-el-confinamiento-faltas-al-trabajo-o-sufres-danos-en-tu-vivienda/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T10:46:07Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Altri sigue en el aire: Ulloa Viva lleva a la Xunta ante el TSXG para exigir la denegación del proyecto",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOei1iRm14YmpxM2h2aXB2bGNjUUtZMzhZeW1uaTBjZTBxb0JDeHFkOVAzQXRtU1V1dFVENFNMb2JFMVJmWWFCOXhYWWlpNi1QSWZwZE51UTZiLW9EZU5zT1Y1OXBkOGtrbnBPLTl4bGhBRm5zR0c4bGNoSXZuck5Ha1piYURFQkFScTl2X1RQV2dmVm1DdTB30gGcAUFVX3lxTE90MUMwWndUYjNYb1ZXcEd0dUVrVUZRLTdFVWI1OF9hSFFqZWJta3BfaVE3T080SnBKT0dDb0k5T3YyZVF2T1Z6SnpKazhwaUtyZzREam9CcnlIenZ6RE9ZUmpLRnd5S1oyNFlrMjAxVkNLWTdSWW1XaFRyY3FueExIekRMRmxDcm1xQjR2NnJhdHhUaVdWM2xvdW9Qeg?oc=5",
+   "source": "El Correo Gallego",
+   "date": "2026-10-20T10:41:30Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Fundación Mutualidad pone en marcha Legal Lab para impulsar el emprendimiento jurídico en Castilla y León",
+   "url": "https://www.lawyerpress.com/2026/10/20/fundacion-mutualidad-pone-en-marcha-legal-lab-para-impulsar-el-emprendimiento-juridico-en-castilla-y-leon/",
+   "source": "Lawyerpress",
+   "date": "2026-10-20T10:30:42Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Unos vecinos se negaron a pagar 14.045 euros por una obra: por esto la Audiencia Provincial de Bizkaia les dio la razón",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/unos-vecinos-se-negaron-a-pagar-14-045-euros-por-una-obra-por-esto-la-audiencia-provincial-de-bizkaia-les-dio-la-razon/",
+   "source": "Economist & Jurist",
+   "date": "2026-10-20T10:00:52Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TSXG paraliza cautelarmente el parque eólico Estivada en Lugo y Pontevedra",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV201YThlN2RTU2VrNERWZWFsbnlGeDY5dkpieUlVczk2aW5Wc3JYakZBbHJ4YTAxODlOMmpJRGJ0ZVlXM1NGTVMyVTFRODJYUGt1WjNqS3dqMGVGdEpGM2s0X2JqMnZMY0h2V0dxU2txODBpZE5KblJEcmFHSkRjN2hoWnF4OTdTTEZzUWs5bnJFM1dZTG0wY29xR05lVTA?oc=5",
+   "source": "energelia",
+   "date": "2026-10-20T08:01:29Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 8
+  },
   {
    "title": "La justicia rechaza convertir a una interina de la CAM en funcionaria fija a pesar de llevar 17 años continuados prestando servicios",
    "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-rechaza-convertir-a-una-interina-de-la-cam-en-funcionaria-fija-a-pesar-de-llevar-17-anos-continuados-prestando-servicios/",
@@ -115,6 +484,51 @@
    "source": "Confilegal",
    "date": "2026-10-20T03:39:00Z",
    "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El TC aclara el plazo para recurrir un acuerdo administrativo tras una rectificación de errores",
+   "url": "https://www.iberley.es/noticias/el-tc-aclara-plazo-recurrir-un-acuerdo-administrativo-una-rectificacion-errores-37120",
+   "source": "Iberley",
+   "date": "2026-10-20T00:00:00Z",
+   "area": "administrativo",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El TEAC califica como privativos los derechos de la PAC",
+   "url": "https://www.iberley.es/noticias/el-teac-califica-como-privativos-los-derechos-pac-37085",
+   "source": "Iberley",
+   "date": "2026-10-20T00:00:00Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La DGT niega la reducción del 30 % a una indemnización por jubilación al incluir pagos mensuales",
+   "url": "https://www.iberley.es/noticias/la-dgt-niega-reduccion-30-una-indemnizacion-jubilacion-incluir-pagos-mensuales-37092",
+   "source": "Iberley",
+   "date": "2026-10-20T00:00:00Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El Supremo descarta la nulidad automática del depido por violencia de género",
+   "url": "https://www.iberley.es/noticias/el-supremo-descarta-nulidad-automatica-depido-violencia-genero-37117",
+   "source": "Iberley",
+   "date": "2026-10-20T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Recargo del 30 % por falta de señalización y coordinación preventiva",
+   "url": "https://www.iberley.es/noticias/recargo-30-falta-senalizacion-coordinacion-preventiva-37118",
+   "source": "Iberley",
+   "date": "2026-10-20T00:00:00Z",
+   "area": "tributario",
    "scope": "españa",
    "score": 2
   },
@@ -936,420 +1350,6 @@
    "area": "general",
    "scope": "españa",
    "score": -3
-  },
-  {
-   "title": "DECLARACIÓN INSTITUCIONAL: Procuradores, , Arquitectos, Abogados y Arquitectos Técnicos trasladan a la ministra Saiz",
-   "url": "https://www.lawyerpress.com/2026/10/16/declaracion-institucional-procuradores-arquitectos-abogados-y-arquitectos-tecnicos-trasladan-a-la-ministra-saiz/",
-   "source": "Lawyerpress",
-   "date": "2026-10-16T09:06:30Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El ICAM obtiene la certificación EFR por sus medidas de conciliación y bienestar laboral",
-   "url": "https://www.lawyerpress.com/2026/10/16/el-icam-obtiene-la-certificacion-efr-por-sus-medidas-de-conciliacion-y-bienestar-laboral/",
-   "source": "Lawyerpress",
-   "date": "2026-10-16T08:54:57Z",
-   "area": "laboral",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El consejero coordinador: ¿una figura reservada a las cotizadas o una herramienta de gobierno corporativo para cualquier sociedad?",
-   "url": "https://www.lawyerpress.com/2026/10/16/el-consejero-coordinador-una-figura-reservada-a-las-cotizadas-o-una-herramienta-de-gobierno-corporativo-para-cualquier-sociedad/",
-   "source": "Lawyerpress",
-   "date": "2026-10-16T07:18:45Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Colegio de Abogados de Granada reconoce a siete letrados por sus 50 años de trayectoria profesional",
-   "url": "https://www.lawyerpress.com/2026/10/16/el-colegio-de-abogados-de-granada-reconoce-a-siete-letrados-por-sus-50-anos-de-trayectoria-profesional/",
-   "source": "Lawyerpress",
-   "date": "2026-10-16T07:13:02Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 3
-  },
-  {
-   "title": "Pepe Carrascosa «acaricia» el Premio Planeta con su nuevo thriller Letraherido",
-   "url": "https://www.lawyerpress.com/2026/10/16/pepe-carrascosa-acaricia-el-premio-planeta-con-su-nuevo-thriller-letraherido/",
-   "source": "Lawyerpress",
-   "date": "2026-10-16T07:04:41Z",
-   "area": "general",
-   "scope": "españa",
-   "score": -3
-  },
-  {
-   "title": "Walk the talk: la credibilidad como capital",
-   "url": "https://www.legaltoday.com/destacado/gestion-del-despacho-destacado/walk-the-talk-la-credibilidad-como-capital-2026-10-16/",
-   "source": "Legal Today",
-   "date": "2026-10-16T05:26:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "En vigor la obligación de usar el prefijo 400 para determinadas llamadas comerciales",
-   "url": "https://www.iberley.es/noticias/en-vigor-obligacion-usar-prefijo-400-determinadas-llamadas-comerciales-37110",
-   "source": "Iberley",
-   "date": "2026-10-16T00:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 5
-  },
-  {
-   "title": "Entra en vigor la obligación de usar el prefijo 400 para las llamadas comerciales",
-   "url": "https://www.iberley.es/noticias/entra-vigor-obligacion-usar-prefijo-400-las-llamadas-comerciales-37110",
-   "source": "Iberley",
-   "date": "2026-10-16T00:00:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 10
-  },
-  {
-   "title": "El TJUE fija el domicilio fiscal de los funcionarios y otros agentes de la Unión",
-   "url": "https://www.iberley.es/noticias/el-tjue-fija-domicilio-fiscal-los-funcionarios-otros-agentes-union-37109",
-   "source": "Iberley",
-   "date": "2026-10-16T00:00:00Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 8
-  },
-  {
-   "title": "La DGT excluye de IVA la transmisión de una clínica dental en funcionamiento",
-   "url": "https://www.iberley.es/noticias/la-dgt-excluye-iva-transmision-una-clinica-dental-funcionamiento-37090",
-   "source": "Iberley",
-   "date": "2026-10-16T00:00:00Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Jefe de producción: relación común y extinción indemnizada",
-   "url": "https://www.iberley.es/noticias/jefe-produccion-relacion-comun-extincion-indemnizada-37101",
-   "source": "Iberley",
-   "date": "2026-10-16T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El TJUE exige devolver de inmediato los pagos bancarios no autorizados",
-   "url": "https://www.iberley.es/noticias/el-tjue-exige-devolver-inmediato-los-pagos-bancarios-no-autorizados-37108",
-   "source": "Iberley",
-   "date": "2026-10-16T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 8
-  },
-  {
-   "title": "Se enfrenta a casi 4 años de cárcel por maltratar a su madre de 90",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFFIYTZUdi1LU2VHZ1BQMGhfc3d5bWx1UnpTMW03TU9IZTBkdHFwd3ZEMlJGVnNzajIySHVlbWs2Y3l4aWVpTWpZbEpHWFB5S1pKa1FXV2N3YVhDQ19GMVRHVUVJQ2xieUl1Q2FpQ2tUMV9sdUFyNVFKZW1GMktvS0w4WkpOc2QtbWpBX1BZUVgzSzN0UnpJZlVoSDQyMkR6UERZOVRJckFNTzVic0V3d0RKd9IBuAFBVV95cUxPbUc5eThMVjZwcjhYbUZGR2RjODhobl9MLWtsTXRydEZKVVZfZVc0MjFib3NEUlEzSUUxcngyUEcwNWhKc21JYVNBNW5MbkdQalBhbnNvcEhkb1hZcTFJYUM4XzF1dkFiWmxlNy1GZjZ5UnRQaVFzZmJkQjlrTVJ5YkMtZlVnVDV6cDBQbTNCQkVSRXV5VmVoQnFKTjUwODBYcUdncGhmTkVUQ0NrTU1zWjhGOW9SSnlJ?oc=5",
-   "source": "El Progreso de Lugo",
-   "date": "2026-10-15T17:45:58Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 4
-  },
-  {
-   "title": "Navas & Cusí pide que haya condena en costas cuando bancos o financieras se allanen en el Supremo",
-   "url": "https://www.lawyerpress.com/2026/10/15/navas-cusi-pide-que-haya-condena-en-costas-cuando-bancos-o-financieras-se-allanen-en-el-supremo/",
-   "source": "Lawyerpress",
-   "date": "2026-10-15T16:23:08Z",
-   "area": "penal",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Abogacía Española y la Cámara de Comercio reclaman mayor seguridad jurídica en los sistemas de compliance",
-   "url": "https://www.lawyerpress.com/2026/10/15/abogacia-espanola-y-la-camara-de-comercio-reclaman-mayor-seguridad-juridica-en-los-sistemas-de-compliance/",
-   "source": "Lawyerpress",
-   "date": "2026-10-15T16:19:08Z",
-   "area": "penal",
-   "scope": "españa",
-   "score": 3
-  },
-  {
-   "title": "El ICAM cuestiona los nuevos baremos de Justicia Gratuita y advierte de menores retribuciones en asuntos complejos",
-   "url": "https://www.lawyerpress.com/2026/10/15/el-icam-cuestiona-los-nuevos-baremos-de-justicia-gratuita-y-advierte-de-menores-retribuciones-en-asuntos-complejos/",
-   "source": "Lawyerpress",
-   "date": "2026-10-15T16:11:40Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "La Abogacía Catalana defiende los MASC en Derecho de Familia, pero exige garantías para proteger a los menores",
-   "url": "https://www.lawyerpress.com/2026/10/15/la-abogacia-catalana-defiende-los-masc-en-derecho-de-familia-pero-exige-garantias-para-proteger-a-los-menores/",
-   "source": "Lawyerpress",
-   "date": "2026-10-15T16:07:54Z",
-   "area": "civil",
-   "scope": "españa",
-   "score": 3
-  },
-  {
-   "title": "Los vocales de la Asociación de Fiscales expresan su apoyo a la magistrada Beatriz Biedma ante posibles presiones e intimidaciones",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/los-vocales-de-la-asociacion-de-fiscales-expresan-su-apoyo-a-la-magistrada-beatriz-biedma-ante-posibles-presiones-e-intimidaciones-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T12:46:30Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "ICAM saca a la luz la historia de su casa: un libro reconstruye más de un siglo de vida del Palacio del Marqués de Portago",
-   "url": "https://www.legaltoday.com/portada-2/portada-4/icam-saca-a-la-luz-la-historia-de-su-casa-un-libro-reconstruye-mas-de-un-siglo-de-vida-del-palacio-del-marques-de-portago-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T09:58:12Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "La presunción de validez de los certificados de residencia fiscal extranjeros",
-   "url": "https://www.legaltoday.com/portada-2/portada-3/la-presuncion-de-validez-de-los-certificados-de-residencia-fiscal-extranjeros-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T08:51:17Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Estado hace con sus trabajadores lo que ninguna empresa podría permitirse",
-   "url": "https://www.legaltoday.com/opinion/articulos-de-opinion/el-estado-hace-con-sus-trabajadores-lo-que-ninguna-empresa-podria-permitirse-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T07:35:41Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "La IA ya habla de tu despacho con material que no controlas",
-   "url": "https://www.legaltoday.com/portada-2/portada-3/la-ia-ya-habla-de-tu-despacho-con-material-que-no-controlas-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T06:55:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "¿Competencia civil o mercantil? La sentencia del TS que puede cambiar el destino de tu próximo litigio societario",
-   "url": "https://www.legaltoday.com/practica-juridica/derecho-mercantil/competencia-civil-o-mercantil-la-sentencia-del-ts-que-puede-cambiar-el-destino-de-tu-proximo-litigio-societario-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T06:40:00Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 4
-  },
-  {
-   "title": "Entra en vigor la ley que reconoce a los funcionarios de prisiones como agentes de autoridad",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/entra-en-vigor-la-ley-que-reconoce-a-los-funcionarios-de-prisiones-como-agentes-de-autoridad-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T06:38:15Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 9
-  },
-  {
-   "title": "Las comunicaciones íntimas (de índole sexual) con menores de edad dentro de una prisión de adultos, ¿lo permite la normativa penitenciaria?",
-   "url": "https://www.legaltoday.com/practica-juridica/derecho-penal/las-comunicaciones-intimas-de-indole-sexual-con-menores-de-edad-dentro-de-una-prision-de-adultos-lo-permite-la-normativa-penitenciaria-2026-10-15/",
-   "source": "Legal Today",
-   "date": "2026-10-15T05:53:00Z",
-   "area": "penal",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Nuevos baremos para la asistencia jurídica gratuita",
-   "url": "https://www.iberley.es/noticias/nuevos-baremos-asistencia-juridica-gratuita-37106",
-   "source": "Iberley",
-   "date": "2026-10-15T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El Supremo reitera la diferencia entre voluntad y consentimiento sexual válido",
-   "url": "https://www.iberley.es/noticias/el-supremo-reitera-diferencia-voluntad-consentimiento-sexual-valido-37107",
-   "source": "Iberley",
-   "date": "2026-10-15T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Custodia compartida: el TS considera mínimo y alimentos compatibles en IRPF",
-   "url": "https://www.iberley.es/noticias/custodia-compartida-ts-considera-minimo-alimentos-compatibles-irpf-37100",
-   "source": "Iberley",
-   "date": "2026-10-15T00:00:00Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "La DGT aclara la tributación de varias operaciones con residuos",
-   "url": "https://www.iberley.es/noticias/la-dgt-aclara-tributacion-varias-operaciones-residuos-37084",
-   "source": "Iberley",
-   "date": "2026-10-15T00:00:00Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El Tribunal de Cuentas amnistía a Puigdemont y todos los encausados en el caso de los gastos del ‘procés’",
-   "url": "https://www.legaltoday.com/portada-2/portada-4/el-tribunal-de-cuentas-amnistia-a-puigdemont-y-todos-los-encausados-en-el-caso-de-los-gastos-del-proces-2026-10-14/",
-   "source": "Legal Today",
-   "date": "2026-10-14T13:21:48Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "La sentencia del TSXG condena a la UVigo a pagar 346.000 euros por la urbanización de As Lagoas, en Ourense",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMGpCNGk3WmpQUmdXZmNhUkpQV0Q0VnBBZUFOS1p2SGU0X0JwWFFKaXdza3FGRmNjZ1UzRXh4UUhZSlc5QkZ0Qm8yWkNlSTRZZ0tNdWlzSW9vdDN1b3FVaTVmcGJzUjlEM2lHcG9UUVJVOEVDVFBRaFJWSHFYb0V0VF9LUFdMYWw1clJ4TXU5ODg3YjdB?oc=5",
-   "source": "MONCLOA.COM",
-   "date": "2026-10-14T10:27:04Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 11
-  },
-  {
-   "title": "El TSXG reconoce el derecho a plaza en Navantia Ferrol a un aspirante tras un error de valoración",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMzhZd1NBNnNaU1VqMUk1a2F3RDRHV2cwaHE4clBZMEdKeVRZOWo1YVFuMl8zSV80WUN5UWNaMjhzV09MdFlPTjRyLTZ2NTJmeHR4MHFvdExzMHVFY0pnRDU1Y2pZVnU1Y01nanpLeEhndVFWYkIxSWFGZENVVERuaGNoRWlxMXZuUk5aelU5aXY3ZDh6R3dpWXR6b0JTOE5tb1JzRU9HUFpkZVg4WGZYdHlFb21oWEEwSkt5bVBPZEFrRVFCaENfYV9iOXotWjFpeEt4ZXE4aU5ocDZ4dXJONGtiU0ZsOFRYcFl0a2FabXpNUUxCZ1RvMG1zNldsZw?oc=5",
-   "source": "Diario de Ferrol",
-   "date": "2026-10-14T02:30:00Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "La reforma de la LOGP reconoce a los funcionarios penitenciarios el carácter de agentes de la autoridad",
-   "url": "https://www.iberley.es/noticias/la-reforma-logp-reconoce-los-funcionarios-penitenciarios-caracter-agentes-autoridad-37099",
-   "source": "Iberley",
-   "date": "2026-10-14T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 7
-  },
-  {
-   "title": "El TSXG obliga a Correos a respetar el turno de mañana de una trabajadora sin cambiarla de su centro de trabajo en Val Miñor",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcnlZUG5DT3g3ZHdSalJQTUREVzJDNTdxLXpNOXY2ZmlWT0pNRE1YbkFuQVdERWlRWTJQd3UzRzExSEs5RXZDRWRYaUtkZnRjM1dOU2dXdVNxakY5dlhybU4wSHhHQ29TUzBMUHduU0ZtUjJJREZJN0hwaTNLcGM3QzRCaTNCWFJ1VWNIYktaRHYyMlo2V0J3Zzhocy0wSTZ3UWp6ZjVTb0NXbWt4bVBUY01pZEZNZEt1S2JPMzJTRDBubnd1UnfSAcsBQVVfeXFMT01sQUhIT2ZRN2s4V2RKNkF3VnVsRlAxdTd2WGpVeTFBdFRGNEJCVXJWSnV2cENHQzNDdG11RkRJZ013bXhPZnFQQVVPcHg0NHFfYldCc29mNk0zZFFfdERpeWhGTm91NnNLeFQ5d0VWTzRpbVVmNld4NlJaaFd6UjNGajJRSW9Bc3VrOHZQeFRIbXFCVzhHVmZlWDAtY0VzT1VlRGEyRkYwTXZMMHlYUFdkWmlnMTVQTHFWNjcyaXpVbjQ0d2E2UE90Mjg?oc=5",
-   "source": "Faro de Vigo",
-   "date": "2026-10-13T18:51:38Z",
-   "area": "laboral",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "Galicia sumará 19 jueces y nueve fiscales en 2027, con nuevas plazas en Lugo",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLTNIOXl6cDBfMHFnMlZRVlZHb3BpcFF6LUpIX1p4a1JlRC1DclNVSmZPYmdERXV1aE5jYVUwc29oWlJnQVNmTUNSWlFHSVZtQkFYMXd5R3NaRUE5ZlVlYkQwRkhIRXBKUHM3am9MSy1HTElZM1ZYV2QyenpaOExXbEVWR0RXZTV2dTdjNm9qQjBHTXVldG9pRVl3eVVETzYyYS12ZjN0Q1NNV3FtbXdtTm9GZkNpTmk3dG1oeWpmTjBrdzI4VEdTRdIBzgFBVV95cUxQakZtbHQzRHgtektZaTVVcXFUQXFOX2F2UUFRZ0U1REFsdkRCd1pZY0FLNERFcmN0TlB3Ty1EYnAtdVlCU2RfUnN5UE13OWd0N1lQeXp2YXNIRDRxZDVYejBFS0pfWHpMSE83WUlpa2pLaHVOMTN6c2RpX1pBc0s5MmtlQmtvcTRIcTY1U29FZ3JWMDQteElrd0F4bUVPdEIzNkVrcjQzT04zVFBWYzRFNWlPV1NVeVBjWjRQcmtFdWtaVGRxSXVaRlZSRG5lUQ?oc=5",
-   "source": "El Progreso de Lugo",
-   "date": "2026-10-13T17:20:01Z",
-   "area": "tributario",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG condena a Navantia a contratar a un aspirante al que no valoró su conocimiento de gallego",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRU1aY192aVdlWjJrelBDYlctdEd3VjBNVzYzTFFnQnNienFQQU9TbGFNRXpwdWR1Q1lLbjNaT2VkOU5FT1J1TFdIMFEwVF9abVJqS05uclV0QXhsTUY5VkhXc2lfOVlVRnVvUldoQVJVeG5XNDFzaXdQM1E3VVhTRXJkamY0M2g3VWtBLTAzbHE0b1duVHlvZGdGZDhYSDl5SVRpM09RT1ZrZGhrRDN4WkVuM1JkRUpMX0xxbDZYdTF6WFVrZ25QdkN3QU1mWU9JM2NDRWhEaFMzWjkyOU1WdXI3YmPSAeoBQVVfeXFMTS1BYXhVcU1JYXVCaW9wMU0xYzZKRzNYNHZlZmtMbm9nYkZkaG9IT2N5RnhnbmxaZDVxWUR2ZkZEcDZ5UERweHAtN3AxNjFtWHlkR19WS1pyb3NSbldIUzBjMlAwYVpocXI5WlFScGNWUzRkekdCUWJJUHY0a00xNWlFcV9xSjNFdVRPR0Zwa01FM3FNQ0lQVlM5VFB0V21jUmJGa3VWeW1UUUozOF9LY3ZHNDZNMl93c1Y1MllyVjhIUGdQeUdEUUx6YVcwTm5rYTN5aXhRbXpUU0l1SFZXMjgwMUg0MmJFREJ3?oc=5",
-   "source": "El Español",
-   "date": "2026-10-13T17:15:20Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG condena a Navantia a contratar a un aspirante al que se valoró de forma errónea su conocimiento del gallego",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdlAtNWtXX2k4S3dTd2VxSzQ3YUlnYXVoQ2RXTVB6WFlqbDZvYkc4MFJHUjFVS2RCWmd1a3IxQmhqbG85cjJEOGk3VlIyVnlQVEViWjdvLWN6Ukh2bkhza2I0ZzUyWVdRWXdFbk5KcXFYdEcwRk1UcWlacktUT2tCc21KWlZjd1ROdW9LZkRfbkR4OGtVTU1FZlZOdDVSYktNdzdKWUFneDhrUDk2Z1dXY1RITkJuNzYxVDBlTVBxRGNDVWlqOEVQOXJCa1hBNVE4ZXVJVGYxYVFRdUJDYzhv?oc=5",
-   "source": "Europa Press",
-   "date": "2026-10-13T14:04:19Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG reconoce el derecho de un aspirante a entrar en Navantia tras una valoración errónea de su gallego",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcHphV1RwZjh2VzRTLUJwVkN0NTRYN1V2djFJRTBVNXc5YVZPcFlJWUdFbnhnUW85UGVhTTBzQUY2dTFGaHhsamJUNkduLWdMMXJxRXprLXo0Zm5DdXEydUF3VlpnOGxxNFVUUU9ZU1QyWkwwa19ldHVRLTNsS3FUb3pKUk9qSnlUbFpmQVlIRVpoWEdWbTlZVGlDdGxFaV9sNk9jOTlubWNGOEgwdWo5TGtrb3RMVnRjdkVFTmU4U3ZhWmNuMERSOWxxank4dko0TWp1aE40TTl5Q3pPVkF0ZXpn?oc=5",
-   "source": "Diario de Santiago",
-   "date": "2026-10-13T11:49:50Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG obliga a reconocer los certificados de gallego de un aspirante que optaba a una plaza en Navantia",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSkVUdTRKNU52clBuQWh3NnVnR1RpWVFScnIyMW91QUVlVGZJYUtXQjF5ZW5SV2o2NjBTLW1SZ2VzMVF1Q2xrUU55LUtSWTdDRmF4cjloM0NpWFVSTFNUQXIwM2N2RE5zUk5fblpiT1JON191eW1GYkdqOHdiQi1hU28wakpoOVFPb1dGMHQxOHJQaUlCb1F0SjNRV0dkSDNVLWR5dnFmQ1lVZ2vSAbABQVVfeXFMTWVVVjJhWDA1UzVwZTgyZkh4S0dSeGZGZnBTR2dvejk2Y1EzZHlaWlRwSXlzdXJpSDA3VElxOVRzY0NnSVNDRWgxQURiZ3VCWDlYRGVHaGpHYk5WMmZYSllxQ0RJaFIyNEJzV2lhOXJfQVVQb2lTMzJnUVZSS1NxR3VSWUptbUpqY1FXbzFmZXZ1V1BXN05BQlRmNjh2RmRPY3RMNWI5QlBNU3NwVWs4SXg?oc=5",
-   "source": "El Correo Gallego",
-   "date": "2026-10-13T09:53:57Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG obliga al Sergas a reconocer a una sanitaria de Vigo el grado profesional obtenido en Andalucía",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSjFyV1BVNFBGMUlkaWw3X3cwamx1SEg1N3AxM1poQzRNV29rNHJ0RXQ4R0pQMlV2T3VER0ZlM0lfdFBrOU1fZ2FrWDByQWxHYkJGRVhTb3FRdEhHeE9XTmJkRkVSZ25raDZTa1BqU1p3WHQ1QjlYSU5TbkZ2RlV4VjhuZjNMeTZ2TE1UdThlZXlIWjRIdGh0NEQ0bEUtOTNKZTI0THZIclIwNm1XdjNLaWwzS0dTcVdqZWdMedIBwgFBVV95cUxNSC1Oc1Q0ZDBhaGVXTl9TNkNmQnJYeEhwX2FVS3JHcXJiQWJvRmRaSUZOM0p4N2pJeGswOVhFMHRDNktCQzJyREs1dGduamRNb2I0ZlZhRmxNdlVnaTdmWmtLYnlxQ3FPWEZwY1dMM3VuOVgtMXFzLTB3U2g4dkItM2RuS2lReTh2SkprdGx6QzczeEZ3cExLZHJoeTEwVFY5MnZlSWl0c2gxcTdnQ1Q1c1pERHduMDJrNG1iREZ6MnJWZw?oc=5",
-   "source": "Faro de Vigo",
-   "date": "2026-10-12T16:48:46Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "Una funcionaria reclama una indemnización de 153.000 euros por encadenar contratos temporales durante 30 años",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTGFfOGk0REdNUUZHd2JCVnJrYnEtUVNmN1hIbmNPUnk0TkVGcVdSLW9ZUEhFMHlnY3NyU1ZLVkFnb2pLT0NGYjBUV0JTUGV6OU4zRWI1bFJUM05jTkVxVkFEaDRsdnJDS1VKSWFiaVhaX0p6N0lmdmlBcjVSY1phdzJVU1d6ZnFLWWFvYUprUFhsbU90VlBTN0dkdmVvZFRKWXkzaWRUUXh2UkNKZEdJclpVN0dYMlNEZ0RNM3ZKcTRaRVR4VGc4Z2xUV2t2Q1U5dl9EWnJVQU1kT0o2cWhaZ2dZaw?oc=5",
-   "source": "La Voz de Galicia",
-   "date": "2026-10-11T03:01:18Z",
-   "area": "civil",
-   "scope": "galicia",
-   "score": 4
-  },
-  {
-   "title": "El TSXG anula el nombramiento de Eladio Santos como subdelegado del Gobierno en Ourense",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbnQ4Ulp1cENpam80dzRHMWMtQ0FMNnNyUFF3bzVOVDNhb01ibkcxR1d4b0M1a3N0MXBkbUxYdGpKWHRWUVFCV09lUWdhTzFVbUtxSXY3dUw5T0FDMXVzenBBdmtJbzI0dlJnN0ZodWlxRm9fN0dBdl9Pa0ZIaF9DWHdhRTZwY1dJaU5R?oc=5",
-   "source": "MONCLOA.COM",
-   "date": "2026-10-10T17:43:41Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 4
-  },
-  {
-   "title": "El TSXG anula el nombramiento de Eladio Santos como subdelegado del Gobierno en Ourense por falta de motivación",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdlltWUtTM0NieXAwZGdVU2F2ckU0MXZkUms3Rmk1LVN2ODBmS0pEMHRSSFRWN2JpaUZmOWQ5alNsUDdBTFRsQkk4MWdfemx0R2xUWnYtRTFEd096T2lGaFBocExyRk1Wb1hFbE1TZ2U4c1dNME92cUQyd05HNUI4Nkw1SWRHUkExSHRxSGs5c1J5VjlteWZuajhMemFhakZH?oc=5",
-   "source": "La Región",
-   "date": "2026-10-10T03:50:00Z",
-   "area": "tributario",
-   "scope": "galicia",
-   "score": 4
-  },
-  {
-   "title": "La Universidad de Valencia premia a un magistrado del TSXG por tres de sus fallos",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd1BrU1BKSUpTLVdOSlQtdkhDaUJNN2NNWUpsTTVtcmpHZ1E3TTlZSHhNQnhfS1A1Ti1xcG9yVWtPYlBwNmlCdUpfVk9WNFVEVTRVaXg4OGEyX3hPb3lzbUJIVHVMUmV3RGh5czRIX0I4OV9DLXJ5U3VXYUdzZV9RRWU3WkpYLXI2clE4SW9WaV90b0djRFN5OEFQM0hmZkF5X2tLTElxWGJXMXRPV2tHenVrXzRWOEVka2Njck1mYnNWcGUzbDJNM3FOWlBoVW1ZTnFJRXFVWmNoUHk0?oc=5",
-   "source": "El Ideal Gallego",
-   "date": "2026-10-08T21:01:33Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG zanja que Faurecia Porriño cedió su plantilla de forma ilegal: «Madera Fiber creó una apariencia de relación laboral»",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeHd5QmxQV0NKTXdTc3NoZWFpMExWMkFuVEJaSmFlTWFhbWRiWjh3cFNTaVBnN2lCV2xSZnVhZGV0NVBiWWlWZjR0SjZOdWJHR3BxcVFXQTNHVnJXX2p2R1VYRGM3YWM4WUVLbmlwQTNFcmg2YzlJWEkwMDlMRU1ESnRwSWpUbVJ5Z1JhSE5kX3dBQjQtX20zTTVtSzVGbk5ZRnl2TlY5ZEp4X1RSdkRWeTFhck9mc0FvN3Jmem9wcFZfSDJYc0JXNXY1M19CVEUxQk1kVnU5MVdRMFXSAeABQVVfeXFMTXVWcHhMTUwwcTdyZXNfaXZOa0RPV0EwYktqTC1ITzM5OXlCZGV4RHlyTnNQY09UTVF2SUNLTzB3VXFDQU5kUE1OQm5WdEREM3RxUmxoVklJRTd1QTN2Ny1SUllsTjREUFpjeUZIb2dOdUo3R2JybGtGRzBUZEFGcHRnUXEyWkc4ODg4akVYWHg1b3BDVW1HTzdNTTlIVVgyYXY5VmlhZm54blU1WHF3aldaLXcycFNqNG5Ea0w4QjNiUnJUX0txVjBOaDJ5WExIWU9tR2VGMHlRLUw4SXFWU3Y?oc=5",
-   "source": "Faro de Vigo",
-   "date": "2026-10-08T16:00:06Z",
-   "area": "laboral",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El magistrado del TSXG Fernando Lousada, reconocido por aplicar el Derecho Internacional de los Derechos Humanos",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdjFlQVBYamF6emk4cEVmU2tpLTdhUWF0TVVUQjNraDQ5VzNEdWNHNUFlUmIwVWMyeUFmdTktQ1FZQTJjWDQ2ZXRPMUxjMXRjMzAwSTBaVXVnbTFQV05KNWsxaWtpd2tEZWszdVdIdWNWSm1mU1B6X1FZUml5cGp5RFlEbl9BbjNROFBsMnJBVDAzRW44UmpaRzZLMGNlb1FDNmxqQjB4VnhiTTlQakE3T3puN253cFFXOUVzc0EtbHJBcGQtbE1xOG9MWUtVRmJxd0tON3pkeVFabUNvZUYyMmNtTWhKUHc?oc=5",
-   "source": "Diario de Santiago",
-   "date": "2026-10-08T14:48:09Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
   }
  ]
 }
