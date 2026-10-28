@@ -7,6 +7,426 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/el-fumus-boni-iuris-que-freno-un-derecho-fundamental-v-la-cautelar-sometida-a-prueba/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/el-fumus-boni-iuris-que-freno-un-derecho-fundamental-v-la-cautelar-sometida-a-prueba/",
+   "title": "El «fumus boni iuris» que frenó un derecho fundamental (V): la cautelar, sometida a prueba",
+   "date_published": "2026-10-28T06:00:54Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-despido-dos-correos-y-una-empresa-obligada-a-elegir-entre-readmitir-al-trabajador-o-pagarle-389-000-euros/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-despido-dos-correos-y-una-empresa-obligada-a-elegir-entre-readmitir-al-trabajador-o-pagarle-389-000-euros/",
+   "title": "Un despido, dos correos y una empresa obligada a elegir entre readmitir al trabajador o pagarle 389.000 euros",
+   "date_published": "2026-10-28T06:00:38Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-ayuntamiento-de-bilbao-no-puede-prohibir-que-una-mascota-viaje-en-la-parte-delantera-del-coche-si-va-dentro-de-un-transportin/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-ayuntamiento-de-bilbao-no-puede-prohibir-que-una-mascota-viaje-en-la-parte-delantera-del-coche-si-va-dentro-de-un-transportin/",
+   "title": "El Ayuntamiento de Bilbao no puede prohibir que una mascota viaje en la parte delantera del coche si va dentro de un transportín",
+   "date_published": "2026-10-28T06:00:23Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/gaston-durand-socio-y-miembro-del-comite-de-direccion-de-forvis-mazars-en-espana-nuevo-presidente-de-marcalliance/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/gaston-durand-socio-y-miembro-del-comite-de-direccion-de-forvis-mazars-en-espana-nuevo-presidente-de-marcalliance/",
+   "title": "Gastón Durand, socio y miembro del Comité de Dirección de Forvis Mazars en España, nuevo presidente de Marcalliance",
+   "date_published": "2026-10-28T06:00:12Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261028-enrique-lopez-presentacion-libro-el-estado-del-estado/",
+   "url": "https://confilegal.com/20261028-enrique-lopez-presentacion-libro-el-estado-del-estado/",
+   "title": "Enrique López presenta su libro «El Estado del Estado»: «En este país han pasado cosas que no deberían haber pasado nunca»",
+   "date_published": "2026-10-28T04:44:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-el-tsj-de-cataluna-declara-ilegal-que-zara-exija-concretar-los-dias-de-reposo-de-un-familiar-para-conceder-el-permiso-retribuido/",
+   "url": "https://confilegal.com/20261028-el-tsj-de-cataluna-declara-ilegal-que-zara-exija-concretar-los-dias-de-reposo-de-un-familiar-para-conceder-el-permiso-retribuido/",
+   "title": "El TSJ de Cataluña declara ilegal que Zara exija concretar los días de reposo de un familiar para conceder el permiso retribuido",
+   "date_published": "2026-10-28T04:43:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-los-tribunales-frenan-a-la-administracion-no-pueden-penalizar-a-un-opositor-por-criterios-no-publicados/",
+   "url": "https://confilegal.com/20261028-los-tribunales-frenan-a-la-administracion-no-pueden-penalizar-a-un-opositor-por-criterios-no-publicados/",
+   "title": "Los tribunales frenan a la Administración: no pueden penalizar a un opositor por criterios no publicados",
+   "date_published": "2026-10-28T04:42:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-desconocer-el-nuevo-domicilio-de-tu-ex-no-es-suficiente-para-evitar-el-masc-segun-los-tribunales/",
+   "url": "https://confilegal.com/20261028-desconocer-el-nuevo-domicilio-de-tu-ex-no-es-suficiente-para-evitar-el-masc-segun-los-tribunales/",
+   "title": "«Desconocer» el nuevo domicilio de tu ex no es suficiente para evitar el MASC, según los tribunales",
+   "date_published": "2026-10-28T04:42:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-asi-es-el-abogado-junior-que-buscan-en-los-despachos-en-2026-ingles-especializacion-y-conocimientos-en-ia/",
+   "url": "https://confilegal.com/20261028-asi-es-el-abogado-junior-que-buscan-en-los-despachos-en-2026-ingles-especializacion-y-conocimientos-en-ia/",
+   "title": "Así es el abogado júnior que buscan en los despachos en 2026: inglés, especialización y conocimientos en IA",
+   "date_published": "2026-10-28T04:41:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-rakia-india-arbitraje-inversion-extranjera/",
+   "url": "https://confilegal.com/20261028-rakia-india-arbitraje-inversion-extranjera/",
+   "title": "Opinión | CDL: El extraordinario caso del emirato, la mina que nunca abrió y las acciones que nadie tocó (I)",
+   "date_published": "2026-10-28T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-premios-aptissimi-xviii-esade-alumni-arpon-de-mendivil/",
+   "url": "https://confilegal.com/20261028-premios-aptissimi-xviii-esade-alumni-arpon-de-mendivil/",
+   "title": "Almudena Arpón de Mendívil, Esteve Healthcare, MOEVE y AIJA, premiados en la XVIII edición de los Aptíssimi de Esade Alumni",
+   "date_published": "2026-10-28T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261028-satira-politica-inteligencia-artificial-libertad-expresion/",
+   "url": "https://confilegal.com/20261028-satira-politica-inteligencia-artificial-libertad-expresion/",
+   "title": "Opinión | El Código Penal no tiene sentido del humor",
+   "date_published": "2026-10-28T04:39:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMjFvRHRfRUl1VENibnRSTUY2MXJmdGhJUHVCNEltTXZGY3FOakNzTkRDT0txYnJReW9Wbi1VdFBka09PTVVVSllJd21vYjA2cU5KWFlXVVVOQUg1UGk3ZGE4N21GWEl5bndhbU82WG82dnk3TE51OXBEWU9mWDhUS0RGTzlFSE1vaVBWTEpHRWxnZ0tjMDdIQlZDRnZiUENlRUdYaGg4ZW5TVGFDM1Z0M1dpaVVwVUNFeC1iYW9XUUdoWHpaVFhCM1F3NzFiYXlGNFFFZk5BZ3VMZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMjFvRHRfRUl1VENibnRSTUY2MXJmdGhJUHVCNEltTXZGY3FOakNzTkRDT0txYnJReW9Wbi1VdFBka09PTVVVSllJd21vYjA2cU5KWFlXVVVOQUg1UGk3ZGE4N21GWEl5bndhbU82WG82dnk3TE51OXBEWU9mWDhUS0RGTzlFSE1vaVBWTEpHRWxnZ0tjMDdIQlZDRnZiUENlRUdYaGg4ZW5TVGFDM1Z0M1dpaVVwVUNFeC1iYW9XUUdoWHpaVFhCM1F3NzFiYXlGNFFFZk5BZ3VMZw?oc=5",
+   "title": "Despedida en Ourense por acoso y xenofobia en la empresa: \"Mira qué pluma tiene\"",
+   "date_published": "2026-10-28T03:30:17Z",
+   "tags": [
+    "Mercantil",
+    "galicia"
+   ],
+   "_fuente": "Telecinco",
+   "_importancia": 4
+  },
+  {
+   "id": "https://confilegal.com/20261028-jurado-ix-premios-confilegal/",
+   "url": "https://confilegal.com/20261028-jurado-ix-premios-confilegal/",
+   "title": "El jurado de los IX Premios Confilegal distingue a Consuelo Madrigal con el Premio a la Trayectoria y a Alejandro Luzón con el de la Independencia",
+   "date_published": "2026-10-27T23:45:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": -2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdzR2bGpoclZMRXpOSm5pRlp4N01WaFFMTE1zVm1EZk9NbThYMmR4a1ZQT01VQWRlNm5zWjh3LTNidjBLMXBTaEJJWXlZRGJWWTd5c0RYbHJMVk5jYTFlNlRCWHlMczJpLURWWmVmT09ENlM3Sm1pMGZFeWxPZGtkOWhzSjItZ2ltdHNBbjQwd1RsYjgzMnB3WkZrRWJxVzFiQldfeGRmNGI2empMcVdCQVNn0gG3AUFVX3lxTE5rZEN2bWlZT0lhelRXdHBhdnhiSjdSZFJ0T3BTYnF5RVAxN29Mdmh4YVdqOWZqSWpaVjdZdS1nb1VuM0oweEdNakZhSDlfNHNZZUVRMnROZlBZc0xULVJjcjNsbU1SaXpTa2FfSXVRaDdNendhejV2azBmOEhVbGJ1X1ZpRlJmU2d2c2VUQ0c1VjVrU0dSRTZ5T1BaR3JPSE5qUll0aExGQVZuYnI2UndicDJmY18tUQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdzR2bGpoclZMRXpOSm5pRlp4N01WaFFMTE1zVm1EZk9NbThYMmR4a1ZQT01VQWRlNm5zWjh3LTNidjBLMXBTaEJJWXlZRGJWWTd5c0RYbHJMVk5jYTFlNlRCWHlMczJpLURWWmVmT09ENlM3Sm1pMGZFeWxPZGtkOWhzSjItZ2ltdHNBbjQwd1RsYjgzMnB3WkZrRWJxVzFiQldfeGRmNGI2empMcVdCQVNn0gG3AUFVX3lxTE5rZEN2bWlZT0lhelRXdHBhdnhiSjdSZFJ0T3BTYnF5RVAxN29Mdmh4YVdqOWZqSWpaVjdZdS1nb1VuM0oweEdNakZhSDlfNHNZZUVRMnROZlBZc0xULVJjcjNsbU1SaXpTa2FfSXVRaDdNendhejV2azBmOEhVbGJ1X1ZpRlJmU2d2c2VUQ0c1VjVrU0dSRTZ5T1BaR3JPSE5qUll0aExGQVZuYnI2UndicDJmY18tUQ?oc=5",
+   "title": "Condenados cuatro miembros de una misma familia por traficar con drogas en Noia",
+   "date_published": "2026-10-27T20:30:00Z",
+   "tags": [
+    "Penal",
+    "galicia"
+   ],
+   "_fuente": "ABC",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/afianza-lanza-un-master-propio-en-fiscalidad-y-tributacion-empresarial-para-formar-a-sus-profesionales/",
+   "url": "https://www.lawyerpress.com/2026/10/27/afianza-lanza-un-master-propio-en-fiscalidad-y-tributacion-empresarial-para-formar-a-sus-profesionales/",
+   "title": "Afianza lanza un máster propio en Fiscalidad y Tributación Empresarial para formar a sus profesionales",
+   "date_published": "2026-10-27T17:27:31Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNU0ZxaU9DUmZ2WDNVV1lLdk16ejV5RFRERkJ4R1V3cWpEN0I4OFg2NTFGUGxaSDA5akhTaWllVmJmVVN2c3ZKdVNic3RWbmljUFRac0pIajh1TWNPc0NwY1U3bng1ak1jcXRjOGd4cWlBajNBUy1EVDBqTFJWTjRWeHVXbUdCaVFqbDJubEpmOG5OUGxLSUx5SnJRUUpobGxaTUVYVDhGOTI2Vl9iWE0zRWZmT0p6Y0VnRlB1YXR2MU1HZEg1RHpYbUdMMW1EVllqaGxWRA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNU0ZxaU9DUmZ2WDNVV1lLdk16ejV5RFRERkJ4R1V3cWpEN0I4OFg2NTFGUGxaSDA5akhTaWllVmJmVVN2c3ZKdVNic3RWbmljUFRac0pIajh1TWNPc0NwY1U3bng1ak1jcXRjOGd4cWlBajNBUy1EVDBqTFJWTjRWeHVXbUdCaVFqbDJubEpmOG5OUGxLSUx5SnJRUUpobGxaTUVYVDhGOTI2Vl9iWE0zRWZmT0p6Y0VnRlB1YXR2MU1HZEg1RHpYbUdMMW1EVllqaGxWRA?oc=5",
+   "title": "El TSXG confirma las penas de prisión a cuatro miembros de una familia de Noia por tráfico de drogas",
+   "date_published": "2026-10-27T17:24:30Z",
+   "tags": [
+    "Penal",
+    "galicia"
+   ],
+   "_fuente": "GC Diario",
+   "_importancia": 8
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/abdon-pedrajas-littler-crea-kinema-people-y-confia-su-direccion-a-diego-navarro/",
+   "url": "https://www.lawyerpress.com/2026/10/27/abdon-pedrajas-littler-crea-kinema-people-y-confia-su-direccion-a-diego-navarro/",
+   "title": "Abdón Pedrajas Littler crea Kinema People y confía su dirección a Diego Navarro",
+   "date_published": "2026-10-27T17:21:20Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/eugenio-ribon-decano-del-icam-distinguido-con-el-premio-jurista-del-ano/",
+   "url": "https://www.lawyerpress.com/2026/10/27/eugenio-ribon-decano-del-icam-distinguido-con-el-premio-jurista-del-ano/",
+   "title": "Eugenio Ribón, decano del ICAM, distinguido con el Premio «Jurista del Año»",
+   "date_published": "2026-10-27T17:15:55Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": -3
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/lefebvre-homenajea-a-los-abogados-que-empiezan-en-la-profesion-con-la-nuestra/",
+   "url": "https://www.lawyerpress.com/2026/10/27/lefebvre-homenajea-a-los-abogados-que-empiezan-en-la-profesion-con-la-nuestra/",
+   "title": "Lefebvre homenajea a los abogados que empiezan en la profesión con «La Nuestra»",
+   "date_published": "2026-10-27T17:09:44Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/el-caso-ribo-se-eleva-al-tribunal-supremo-para-investigar-a-una-eurodiputada-socialista-por-la-piscina-ilegal-en-la-huerta-de-valencia/",
+   "url": "https://www.lawyerpress.com/2026/10/27/el-caso-ribo-se-eleva-al-tribunal-supremo-para-investigar-a-una-eurodiputada-socialista-por-la-piscina-ilegal-en-la-huerta-de-valencia/",
+   "title": "El caso Ribó se eleva al Tribunal Supremo para investigar a una eurodiputada socialista por la piscina ilegal en la huerta de Valencia",
+   "date_published": "2026-10-27T17:05:27Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 7
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/el-icam-celebra-el-plan-de-choque-del-cgpj-para-los-juzgados-de-lo-social-pero-reclama-mas-recursos/",
+   "url": "https://www.lawyerpress.com/2026/10/27/el-icam-celebra-el-plan-de-choque-del-cgpj-para-los-juzgados-de-lo-social-pero-reclama-mas-recursos/",
+   "title": "El ICAM celebra el plan de choque del CGPJ para los Juzgados de lo Social, pero reclama más recursos",
+   "date_published": "2026-10-27T17:04:02Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 3
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/la-aepd-advierte-de-los-riesgos-de-los-agentes-de-ia-y-recomienda-no-permitirles-actuar-sin-autorizacion/",
+   "url": "https://www.lawyerpress.com/2026/10/27/la-aepd-advierte-de-los-riesgos-de-los-agentes-de-ia-y-recomienda-no-permitirles-actuar-sin-autorizacion/",
+   "title": "La AEPD advierte de los riesgos de los agentes de IA y recomienda no permitirles actuar sin autorización",
+   "date_published": "2026-10-27T17:00:59Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/solo-uno-de-cada-tres-graduados-en-derecho-cotiza-como-titulado-universitario/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/solo-uno-de-cada-tres-graduados-en-derecho-cotiza-como-titulado-universitario/",
+   "title": "Solo uno de cada tres graduados en Derecho cotiza como titulado universitario",
+   "date_published": "2026-10-27T16:52:17Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261027-pedraz-blinda-la-continuidad-del-coronel-balas-al-frente-del-caso-leire-diez-pese-a-su-ascenso-en-la-guardia-civil/",
+   "url": "https://confilegal.com/20261027-pedraz-blinda-la-continuidad-del-coronel-balas-al-frente-del-caso-leire-diez-pese-a-su-ascenso-en-la-guardia-civil/",
+   "title": "Pedraz blinda la continuidad del coronel Balas al frente del «caso Leire Díez» pese a su ascenso en la Guardia Civil",
+   "date_published": "2026-10-27T16:22:32Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaXhLS2xHUDFwSU1OU1JpWFpIal9SY2Q4bjBTb2JJc0JFVDUwRTFhOHpwVXNoUWhyQnMtNmlQMy1oQTBjWUZkQnlEU2VJXy1yS3JJMG9wZTV3NlBZWUVEQTBwVzdwYm12WE1DcFFEQXZFdWtOWnZlUlVzMjg2SVBhMTJ1U0NNOWZsV3I1S3hYNnNVcTlkT1NMV3BESHdjeWJRdUZSejdnamluQzRYX3hadGFrQlhzS0VZcEc0RktwVEJvd9IBxwFBVV95cUxPN0REUlNOTHFhOUNMSXN4Tldhcm1oRXh0MjRYNlBlWm1MZ0c4QlF6WVVJM0ZTbW56MjRvc2xQeXBsN0tsOWY3cTdFUUJYSEtDeDBka0oybndaUE9nc1MxbC1ZZ2NhZ0NuWlh2aGsxYlQzd1lZUXRFUzdtNi14WXNFYW15MjhuQkY0aWthZlltQWxKclJvRkxxRjV3V2hfenB1M19kSzhXeEdjSXNPV1pXdEZYVm5mem40ZlVkci1kck5ocTFLclo0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaXhLS2xHUDFwSU1OU1JpWFpIal9SY2Q4bjBTb2JJc0JFVDUwRTFhOHpwVXNoUWhyQnMtNmlQMy1oQTBjWUZkQnlEU2VJXy1yS3JJMG9wZTV3NlBZWUVEQTBwVzdwYm12WE1DcFFEQXZFdWtOWnZlUlVzMjg2SVBhMTJ1U0NNOWZsV3I1S3hYNnNVcTlkT1NMV3BESHdjeWJRdUZSejdnamluQzRYX3hadGFrQlhzS0VZcEc0RktwVEJvd9IBxwFBVV95cUxPN0REUlNOTHFhOUNMSXN4Tldhcm1oRXh0MjRYNlBlWm1MZ0c4QlF6WVVJM0ZTbW56MjRvc2xQeXBsN0tsOWY3cTdFUUJYSEtDeDBka0oybndaUE9nc1MxbC1ZZ2NhZ0NuWlh2aGsxYlQzd1lZUXRFUzdtNi14WXNFYW15MjhuQkY0aWthZlltQWxKclJvRkxxRjV3V2hfenB1M19kSzhXeEdjSXNPV1pXdEZYVm5mem40ZlVkci1kck5ocTFLclo0?oc=5",
+   "title": "La Justicia obliga a la Xunta a readmitir o indemnizar con 43.000 euros a un bombero forestal de Vigo-Baixo Miño",
+   "date_published": "2026-10-27T16:14:40Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Faro de Vigo",
+   "_importancia": 8
+  },
+  {
+   "id": "https://www.economistjurist.es/zestilo-de-vida/ponga-un-churro-en-su-despacho/",
+   "url": "https://www.economistjurist.es/zestilo-de-vida/ponga-un-churro-en-su-despacho/",
+   "title": "Ponga un churro en su despacho",
+   "date_published": "2026-10-27T15:35:24Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-pasteleria-en-concurso-de-acreedores-cuantos-dias-de-indemnizacion-garantiza-el-fogasa/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-pasteleria-en-concurso-de-acreedores-cuantos-dias-de-indemnizacion-garantiza-el-fogasa/",
+   "title": "Una pastelería en concurso de acreedores: ¿cuántos días de indemnización garantiza el FOGASA?",
+   "date_published": "2026-10-27T15:00:54Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-falla-a-favor-de-una-comunidad-no-tiene-que-cambiar-la-puerta-del-garaje-porque-una-propietaria-se-haya-comprado-un-coche-mas-grande/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-falla-a-favor-de-una-comunidad-no-tiene-que-cambiar-la-puerta-del-garaje-porque-una-propietaria-se-haya-comprado-un-coche-mas-grande/",
+   "title": "La justicia falla a favor de una comunidad: no tiene que cambiar la puerta del garaje porque una propietaria se haya comprado un coche más grande",
+   "date_published": "2026-10-27T15:00:51Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/derecho-laboral-articulos-juridicos-destacados/cristobal-dobarro-y-ana-montenegro-letrados-en-las-convocatorias-laborales-no-pueden-exigirse-requisitos-documentales-que-la-ley-no-contempla/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/derecho-laboral-articulos-juridicos-destacados/cristobal-dobarro-y-ana-montenegro-letrados-en-las-convocatorias-laborales-no-pueden-exigirse-requisitos-documentales-que-la-ley-no-contempla/",
+   "title": "Cristóbal Dobarro y Ana Montenegro, letrados: en las convocatorias laborales «no pueden exigirse requisitos documentales que la ley no contempla»",
+   "date_published": "2026-10-27T15:00:06Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/cuando-el-algoritmo-dice-no-que-se-le-exige-hoy-a-la-evaluacion-de-solvencia-automatizada/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/cuando-el-algoritmo-dice-no-que-se-le-exige-hoy-a-la-evaluacion-de-solvencia-automatizada/",
+   "title": "Cuando el algoritmo dice no: qué se le exige hoy a la evaluación de solvencia automatizada",
+   "date_published": "2026-10-27T15:00:04Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUHVkUTRqeW9JUUgtVFo1aHU4NVlfNjhza2kyT0NRdFFHakFDelJDRTA5SlRCNGxfSy1QeGRmUHZQZUpDYUtpVEs5MDBSa29GWlcwbWcteDQxb25jNkJlOXZYZ3dCc3pZMjg2VTk3N19MbmVNMXhhTjRVb1pjaU5HYWVSRkFLVWhoM0pGTFhmUGJyVC1DdFA3Zk9pLTBOT1I2ZGF5Zk1NcWVIZDZQaXYtWUpoamlibDhCb09QOXNsQlJGdEx4M2NPQXlZLVprbG9xTnpiS05jTElqbWIyVFEyWXI1d2I0ei1CUEUyRGptV0t6dw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUHVkUTRqeW9JUUgtVFo1aHU4NVlfNjhza2kyT0NRdFFHakFDelJDRTA5SlRCNGxfSy1QeGRmUHZQZUpDYUtpVEs5MDBSa29GWlcwbWcteDQxb25jNkJlOXZYZ3dCc3pZMjg2VTk3N19MbmVNMXhhTjRVb1pjaU5HYWVSRkFLVWhoM0pGTFhmUGJyVC1DdFA3Zk9pLTBOT1I2ZGF5Zk1NcWVIZDZQaXYtWUpoamlibDhCb09QOXNsQlJGdEx4M2NPQXlZLVprbG9xTnpiS05jTElqbWIyVFEyWXI1d2I0ei1CUEUyRGptV0t6dw?oc=5",
+   "title": "ADEGA pide la ejecución forzosa de la sentencia que obliga a recuperar la protección ambiental de la zona prevista para Altri",
+   "date_published": "2026-10-27T12:16:50Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "LugoXa",
+   "_importancia": 7
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/un-beso-en-la-mano-donde-empieza-lo-sexual/",
+   "url": "https://www.lawyerpress.com/2026/10/27/un-beso-en-la-mano-donde-empieza-lo-sexual/",
+   "title": "Un beso en la mano: dónde empieza lo sexual",
+   "date_published": "2026-10-27T08:49:16Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/rld-amplia-su-sede-en-madrid-y-se-traslada-al-edificio-cuzco-ii-para-impulsar-su-crecimiento/",
+   "url": "https://www.lawyerpress.com/2026/10/27/rld-amplia-su-sede-en-madrid-y-se-traslada-al-edificio-cuzco-ii-para-impulsar-su-crecimiento/",
+   "title": "RLD amplía su sede en Madrid y se traslada al Edificio Cuzco II para impulsar su crecimiento",
+   "date_published": "2026-10-27T08:45:13Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/27/caixabank-debera-devolver-mas-de-2-000-euros-por-falta-de-transparencia-en-una-tarjeta-revolving/",
+   "url": "https://www.lawyerpress.com/2026/10/27/caixabank-debera-devolver-mas-de-2-000-euros-por-falta-de-transparencia-en-una-tarjeta-revolving/",
+   "title": "CaixaBank deberá devolver más de 2.000 euros por falta de transparencia en una tarjeta revolving",
+   "date_published": "2026-10-27T08:39:04Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXhycXF2LTdidm01dHphTGtQNWxGTkNCbk9haGJ3Qk9jU0oxSlpZbnNhT09QMHdBR2ZyM1JhaVdORFp1U2tmUXRNMk1VVG9ydFBvQTE0cEpvS1FWb2d3TFlnbUtjcXhzYXYzZXNtMEFOWFBGdnU3eTdhSG9FZnc2QmZRNFgxcnFpdTAyYkhJWG43cWl3aGVmWmQyMVBCaG5yMjBmaVBOY0xNVXFLdjJZNEN6MzdxUQ?oc=5",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXhycXF2LTdidm01dHphTGtQNWxGTkNCbk9haGJ3Qk9jU0oxSlpZbnNhT09QMHdBR2ZyM1JhaVdORFp1U2tmUXRNMk1VVG9ydFBvQTE0cEpvS1FWb2d3TFlnbUtjcXhzYXYzZXNtMEFOWFBGdnU3eTdhSG9FZnc2QmZRNFgxcnFpdTAyYkhJWG43cWl3aGVmWmQyMVBCaG5yMjBmaVBOY0xNVXFLdjJZNEN6MzdxUQ?oc=5",
    "title": "Avalan el despido de una dependienta por comentarios xenófobos en Allariz: ”Este que vino en patera había que mandarlo de vuelta en otra”",
@@ -139,6 +559,90 @@
    "_importancia": 4
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPUnh1YVFNWkd6RHVmek8tdUI3c2VwWXZRdkgwSzhiZ29HNGExNU5DcGR4LURrOHhNVlJ0UEszUzlFVTlUSTNGRHNIdWdWeEhZMTNmd1dCYlZOeU5OTENTc2tRV3Z3V3JsdWhiMEtxTjFxLVlRTDRlaDJSMW9BSGNTN0lobFVHYlFfVUNiMU9ZMk96cGVlbjdKd1R6ZUUtbXBfWWl0ZnVDTDd5bWdLT2ZXMldORkJTMGRwMFBITXZGSGp5aV9Sblc0cmtwWUdBbHFLYXR5NHV5cC1ZR1hsV2d6ZHAzcUFjZEZlWDc4T3dKdzFydjFqS2F1aWViTHg5aUp2UU8yVnJ0ZHpZNE8xUkFibFNB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPUnh1YVFNWkd6RHVmek8tdUI3c2VwWXZRdkgwSzhiZ29HNGExNU5DcGR4LURrOHhNVlJ0UEszUzlFVTlUSTNGRHNIdWdWeEhZMTNmd1dCYlZOeU5OTENTc2tRV3Z3V3JsdWhiMEtxTjFxLVlRTDRlaDJSMW9BSGNTN0lobFVHYlFfVUNiMU9ZMk96cGVlbjdKd1R6ZUUtbXBfWWl0ZnVDTDd5bWdLT2ZXMldORkJTMGRwMFBITXZGSGp5aV9Sblc0cmtwWUdBbHFLYXR5NHV5cC1ZR1hsV2d6ZHAzcUFjZEZlWDc4T3dKdzFydjFqS2F1aWViTHg5aUp2UU8yVnJ0ZHpZNE8xUkFibFNB?oc=5",
+   "title": "Cuatro años de prisión para un falso odontólogo que estafó 160.000 euros a una lucense a la que engañó para participar en un negocio inexistente",
+   "date_published": "2026-10-27T04:00:55Z",
+   "tags": [
+    "Penal",
+    "galicia"
+   ],
+   "_fuente": "La Voz de Galicia",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.iberley.es/noticias/el-supremo-indemniza-pareja-una-vasectomia-fallida-37153",
+   "url": "https://www.iberley.es/noticias/el-supremo-indemniza-pareja-una-vasectomia-fallida-37153",
+   "title": "El Supremo indemniza a la pareja por una vasectomía fallida",
+   "date_published": "2026-10-27T00:00:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/el-tc-inadmite-una-cuestion-inconstitucionalidad-una-multa-trafico-37150",
+   "url": "https://www.iberley.es/noticias/el-tc-inadmite-una-cuestion-inconstitucionalidad-una-multa-trafico-37150",
+   "title": "El TC inadmite una cuestión de inconstitucionalidad sobre una multa de tráfico",
+   "date_published": "2026-10-27T00:00:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 8
+  },
+  {
+   "id": "https://www.iberley.es/noticias/calendario-contribuyente-noviembre-2026-37147",
+   "url": "https://www.iberley.es/noticias/calendario-contribuyente-noviembre-2026-37147",
+   "title": "Calendario del contribuyente de noviembre de 2026",
+   "date_published": "2026-10-27T00:00:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/la-dgt-aclara-iva-los-libros-digitales-personalizados-37009",
+   "url": "https://www.iberley.es/noticias/la-dgt-aclara-iva-los-libros-digitales-personalizados-37009",
+   "title": "La DGT aclara el IVA de los libros digitales personalizados",
+   "date_published": "2026-10-27T00:00:00Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/el-supremo-matiza-indemnizacion-negar-teletrabajo-37149",
+   "url": "https://www.iberley.es/noticias/el-supremo-matiza-indemnizacion-negar-teletrabajo-37149",
+   "title": "El Supremo matiza la indemnización por negar teletrabajo",
+   "date_published": "2026-10-27T00:00:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/es-despido-improcedente-anticipar-una-baja-voluntaria-preavisada-37148",
+   "url": "https://www.iberley.es/noticias/es-despido-improcedente-anticipar-una-baja-voluntaria-preavisada-37148",
+   "title": "Es despido improcedente anticipar una baja voluntaria preavisada",
+   "date_published": "2026-10-27T00:00:00Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 5
+  },
+  {
    "id": "https://confilegal.com/20261027-manuel-aragon-rey-democracias-debilidad-defensores/",
    "url": "https://confilegal.com/20261027-manuel-aragon-rey-democracias-debilidad-defensores/",
    "title": "Manuel Aragón advierte ante el Rey de que las democracias mueren más por la debilidad de sus defensores que por la fuerza de sus enemigos",
@@ -221,510 +725,6 @@
    ],
    "_fuente": "Lawyerpress",
    "_importancia": 3
-  },
-  {
-   "id": "https://www.economistjurist.es/znoticia-portada3/el-abogado-total-la-abogacia-aumentada-convierte-la-ia-en-una-extension-de-su-criterio-y-la-universidad-todavia-no-la-ensena/",
-   "url": "https://www.economistjurist.es/znoticia-portada3/el-abogado-total-la-abogacia-aumentada-convierte-la-ia-en-una-extension-de-su-criterio-y-la-universidad-todavia-no-la-ensena/",
-   "title": "El abogado total: la abogacía aumentada convierte la IA en una extensión de su criterio, y la universidad todavía no la enseña",
-   "date_published": "2026-10-26T16:45:30Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 3
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/26/conexxia-group-convoca-premios-para-mujeres-emprendedoras-con-mas-de-10-000-euros-en-ayudas/",
-   "url": "https://www.lawyerpress.com/2026/10/26/conexxia-group-convoca-premios-para-mujeres-emprendedoras-con-mas-de-10-000-euros-en-ayudas/",
-   "title": "Conexxia Group convoca premios para mujeres emprendedoras con más de 10.000 euros en ayudas",
-   "date_published": "2026-10-26T16:08:34Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": -3
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/gafas-inteligentes-cuando-la-mirada-trata-datos-personales/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/gafas-inteligentes-cuando-la-mirada-trata-datos-personales/",
-   "title": "Gafas inteligentes, cuando la mirada trata datos personales",
-   "date_published": "2026-10-26T15:00:46Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/el-derecho-a-la-propia-imagen-frente-a-la-propaganda-politica-los-limites-constitucionales-de-la-utilizacion-de-imagenes-sin-consentimiento/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/el-derecho-a-la-propia-imagen-frente-a-la-propaganda-politica-los-limites-constitucionales-de-la-utilizacion-de-imagenes-sin-consentimiento/",
-   "title": "El derecho a la propia imagen frente a la propaganda política: los límites constitucionales de la utilización de imágenes sin consentimiento",
-   "date_published": "2026-10-26T15:00:41Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 7
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-tribunal-supremo-consolida-la-doctrina-sobre-el-trafico-ilegal-de-organos-condena-penal-a-la-red-de-captacion-y-al-receptor-que-consintio-el-origen-ilicito/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-tribunal-supremo-consolida-la-doctrina-sobre-el-trafico-ilegal-de-organos-condena-penal-a-la-red-de-captacion-y-al-receptor-que-consintio-el-origen-ilicito/",
-   "title": "El Tribunal Supremo consolida la doctrina sobre el tráfico ilegal de órganos: condena penal a la red de captación y al receptor que consintió el origen ilícito",
-   "date_published": "2026-10-26T15:00:26Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 10
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/puede-una-comunidad-dejar-sin-ascensor-a-un-vecino-moroso-la-deuda-no-basta-para-decidirlo/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/puede-una-comunidad-dejar-sin-ascensor-a-un-vecino-moroso-la-deuda-no-basta-para-decidirlo/",
-   "title": "¿Puede una comunidad dejar sin ascensor a un vecino moroso? La deuda no basta para decidirlo",
-   "date_published": "2026-10-26T15:00:22Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/26/los-seguros-de-ma-se-extienden-a-operaciones-de-apenas-un-millon-de-euros-segun-clyde-co/",
-   "url": "https://www.lawyerpress.com/2026/10/26/los-seguros-de-ma-se-extienden-a-operaciones-de-apenas-un-millon-de-euros-segun-clyde-co/",
-   "title": "Los seguros de M&A se extienden a operaciones de apenas un millón de euros, según Clyde & Co",
-   "date_published": "2026-10-26T11:28:12Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/26/la-justicia-del-siglo-xxi/",
-   "url": "https://www.lawyerpress.com/2026/10/26/la-justicia-del-siglo-xxi/",
-   "title": "LA JUSTICIA DEL SIGLO XXI",
-   "date_published": "2026-10-26T11:21:34Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/noticias-juridicas/antonio-fernandez-de-bujan-nombrado-academico-de-honor-de-la-real-academia-de-san-dionisio/",
-   "url": "https://www.economistjurist.es/noticias-juridicas/antonio-fernandez-de-bujan-nombrado-academico-de-honor-de-la-real-academia-de-san-dionisio/",
-   "title": "Antonio Fernández de Bujan, nombrado académico de honor de la Real Academia de San Dionisio",
-   "date_published": "2026-10-26T11:03:07Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": -3
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/bbva-alego-que-sus-clientes-ya-conocian-la-clausula-abusiva-de-su-hipoteca-y-perdio-el-pleito/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/bbva-alego-que-sus-clientes-ya-conocian-la-clausula-abusiva-de-su-hipoteca-y-perdio-el-pleito/",
-   "title": "BBVA alegó que sus clientes ya conocían la cláusula abusiva de su hipoteca y perdió el pleito",
-   "date_published": "2026-10-26T11:00:56Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/no-todas-las-reclamaciones-de-consumo-se-ganan-igual-la-importancia-de-la-estrategia-juridica/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/no-todas-las-reclamaciones-de-consumo-se-ganan-igual-la-importancia-de-la-estrategia-juridica/",
-   "title": "No todas las reclamaciones de consumo se ganan igual: la importancia de la estrategia jurídica",
-   "date_published": "2026-10-26T11:00:34Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/elecciones-el-gobierno-tiene-hasta-las-1500-del-miercoles-para-entregar-los-nombres-de-los-163-020-nacionalizados-por-la-ley-de-nietos/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/elecciones-el-gobierno-tiene-hasta-las-1500-del-miercoles-para-entregar-los-nombres-de-los-163-020-nacionalizados-por-la-ley-de-nietos/",
-   "title": "Elecciones: el Gobierno tiene hasta las 15:00 del miércoles para entregar los nombres de los 163.020 nacionalizados por la ‘ley de nietos’",
-   "date_published": "2026-10-26T11:00:08Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/premium/la-firma/juventud-europea-del-malestar-social-a-las-garantias-juridicas-de-futuro/",
-   "url": "https://www.economistjurist.es/premium/la-firma/juventud-europea-del-malestar-social-a-las-garantias-juridicas-de-futuro/",
-   "title": "Juventud europea: del malestar social a las garantías jurídicas de futuro",
-   "date_published": "2026-10-26T09:26:38Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/26/audria-y-activa-se-fusionan-para-crear-nexia-audiva-con-nueve-socios-y-una-facturacion-de-65-millones-de-euros/",
-   "url": "https://www.lawyerpress.com/2026/10/26/audria-y-activa-se-fusionan-para-crear-nexia-audiva-con-nueve-socios-y-una-facturacion-de-65-millones-de-euros/",
-   "title": "Audria y Activa se fusionan para crear Nexia Audiva, con nueve socios y una facturación de 6,5 millones de euros",
-   "date_published": "2026-10-26T09:16:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261026-aurora-sanz-grant-thornton-entrevista-edadismo-normativa-laboral/",
-   "url": "https://confilegal.com/20261026-aurora-sanz-grant-thornton-entrevista-edadismo-normativa-laboral/",
-   "title": "Aurora Sanz, Grant Thornton: «Es un sinsentido alargar la edad de jubilación y poner tantas facilidades a la hora de extinguir contratos»",
-   "date_published": "2026-10-26T04:45:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-supremo-convenio-origen-trabajadores-proa-subrogados-hertz/",
-   "url": "https://confilegal.com/20261026-supremo-convenio-origen-trabajadores-proa-subrogados-hertz/",
-   "title": "El Supremo mantiene el convenio de origen de 49 trabajadores de Proa subrogados por Hertz",
-   "date_published": "2026-10-26T04:44:00Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-saenz-de-tejada-declara-investigado-pedraz-jueza-biedma-caso-leire-diez/",
-   "url": "https://confilegal.com/20261026-saenz-de-tejada-declara-investigado-pedraz-jueza-biedma-caso-leire-diez/",
-   "title": "El exjuez Sáenz de Tejada declara el miércoles como investigado ante Pedraz por su presunto acoso a la jueza Biedma",
-   "date_published": "2026-10-26T04:43:00Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-tardon-investigacion-entrada-masiva-ceuta-julio-testigos-consejeros/",
-   "url": "https://confilegal.com/20261026-tardon-investigacion-entrada-masiva-ceuta-julio-testigos-consejeros/",
-   "title": "Tardón avanza a toda potencia la investigación sobre la invasión de Ceuta del 30 y 31 de julio",
-   "date_published": "2026-10-26T04:42:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-despido-procedente-a-un-trabajador-de-mercadona-por-pagar-los-viajes-personales-con-la-tarjeta-de-la-empresa/",
-   "url": "https://confilegal.com/20261026-despido-procedente-a-un-trabajador-de-mercadona-por-pagar-los-viajes-personales-con-la-tarjeta-de-la-empresa/",
-   "title": "Despido procedente a un trabajador de Mercadona por pagar los viajes personales con la tarjeta de la empresa",
-   "date_published": "2026-10-26T04:41:00Z",
-   "tags": [
-    "Mercantil",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 5
-  },
-  {
-   "id": "https://confilegal.com/20261026-disturbios-barcelona-redes-sociales-impunidad/",
-   "url": "https://confilegal.com/20261026-disturbios-barcelona-redes-sociales-impunidad/",
-   "title": "Opinión | Barcelona paga el caos de una protesta ajena mientras sus autores quedan impunes",
-   "date_published": "2026-10-26T04:40:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-justicia-digital-papel-procurador/",
-   "url": "https://confilegal.com/20261026-justicia-digital-papel-procurador/",
-   "title": "Opinión | La justicia se digitaliza, pero sigue necesitando al procurador",
-   "date_published": "2026-10-26T04:39:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-manuel-jaen-boicot-actos-electorales-elecciones-libres/",
-   "url": "https://confilegal.com/20261026-manuel-jaen-boicot-actos-electorales-elecciones-libres/",
-   "title": "Opinión | Las extremas izquierdas y grupos radicales buscan boicotear actos electorales con la complacencia del Gobierno",
-   "date_published": "2026-10-26T04:38:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261026-dos-exvocales-del-cgpj-destapan-las-sombras-del-anterior-organo-de-los-jueces-nombramientos-presiones-y-falta-de-independencia/",
-   "url": "https://confilegal.com/20261026-dos-exvocales-del-cgpj-destapan-las-sombras-del-anterior-organo-de-los-jueces-nombramientos-presiones-y-falta-de-independencia/",
-   "title": "Dos exvocales del CGPJ destapan las sombras del anterior órgano de los jueces: nombramientos, presiones y falta de independencia",
-   "date_published": "2026-10-26T00:44:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 0
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-teac-fija-tres-nuevos-criterios-clausula-antiabuso-regimen-feac-37136",
-   "url": "https://www.iberley.es/noticias/el-teac-fija-tres-nuevos-criterios-clausula-antiabuso-regimen-feac-37136",
-   "title": "El TEAC fija tres nuevos criterios sobre la cláusula antiabuso del régimen FEAC",
-   "date_published": "2026-10-26T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-tsxg-aplica-reduccion-dt-2-lirpf-una-pension-muface-37141",
-   "url": "https://www.iberley.es/noticias/el-tsxg-aplica-reduccion-dt-2-lirpf-una-pension-muface-37141",
-   "title": "El TSXG aplica la reducción de la DT 2.ª de la LIRPF a una pensión de MUFACE",
-   "date_published": "2026-10-26T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "galicia"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 9
-  },
-  {
-   "id": "https://www.iberley.es/noticias/-puede-conyuge-viudo-ser-fiduciario-tercio-mejora-37146",
-   "url": "https://www.iberley.es/noticias/-puede-conyuge-viudo-ser-fiduciario-tercio-mejora-37146",
-   "title": "¿ Puede el cónyuge viudo ser fiduciario del tercio de mejora?",
-   "date_published": "2026-10-26T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/nuevos-limites-laborales-plomo-diisocianatos-37145",
-   "url": "https://www.iberley.es/noticias/nuevos-limites-laborales-plomo-diisocianatos-37145",
-   "title": "Nuevos límites laborales para el plomo y diisocianatos",
-   "date_published": "2026-10-26T00:00:00Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/nuevo-real-decreto-reforzar-proteccion-frente-amianto-37144",
-   "url": "https://www.iberley.es/noticias/nuevo-real-decreto-reforzar-proteccion-frente-amianto-37144",
-   "title": "Nuevo real decreto para reforzar la protección frente al amianto",
-   "date_published": "2026-10-26T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 7
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdWJybWpGdXQ3UHIyYmZBazhoUGJIVndla2VxUVFPS0QyWXhIaEpWa1BzTDQ5R2Z5ZVQxMUtFdVBHdXkyXy1oVUw4UFZ3RDVxUnFBeVlZaWh3NlBwYW4tdzFMd0lsQkNLMzEzSVpyckVGM05YUHdNa2UzcFY1MDJwdEdCbC14UkxISTdvLWNGdnVRdTUwSDdRQmtwRF96UWZiZnBaVlF6ckc1WE1IT2hUMHdPZVBoOVc1ZW9JVGV4QzlHTURmYVhtcNIBzgFBVV95cUxNXzVqUUxRZXhnVjdnV3dXRnp3Q3QxRFJNVVVKWFFHclFhVFUxd3pNeDBsaHRoNG9BcFlwX3pIZ25ZS0pHMUlFWkZEZVVrVG5EMjZldzF0OEMwTC1oMVhwekN1QjBSNWJLdEU5S2FVNGhNS1ZFVTVvQVBYd0xVbDZBNWEzdkRabnVuNzBJYWtXNTdkOEN0UHZfUjZfMWF0UkpvVDhfVDVTeGVQcHdQRmVYRTFrUUZ2eHZKbVRoZkFZWkM2akYtVmdrbWVrc1lzZw?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdWJybWpGdXQ3UHIyYmZBazhoUGJIVndla2VxUVFPS0QyWXhIaEpWa1BzTDQ5R2Z5ZVQxMUtFdVBHdXkyXy1oVUw4UFZ3RDVxUnFBeVlZaWh3NlBwYW4tdzFMd0lsQkNLMzEzSVpyckVGM05YUHdNa2UzcFY1MDJwdEdCbC14UkxISTdvLWNGdnVRdTUwSDdRQmtwRF96UWZiZnBaVlF6ckc1WE1IT2hUMHdPZVBoOVc1ZW9JVGV4QzlHTURmYVhtcNIBzgFBVV95cUxNXzVqUUxRZXhnVjdnV3dXRnp3Q3QxRFJNVVVKWFFHclFhVFUxd3pNeDBsaHRoNG9BcFlwX3pIZ25ZS0pHMUlFWkZEZVVrVG5EMjZldzF0OEMwTC1oMVhwekN1QjBSNWJLdEU5S2FVNGhNS1ZFVTVvQVBYd0xVbDZBNWEzdkRabnVuNzBJYWtXNTdkOEN0UHZfUjZfMWF0UkpvVDhfVDVTeGVQcHdQRmVYRTFrUUZ2eHZKbVRoZkFZWkM2akYtVmdrbWVrc1lzZw?oc=5",
-   "title": "El presidente del TSXG apuesta por revisar la ley de arrendamientos urbanos por la crisis de vivienda",
-   "date_published": "2026-10-25T17:05:20Z",
-   "tags": [
-    "Civil",
-    "galicia"
-   ],
-   "_fuente": "Economía Digital",
-   "_importancia": 8
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTW1sQWtRc0pJS2c5UXdpckxzUXpKbUtQcmozWjh0dU1XMWtySjJTcVNSbkxDVDh5YWFJMDFQMmsyWlFJOXlheGlqb21HdF9QRVhhQWVpdGZDNktUekJfbmd3NWo5YTRWYnVJanRPMWxzLWxsUUJZcy1yVFBGUHBOS1JONkVUaTI4MzVYYUtrZlNPeW00Y0dueWJ6LUNLdVlucWk5RnRoMFluNHFiZnRjWTFxWmVJNnZqd1dTOXI5MDVxSkx0VWc?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTW1sQWtRc0pJS2c5UXdpckxzUXpKbUtQcmozWjh0dU1XMWtySjJTcVNSbkxDVDh5YWFJMDFQMmsyWlFJOXlheGlqb21HdF9QRVhhQWVpdGZDNktUekJfbmd3NWo5YTRWYnVJanRPMWxzLWxsUUJZcy1yVFBGUHBOS1JONkVUaTI4MzVYYUtrZlNPeW00Y0dueWJ6LUNLdVlucWk5RnRoMFluNHFiZnRjWTFxWmVJNnZqd1dTOXI5MDVxSkx0VWc?oc=5",
-   "title": "El presidente del TSXG plantea revisar la ley de arrendamientos ante la demanda social",
-   "date_published": "2026-10-25T16:58:29Z",
-   "tags": [
-    "Civil",
-    "galicia"
-   ],
-   "_fuente": "Diario de Santiago",
-   "_importancia": 8
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcFlNc1dMWm9EaWZXWnMxVzUzdVdjbGoxNy1oMzdBXzdSd1hXUVZ1eFlDTHphQkc1bGNzOFo4ZWZQQUFpQUx6UUVuc0xSV2Z4RGRkMXYwNDhtU3RZLTVFTklGUFgzaGs0OUtqNjhxamh0czFKeExrWTJOSTMwby1kVTJnQzlGY3dyNFZwaXFJMHRzWnV2VlRaVl9WZUNLcVVyZ1NrWk5Wa3hYelp0S25nMXIzX041emV3OWRCNmZ3UFo2Q1NONjI1bmtGWlJTQTJCdUxr?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcFlNc1dMWm9EaWZXWnMxVzUzdVdjbGoxNy1oMzdBXzdSd1hXUVZ1eFlDTHphQkc1bGNzOFo4ZWZQQUFpQUx6UUVuc0xSV2Z4RGRkMXYwNDhtU3RZLTVFTklGUFgzaGs0OUtqNjhxamh0czFKeExrWTJOSTMwby1kVTJnQzlGY3dyNFZwaXFJMHRzWnV2VlRaVl9WZUNLcVVyZ1NrWk5Wa3hYelp0S25nMXIzX041emV3OWRCNmZ3UFo2Q1NONjI1bmtGWlJTQTJCdUxr?oc=5",
-   "title": "El presidente del TSXG plantea revisar la normativa de arrendamientos por la crisis de la vivienda",
-   "date_published": "2026-10-25T15:32:00Z",
-   "tags": [
-    "Tributario",
-    "galicia"
-   ],
-   "_fuente": "GaliciaPress",
-   "_importancia": 8
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPY09xQ0RCdFE4QTNDZUxTOGJLcmQyUy02eTVZREVPd0s2UGd1dk9LZUdaTktLbVhWNlNLXzd1R1pzWWxBLTEzNDhkUVJUalNuU29SeTB3ZWk0MFdFWkRhVlJaZUx2OVFJVnpfM1ByaVNxeWlpTWlFS1pGM2c3VW10OTVCaEowbl9RYjFSZ1VaSzlnWUZlU2gzRTU5R1hIVWZCWE9WRW9DVFAwSnlZRktpN0RVVXQ2X2x4cXZGWG5OUktBeTJjX24td0trTkFzZWdKNTFxRTBNMmh3MHVuNjFhZTJmaFF1TzVSYl9CZzVjeWJPaV9rUy12WlpjN3I5X3NaaEZONHp4emJRUWJPVFp3MHRR0gGSAkFVX3lxTE9jT3FDREJ0UThBM0NlTFM4YktyZDJTLTZ5NVlERU93SzZQZ3V2T0tlR1pOS0ttWFY2U0tfN3VHWnNZbEEtMTM0OGRRUlRqU25Tb1J5MHdlaTQwV0VaRGFWUlplTHY5UUlWel8zUHJpU3F5aWlNaUVLWkYzZzdVbXQ5NUJoSjBuX1FiMVJnVVpLOWdZRmVTaDNFNTlHWEhVZkJYT1ZFb0NUUDBKeVlGS2k3RFVVdDZfbHhxdkZYbk5SS0F5MmNfbi13S2tOQXNlZ0o1MXFFME0yaHcwdW42MWFlMmZoUXVPNVJiX0JnNWN5Yk9pX2tTLXZaWmM3cjlfc1poRk40enh6YlFRYk9UWncwdFE?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPY09xQ0RCdFE4QTNDZUxTOGJLcmQyUy02eTVZREVPd0s2UGd1dk9LZUdaTktLbVhWNlNLXzd1R1pzWWxBLTEzNDhkUVJUalNuU29SeTB3ZWk0MFdFWkRhVlJaZUx2OVFJVnpfM1ByaVNxeWlpTWlFS1pGM2c3VW10OTVCaEowbl9RYjFSZ1VaSzlnWUZlU2gzRTU5R1hIVWZCWE9WRW9DVFAwSnlZRktpN0RVVXQ2X2x4cXZGWG5OUktBeTJjX24td0trTkFzZWdKNTFxRTBNMmh3MHVuNjFhZTJmaFF1TzVSYl9CZzVjeWJPaV9rUy12WlpjN3I5X3NaaEZONHp4emJRUWJPVFp3MHRR0gGSAkFVX3lxTE9jT3FDREJ0UThBM0NlTFM4YktyZDJTLTZ5NVlERU93SzZQZ3V2T0tlR1pOS0ttWFY2U0tfN3VHWnNZbEEtMTM0OGRRUlRqU25Tb1J5MHdlaTQwV0VaRGFWUlplTHY5UUlWel8zUHJpU3F5aWlNaUVLWkYzZzdVbXQ5NUJoSjBuX1FiMVJnVVpLOWdZRmVTaDNFNTlHWEhVZkJYT1ZFb0NUUDBKeVlGS2k3RFVVdDZfbHhxdkZYbk5SS0F5MmNfbi13S2tOQXNlZ0o1MXFFME0yaHcwdW42MWFlMmZoUXVPNVJiX0JnNWN5Yk9pX2tTLXZaWmM3cjlfc1poRk40enh6YlFRYk9UWncwdFE?oc=5",
-   "title": "El presidente del TSXG propone revisar la ley de arrendamientos ante la demanda social tras el caso de Maricarmen",
-   "date_published": "2026-10-25T13:43:43Z",
-   "tags": [
-    "Civil",
-    "galicia"
-   ],
-   "_fuente": "Cadena SER",
-   "_importancia": 8
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/andersen-asesora-a-dunas-capital-en-la-adquisicion-de-una-fabrica-al-grupo-italiano-rdm/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/andersen-asesora-a-dunas-capital-en-la-adquisicion-de-una-fabrica-al-grupo-italiano-rdm/",
-   "title": "Andersen asesora a Dunas Capital en la adquisición de una fábrica al grupo italiano RDM",
-   "date_published": "2026-10-25T07:00:57Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/noticias-juridicas/jueces-valientes/",
-   "url": "https://www.economistjurist.es/noticias-juridicas/jueces-valientes/",
-   "title": "Jueces valientes",
-   "date_published": "2026-10-25T07:00:48Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/subvenciones/hasta-130-000-euros-para-reponer-las-casas-incendiadas-en-extremadura-quien-puede-pedir-las-ayudas/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/subvenciones/hasta-130-000-euros-para-reponer-las-casas-incendiadas-en-extremadura-quien-puede-pedir-las-ayudas/",
-   "title": "Hasta 130.000 euros para reponer las casas incendiadas en Extremadura: quién puede pedir las ayudas",
-   "date_published": "2026-10-25T07:00:45Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/protesto-por-3-000-euros-anadidos-al-desahucio-la-justicia-rechaza-su-recurso-porque-debia-alquileres/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/protesto-por-3-000-euros-anadidos-al-desahucio-la-justicia-rechaza-su-recurso-porque-debia-alquileres/",
-   "title": "Protestó por 3.000 euros añadidos al desahucio: la Justicia rechaza su recurso porque debía alquileres",
-   "date_published": "2026-10-25T07:00:43Z",
-   "tags": [
-    "Civil",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/los-6-supuestos-que-permiten-una-baja-especial-de-it/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/los-6-supuestos-que-permiten-una-baja-especial-de-it/",
-   "title": "Los 6 supuestos que permiten una baja especial de IT",
-   "date_published": "2026-10-25T07:00:28Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX25FQkpWaXBPWEVxVkVibVcyelMxYl9NRlBRbGRxTllGRW1MRVAtckVwUEk2QlpKQmVtR1drckZMeEtRdjBzR3JyT1JtdEVncmpnOGV5RElxc0ZSakY1TmR2R3owcmFoNWF3RWgzdk5jR2wxN3ZPU0RZYUdfT05CdUZrOTBGTzFzUkQxcUt4bDhXS2k0cDFGSDROd0FzSlFSYU84T1lvQkF3YWNXUHRpT3dxMk1JY09qMks0MDV3Ym5vaVJhTVlYNkx0TXrSAegBQVVfeXFMTnNyM0hhSXJEbVhKcjQyeENUWEEzNzNHX0x4YkN1OTFwdG5oaFR3bm5SVnlCYVNXSEtMOVNjdk9BbG42YUJYQnR3VWozbXlveFVHbnNkNncwbVNlU2doTXp5NmtJeU9rdnlNcWxsM2I2bDdwbUw1eXg1a2I3SU8xNDVUVTFSMkVvNFhkREVCQ0locy1PQ3pTLXlhVkJEbWpRaGNfc25lcC1PaU9HMVlrYVVIRGFXOHhlMDV6bGZUUFFoa0FSTHd0c2JfdzZXZFdNMDJZdlZtSDdSRkRfeUl3REFlTmQ2Ym4wZw?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX25FQkpWaXBPWEVxVkVibVcyelMxYl9NRlBRbGRxTllGRW1MRVAtckVwUEk2QlpKQmVtR1drckZMeEtRdjBzR3JyT1JtdEVncmpnOGV5RElxc0ZSakY1TmR2R3owcmFoNWF3RWgzdk5jR2wxN3ZPU0RZYUdfT05CdUZrOTBGTzFzUkQxcUt4bDhXS2k0cDFGSDROd0FzSlFSYU84T1lvQkF3YWNXUHRpT3dxMk1JY09qMks0MDV3Ym5vaVJhTVlYNkx0TXrSAegBQVVfeXFMTnNyM0hhSXJEbVhKcjQyeENUWEEzNzNHX0x4YkN1OTFwdG5oaFR3bm5SVnlCYVNXSEtMOVNjdk9BbG42YUJYQnR3VWozbXlveFVHbnNkNncwbVNlU2doTXp5NmtJeU9rdnlNcWxsM2I2bDdwbUw1eXg1a2I3SU8xNDVUVTFSMkVvNFhkREVCQ0locy1PQ3pTLXlhVkJEbWpRaGNfc25lcC1PaU9HMVlrYVVIRGFXOHhlMDV6bGZUUFFoa0FSTHd0c2JfdzZXZFdNMDJZdlZtSDdSRkRfeUl3REFlTmQ2Ym4wZw?oc=5",
-   "title": "Juan Carlos Trillo, exmagistrado del Tribunal Supremo y del TSXG: «En el Supremo bromeábamos: \"Como somos los últimos, nunca nos equivocamos\"»",
-   "date_published": "2026-10-25T04:51:19Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "La Voz de Galicia",
-   "_importancia": 14
-  },
-  {
-   "id": "https://confilegal.com/20261025-eloy-velasco-elisa-beni-filtraciones-foro-judicial-independiente/",
-   "url": "https://confilegal.com/20261025-eloy-velasco-elisa-beni-filtraciones-foro-judicial-independiente/",
-   "title": "El magistrado Eloy Velasco y la periodista Elisa Beni chocan en lo que importa: el secreto de las fuentes",
-   "date_published": "2026-10-25T04:45:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261025-el-supremo-prohibe-penalizar-dos-veces-el-salario-por-una-baja-medica-y-da-la-razon-a-ugt-frente-a-cepsa/",
-   "url": "https://confilegal.com/20261025-el-supremo-prohibe-penalizar-dos-veces-el-salario-por-una-baja-medica-y-da-la-razon-a-ugt-frente-a-cepsa/",
-   "title": "El Supremo prohíbe penalizar dos veces el salario por una baja médica y da la razón a UGT frente a Cepsa",
-   "date_published": "2026-10-25T04:44:00Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261025-la-brecha-salarial-continua-las-mujeres-cobran-de-media-5-000-euros-menos-al-ano-que-los-hombres/",
-   "url": "https://confilegal.com/20261025-la-brecha-salarial-continua-las-mujeres-cobran-de-media-5-000-euros-menos-al-ano-que-los-hombres/",
-   "title": "La brecha salarial continúa: las mujeres cobran de media 5.000 euros menos al año que los hombres",
-   "date_published": "2026-10-25T04:43:00Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261025-denuncias-violencia-de-genero-segundo-trimestre-2026/",
-   "url": "https://confilegal.com/20261025-denuncias-violencia-de-genero-segundo-trimestre-2026/",
-   "title": "Las denuncias por violencia de género aumentan un 9,81 % y las víctimas un 7,64 % en el segundo trimestre de 2026",
-   "date_published": "2026-10-25T04:42:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
   }
  ]
 }
