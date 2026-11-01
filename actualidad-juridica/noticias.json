@@ -7,6 +7,186 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://confilegal.com/20261101-todos-los-santos-y-difuntos-origen-diferencias/",
+   "url": "https://confilegal.com/20261101-todos-los-santos-y-difuntos-origen-diferencias/",
+   "title": "Dos mil años de visitas al cementerio: así nacieron Todos los Santos y Difuntos",
+   "date_published": "2026-11-01T04:44:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-desciframe-explica-documentos-gratis-cobra-despachos-casos-exclusiva/",
+   "url": "https://confilegal.com/20261101-desciframe-explica-documentos-gratis-cobra-despachos-casos-exclusiva/",
+   "title": "Una nueva plataforma traduce gratis documentos legales al lenguaje llano y cobra a los despachos por cada caso que les envía en exclusiva",
+   "date_published": "2026-11-01T04:43:00Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-inadmitida-una-demanda-de-pension-de-alimentos-por-un-tecnicismo-en-el-masc-no-aclaro-su-intencion-en-la-mediacion/",
+   "url": "https://confilegal.com/20261101-inadmitida-una-demanda-de-pension-de-alimentos-por-un-tecnicismo-en-el-masc-no-aclaro-su-intencion-en-la-mediacion/",
+   "title": "Inadmitida una demanda de pensión de alimentos por un «tecnicismo» en el MASC: no aclaró su intención en la mediación",
+   "date_published": "2026-11-01T04:43:00Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-opinion-espana-apura-la-herencia-de-la-abuela/",
+   "url": "https://confilegal.com/20261101-opinion-espana-apura-la-herencia-de-la-abuela/",
+   "title": "Opinión | España apura la herencia de la abuela",
+   "date_published": "2026-11-01T04:40:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-supremo-cera-cautela-integridad-censo-electoral/",
+   "url": "https://confilegal.com/20261101-supremo-cera-cautela-integridad-censo-electoral/",
+   "title": "Opinión | Los datos de octubre avalan la cautela del Supremo sobre el censo",
+   "date_published": "2026-11-01T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-tragedia-urda-seguros-indemnizaciones-victimas/",
+   "url": "https://confilegal.com/20261101-tragedia-urda-seguros-indemnizaciones-victimas/",
+   "title": "Opinión | Tragedia de Urda: qué seguros cubren a las víctimas y a sus familias",
+   "date_published": "2026-11-01T04:40:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-tortura-inquisicion-espanola-metodos-normas/",
+   "url": "https://confilegal.com/20261101-tortura-inquisicion-espanola-metodos-normas/",
+   "title": "Opinión | La Inquisición española y la tortura: confesar para dejar de sufrir",
+   "date_published": "2026-11-01T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261101-la-ap-de-granada-determina-que-las-juras-de-cuentas-no-requieren-un-masc-para-ser-admitidas-a-tramite/",
+   "url": "https://confilegal.com/20261101-la-ap-de-granada-determina-que-las-juras-de-cuentas-no-requieren-un-masc-para-ser-admitidas-a-tramite/",
+   "title": "La AP de Granada determina que las juras de cuentas no requieren un MASC para ser admitidas a trámite",
+   "date_published": "2026-10-31T23:45:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/31/talia-martinez-perez-presidira-la-agrupacion-de-jovenes-abogados-de-las-illes-balears/",
+   "url": "https://www.lawyerpress.com/2026/10/31/talia-martinez-perez-presidira-la-agrupacion-de-jovenes-abogados-de-las-illes-balears/",
+   "title": "Talia Martínez Pérez presidirá la Agrupación de Jóvenes Abogados de las Illes Balears",
+   "date_published": "2026-10-31T08:09:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/10/31/marimon-abogados-asesora-a-bikini-island-mountain-hotels-en-el-cierre-de-un-nuevo-contrato-de-arrendamiento-de-20-anos-del-hotel-bikini-island-mountain-port-de-soller/",
+   "url": "https://www.lawyerpress.com/2026/10/31/marimon-abogados-asesora-a-bikini-island-mountain-hotels-en-el-cierre-de-un-nuevo-contrato-de-arrendamiento-de-20-anos-del-hotel-bikini-island-mountain-port-de-soller/",
+   "title": "MARIMÓN ABOGADOS asesora a BIKINI ISLAND & MOUNTAIN HOTELS en el cierre de un nuevo contrato de arrendamiento de 20 años del hotel Bikini Island & Mountain Port de Sóller",
+   "date_published": "2026-10-31T08:02:41Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/los-records-legislativos-en-los-mandatos-de-pedro-sanchez/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/los-records-legislativos-en-los-mandatos-de-pedro-sanchez/",
+   "title": "Los récords legislativos en los mandatos de Pedro Sánchez",
+   "date_published": "2026-10-31T07:00:50Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/eversheds-sutherland-se-convierte-en-el-primer-despacho-de-abogados-en-espana-certificado-por-aenor-en-gestion-de-la-diversidad-e-inclusion/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/eversheds-sutherland-se-convierte-en-el-primer-despacho-de-abogados-en-espana-certificado-por-aenor-en-gestion-de-la-diversidad-e-inclusion/",
+   "title": "Eversheds Sutherland se convierte en el primer despacho de abogados en España certificado por AENOR en Gestión de la Diversidad e Inclusión",
+   "date_published": "2026-10-31T07:00:16Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/noticias-juridicas/el-derecho-al-honor-de-begona-gomez/",
+   "url": "https://www.economistjurist.es/noticias-juridicas/el-derecho-al-honor-de-begona-gomez/",
+   "title": "El derecho al honor de Begoña Gómez",
+   "date_published": "2026-10-31T07:00:07Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-beso-que-no-fue-un-supermercado-y-un-coche-la-historia-detras-de-una-condena-por-alejamiento/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-beso-que-no-fue-un-supermercado-y-un-coche-la-historia-detras-de-una-condena-por-alejamiento/",
+   "title": "Un beso que no fue, un supermercado y un coche: la historia detrás de una condena por alejamiento",
+   "date_published": "2026-10-31T07:00:06Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/exceso-de-sombrillas-en-tabarca-por-que-el-tsj-valenciano-rebaja-una-multa/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/exceso-de-sombrillas-en-tabarca-por-que-el-tsj-valenciano-rebaja-una-multa/",
+   "title": "Exceso de sombrillas en Tabarca: por qué el TSJ valenciano rebaja una multa",
+   "date_published": "2026-10-31T07:00:03Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
    "id": "https://confilegal.com/20261031-supremo-archiva-denuncias-manos-limpias-vox-marlaska-bolanos-montero-armengol/",
    "url": "https://confilegal.com/20261031-supremo-archiva-denuncias-manos-limpias-vox-marlaska-bolanos-montero-armengol/",
    "title": "El Supremo da carpetazo a cuatro ofensivas judiciales contra dirigentes socialistas: los hechos no son delito",
@@ -545,186 +725,6 @@
    ],
    "_fuente": "Confilegal",
    "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-el-precio-oculto-de-llegar-a-la-cima-un-alto-directivo-puede-salir-de-la-empresa-con-solo-7-dias-de-indemnizacion-por-ano/",
-   "url": "https://confilegal.com/20261030-el-precio-oculto-de-llegar-a-la-cima-un-alto-directivo-puede-salir-de-la-empresa-con-solo-7-dias-de-indemnizacion-por-ano/",
-   "title": "El precio oculto de llegar a la cima: un alto directivo puede salir de la empresa con solo 7 días de indemnización por año",
-   "date_published": "2026-10-30T04:41:00Z",
-   "tags": [
-    "Mercantil",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-harvey-compra-aida-y-suma-su-quinta-adquisicion-del-ano-para-reforzar-la-inteligencia-artificial-de-los-despachos/",
-   "url": "https://confilegal.com/20261030-harvey-compra-aida-y-suma-su-quinta-adquisicion-del-ano-para-reforzar-la-inteligencia-artificial-de-los-despachos/",
-   "title": "Harvey compra Aida y suma su quinta adquisición del año para reforzar la inteligencia artificial de los despachos",
-   "date_published": "2026-10-30T04:41:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-accidentes-ferroviarios-responsabilidades-politicas-seguridad/",
-   "url": "https://confilegal.com/20261030-accidentes-ferroviarios-responsabilidades-politicas-seguridad/",
-   "title": "Opinión | El tren de la responsabilidad llega siempre con retraso",
-   "date_published": "2026-10-30T04:40:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-fraudes-alquiler-winterman-inquilinos-propietarios/",
-   "url": "https://confilegal.com/20261030-fraudes-alquiler-winterman-inquilinos-propietarios/",
-   "title": "Diez fraudes en el alquiler que perjudican a inquilinos y propietarios, según Winterman",
-   "date_published": "2026-10-30T04:40:00Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-guillermo-rocafort-instrucciones-nacionalidad-ley-memoria-democratica/",
-   "url": "https://confilegal.com/20261030-guillermo-rocafort-instrucciones-nacionalidad-ley-memoria-democratica/",
-   "title": "Opinión | La huella que Sofía Puente no podrá borrar jamás",
-   "date_published": "2026-10-30T04:39:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXN0dHdrbDZuaXlaOTRSS0Q3VFZIdFd4YW9QdHRqemVIOTZoSWZqYnA2MkNXUTA3NURTckFJNl91SUZYQjZEcC1BNjlZbzV0SmJ6bGQxeFJTZ3dhX1pTSE9iSi1tQWJaRjNzRUFUMWgzaVN3eVVhX0g3MFdCU2tlOGVHRkFyQ3IwXzJ3TEN4aUxRMDFwQjVjTkhQVC0tWU42WE5mbQ?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXN0dHdrbDZuaXlaOTRSS0Q3VFZIdFd4YW9QdHRqemVIOTZoSWZqYnA2MkNXUTA3NURTckFJNl91SUZYQjZEcC1BNjlZbzV0SmJ6bGQxeFJTZ3dhX1pTSE9iSi1tQWJaRjNzRUFUMWgzaVN3eVVhX0g3MFdCU2tlOGVHRkFyQ3IwXzJ3TEN4aUxRMDFwQjVjTkhQVC0tWU42WE5mbQ?oc=5",
-   "title": "El TSXG reduce al mínimo legal la condena a un violador de O Barco",
-   "date_published": "2026-10-30T03:35:00Z",
-   "tags": [
-    "Penal",
-    "galicia"
-   ],
-   "_fuente": "La Región",
-   "_importancia": 8
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-1-noviembre-empieza-aplicarse-tasa-gestion-aduanera-ue-37169",
-   "url": "https://www.iberley.es/noticias/el-1-noviembre-empieza-aplicarse-tasa-gestion-aduanera-ue-37169",
-   "title": "El 1 de noviembre empieza a aplicarse la tasa de gestión aduanera de la UE",
-   "date_published": "2026-10-30T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/la-dgt-aclara-que-ingresos-una-asociacion-tributan-37132",
-   "url": "https://www.iberley.es/noticias/la-dgt-aclara-que-ingresos-una-asociacion-tributan-37132",
-   "title": "La DGT aclara qué ingresos de una asociación tributan",
-   "date_published": "2026-10-30T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-supremo-anula-una-sentencia-ocultar-como-localizar-demandado-37168",
-   "url": "https://www.iberley.es/noticias/el-supremo-anula-una-sentencia-ocultar-como-localizar-demandado-37168",
-   "title": "El Supremo anula una sentencia por ocultar cómo localizar al demandado",
-   "date_published": "2026-10-30T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 5
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-tsj-cataluna-avala-limitar-salida-centro-trabajo-descanso-37154",
-   "url": "https://www.iberley.es/noticias/el-tsj-cataluna-avala-limitar-salida-centro-trabajo-descanso-37154",
-   "title": "El TSJ de Cataluña avala limitar la salida del centro de trabajo durante el descanso",
-   "date_published": "2026-10-30T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-supremo-avala-computar-las-extinciones-periodo-prueba-apreciar-despido-colectivo-hecho-37165",
-   "url": "https://www.iberley.es/noticias/el-supremo-avala-computar-las-extinciones-periodo-prueba-apreciar-despido-colectivo-hecho-37165",
-   "title": "El Supremo avala computar las extinciones en período de prueba para apreciar despido colectivo de hecho",
-   "date_published": "2026-10-30T00:00:00Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 5
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPUjVwbDlkcnpBamt1dlI1MFRjNzdPc01SZnZOamVZNGlyZy1WeU1EdF96dk91MDdicUMxWHlraFJJVjdZdjZ5Tk1BZUtLOU13VlZWTHR1dUtCaFYyU0QzbjZiR3BCYThCTEliRHlPTjBsRXBqekd4OTBmRFVvMkZuWk9LT1NuLUpzM193WEFULTJZTVhvZmx0VmJXOE94QlQ1VTE0RFBBX3hFS1FQalFWRW84dWI0QWl0czBtS2pEcFUtakxaS2VnM2NaT2ZzVVh0ZkhjbEtxcURCQ0M5MFh4S3RHLWI5Um45WmQ2QVgxNFR0OHZLZWJGQlpkN3I3VEQxSUQ5VjBEYw?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPUjVwbDlkcnpBamt1dlI1MFRjNzdPc01SZnZOamVZNGlyZy1WeU1EdF96dk91MDdicUMxWHlraFJJVjdZdjZ5Tk1BZUtLOU13VlZWTHR1dUtCaFYyU0QzbjZiR3BCYThCTEliRHlPTjBsRXBqekd4OTBmRFVvMkZuWk9LT1NuLUpzM193WEFULTJZTVhvZmx0VmJXOE94QlQ1VTE0RFBBX3hFS1FQalFWRW84dWI0QWl0czBtS2pEcFUtakxaS2VnM2NaT2ZzVVh0ZkhjbEtxcURCQ0M5MFh4S3RHLWI5Um45WmQ2QVgxNFR0OHZLZWJGQlpkN3I3VEQxSUQ5VjBEYw?oc=5",
-   "title": "El TSXG confirma la sanción del Ayuntamiento a un empleado municipal por agredir a un compañero",
-   "date_published": "2026-10-29T19:36:44Z",
-   "tags": [
-    "Administrativo",
-    "galicia"
-   ],
-   "_fuente": "El Ideal Gallego",
-   "_importancia": 8
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYW9VOXdsb3VlSHhHZmN3S2pUbkVFVkxPcGotSXN3LUdjZXFmZ242b1VvNjlacXRoLTE5VmFQMFkwMGQ4WFl0NGgxZWZUbDRvcjkyRGlOeGpFTzRLd2tmOGRoVU52NzAxRUstSXBBa1VLUWVkWGV5dHNWRndVVnNGV09CNzFyanpLenJweTcwbjdFOVBTV2ljZjhQNUlXLUU2Zk1FUHRyeVh1T0owa0w3Mjdqa01yZUFTVk5LdA?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYW9VOXdsb3VlSHhHZmN3S2pUbkVFVkxPcGotSXN3LUdjZXFmZ242b1VvNjlacXRoLTE5VmFQMFkwMGQ4WFl0NGgxZWZUbDRvcjkyRGlOeGpFTzRLd2tmOGRoVU52NzAxRUstSXBBa1VLUWVkWGV5dHNWRndVVnNGV09CNzFyanpLenJweTcwbjdFOVBTV2ljZjhQNUlXLUU2Zk1FUHRyeVh1T0owa0w3Mjdqa01yZUFTVk5LdA?oc=5",
-   "title": "La Justicia da la razón a Arteixo: un mes sin sueldo por agredir a un compañero con una puerta",
-   "date_published": "2026-10-29T19:04:32Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "noticiascoruna",
-   "_importancia": 4
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRFp3UEc3OXRwNzhucXBtRjFxLU1HR0pyRlFNN2tkZXA2U084ckRjaDhuNmxOYVNvZWc0NUhEVVd2MklubFZXbTJsdDZMZXBKSjdHWE5KV1lMTXBfald5TVNtbmVZcE5PYnU4UU5jemxlNHozR2lVX25aOFJ4VWFFcFJPNUlkVUUzNnc?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRFp3UEc3OXRwNzhucXBtRjFxLU1HR0pyRlFNN2tkZXA2U084ckRjaDhuNmxOYVNvZWc0NUhEVVd2MklubFZXbTJsdDZMZXBKSjdHWE5KV1lMTXBfald5TVNtbmVZcE5PYnU4UU5jemxlNHozR2lVX25aOFJ4VWFFcFJPNUlkVUUzNnc?oc=5",
-   "title": "Condenado a 14 años por estrangular a su mujer en A Coruña en 2024",
-   "date_published": "2026-10-29T19:01:51Z",
-   "tags": [
-    "Penal",
-    "galicia"
-   ],
-   "_fuente": "radiolider.com",
-   "_importancia": 4
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMGQwb2Q0ZERZMjdaU3NaTWJ1MUFfUDl5Um1IaThmcDEwemZWQlQ3RWNqbkFCS2xSRVhYR0NORTctTzFOd1FHMU9fTWY5Q3RfOTJOQ0VfNjVTMGZjUWRlempPQUNIcVMyaXlOcHZIVXJpRkEtNXl4dFVfRVhVR3c2WjRWdUhyMWdGVmF1cVFzT1dxZU9mQnhKVkhGZFZpcktBVFBrei00OGVpemhEVERxVDRtY3E5X0dhbDhyU0tfRQ?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMGQwb2Q0ZERZMjdaU3NaTWJ1MUFfUDl5Um1IaThmcDEwemZWQlQ3RWNqbkFCS2xSRVhYR0NORTctTzFOd1FHMU9fTWY5Q3RfOTJOQ0VfNjVTMGZjUWRlempPQUNIcVMyaXlOcHZIVXJpRkEtNXl4dFVfRVhVR3c2WjRWdUhyMWdGVmF1cVFzT1dxZU9mQnhKVkhGZFZpcktBVFBrei00OGVpemhEVERxVDRtY3E5X0dhbDhyU0tfRQ?oc=5",
-   "title": "5 razones impactantes para aprobar el estudio de detalle de A Maestranza en A Coruña",
-   "date_published": "2026-10-29T18:44:56Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "radiolider.com",
-   "_importancia": 4
   }
  ]
 }
