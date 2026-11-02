@@ -7,6 +7,222 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://www.economistjurist.es/?p=258623",
+   "url": "https://www.economistjurist.es/?p=258623",
+   "title": "Tener hijos dependientes y pocos ingresos no basta para detener un desalojo si ya vencieron los plazos",
+   "date_published": "2026-11-02T06:00:48Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=258617",
+   "url": "https://www.economistjurist.es/?p=258617",
+   "title": "Stellantis pierde ante el Supremo y pagará más por el cártel de los coches",
+   "date_published": "2026-11-02T06:00:45Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=258633",
+   "url": "https://www.economistjurist.es/?p=258633",
+   "title": "Guarda la escritura de tu hipoteca: 20 años después, un tribunal la usó para probar un pago",
+   "date_published": "2026-11-02T06:00:02Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=258527",
+   "url": "https://www.economistjurist.es/?p=258527",
+   "title": "Una nueva orden ministerial obliga a todos los españoles a cambiar su contador de gas",
+   "date_published": "2026-11-02T06:00:01Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261102-juez-urda-gruas-turnos-ininterrumpidos-refuerzo-justicia-orgaz/",
+   "url": "https://confilegal.com/20261102-juez-urda-gruas-turnos-ininterrumpidos-refuerzo-justicia-orgaz/",
+   "title": "La juez de Urda obliga a la empresa de grúas a trabajar sin pausa tras una noche sin operarios en la zona del siniestro",
+   "date_published": "2026-11-02T04:45:00Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-acusaciones-recurren-amnistia-doce-cdr-examen-individual/",
+   "url": "https://confilegal.com/20261102-acusaciones-recurren-amnistia-doce-cdr-examen-individual/",
+   "title": "Las acusaciones recurren la amnistía de los doce CDR y exigen un examen individual de cada conducta",
+   "date_published": "2026-11-02T04:44:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-supremo-recuperar-vivienda-cedida-gratis-familiar/",
+   "url": "https://confilegal.com/20261102-supremo-recuperar-vivienda-cedida-gratis-familiar/",
+   "title": "La necesidad habitacional no frena el desahucio en la cesión gratuita de vivienda",
+   "date_published": "2026-11-02T04:43:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-no-hacer-el-mantenimiento-de-los-paneles-solares-le-costara-casi-5-500e-a-holaluz/",
+   "url": "https://confilegal.com/20261102-no-hacer-el-mantenimiento-de-los-paneles-solares-le-costara-casi-5-500e-a-holaluz/",
+   "title": "No hacer el mantenimiento de los paneles solares le costará casi 5.500€ a Holaluz",
+   "date_published": "2026-11-02T04:42:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-lacaci-delgado-abogados-jurista-servicios-legales-alianza-espana-mexico/",
+   "url": "https://confilegal.com/20261102-lacaci-delgado-abogados-jurista-servicios-legales-alianza-espana-mexico/",
+   "title": "Lacaci & Delgado Abogados abre su primera alianza internacional con la mexicana Jurista Servicios Legales",
+   "date_published": "2026-11-02T04:41:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-democracia-instituciones-vacias-poder-decision/",
+   "url": "https://confilegal.com/20261102-democracia-instituciones-vacias-poder-decision/",
+   "title": "Opinión | Los mismos nombres: Una democracia puede perder su sustancia sin perderlos",
+   "date_published": "2026-11-02T04:41:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-espana-mantenimiento-infraestructuras-prevencion-riesgos/",
+   "url": "https://confilegal.com/20261102-espana-mantenimiento-infraestructuras-prevencion-riesgos/",
+   "title": "Opinión | La España que no puede esperar",
+   "date_published": "2026-11-02T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-urda-choque-trenes-posibles-responsabilidades-penales/",
+   "url": "https://confilegal.com/20261102-urda-choque-trenes-posibles-responsabilidades-penales/",
+   "title": "Opinión | El rastro penal del choque de trenes de Urda podría llegar hasta el Gobierno",
+   "date_published": "2026-11-02T04:40:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261102-supremo-pension-viudedad-victimas-violencia-genero-sin-recorte/",
+   "url": "https://confilegal.com/20261102-supremo-pension-viudedad-victimas-violencia-genero-sin-recorte/",
+   "title": "El Supremo prohíbe recortar la pensión de viudedad de víctimas de violencia de género aunque cobren pensión compensatoria",
+   "date_published": "2026-11-01T23:45:00Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/tres-sentencias-clave-del-supremo-sobre-la-adaptacion-de-jornada-por-conciliacion-art-34-8-et/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/tres-sentencias-clave-del-supremo-sobre-la-adaptacion-de-jornada-por-conciliacion-art-34-8-et/",
+   "title": "Tres sentencias clave del Supremo sobre la adaptación de jornada por conciliación (art. 34.8 ET)",
+   "date_published": "2026-11-01T07:00:49Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/el-bufete-madrileno-lacaci-delgado-abogados-y-una-firma-mexicana-pactan-una-alianza-transatlantica-para-gestionar-herencias-juicios-y-extranjeria-a-ambos-lados-del-atlantico/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/el-bufete-madrileno-lacaci-delgado-abogados-y-una-firma-mexicana-pactan-una-alianza-transatlantica-para-gestionar-herencias-juicios-y-extranjeria-a-ambos-lados-del-atlantico/",
+   "title": "El bufete madrileño Lacaci & Delgado Abogados y una firma mexicana pactan una alianza transatlántica para gestionar herencias, juicios y extranjería a ambos lados del Atlántico",
+   "date_published": "2026-11-01T07:00:44Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/supuesto-en-el-que-aun-debiendo-cuotas-a-la-seguridad-social-podemos-cobrar-la-pension-de-jubilacion/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/supuesto-en-el-que-aun-debiendo-cuotas-a-la-seguridad-social-podemos-cobrar-la-pension-de-jubilacion/",
+   "title": "Supuesto en el que aun debiendo cuotas a la Seguridad Social podemos cobrar la pensión de jubilación",
+   "date_published": "2026-11-01T07:00:43Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/robar-con-un-machete-y-un-arma-ya-era-grave-un-casco-de-moto-y-una-bufanda-lo-hicieron-peor/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/robar-con-un-machete-y-un-arma-ya-era-grave-un-casco-de-moto-y-una-bufanda-lo-hicieron-peor/",
+   "title": "Robar con un machete y un arma ya era grave: un casco de moto y una bufanda lo hicieron peor",
+   "date_published": "2026-11-01T07:00:34Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/ganaba-poco-y-por-eso-mismo-la-generalitat-le-nego-la-ayuda-para-pagar-el-alquiler/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/ganaba-poco-y-por-eso-mismo-la-generalitat-le-nego-la-ayuda-para-pagar-el-alquiler/",
+   "title": "Ganaba poco y por eso mismo la Generalitat le negó la ayuda para pagar el alquiler",
+   "date_published": "2026-11-01T07:00:29Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
    "id": "https://confilegal.com/20261101-todos-los-santos-y-difuntos-origen-diferencias/",
    "url": "https://confilegal.com/20261101-todos-los-santos-y-difuntos-origen-diferencias/",
    "title": "Dos mil años de visitas al cementerio: así nacieron Todos los Santos y Difuntos",
@@ -509,222 +725,6 @@
    ],
    "_fuente": "Lawyerpress",
    "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/auren-incorpora-en-murcia-al-equipo-de-auditoria-de-ramon-madrid-procedente-de-bnfix/",
-   "url": "https://www.lawyerpress.com/2026/10/30/auren-incorpora-en-murcia-al-equipo-de-auditoria-de-ramon-madrid-procedente-de-bnfix/",
-   "title": "Auren incorpora en Murcia al equipo de auditoría de Ramón Madrid, procedente de BNFIX",
-   "date_published": "2026-10-30T10:47:27Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": -3
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/lawesome-asesora-a-ulma-handling-systems-en-la-adquisicion-del-30-de-automach/",
-   "url": "https://www.lawyerpress.com/2026/10/30/lawesome-asesora-a-ulma-handling-systems-en-la-adquisicion-del-30-de-automach/",
-   "title": "Lawesome asesora a ULMA Handling Systems en la adquisición del 30% de Automach",
-   "date_published": "2026-10-30T10:42:17Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/abogacia-joven-condiciones-para-quedarse/",
-   "url": "https://www.lawyerpress.com/2026/10/30/abogacia-joven-condiciones-para-quedarse/",
-   "title": "Abogacía joven: condiciones para quedarse",
-   "date_published": "2026-10-30T10:38:08Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 3
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/net-craman-reune-en-barcelona-a-mas-de-100-profesionales-en-la-conferencia-mundial-de-lawexchange-international/",
-   "url": "https://www.lawyerpress.com/2026/10/30/net-craman-reune-en-barcelona-a-mas-de-100-profesionales-en-la-conferencia-mundial-de-lawexchange-international/",
-   "title": "Net Craman reúne en Barcelona a más de 100 profesionales en la conferencia mundial de LawExchange International",
-   "date_published": "2026-10-30T09:05:12Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/el-icab-celebra-el-foro-sobre-la-ia-en-la-abogacia-para-abordar-su-impacto-en-la-profesion/",
-   "url": "https://www.lawyerpress.com/2026/10/30/el-icab-celebra-el-foro-sobre-la-ia-en-la-abogacia-para-abordar-su-impacto-en-la-profesion/",
-   "title": "El ICAB celebra el ‘Foro sobre la IA en la abogacía’ para abordar su impacto en la profesión",
-   "date_published": "2026-10-30T09:01:14Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 3
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/oscar-casero-debuta-con-un-thriller-sobre-una-ia-que-suplanta-a-un-abogado/",
-   "url": "https://www.lawyerpress.com/2026/10/30/oscar-casero-debuta-con-un-thriller-sobre-una-ia-que-suplanta-a-un-abogado/",
-   "title": "Óscar Casero debuta con un thriller sobre una IA que suplanta a un abogado",
-   "date_published": "2026-10-30T08:52:20Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/harvey-adquiere-aida-para-reforzar-la-gestion-del-conocimiento-juridico-con-ia/",
-   "url": "https://www.lawyerpress.com/2026/10/30/harvey-adquiere-aida-para-reforzar-la-gestion-del-conocimiento-juridico-con-ia/",
-   "title": "Harvey adquiere Aida para reforzar la gestión del conocimiento jurídico con IA",
-   "date_published": "2026-10-30T08:46:23Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/10/30/dentons-asesora-en-la-financiacion-de-tk-accelis-por-1-700-millones-de-euros/",
-   "url": "https://www.lawyerpress.com/2026/10/30/dentons-asesora-en-la-financiacion-de-tk-accelis-por-1-700-millones-de-euros/",
-   "title": "Dentons asesora en la financiación de tk accelis por 1.700 millones de euros",
-   "date_published": "2026-10-30T08:42:11Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/absuelta-una-comunidad-de-propietarios-de-tener-que-indemnizar-a-la-duena-de-un-local-con-195-000-euros-por-la-marcha-de-su-inquilino/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/absuelta-una-comunidad-de-propietarios-de-tener-que-indemnizar-a-la-duena-de-un-local-con-195-000-euros-por-la-marcha-de-su-inquilino/",
-   "title": "Absuelta una comunidad de propietarios de tener que indemnizar a la dueña de un local con 195.000 euros por la marcha de su inquilino",
-   "date_published": "2026-10-30T06:00:47Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/como-una-asesora-financiera-paso-de-autonoma-a-asalariada-por-decision-de-la-seguridad-social/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/como-una-asesora-financiera-paso-de-autonoma-a-asalariada-por-decision-de-la-seguridad-social/",
-   "title": "Cómo una asesora financiera pasó de autónoma a asalariada por decisión de la Seguridad Social",
-   "date_published": "2026-10-30T06:00:30Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 4
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/el-cliente-ya-llega-al-despacho-con-la-respuesta-de-chatgpt/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/el-cliente-ya-llega-al-despacho-con-la-respuesta-de-chatgpt/",
-   "title": "El cliente ya llega al despacho con la respuesta de ChatGPT",
-   "date_published": "2026-10-30T06:00:28Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/rld-traslada-su-sede-de-madrid-al-edificio-cuzco-ii-por-su-crecimiento/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/rld-traslada-su-sede-de-madrid-al-edificio-cuzco-ii-por-su-crecimiento/",
-   "title": "RLD traslada su sede de Madrid al Edificio Cuzco II por su crecimiento",
-   "date_published": "2026-10-30T06:00:22Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDJrRm9GdnNEZ21XWE9vVTFmd0QyR2dRbWVxV21qQkhmVER4YXhXTmdFUWRNaVFqTVl5UUhRT3o3RGk2Z2tTTm9QbFhRbjNuaXJsWnNNaWlJTkRERko1dnlHMjA3aUM2dVFMaVNYOXZ6RXR3b19raEMwSU9yZzlaOHZyYlFKTF9qaElTWmhyN1hYa2hCSzhILWJUNGdpb2JILW5kcm1nTFU0VXlWVXhvTGtGWmRUWnFta1U4?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDJrRm9GdnNEZ21XWE9vVTFmd0QyR2dRbWVxV21qQkhmVER4YXhXTmdFUWRNaVFqTVl5UUhRT3o3RGk2Z2tTTm9QbFhRbjNuaXJsWnNNaWlJTkRERko1dnlHMjA3aUM2dVFMaVNYOXZ6RXR3b19raEMwSU9yZzlaOHZyYlFKTF9qaElTWmhyN1hYa2hCSzhILWJUNGdpb2JILW5kcm1nTFU0VXlWVXhvTGtGWmRUWnFta1U4?oc=5",
-   "title": "Revés judicial para los comuneros de San Martiño de O Grove en la compra de unas fincas",
-   "date_published": "2026-10-30T05:06:20Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "Faro de Vigo",
-   "_importancia": 4
-  },
-  {
-   "id": "https://confilegal.com/20261030-accidente-tren-urda-69-fallecidos-autopsias-identificaciones/",
-   "url": "https://confilegal.com/20261030-accidente-tren-urda-69-fallecidos-autopsias-identificaciones/",
-   "title": "Accidente ferroviario de Urda: 69 fallecidos y solo cinco víctimas identificadas",
-   "date_published": "2026-10-30T04:44:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-binance-investiga-posible-robo-record-criptomonedas/",
-   "url": "https://confilegal.com/20261030-binance-investiga-posible-robo-record-criptomonedas/",
-   "title": "Binance investiga un posible robo de hasta 5.700 millones en criptomonedas, el mayor de la historia si se confirma",
-   "date_published": "2026-10-30T04:44:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-eloy-velasco-crimen-organizado-prueba-electronica-europea/",
-   "url": "https://confilegal.com/20261030-eloy-velasco-crimen-organizado-prueba-electronica-europea/",
-   "title": "Eloy Velasco advierte: «la prueba del crimen digital se esconde donde Europa no puede llegar»",
-   "date_published": "2026-10-30T04:43:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261030-ayuso-celebra-que-los-funcionarios-de-prisiones-sean-agentes-de-la-autoridad-y-lamenta-que-la-reforma-no-se-aprobara-por-unanimidad/",
-   "url": "https://confilegal.com/20261030-ayuso-celebra-que-los-funcionarios-de-prisiones-sean-agentes-de-la-autoridad-y-lamenta-que-la-reforma-no-se-aprobara-por-unanimidad/",
-   "title": "Ayuso celebra que los funcionarios de prisiones sean agentes de la autoridad y lamenta que la reforma no se aprobara por unanimidad",
-   "date_published": "2026-10-30T04:42:00Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 7
-  },
-  {
-   "id": "https://confilegal.com/20261030-el-talento-interno-se-convierte-en-la-verdadera-ventaja-competitiva-de-los-despachos/",
-   "url": "https://confilegal.com/20261030-el-talento-interno-se-convierte-en-la-verdadera-ventaja-competitiva-de-los-despachos/",
-   "title": "El talento interno se convierte en la verdadera ventaja competitiva de los despachos",
-   "date_published": "2026-10-30T04:42:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
   }
  ]
 }
