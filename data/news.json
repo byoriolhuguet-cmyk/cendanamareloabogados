@@ -1,6 +1,384 @@
 {
- "updated": "2026-11-06T06:16:10Z",
+ "updated": "2026-11-07T06:01:39Z",
  "items": [
+  {
+   "title": "Foro Judicial Independiente cierra filas con la magistrada Beatriz Biedma, denuncia las presiones sufridas y critica la falta de apoyo del CGPJ",
+   "url": "https://confilegal.com/20261107-foro-judicial-independiente-jueza-beatriz-biedma-cgpj-congreso-jaen/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:46:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "Santiago Pedraz , «magistrado pintor»: “Mis mejores ideas, equivocadas o no, me salen de la pintura”",
+   "url": "https://confilegal.com/20261107-santiago-pedraz-juez-pintor-galeria-canalejas/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:45:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 5
+  },
+  {
+   "title": "El TSJM avala un despido de una trabajadora de una empresa de videojuegos tras la llegada de la IA",
+   "url": "https://confilegal.com/20261107-el-tsjm-avala-un-despido-de-una-trabajadora-de-una-empresa-de-videojuegos-tras-la-llegada-de-la-ia/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:44:00Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 5
+  },
+  {
+   "title": "Gestación subrogada: el orden público no basta para cerrar en la puerta una adopción, recuerda la Audiencia de A Coruña",
+   "url": "https://confilegal.com/20261107-audiencia-coruna-adopcion-menor-gestacion-subrogada/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:43:00Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 5
+  },
+  {
+   "title": "El fraude digital deja pérdidas de 300 millones al año en España y abre nuevos frentes legales para las empresas",
+   "url": "https://confilegal.com/20261107-el-fraude-digital-deja-perdidas-de-300-millones-al-ano-en-espana-y-abre-nuevos-frentes-legales-para-las-empresas/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:42:00Z",
+   "area": "penal",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | El deber de garantía de seguridad y su posible delegación en otras personas",
+   "url": "https://confilegal.com/20261107-responsabilidad-juridica-accidentes-ferroviarios-deber-garantia/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:40:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | La casa y la parte",
+   "url": "https://confilegal.com/20261107-espana-pierde-influencia-iberoamerica-cumbres-diplomacia/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:40:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | ¿Objetivo 2031? Del compromiso solidario a la responsabilidad jurídica frente al hambre",
+   "url": "https://confilegal.com/20261107-derecho-combatir-hambre-contratacion-publica-objetivo-2031/",
+   "source": "Confilegal",
+   "date": "2026-11-07T04:40:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Una lucha de \"David contra Goliat\": un vilalbés gana sin abogados y con IA a un banco en un caso de phishing",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeXJHOGVYZFh0ZGFWb3A2N3NaNzIyeGZQZktuckZFUFRmb09zODI0Q0lQUlRRY0NiR1RRMExkUGQ3SS1ZNjF5aXZpRVRYV2RMV0pvUmhlNHZWR1Z5cHdFNFJYUHFYX1NCcUFKd1BtLXR3MWNuZjVja09qb1dJalZXeVRRNTBPOHZ4SHF5a3Zkbjc0N3g3YVpaMjVSYkhUbTg0S0h1TzFMWGt3d1hIX1ZidkdVVHNZRm8?oc=5",
+   "source": "El Progreso de Lugo",
+   "date": "2026-11-07T04:00:00Z",
+   "area": "civil",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "Isabel Winkels: «Los MASC en Derecho de Familia son un fiasco, solo generan dilaciones»",
+   "url": "https://confilegal.com/20261107-isabel-winkels-los-masc-en-derecho-de-familia-son-un-fiasco-solo-generan-dilaciones/",
+   "source": "Confilegal",
+   "date": "2026-11-06T23:45:00Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El TSXG da la razón a un parado de Vigo: cobrar paro y trabajar a la vez no siempre te quita la prestación",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5ZEdWSXR6cm5DWmV2ckZYVlJGRlZWWGVzbTBOMDFzX0JLbjc4TkRMdGd6TEZOdEhIZjQyM1JaRFJkaDBha1NhblVtNW1vd180WUMxbWpubkJsaVhCdDNMTThHb3JWdnh4RVJ5VVhlT0M2YmtkWVJz?oc=5",
+   "source": "Qué.es",
+   "date": "2026-11-06T22:42:01Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Un juzgado de Vigo falla contra la Sareb y permite a un vecino de Privada Moderna quedarse en su piso",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkNnQnlmMExvOF94YmhwdEhRVmJZSTZCcUNMNE1NN0hoT1JFeG9zY0c1QWVSbXRDVW82bHBqaHhYdUQ1RFA3S3hoYU9EUjZodWl6VGQtSllMblROTEtMdlozY1FpdFdnNC1kOWxnc0tuZ21IV2w5XzlEeHBfNnRoc0FpLUZfQ01tdFRzaFFWVXM1V19wU2hBWVpFQTdfc3hUZklfVHlzbDZ5WFRPN2ZtNzE4aE1oc2VMaHJjNWFDazJHaHV6VHAtb21hSG5HdlHSAdQBQVVfeXFMTW9YLVJ3YWZDb3ZaYlZ1S0VtWFhGS1N6ZHBRQVEyU2xoWFoxY2kzMnJacG5KWHpqTlR0NXZDZTNwd3dCV2JPVzJ3TkFTZS1JMU9RMzB6dW1QMVFNMlhBYWRNOFhKeUQ1Uk1lakJ5VTREeW43NW1Jb1NQSnAzelVkVlZqR2R4WTlER2F5cFdQdDdQcDJBQmNFNzBSZV9IZ2F2TDhIa0VCMHh6REt0LUFoVXFHVGZRNjdieHVOeEc3QnUwdUZzM3dQNmhFN01fZTZsU1RVMnA?oc=5",
+   "source": "Metropolitano.gal",
+   "date": "2026-11-06T20:54:42Z",
+   "area": "tributario",
+   "scope": "galicia",
+   "score": 4
+  },
+  {
+   "title": "El TSXG confirma la anulación de las obras del aeródromo de Entenza",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZUJtdllsc3RxQmxKbnBTa2xFWlBjZmpBeWJaYkNsOHY0blVubGhSdlpsU3EycWc5ZUtkdVlvWGM5X0tBNUJINU8taXZBM1VzZm9xMWNuZzBBYlVDWW5Oc2swV1VkNkxOc3Y3ajdoR3I5R2RSTGdseXZHWnBCNlhrUFUwaFdPbGQ1VWlyUHdTSTVzME5Id1hZ?oc=5",
+   "source": "Telemariñas",
+   "date": "2026-11-06T18:16:59Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Pedraz cita a Cintia Rocho como testigo en el caso Leire Díez por las supuestas amenazas contra la jueza Biedma",
+   "url": "https://confilegal.com/20261106-pedraz-cita-a-cintia-rocho-como-testigo-en-el-caso-leire-diez-por-las-supuestas-amenazas-contra-la-jueza-biedma/",
+   "source": "Confilegal",
+   "date": "2026-11-06T16:32:49Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El TSXG reclama cuatro magistrados de refuerzo para desatascar pleitos eólicos, con críticas al proceso de selección",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPLTZXcmZjb2JDRVlUWVFfODR6dW9YYzFBN3luQTY3eVozSjRBbXNCQ28yZWx5SWxmWnNVX0NDQ1FFZmdESzhLZllPV2VidkhLemg1TUc2Um9pbkljMlV3LU9vaG45al8yajJZcVdtTnctSlJXUE9BUVkxTUJ4dzNUbjNtdF80TWN3Z216b0JYNWJ6WmdLMkhCb1VXQ0wyZW83eHdsVnJzQmFpLVRhRHJvbHU2ZkZBV0NxSEdiOGVBdkNvMmhIeDgzRGJjRzI1XzZFMHIyRnNZMnR4QXVDOXdXaUNQTE5UQVFLb0hEWGFDTlY0ZVVHNWVhRUZYcEJxS3c?oc=5",
+   "source": "La Voz de Galicia",
+   "date": "2026-11-06T15:23:47Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Reutilizaron ataúdes durante casi veinte años: la estafa funeraria de las cremaciones simuladas",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/reutilizaron-ataudes-durante-casi-veinte-anos-la-estafa-funeraria-de-las-cremaciones-simuladas/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T15:00:56Z",
+   "area": "penal",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Un hijo con cáncer tratado en casa ya cuenta como hospitalizado: así cambia la ayuda para sus padres",
+   "url": "https://www.economistjurist.es/actualidad-juridica/legislacion/un-hijo-con-cancer-tratado-en-casa-ya-cuenta-como-hospitalizado-asi-cambia-la-ayuda-para-sus-padres/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T15:00:45Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Una directiva sin ley: qué podrá pedirse a los tribunales desde el 20 de noviembre",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/una-directiva-sin-ley-que-podra-pedirse-a-los-tribunales-desde-el-20-de-noviembre/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T15:00:20Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La falta de una prueba empresarial no da automáticamente la razón al trabajador",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-falta-de-una-prueba-empresarial-no-da-automaticamente-la-razon-al-trabajador/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T15:00:08Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TSXG confirma la condena de dos años y medio de prisión a la socia de una asesoría de A Pobra",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxORFVDc3RDRzJjdHYxeFkxWXd6c2xQdnlTdzZWbGNXWUtIZHVMSGt2VU4zYThpZ3VTNmRMZ3BvLUltSFp4elQ3MS1BdnlZc21tdlhhNGFTWG1FSmxHOHh6Z2NLRFRJbDhRTUF4V2w5dllhcG1SemhxOGl2Y1pHdXpHLUt5ZjB4QkFTclZQN3FqQWRDYVgwS09RVTNleFJaeU9WeW9URHJJWTcxcVQyRTQ4Ny1xRHlOY19XTzFuSUdEcTVGMDM4ZDhHeU5EaDZabzc2OGVldGZ0VmtTamE5anczMGJmRGNjYU5NeFJHVUZheWRNUDhJSm9GUXVadzlQNnBjckNoUXQxem93SUVs?oc=5",
+   "source": "Diario de Arousa",
+   "date": "2026-11-06T14:28:22Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "El TSXG condena al Sergas a pagar 8.000 euros al viudo de una paciente psiquiátrica que se suicidó en el hospital en Santiago",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOR2tKR0hFc1o0NUg4Ukh3LUpHZUQ5UUZucFJzSDJZN005M0dxbHpOVlp3YVBwSVNpU1ZsN1JSU0FuZko0X2VtMndPY1NGU2RhZ2x5eE9lWVJnTUZCeW9sQU1qYUxGSmdjS1Ytb1NRcUJSMDVyR1dBcTVTS0pQZkh5eDR6WDExWkR1ZEZoQ0RJVTMzd1F0dkg5S2JKR3dBYmpBYVB3elUtUmE1UEMwc2RZZ2k3bUsyVjE3dGxTN3ZCQlZHalFWanRudHFDaGFCNnFfX0UzSUdQQUk0bjA2Qjh1SUZCMV8zS2xqd2stUTBlYkpkd193QzltNG5CWQ?oc=5",
+   "source": "La Voz de Galicia",
+   "date": "2026-11-06T13:16:05Z",
+   "area": "penal",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Fiscalía Europea abre una nueva investigación por presunto fraude de fondos tras el accidente en Urda y acude a Adif",
+   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/fiscalia-europea-abre-una-nueva-investigacion-por-presunto-fraude-de-fondos-tras-el-accidente-en-urda-y-acude-a-adif-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T12:15:00Z",
+   "area": "penal",
+   "scope": "españa",
+   "score": 3
+  },
+  {
+   "title": "Xuíces pola Democracia carga contra el TSXG por el refuerzo \"a dedo\" de la sala que decidirá sobre los parques eólicos",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORWZTandwWWhOU0l3MEFWM2F6Q1BKbFhROXlROVlZVmdUNGxGV2FxWmJ6WEhiOUFNeXowcTNnOEpJTG1nUGNldWRSTkhQakc3N0g5RV8zODJMaWRjOXlBWml1a04xR210R0JmSEs0WW12bHFpdkwxWHkyRmRqY3AzX1RrUk4tVDNUOG1jNFZVT1hDVm5aY1JjTy1pVzVVWF83Wm9IbGZQbnZWS2pBV29zSGlBZkw1VFY5UDhxZVRtbWsyM3ZVUmV5a2VwYWxDNE5XdGxrOHlZWEpmVmtPOWp3dWU4ZGRhOTZ3MWhEbjJWZ0pfWDNFeHVZOUNjMmlod1J2OFHSAZYCQVVfeXFMT2VtRzl2WEV0bDJMSkJIeFR1NmxwY0hhUlN4VXJRdkgyYWpmTjVPdUZiQ0NpWWQ3WkRzMlFOY0J4QVpEdXVvaUZ0bmlNM3psQmFWSkxFYTB0c3hqeFB0ZmNKdDVzWWtkRGxSZzNUZldLTDZhOVJzcGJLU1JBR3habnBOUmlkelZ6OFNlZl8xSDVEMTJ6Szh1ZnU4azFxT0l3WWxZZWFJcEhNdUlNbGk5VXpFYldYSzlXQmxWSTNWNUlzbFBBZXNWTlJ0NEw5ZDVjNGNKSDhwRWNZZjJaTWlobnVXQlBCUDc5aC1veU5ENVNTc3pNaHJpMktLWGhTcGo2bmIxQ2VvbU00bHpRNUJZcDdPSTBUSEE?oc=5",
+   "source": "Cadena SER",
+   "date": "2026-11-06T12:10:16Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Hablar para convencer: las claves de la oratoria forense",
+   "url": "https://www.legaltoday.com/gestion-del-despacho/hablar-para-convencer-las-claves-de-la-oratoria-forense-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T11:21:21Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "¿Es posible notificar un segundo despido tras haber realizado la empresa previamente otro?",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/es-posible-notificar-un-segundo-despido-tras-haber-realizado-la-empresa-previamente-otro/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T11:00:45Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "Pidió inflar sus nóminas para un alquiler y luego quiso cobrar su indemnización con ellas: los límites de un favor",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/pidio-inflar-sus-nominas-para-un-alquiler-y-luego-quiso-cobrar-su-indemnizacion-con-ellas-los-limites-de-un-favor/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T11:00:41Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Estados financieros fiables, litigios evitados",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/estados-financieros-fiables-litigios-evitados/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T11:00:28Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La subvención por accesibilidad recibida por una comunidad de propietarios tributa en el IRPF de cada vecino según su coeficiente de participación",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-subvencion-por-accesibilidad-recibida-por-una-comunidad-de-propietarios-tributa-en-el-irpf-de-cada-vecino-segun-su-coeficiente-de-participacion/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T11:00:20Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TSXG crea una sala especial de refuerzo para desatascar el aluvión de litigios de parques eólicos y Juezas y Jueces para la Democracia denuncia la elección a dedo de magistrados",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUENNcEh0QTFUc25xTjAwRktXR0wzWlBucF9PMEw5c3ZSalM2R1VIell1azB3MkNDRTlYV3BoMjk0dDg0V2FwU3NwdUhSUFoweXZZUjBUUUcxeWVYV3dqZUt5QXNUOHZDc0NtQ3owdFV3WFI1bndoekpVQ0t5eTE0MU5PTHVCVVJmMFNoR1NOUGlCT3RndmpoTDBWOUbSAaIBQVVfeXFMTVVac0FxTG51dFp0SnhJWHZsdUZua2piV1FfOThJdkN5SHNScjRSd0NfZFdZRl93N3oxU1RLWFd4WTY5VVB5QjN4YUFEWXRMZWhiYzNNT1lGaDVjN3hHNzhBbXZQTmw5aVFZaGE1RkduOWtaVnpiVEhmUzI1d3ozZloyYW5RMV9jcWdLa2ltWFI2NEw5MEFJa0xITGk0aF9QYjRn?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-11-06T10:45:47Z",
+   "area": "general",
+   "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "Demanda de resolución de contrato de arrendamiento por incumplimiento contractual",
+   "url": "https://www.economistjurist.es/premium/sala-2-0/demanda-de-resolucion-de-contrato-de-arrendamiento-por-incumplimiento-contractual/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-06T10:45:44Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TS decidirá si quienes pagaron la tasa de basuras en Madrid y no recurrieron, pueden pedir la devolución",
+   "url": "https://www.legaltoday.com/portada-2/portada-1/el-ts-decidira-si-quienes-pagaron-la-tasa-de-basuras-en-madrid-y-no-recurrieron-pueden-pedir-la-devolucion-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T10:43:30Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Software homologado por la Agencia Tributaria: qué exigir para digitalizar facturas con validez legal",
+   "url": "https://www.lawyerpress.com/2026/11/06/software-homologado-por-la-agencia-tributaria-que-exigir-para-digitalizar-facturas-con-validez-legal/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T10:10:54Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Jurídicamente Hablando by SIMÓ, con Jesús Béjar: despido de embarazadas, cuándo es nulo y cuánto cuesta",
+   "url": "https://www.lawyerpress.com/2026/11/06/juridicamente-hablando-by-simo-con-jesus-bejar-despido-de-embarazadas-cuando-es-nulo-y-cuanto-cuesta/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T10:07:08Z",
+   "area": "laboral",
+   "scope": "españa",
+   "score": 4
+  },
+  {
+   "title": "RocaJunyent premia a Juan Carlos Unzué por su defensa de los derechos de las personas con ELA",
+   "url": "https://www.lawyerpress.com/2026/11/06/rocajunyent-premia-a-juan-carlos-unzue-por-su-defensa-de-los-derechos-de-las-personas-con-ela/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T09:47:23Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La abogacía analiza en Benidorm los retos de extranjería tras más de 59.000 designaciones del Turno de Oficio en 2025",
+   "url": "https://www.lawyerpress.com/2026/11/06/la-abogacia-analiza-en-benidorm-los-retos-de-extranjeria-tras-mas-de-59-000-designaciones-del-turno-de-oficio-en-2025/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T09:36:55Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 3
+  },
+  {
+   "title": "La presidenta del TS y del CGPJ clausura las IV Jornadas de la Asociación de Letrados del Tribunal Supremo",
+   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/la-presidenta-del-ts-y-del-cgpj-clausura-las-iv-jornadas-de-la-asociacion-de-letrados-del-tribunal-supremo-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T09:34:30Z",
+   "area": "laboral",
+   "scope": "españa",
+   "score": 9
+  },
+  {
+   "title": "Fieldfisher desplegará Legora entre cerca de 1.400 profesionales de su red internacional",
+   "url": "https://www.lawyerpress.com/2026/11/06/fieldfisher-desplegara-legora-entre-cerca-de-1-400-profesionales-de-su-red-internacional/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T09:28:35Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Fundación Notariado apoya la XV Cátedra del Prado y beca a 20 alumnos",
+   "url": "https://www.lawyerpress.com/2026/11/06/fundacion-notariado-apoya-la-xv-catedra-del-prado-y-beca-a-20-alumnos/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T09:18:32Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Registradores y AECA premian un estudio sobre el acceso de las pymes a la contratación pública verde",
+   "url": "https://www.lawyerpress.com/2026/11/06/registradores-y-aeca-premian-un-estudio-sobre-el-acceso-de-las-pymes-a-la-contratacion-publica-verde/",
+   "source": "Lawyerpress",
+   "date": "2026-11-06T09:15:56Z",
+   "area": "administrativo",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "¿LLC o corporación? La pregunta de cada año y la que conviene cuanto antes",
+   "url": "https://www.legaltoday.com/opinion/articulos-de-opinion/llc-o-corporacion-la-pregunta-de-cada-ano-y-la-que-conviene-cuanto-antes-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T08:33:06Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "El TSJ de Canarias reconoce que el permiso retribuido para ir al médico puede justificarse con un certificado privado",
+   "url": "https://www.legaltoday.com/practica-juridica/derecho-social-laboral/el-tsj-de-canarias-reconoce-que-el-permiso-retribuido-para-ir-al-medico-puede-justificarse-con-un-certificado-privado-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T08:12:00Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La dimensión constitucional de la crisis de la jurisdicción social",
+   "url": "https://www.legaltoday.com/practica-juridica/derecho-social-laboral/laboral/la-dimension-constitucional-de-la-crisis-de-la-jurisdiccion-social-2026-11-06/",
+   "source": "Legal Today",
+   "date": "2026-11-06T07:06:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 7
+  },
   {
    "title": "Tarjetas ‘revolving’: el límite al interés no basta para proteger al consumidor",
    "url": "https://www.economistjurist.es/articulos-juridicos-destacados/tarjetas-revolving-el-limite-al-interes-no-basta-para-proteger-al-consumidor/",
@@ -98,6 +476,78 @@
    "date": "2026-11-06T04:01:17Z",
    "area": "tributario",
    "scope": "galicia",
+   "score": 8
+  },
+  {
+   "title": "La AEPD avala con condiciones la biometría facial bancaria",
+   "url": "https://www.iberley.es/noticias/la-aepd-avala-condiciones-biometria-facial-bancaria-37206",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Publicado el RD 950/2026 que regula la alimentación saludable en centros públicos",
+   "url": "https://www.iberley.es/noticias/publicado-rd-950-2026-que-regula-alimentacion-saludable-centros-publicos-37203",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "La AP de Madrid confirma una indemnización de 49.000 euros a un restaurante obligado a cerrar por obras",
+   "url": "https://www.iberley.es/noticias/la-ap-madrid-confirma-una-indemnizacion-49-000-euros-un-restaurante-obligado-cerrar-obras-37202",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Nuevos límites de jornada y guardias para los residentes",
+   "url": "https://www.iberley.es/noticias/nuevos-limites-jornada-guardias-los-residentes-37200",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "laboral",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El Supremo reconoce la devolución del ICIO al sustituto",
+   "url": "https://www.iberley.es/noticias/el-supremo-reconoce-devolucion-icio-sustituto-37180",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Exención en Patrimonio y donación de empresa familiar",
+   "url": "https://www.iberley.es/noticias/exencion-patrimonio-donacion-empresa-familiar-37184",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El TSJPV anula un despido por una investigación informática invasiva",
+   "url": "https://www.iberley.es/noticias/el-tsjpv-anula-un-despido-una-investigacion-informatica-invasiva-37190",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "tributario",
+   "scope": "españa",
+   "score": 5
+  },
+  {
+   "title": "El TJUE aclara cuándo un envase químico induce a error",
+   "url": "https://www.iberley.es/noticias/el-tjue-aclara-cuando-un-envase-quimico-induce-error-37198",
+   "source": "Iberley",
+   "date": "2026-11-06T00:00:00Z",
+   "area": "general",
+   "scope": "españa",
    "score": 8
   },
   {
@@ -900,456 +1350,6 @@
    "area": "general",
    "scope": "españa",
    "score": 1
-  },
-  {
-   "title": "Un error judicial, aun siendo grave, no anula por sí solo el procedimiento si puede corregirse sin causar indefensión",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-error-judicial-aun-siendo-grave-no-anula-por-si-solo-el-procedimiento-si-puede-corregirse-sin-causar-indefension/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-04T11:00:45Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Inkietos y Aranzadi LA LEY presentan «Tu despacho: una empresa», el primer videolibro sobre gestión de despachos de abogados",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/inkietos-y-aranzadi-la-ley-presentan-tu-despacho-una-empresa-el-primer-videolibro-sobre-gestion-de-despachos-de-abogados-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T10:23:21Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Ejecutivo aprueba el Reglamento del Estatuto de la Ciudadanía Española en el Exterior",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-ejecutivo-aprueba-el-reglamento-del-estatuto-de-la-ciudadania-espanola-en-el-exterior-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T07:58:32Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 6
-  },
-  {
-   "title": "La transposición de la Directiva europea de recuperación de activos: el reto pendiente de la reutilización social en España",
-   "url": "https://www.legaltoday.com/opinion/articulos-de-opinion/la-transposicion-de-la-directiva-europea-de-recuperacion-de-activos-el-reto-pendiente-de-la-reutilizacion-social-en-espana-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T07:54:08Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Gobierno obliga a ayuntamientos a sancionar ya los incumplimientos en las Zonas de Bajas Emisiones",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-gobierno-obliga-a-ayuntamientos-a-sancionar-ya-los-incumplimientos-en-las-zonas-de-bajas-emisiones-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T07:40:20Z",
-   "area": "administrativo",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Aranzadi LA LEY Exprés: Novedades jurisprudenciales laborales sobre la responsabilidad empresarial por descubiertos de cotización",
-   "url": "https://www.legaltoday.com/portada-2/portada-1/aranzadi-la-ley-expres-novedades-jurisprudenciales-laborales-sobre-la-responsabilidad-empresarial-por-descubiertos-de-cotizacion-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T07:03:54Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 4
-  },
-  {
-   "title": "El precio de excluir",
-   "url": "https://www.legaltoday.com/practica-juridica/derecho-civil/el-precio-de-excluir-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T06:47:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Los peligros de no registrar la marca que se utiliza",
-   "url": "https://www.legaltoday.com/practica-juridica/derecho-mercantil/los-peligros-de-no-registrar-la-marca-que-se-utiliza-2026-11-04/",
-   "source": "Legal Today",
-   "date": "2026-11-04T06:27:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Administrativando Abogados logra que la Justicia obligue a la Comunidad de Madrid a revisar la nota de un opositor por usar criterios no publicados",
-   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/administrativando-abogados-logra-que-la-justicia-obligue-a-la-comunidad-de-madrid-a-revisar-la-nota-de-un-opositor-por-usar-criterios-no-publicados/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-04T06:00:47Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Reclamaban 4.500 euros por una tarjeta de Carrefour: la AP de Barcelona anula el contrato y les impone las costas",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/reclamaban-4-500-euros-por-una-tarjeta-de-carrefour-la-ap-de-barcelona-anula-el-contrato-y-les-impone-las-costas/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-04T06:00:14Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "¿Puede un menor de edad ser declarado en concurso de acreedores?",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/puede-un-menor-de-edad-ser-declarado-en-concurso-de-acreedores/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-04T06:00:12Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 4
-  },
-  {
-   "title": "El Supremo corrige al SEPE: agotar la Renta Activa de Inserción permitía acceder al subsidio para mayores de 52 años tras la reforma de 2019",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-supremo-corrige-al-sepe-agotar-la-renta-activa-de-insercion-permitia-acceder-al-subsidio-para-mayores-de-52-anos-tras-la-reforma-de-2019/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-04T06:00:03Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 6
-  },
-  {
-   "title": "Google Gemini llega al TJUE: la IA puede contar los hechos, pero no reproducir los artículos de prensa",
-   "url": "https://confilegal.com/20261104-tjue-ia-derechos-editores-prensa-google/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:44:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 8
-  },
-  {
-   "title": "Conflicto de intereses, línea roja de la abogacía: cuando el negocio del despacho choca con la lealtad al cliente",
-   "url": "https://confilegal.com/20261104-conflicto-de-intereses-linea-roja-de-la-abogacia-cuando-el-negocio-del-despacho-choca-con-la-lealtad-al-cliente/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:44:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 4
-  },
-  {
-   "title": "La IA inventa las sentencias, pero la multa la paga el abogado: sanciones de hasta 1.800 euros por jurisprudencia falsa",
-   "url": "https://confilegal.com/20261104-la-ia-inventa-las-sentencias-pero-la-multa-la-paga-el-abogado-sanciones-de-hasta-1-800-euros-por-jurisprudencia-falsa/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:43:00Z",
-   "area": "administrativo",
-   "scope": "españa",
-   "score": 5
-  },
-  {
-   "title": "El Servicio Navarro de Salud demanda a las empresas que inflaron durante 17 años el precio de los pañales para adultos: pide 25 millones €",
-   "url": "https://confilegal.com/20261104-navarra-demanda-cartel-panales-adultos-25-millones/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:42:00Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El Supremo blinda los cinco días de permiso por la operación de un familiar… mientras siga de baja",
-   "url": "https://confilegal.com/20261104-supremo-permiso-cinco-dias-familiar-operado-baja-medica/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:41:00Z",
-   "area": "civil",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Opinión | «No soy un delincuente, solo tuve mala suerte»: Nadie está exento de una segunda oportunidad",
-   "url": "https://confilegal.com/20261104-ley-segunda-oportunidad-deudas-nuevo-comienzo/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:40:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Isabel Valriberas, el Grupo Social ONCE, Rubén Vigil y Gabriela Sánchez, Premios de Derechos Humanos de la Abogacía 2026",
-   "url": "https://confilegal.com/20261104-isabel-valriberas-el-grupo-social-once-ruben-vigil-y-gabriela-sanchez-premios-de-derechos-humanos-de-la-abogacia-2026/",
-   "source": "Confilegal",
-   "date": "2026-11-04T04:40:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 0
-  },
-  {
-   "title": "El Supremo obliga al TSXG a revisar si A Coruña cumple el acuerdo sobre el edificio Fenosa",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYnlUbENlMmFWM1Y4blQ4YVJXSndIUFdMdWsyMFV4NE9JZm1qVFExZDhFdW9WSGhGbHpmYXpNa3ZNSFNWWlJNTmNkdmcxcGpFb29GUXB6ek8tYk1URzFfVHVka0JBY2FpcEVEaUM0dmtGcU1PbjMzbUNidlFvelJHeXZ5ZFpaRlVTRnYwcmhHT0pBXzh1aVVRcm9jX2hlejZCNEhTTEhEOWFVRFBXSEwwU1VfYjZtVUhPdjU4VzZIeEpHakx2b1RaR0xVNE82bkZleHFNa0FVTHpZY1hmUHdZVnBBMVBpcTduY2Nr0gGHAkFVX3lxTE1lNmE4X09MVmRWOXZNa3F3ZUxORFNjd0g2ODFTYVRVWl80dm51TU9UUG1NbnV5TlpWSGJZekU1R2Zrc1psRVU3SlRBSk0zQXozaTUzNW5Zc09raklGbkdSaWE3WXBnYjI2QTZmR2dGQTB1MWF3UWtiMDRtdTBTVU1oYnFTT3ZHUGE2d2dYdERtY1cyaVhkUDZVS1JXaURuWEFpQVF5V0hpQlNvV3RzRWFja2NwQkZXTThpNFFoV195UEZCMU5fdHpJWlpfVUFpQU1DcXJoX2ZuMWoxUVN6THhKcG1ncDkyOHdXV0V6WmhUQUFVUG96dGU4MlF3MmtIS2JGT21LeWg0?oc=5",
-   "source": "La Voz de Galicia",
-   "date": "2026-11-04T04:36:53Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "¿Puede una entrada de fútbol acabar en delito? Lo que dice el Supremo tras la muerte de Jesús de Miguel",
-   "url": "https://confilegal.com/20261104-jesus-de-miguel-cuando-es-delito-agresion-partido-futbol-criterios-supremo/",
-   "source": "Confilegal",
-   "date": "2026-11-04T00:45:00Z",
-   "area": "penal",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "La TGSS actualiza el manual para el cálculo de la base reguladora de IT",
-   "url": "https://www.iberley.es/noticias/la-tgss-actualiza-manual-calculo-base-reguladora-it-37182",
-   "source": "Iberley",
-   "date": "2026-11-04T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El TJUE limita el rechazo de una euroorden por pena excesiva",
-   "url": "https://www.iberley.es/noticias/el-tjue-limita-rechazo-una-euroorden-pena-excesiva-37188",
-   "source": "Iberley",
-   "date": "2026-11-04T00:00:00Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 8
-  },
-  {
-   "title": "Absuelto un conductor por exceso de velocidad justificado ante la necesidad de llevar a su hija al hospital",
-   "url": "https://www.iberley.es/noticias/absuelto-un-conductor-exceso-velocidad-justificado-necesidad-llevar-su-hija-hospital-37186",
-   "source": "Iberley",
-   "date": "2026-11-04T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El TS refuerza su doctrina sobre la suspensión de deudas garantizadas",
-   "url": "https://www.iberley.es/noticias/el-ts-refuerza-su-doctrina-suspension-deudas-garantizadas-37122",
-   "source": "Iberley",
-   "date": "2026-11-04T00:00:00Z",
-   "area": "laboral",
-   "scope": "españa",
-   "score": 5
-  },
-  {
-   "title": "La DGT aclara el embargo del salario en especie",
-   "url": "https://www.iberley.es/noticias/la-dgt-aclara-embargo-salario-especie-37158",
-   "source": "Iberley",
-   "date": "2026-11-04T00:00:00Z",
-   "area": "tributario",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Ayudas y límites de precios tras el accidente de Urda",
-   "url": "https://www.iberley.es/noticias/ayudas-limites-precios-accidente-urda-37183",
-   "source": "Iberley",
-   "date": "2026-11-04T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Óscar Puente dimite: «Es una cuestión de dignidad política»",
-   "url": "https://confilegal.com/20261103-oscar-puente-dimite-ministro-transportes-tragedia-ferroviaria-urda/",
-   "source": "Confilegal",
-   "date": "2026-11-03T20:40:39Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "Puente rechaza el abandono de la línea Madrid-Sevilla y defiende el LZB tras el accidente de Urda",
-   "url": "https://confilegal.com/20261103-puente-diputacion-permanente-accidente-urda-lzb/",
-   "source": "Confilegal",
-   "date": "2026-11-03T18:05:39Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "El TSXG condena al Ayuntamiento a pagar 4,5 millones al Puerto por no mantener los espacios de 'Abrir Vigo al Mar'",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSGF2SEdZSzJORlRBRXlTOHNCQmJPMWplZzRlN1FTNjdzOTFESlcxcXNfQkNSWnlxLUpOYmM1ZG9hYmJoNkxQTTV5RzV4blM2eUZwX2hLejM5V05iRGw1Y2ZONjZ4VW1oaDV3aXh5RE5ld3RJNmxYSERfT0ptaUdTOERMYmxtN0N5SEFPZEQwRWREc2RQdTRDUjJZMjJUQm94WG45VHFOOW1NOWduY1Vfa0JGbHN1dnd3cTlONFpkaXNEbmhual9BSllvRkNoekhNWGtoOXNzRGhuX2UyTk5QazRsQQ?oc=5",
-   "source": "Europa Press",
-   "date": "2026-11-03T17:12:51Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG condena al Concello a pagar 4,5 millones al Puerto por incumplir el convenio \"Abrir Vigo al mar\"",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSG9WTWdRemNqYk0yQWFwMDlSWFJlOHBUYVRDUTJ5NExwdzZ3Y3FvN3NGRUpfRjlibS01LUh2MW1iMUJ2NDhUbndLQTBjbi1aOVZyMGVDUjJzaC12a0JSd19RWUNKRzlNZ0RGWVg5eFVBQnBnRVplWGtkNU1UUmVEaFZtcmJxdU9IX1RBQ1VMV0s1cDhwcS1DNVJGOG12dUlSYUNzcTNXS3IyNFJ5dmZQVEpyX1A5UlZ2V29hNDJWRGQ5cVdzSWhWQXZzci1TZ1ZEQnfSAdcBQVVfeXFMTnJrVGRzbTA5Q1hJU01kOU15b2U3SDd4WlJlNHJJRlNJR2llSXpuYUp2X1g1V1liQ2Zwb2dsN2I1cS1mTFE1ZDNfYWEtNTR2QngzRl9iVGtYVXRsWDhCTWpCRWR2UzFNYmVRNm43UHhMSWVsUEpIQjJrblNsTjFPY2JNWjFNZW5mY01YVTFUSzRmNV9IM2MzNDhlcGQxZmdzZXREek8yZXRUSkxqU01PUS1LRHJ5ZjdpRnJwMDNhZGdZcndRZFZGY1c1TkY1YWE5WV9Cb1hQQmc?oc=5",
-   "source": "Metropolitano.gal",
-   "date": "2026-11-03T17:01:59Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG condena a Vigo a pagar 4,5 millones al Puerto por el convenio Abrir Vigo al Mar",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUmJ2MUVFVVZoVkNsb0xHSE1kQVBXc1JMbjVBY2pCcEpCd1FDbDJYQmxWLU1DVGdnRE5YZDNEYmx0bGlQdmxldUZzREFXM0oxWWFkQUNtRzJiZVNsQTB4QmxmOGNIdF9pcTJPV05KRmRTMmZvZDZLNHk5ZGpNeW1odm5RMkJHSnloSjkzYXhRVE9peGFwLUtNOHhmb0o5ejM1WHJUdmRMY0pfb3FkZm5XUDhkRWpMR2xVVUNqa1JiMzl4MWRJT04xd3NtRm1yOE9scmlIdDNR0gHqAUFVX3lxTFBobmROamJmWURZVlp1N1NIVHIxRUdlaGV1ZUFCc05MS0dFZVFnaTl3cGNyM2tkbE9QY3JIamM3ZmkxWVo2RWloVnF4dUxRT19LRTRMSTk5aDZ0MHNrRE5SallndkhaT1RzalV1bDE3RnZRZHJLcnpOVVVFU1ozWWl1MXJsTXUwREZGaF9qSGx0eWliWmh5bUc5bVdQS2QtekZLUHNzWkZBU1Z5R18zSzktX25LcVVabHl5QTA3ZUhLaFFWWUpkUmZxVkswY2pMNmJnd01XOHRybVFLVFV2OE1aeWM1cXRZb3lXUQ?oc=5",
-   "source": "Cadena SER",
-   "date": "2026-11-03T16:37:40Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El TSXG condena al Concello de Vigo a indemnizar con 4,5 millones a la Autoridad Portuaria",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZHd6eTRpYzlmcmdHcE9MM0w5a0VKRlRrTklETHFxQWMtakgxQlUzSDJ3NVVaV3dkS0VJSzdGdTJic0Nya1A1WFNfd3hmMHV3VmZqQ1JoYXpnUWNfVDlJQW90bkl1ZlowSU5MbG1uRkVGa25CYmlHNTkwdXZ6X2U2MnJDNGEyeXdnR3I2QUotbzBmX0N3WnNZaVBhS2dmU2pIY3VLR0VHMHdYSnM0ck13VW9UcjFOMnl1VVphbHlhbmhBZw?oc=5",
-   "source": "ValmiñorTV",
-   "date": "2026-11-03T16:29:56Z",
-   "area": "penal",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "El Supremo obliga al TSXG a revisar si A Coruña cumple el acuerdo que evitó el derribo del edificio Fenosa",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNmpQMWtBSm1ZX3BnaktVSDB0ZVU3VHdIbGVYbFpfRzZhc0NnLU5UZVZvT08tWUFfY3FpbXJtUUVycWJzanRFNEJrdmktVDFCTHVOaWt5LVd0NVNraGREbms3UWF0bUpvcEd5RjBrdjVMS2lFMGNmZ0NJQWZIRS1jMGFBMEdVU1BZOEZLcXoyanBtci1mcDdUOElYckV5Yi1xZ0EyRHZnblRYLXRNeUtHd0MtMjZnVTJkRkZVRzJjYTFIOWxJWGNJS2JIbW0xMjNuN1RfeXFLdXNMYXI1ZW9mag?oc=5",
-   "source": "Diario de Santiago",
-   "date": "2026-11-03T16:21:11Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 8
-  },
-  {
-   "title": "Lawesome asesora a la producción de «El niño», la nueva película de Mariano Barroso",
-   "url": "https://www.lawyerpress.com/2026/11/03/lawesome-asesora-a-la-produccion-de-el-nino-la-nueva-pelicula-de-mariano-barroso/",
-   "source": "Lawyerpress",
-   "date": "2026-11-03T16:15:51Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El ICAM presenta una agenda iberoamericana para impulsar la formación y la colaboración entre despachos",
-   "url": "https://www.lawyerpress.com/2026/11/03/el-icam-presenta-una-agenda-iberoamericana-para-impulsar-la-formacion-y-la-colaboracion-entre-despachos/",
-   "source": "Lawyerpress",
-   "date": "2026-11-03T16:04:58Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Supremo obliga a vigilar el cumplimiento del acuerdo del edificio Fenosa en A Coruña",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdFNqaVNZV29kSm1ydWp6Q19QYmdHelNlUENVUFVwZU9yQ3BweFhkSE1fby1PLTJvRG9tOVZjamFfcEF0QUd2UHpyVVlyd0dFMFJVZGtqSWNURFNIRDkxZG80ODRFVERLNGlhZFhST0hOYlNlOXkwOEJBdEF4MVlLYzdGVWZnN0RjbEJzdFBfaXgzYTVGdGw0SUdXU3V5RzloaHk2VTA2ZXdjRjFhX1ZQMHZiNG0yY1o2bHZ1R0RIQWNJaExJVVdRYzNpSjM4VzJxYXQ2N3BjdEN5QUVBWWfSAd4BQVVfeXFMUHRTamlTWVdvZEptcnVqekNfUGJnR3pTZVBDVVBVcGVPckNwcHhYZEhNX28tTy0yb0RvbTlWY2phX3BBdEFHdlB6clVZcndHRTBSVWRrakljVERTSEQ5MWRvNDg0RVRESzRpYWRYUk9ITmJTZTl5MDhCQXRBeDFZS2M3RlVmZzdEY2xCc3RQX2l4M2E1RnRsNElHV1N1eUc5aGh5NlUwNmV3Y0YxYV9WUDB2YjRtMmNaNmx2dUdESEFjSWhMSVVXUWMzaUozOFcycWF0NjdwY3RDeUFFQVln?oc=5",
-   "source": "El Español",
-   "date": "2026-11-03T15:54:58Z",
-   "area": "general",
-   "scope": "galicia",
-   "score": 4
-  },
-  {
-   "title": "Alfonso Labella, nuevo decano del Colegio de Abogados de Granada",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/alfonso-labella-nuevo-decano-del-colegio-de-abogados-de-granada-2026-11-03/",
-   "source": "Legal Today",
-   "date": "2026-11-03T15:47:40Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 3
-  },
-  {
-   "title": "Fedea alerta de que la pasarela de los mutualistas al RETA presenta «problemas de equidad e incertidumbres»",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/fedea-alerta-de-que-la-pasarela-de-los-mutualistas-al-reta-presenta-problemas-de-equidad-e-incertidumbres-2026-11-03/",
-   "source": "Legal Today",
-   "date": "2026-11-03T15:35:11Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "La Policía Nacional y los gestores administrativos acuerdan colaborar contra el fraude documental",
-   "url": "https://www.lawyerpress.com/2026/11/03/la-policia-nacional-y-los-gestores-administrativos-acuerdan-colaborar-contra-el-fraude-documental/",
-   "source": "Lawyerpress",
-   "date": "2026-11-03T15:30:32Z",
-   "area": "penal",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Ateneo de Madrid acoge la presentación de «Vivienda inaccesible y urbanismo en crisis»",
-   "url": "https://www.legaltoday.com/actualidad-juridica/eventos-juridicos/el-ateneo-de-madrid-acoge-la-presentacion-de-vivienda-inaccesible-y-urbanismo-en-crisis-2026-11-03/",
-   "source": "Legal Today",
-   "date": "2026-11-03T15:05:46Z",
-   "area": "civil",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El «fumus boni iuris» que frenó un derecho fundamental (VI): de 91 a 901, la cautelar ya tiene nombres",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/el-fumus-boni-iuris-que-freno-un-derecho-fundamental-vi-de-91-a-901-la-cautelar-ya-tiene-nombres/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-03T15:00:55Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Descuento por absentismo en situación de incapacidad temporal (IT) en el cálculo de los conceptos retributivos denominados “participación en resultados” y “plus de desempeño profesional”",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/descuento-por-absentismo-en-situacion-de-incapacidad-temporal-it-en-el-calculo-de-los-conceptos-retributivos-denominados-participacion-en-resultados-y-plus-de-desempeno-pr/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-03T15:00:53Z",
-   "area": "laboral",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Reclamaron los gastos de una hipoteca tras 17 años: por qué el banco no pudo alegar prescripción",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/reclamaron-los-gastos-de-una-hipoteca-tras-17-anos-por-que-el-banco-no-pudo-alegar-prescripcion/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-03T15:00:25Z",
-   "area": "civil",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Julio Antonio Guija, médico psiquiatra: «Incorporar IA a una consulta no rebaja las exigencias de buena práctica médica»",
-   "url": "https://www.economistjurist.es/entrevistas/julio-antonio-guija-medico-psiquiatra-incorporar-ia-a-una-consulta-no-rebaja-las-exigencias-de-buena-practica-medica/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-03T15:00:02Z",
-   "area": "general",
-   "scope": "españa",
-   "score": -3
-  },
-  {
-   "title": "Papeleta de conciliación por reclamación de salarios y horas extraordinarias",
-   "url": "https://www.economistjurist.es/premium/sala-2-0/papeleta-de-conciliacion-por-reclamacion-de-salarios-y-horas-extraordinarias/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-03T14:55:32Z",
-   "area": "laboral",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Sancionado el trabajador del almacén de un supermercado en Narón por mirar el móvil",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY04wMFRlUlYwc3hib0dGUkVVdm5JTmNoUnVSSS15ODkzSGtMcnNQOEo0QXlpSkhfbjUySkpqQ0VMaGxSOFo3WHlTRGRJYlktY21ObG8yTkhGTXBfN0NNRUt6b2oyV1hIcGJLS2g4OUktcDlJbjE1WjJFSUpyNFJUY2JBSmE1TU1iUkNXcWtfUHpXNWoydU9SbjcyY2pESGotTFJYZGNBR1pfQzhUbC1vaHRScW9xSmpZaTV1d19MODhuSEhNVVJBY292WUdfMGRTY2lDZU9aMWZ5QdIB9gFBVV95cUxQNVJaVzBwMVc3UEhrbVhNTzYyNzIyY2ktNDF1M1BBZWczSDg4UkJHaEdIM2Z1WHVGR2NQYVlmZEQwM2dSZEFSdUFuS3k0S3NEY2ZzR1RKazRJUEo2Qm5JbWxOVGdsTUE5aEQzTWg3Uksza0NzSUNIdGctYm1HX2xtNjhwNE4waXB2NnppaUplc0RPUWc4NF9YSnNVMXoxOUtQbHp1YVJUaGNKWF9yaXFwQW0yRHVxcUp1b1JqNzg3NHAtQUdDaURDT1k5eXpVUFg2QVprNm4zZDJuWlcyZ0xQMFpYRWhTSFZMcEVkM2g4clpDdUdTcGc?oc=5",
-   "source": "La Voz de Galicia",
-   "date": "2026-11-03T12:19:08Z",
-   "area": "administrativo",
-   "scope": "galicia",
-   "score": 4
-  },
-  {
-   "title": "Trocear la demanda tiene premio para el banco: el Supremo castiga la fragmentación y abre una puerta que conviene vigilar",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/trocear-la-demanda-tiene-premio-para-el-banco-el-supremo-castiga-la-fragmentacion-y-abre-una-puerta-que-conviene-vigilar/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-03T11:00:58Z",
-   "area": "civil",
-   "scope": "españa",
-   "score": -3
-  },
-  {
-   "title": "Afianza lanza Afianza Avant para pymes y reserva su marca principal para medianas y grandes empresas",
-   "url": "https://www.lawyerpress.com/2026/11/03/afianza-lanza-afianza-avant-para-pymes-y-reserva-su-marca-principal-para-medianas-y-grandes-empresas/",
-   "source": "Lawyerpress",
-   "date": "2026-11-03T10:18:46Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "ILIA ETL GLOBAL incorpora a Natalia Gómez de Enterría para reforzar su área laboral en Mallorca",
-   "url": "https://www.lawyerpress.com/2026/11/03/ilia-etl-global-incorpora-a-natalia-gomez-de-enterria-para-reforzar-su-area-laboral-en-mallorca/",
-   "source": "Lawyerpress",
-   "date": "2026-11-03T10:08:53Z",
-   "area": "laboral",
-   "scope": "españa",
-   "score": -3
   }
  ]
 }
