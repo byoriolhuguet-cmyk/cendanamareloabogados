@@ -7,6 +7,198 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://confilegal.com/20261108-huelga-general-del-11n-lo-que-tu-empresa-no-puede-exigirte-antes-del-paro-ni-hacerte-pagar-despues/",
+   "url": "https://confilegal.com/20261108-huelga-general-del-11n-lo-que-tu-empresa-no-puede-exigirte-antes-del-paro-ni-hacerte-pagar-despues/",
+   "title": "Huelga general del 11N: lo que tu empresa no puede exigirte antes del paro ni hacerte pagar después",
+   "date_published": "2026-11-08T04:44:00Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261108-batalla-judicial-por-roquetas-de-mar-la-guardia-civil-no-quiere-abandonar-la-localidad-por-la-policia-nacional/",
+   "url": "https://confilegal.com/20261108-batalla-judicial-por-roquetas-de-mar-la-guardia-civil-no-quiere-abandonar-la-localidad-por-la-policia-nacional/",
+   "title": "Batalla judicial por Roquetas de Mar: la Guardia Civil no quiere abandonar la localidad por la Policía Nacional",
+   "date_published": "2026-11-08T04:42:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261108-compliance-miedo-inconsciente-despido-trabajadores/",
+   "url": "https://confilegal.com/20261108-compliance-miedo-inconsciente-despido-trabajadores/",
+   "title": "Opinión | El Compliance y el miedo inconsciente al despido",
+   "date_published": "2026-11-08T04:40:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 5
+  },
+  {
+   "id": "https://confilegal.com/20261108-juramento-santa-gadea-honor-verdad-valentia-sociedad-actual/",
+   "url": "https://confilegal.com/20261108-juramento-santa-gadea-honor-verdad-valentia-sociedad-actual/",
+   "title": "Opinión | “El juramento de Santa Gadea”: Un símbolo de principios y valores humanos universales que han sido “desterrados” de nuestra sociedad",
+   "date_published": "2026-11-08T04:40:00Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261108-crisis-ueno-bank-paraguay-respuesta-institucional-santiago-pena/",
+   "url": "https://confilegal.com/20261108-crisis-ueno-bank-paraguay-respuesta-institucional-santiago-pena/",
+   "title": "Opinión | Paraguay: ni corralito ni bancarrota, el caso Ueno Bank",
+   "date_published": "2026-11-08T04:39:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNERORDl1WlJjUjU5NVh4NDYzQUgzRlp4dU9sT0c5dHNmZDJLcHo4WFdSRHFRNlZqYUtLbmV5R2RjQXZ6eU1uMU5VNXF4NlZsY1F3S181bnV1VUI1azVObXF3VFY0dlUwbWc4WGY5SE83Qno3SVprTWxQRUVlM0ZORmZvWHh3QVhlN3RYVElBZXluby1JRUd0Zk5lZFl5WFByUXNINWEzaWRwbVhvS2o1MzJScDJ1ZmhLYWFlM29KR21nZDAtaEItRVRiMks1QdIB6gFBVV95cUxOVUVMQWhCVXJoLXFKWUNTc1ZWMVpwMml3SDZ4YmJQWmJ1V2dnWFkwOVZuTmdmd2gyaWhpSVR4VWJhWUt1WnZJcFNYY1c0RnNTTzUtREthQVBrcnA3M3p0cWJtWTBqU0ppV2VWclhyVzF5cC0tY2NEN2dSc3hieVRobzYwdUdXdklUODMtYW8zSEhvWE5VeHZTWXZoaWxBZGpmNFRLenBPNUZuckhaZDQ2Vmx2bDFILWVXZDBtZ3RRdGhObmxVRWdLaTRaTE9rMVNNNlh5M1RqZ04tY2o3YWV6YTlxVDNEWnpDcWc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNERORDl1WlJjUjU5NVh4NDYzQUgzRlp4dU9sT0c5dHNmZDJLcHo4WFdSRHFRNlZqYUtLbmV5R2RjQXZ6eU1uMU5VNXF4NlZsY1F3S181bnV1VUI1azVObXF3VFY0dlUwbWc4WGY5SE83Qno3SVprTWxQRUVlM0ZORmZvWHh3QVhlN3RYVElBZXluby1JRUd0Zk5lZFl5WFByUXNINWEzaWRwbVhvS2o1MzJScDJ1ZmhLYWFlM29KR21nZDAtaEItRVRiMks1QdIB6gFBVV95cUxOVUVMQWhCVXJoLXFKWUNTc1ZWMVpwMml3SDZ4YmJQWmJ1V2dnWFkwOVZuTmdmd2gyaWhpSVR4VWJhWUt1WnZJcFNYY1c0RnNTTzUtREthQVBrcnA3M3p0cWJtWTBqU0ppV2VWclhyVzF5cC0tY2NEN2dSc3hieVRobzYwdUdXdklUODMtYW8zSEhvWE5VeHZTWXZoaWxBZGpmNFRLenBPNUZuckhaZDQ2Vmx2bDFILWVXZDBtZ3RRdGhObmxVRWdLaTRaTE9rMVNNNlh5M1RqZ04tY2o3YWV6YTlxVDNEWnpDcWc?oc=5",
+   "title": "Un matrimonio de Narón recupera los gastos hipotecarios frente a una cooperativa",
+   "date_published": "2026-11-08T04:00:56Z",
+   "tags": [
+    "Tributario",
+    "galicia"
+   ],
+   "_fuente": "La Voz de Galicia",
+   "_importancia": 4
+  },
+  {
+   "id": "https://confilegal.com/20261108-criticar-a-la-empresa-con-otra-companera-de-mercadona-no-es-motivo-para-el-despido-segun-los-tribunales/",
+   "url": "https://confilegal.com/20261108-criticar-a-la-empresa-con-otra-companera-de-mercadona-no-es-motivo-para-el-despido-segun-los-tribunales/",
+   "title": "Criticar a la empresa con otra compañera de Mercadona no es motivo para el despido, según los tribunales",
+   "date_published": "2026-11-07T23:45:00Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 5
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/07/el-equipo-juridico-de-vodafone-espana-premiado-por-su-apoyo-a-la-innovacion-tecnologica/",
+   "url": "https://www.lawyerpress.com/2026/11/07/el-equipo-juridico-de-vodafone-espana-premiado-por-su-apoyo-a-la-innovacion-tecnologica/",
+   "title": "El equipo jurídico de Vodafone España, premiado por su apoyo a la innovación tecnológica",
+   "date_published": "2026-11-07T16:45:10Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/07/el-icab-promueve-la-accion-social-el-buen-gobierno-y-el-medio-ambiente-con-la-semana-de-la-sostenibilidad/",
+   "url": "https://www.lawyerpress.com/2026/11/07/el-icab-promueve-la-accion-social-el-buen-gobierno-y-el-medio-ambiente-con-la-semana-de-la-sostenibilidad/",
+   "title": "El ICAB promueve la acción social, el buen gobierno y el medio ambiente con la “Semana de la Sostenibilidad”",
+   "date_published": "2026-11-07T16:40:23Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/07/salvador-gonzalez-impone-a-leandro-cabrera-la-gran-cruz-de-la-abogacia-espanola/",
+   "url": "https://www.lawyerpress.com/2026/11/07/salvador-gonzalez-impone-a-leandro-cabrera-la-gran-cruz-de-la-abogacia-espanola/",
+   "title": "Salvador González impone a Leandro Cabrera la Gran Cruz de la Abogacía Española",
+   "date_published": "2026-11-07T12:11:04Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 3
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb0EtZzAxR0FCNjZZbWo5c0FIdWFSb1ZmVE02eUV3MEJEZnpHVlRjSkphemN2SDcwUkhWUVFQRW5TTk16WGZVazI2QUp5R0pHeEplRVAzMGF6Q0ZmbHZkclZZR2FoT09kdGw0Q29DVWNPWlJwNTNPX1N4N2ZHMmhrN1hDWFNfRW8?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb0EtZzAxR0FCNjZZbWo5c0FIdWFSb1ZmVE02eUV3MEJEZnpHVlRjSkphemN2SDcwUkhWUVFQRW5TTk16WGZVazI2QUp5R0pHeEplRVAzMGF6Q0ZmbHZkclZZR2FoT09kdGw0Q29DVWNPWlJwNTNPX1N4N2ZHMmhrN1hDWFNfRW8?oc=5",
+   "title": "TSXG aclara la compatibilidad paro ingresos: el SEPE debe devolver la prestación a un desempleado de Vigo",
+   "date_published": "2026-11-07T10:45:41Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Merca2.es",
+   "_importancia": 8
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/renacionalizar-el-ferrocarril-no-es-la-solucion-para-la-ineptitud-de-los-dirigentes-publicos/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/renacionalizar-el-ferrocarril-no-es-la-solucion-para-la-ineptitud-de-los-dirigentes-publicos/",
+   "title": "Renacionalizar el ferrocarril no es la solución para la ineptitud de los dirigentes públicos",
+   "date_published": "2026-11-07T07:00:54Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/operan-a-tu-familiar-y-la-empresa-te-exige-justificar-cada-dia-su-reposo-un-tribunal-pone-limites/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/operan-a-tu-familiar-y-la-empresa-te-exige-justificar-cada-dia-su-reposo-un-tribunal-pone-limites/",
+   "title": "Operan a tu familiar y la empresa te exige justificar cada día su reposo: un tribunal pone límites",
+   "date_published": "2026-11-07T07:00:43Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-nina-en-un-coche-a-228-km-h-y-una-sentencia-que-absuelve-al-conductor/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-nina-en-un-coche-a-228-km-h-y-una-sentencia-que-absuelve-al-conductor/",
+   "title": "Una niña en un coche a 228 km/h y una sentencia que absuelve al conductor",
+   "date_published": "2026-11-07T07:00:32Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/tomaba-opioides-y-el-inss-alego-que-podia-trabajar-sentada-un-tribunal-confirma-su-incapacidad/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/tomaba-opioides-y-el-inss-alego-que-podia-trabajar-sentada-un-tribunal-confirma-su-incapacidad/",
+   "title": "Tomaba opioides y el INSS alegó que podía trabajar sentada: un tribunal confirma su incapacidad",
+   "date_published": "2026-11-07T07:00:18Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/ashurst-perkins-coie-nombra-counsel-a-maria-antonia-de-prada-en-su-practica-de-derecho-inmobiliario-en-madrid/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/ashurst-perkins-coie-nombra-counsel-a-maria-antonia-de-prada-en-su-practica-de-derecho-inmobiliario-en-madrid/",
+   "title": "Ashurst Perkins Coie nombra ‘counsel’ a María Antonia de Prada en su práctica de Derecho Inmobiliario en Madrid",
+   "date_published": "2026-11-07T07:00:17Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": -3
+  },
+  {
    "id": "https://confilegal.com/20261107-foro-judicial-independiente-jueza-beatriz-biedma-cgpj-congreso-jaen/",
    "url": "https://confilegal.com/20261107-foro-judicial-independiente-jueza-beatriz-biedma-cgpj-congreso-jaen/",
    "title": "Foro Judicial Independiente cierra filas con la magistrada Beatriz Biedma, denuncia las presiones sufridas y critica la falta de apoyo del CGPJ",
@@ -17,6 +209,18 @@
    ],
    "_fuente": "Confilegal",
    "_importancia": 4
+  },
+  {
+   "id": "https://confilegal.com/20261107-santiago-pedraz-juez-pintor-galeria-canalejas/",
+   "url": "https://confilegal.com/20261107-santiago-pedraz-juez-pintor-galeria-canalejas/",
+   "title": "Santiago Pedraz , «magistrado-pintor»: “Mis mejores ideas, equivocadas o no, me salen de la pintura”",
+   "date_published": "2026-11-07T04:45:00Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 5
   },
   {
    "id": "https://confilegal.com/20261107-santiago-pedraz-juez-pintor-galeria-canalejas/",
@@ -521,210 +725,6 @@
    ],
    "_fuente": "Economist & Jurist",
    "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/indemnizada-con-25-000-euros-una-directora-que-fue-cesada-mientras-estaba-de-baja-medica-por-ansiedad-por-no-reincorporarse-a-trabajar/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/indemnizada-con-25-000-euros-una-directora-que-fue-cesada-mientras-estaba-de-baja-medica-por-ansiedad-por-no-reincorporarse-a-trabajar/",
-   "title": "Indemnizada con 25.000 euros una directora que fue cesada mientras estaba de baja médica por ansiedad por no reincorporarse a trabajar",
-   "date_published": "2026-11-06T06:00:38Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": -3
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/andersen-impulsa-su-especializacion-en-fiscalidad-financiera-con-la-incorporacion-de-pedro-de-la-iglesia-como-socio/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/andersen-impulsa-su-especializacion-en-fiscalidad-financiera-con-la-incorporacion-de-pedro-de-la-iglesia-como-socio/",
-   "title": "Andersen impulsa su especialización en fiscalidad financiera con la incorporación de Pedro de la Iglesia como socio",
-   "date_published": "2026-11-06T06:00:35Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": -3
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-vecino-contra-las-maquinas-y-el-circulo-ecuestre-el-ruido-que-la-audiencia-obliga-a-tramitar/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/un-vecino-contra-las-maquinas-y-el-circulo-ecuestre-el-ruido-que-la-audiencia-obliga-a-tramitar/",
-   "title": "Un vecino contra las máquinas y el Círculo Ecuestre: el ruido que la Audiencia obliga a tramitar",
-   "date_published": "2026-11-06T06:00:07Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261106-el-supremo-decidira-si-quienes-pagaron-la-tasa-de-basuras-de-madrid-sin-recurrir-pueden-recuperar-su-dinero/",
-   "url": "https://confilegal.com/20261106-el-supremo-decidira-si-quienes-pagaron-la-tasa-de-basuras-de-madrid-sin-recurrir-pueden-recuperar-su-dinero/",
-   "title": "El Supremo decidirá si quienes pagaron la tasa de basuras de Madrid sin recurrir pueden recuperar su dinero",
-   "date_published": "2026-11-06T04:44:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261106-los-asesores-fiscales-denuncian-que-la-complejidad-de-los-impuestos-aumenta-el-riesgo-de-errores-y-sanciones/",
-   "url": "https://confilegal.com/20261106-los-asesores-fiscales-denuncian-que-la-complejidad-de-los-impuestos-aumenta-el-riesgo-de-errores-y-sanciones/",
-   "title": "Los asesores fiscales denuncian que la complejidad de los impuestos aumenta el riesgo de errores y sanciones",
-   "date_published": "2026-11-06T04:43:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261106-el-xii-foro-gerencias-legales-de-lima-pone-el-foco-en-la-ia-el-arbitraje-y-los-nuevos-riesgos-empresariales/",
-   "url": "https://confilegal.com/20261106-el-xii-foro-gerencias-legales-de-lima-pone-el-foco-en-la-ia-el-arbitraje-y-los-nuevos-riesgos-empresariales/",
-   "title": "El XII Foro Gerencias Legales de Lima pone el foco en la IA, el arbitraje y los nuevos riesgos empresariales",
-   "date_published": "2026-11-06T04:42:00Z",
-   "tags": [
-    "Mercantil",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261106-madrid-aprueba-una-nueva-ley-de-la-abogacia-general-que-exigira-diez-anos-de-experiencia-para-dirigir-sus-servicios-juridicos/",
-   "url": "https://confilegal.com/20261106-madrid-aprueba-una-nueva-ley-de-la-abogacia-general-que-exigira-diez-anos-de-experiencia-para-dirigir-sus-servicios-juridicos/",
-   "title": "Madrid aprueba una nueva Ley de la Abogacía General que exigirá diez años de experiencia para dirigir sus servicios jurídicos",
-   "date_published": "2026-11-06T04:41:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 9
-  },
-  {
-   "id": "https://confilegal.com/20261106-el-hijo-de-abalos-critica-el-nuevo-registro-de-la-uco-en-casa-de-su-padre-nada-es-casual/",
-   "url": "https://confilegal.com/20261106-el-hijo-de-abalos-critica-el-nuevo-registro-de-la-uco-en-casa-de-su-padre-nada-es-casual/",
-   "title": "El hijo de Ábalos critica el nuevo registro de la UCO en casa de su padre: «Nada es casual»",
-   "date_published": "2026-11-06T04:40:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261106-testamento-conmutacion-usufructo-trampa-fiscal-herencia/",
-   "url": "https://confilegal.com/20261106-testamento-conmutacion-usufructo-trampa-fiscal-herencia/",
-   "title": "Opinión | El testamento: la mejor vacuna contra la «trampa fiscal» al repartir una herencia",
-   "date_published": "2026-11-06T04:39:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYnpTakZfYjJmMEtGRlRHeG5ZdEtSQ1ZMWkg3Tk9MazBTb0xpU2pyaHF3WWtGUndGa01veEV0MXFVbnVITUYzMks0YXFIbzRpREpiTGc1U1AyNzNEWVVzY0NyNnp6Ml9aWVpDNm1hZ0ZYSFB2MWNESzBTLXhZLVJCRFRlMXJYWnpWOHU4T19CN09RaVR5ZDdTNzNTRG96ZV8yV2FpTjZMTFUwS29LZ2w5cklTcGl1VzEwZ3V1VjMweF8wdk9RQkJ6Wl9EWXlPNFVhWGdkSm5uRHUyUWk5UmRGQ1FMNDk?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYnpTakZfYjJmMEtGRlRHeG5ZdEtSQ1ZMWkg3Tk9MazBTb0xpU2pyaHF3WWtGUndGa01veEV0MXFVbnVITUYzMks0YXFIbzRpREpiTGc1U1AyNzNEWVVzY0NyNnp6Ml9aWVpDNm1hZ0ZYSFB2MWNESzBTLXhZLVJCRFRlMXJYWnpWOHU4T19CN09RaVR5ZDdTNzNTRG96ZV8yV2FpTjZMTFUwS29LZ2w5cklTcGl1VzEwZ3V1VjMweF8wdk9RQkJ6Wl9EWXlPNFVhWGdkSm5uRHUyUWk5UmRGQ1FMNDk?oc=5",
-   "title": "Una vecina de A Laracha gana un pleito a la Xunta por la reclamación de 10.300 euros de una pensión no contributiva",
-   "date_published": "2026-11-06T04:01:17Z",
-   "tags": [
-    "Tributario",
-    "galicia"
-   ],
-   "_fuente": "La Voz de Galicia",
-   "_importancia": 8
-  },
-  {
-   "id": "https://www.iberley.es/noticias/la-aepd-avala-condiciones-biometria-facial-bancaria-37206",
-   "url": "https://www.iberley.es/noticias/la-aepd-avala-condiciones-biometria-facial-bancaria-37206",
-   "title": "La AEPD avala con condiciones la biometría facial bancaria",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/publicado-rd-950-2026-que-regula-alimentacion-saludable-centros-publicos-37203",
-   "url": "https://www.iberley.es/noticias/publicado-rd-950-2026-que-regula-alimentacion-saludable-centros-publicos-37203",
-   "title": "Publicado el RD 950/2026 que regula la alimentación saludable en centros públicos",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/la-ap-madrid-confirma-una-indemnizacion-49-000-euros-un-restaurante-obligado-cerrar-obras-37202",
-   "url": "https://www.iberley.es/noticias/la-ap-madrid-confirma-una-indemnizacion-49-000-euros-un-restaurante-obligado-cerrar-obras-37202",
-   "title": "La AP de Madrid confirma una indemnización de 49.000 euros a un restaurante obligado a cerrar por obras",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "Civil",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/nuevos-limites-jornada-guardias-los-residentes-37200",
-   "url": "https://www.iberley.es/noticias/nuevos-limites-jornada-guardias-los-residentes-37200",
-   "title": "Nuevos límites de jornada y guardias para los residentes",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-supremo-reconoce-devolucion-icio-sustituto-37180",
-   "url": "https://www.iberley.es/noticias/el-supremo-reconoce-devolucion-icio-sustituto-37180",
-   "title": "El Supremo reconoce la devolución del ICIO al sustituto",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/exencion-patrimonio-donacion-empresa-familiar-37184",
-   "url": "https://www.iberley.es/noticias/exencion-patrimonio-donacion-empresa-familiar-37184",
-   "title": "Exención en Patrimonio y donación de empresa familiar",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "Mercantil",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-tsjpv-anula-un-despido-una-investigacion-informatica-invasiva-37190",
-   "url": "https://www.iberley.es/noticias/el-tsjpv-anula-un-despido-una-investigacion-informatica-invasiva-37190",
-   "title": "El TSJPV anula un despido por una investigación informática invasiva",
-   "date_published": "2026-11-06T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 5
   }
  ]
 }
