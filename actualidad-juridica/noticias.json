@@ -7,6 +7,162 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/es-o-no-factible-un-ere-por-la-inteligencia-artificial/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/es-o-no-factible-un-ere-por-la-inteligencia-artificial/",
+   "title": "¿Es o no factible un ERE por la inteligencia artificial?",
+   "date_published": "2026-11-15T07:00:50Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/lee-bien-lo-que-firmas-en-tu-alquiler-de-1-810-euros-de-garantia-solo-recuperan-610-euros-y-el-saldo-se-fue-en-pintura/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/lee-bien-lo-que-firmas-en-tu-alquiler-de-1-810-euros-de-garantia-solo-recuperan-610-euros-y-el-saldo-se-fue-en-pintura/",
+   "title": "Lee bien lo que firmas en tu alquiler: de 1.810 euros de garantía solo recuperan 610 euros y el saldo se fue en pintura",
+   "date_published": "2026-11-15T07:00:29Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-comunidad-de-propietarios-debe-indemnizar-a-un-restaurante-que-tuvo-que-cerrar-79-dias-por-obras-en-elementos-comunes-mal-conservados/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-comunidad-de-propietarios-debe-indemnizar-a-un-restaurante-que-tuvo-que-cerrar-79-dias-por-obras-en-elementos-comunes-mal-conservados/",
+   "title": "Una comunidad de propietarios debe indemnizar a un restaurante que tuvo que cerrar 79 días por obras en elementos comunes mal conservados",
+   "date_published": "2026-11-15T07:00:13Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/pradagayoso-logra-la-exoneracion-de-una-deuda-de-234-millones-de-euros-para-un-empresario-navarro/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/pradagayoso-logra-la-exoneracion-de-una-deuda-de-234-millones-de-euros-para-un-empresario-navarro/",
+   "title": "PradaGayoso logra la exoneración de una deuda de 2,34 millones de euros para un empresario navarro",
+   "date_published": "2026-11-15T07:00:04Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261115-la-brecha-digital-amenaza-los-derechos-de-miles-de-mayores-ante-unas-administraciones-cada-vez-mas-digitalizadas/",
+   "url": "https://confilegal.com/20261115-la-brecha-digital-amenaza-los-derechos-de-miles-de-mayores-ante-unas-administraciones-cada-vez-mas-digitalizadas/",
+   "title": "La brecha digital amenaza los derechos de miles de mayores ante unas administraciones cada vez más digitalizadas",
+   "date_published": "2026-11-15T04:45:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261115-supremo-reduccion-bonus-trabajadores-modificacion-sustancial/",
+   "url": "https://confilegal.com/20261115-supremo-reduccion-bonus-trabajadores-modificacion-sustancial/",
+   "title": "El Supremo avala que una empresa reduzca a la mitad el bonus de sus trabajadores sin negociar una modificación sustancial",
+   "date_published": "2026-11-15T04:44:00Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261115-baker-mckenzie-abandona-hora-facturable-ia/",
+   "url": "https://confilegal.com/20261115-baker-mckenzie-abandona-hora-facturable-ia/",
+   "title": "Baker McKenzie empieza a jubilar la hora facturable: “No es la métrica adecuada”",
+   "date_published": "2026-11-15T04:43:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261115-seth-fenster-facturar-horas-agentes-ia-despachos/",
+   "url": "https://confilegal.com/20261115-seth-fenster-facturar-horas-agentes-ia-despachos/",
+   "title": "“Que facture la máquina”: Seth Fenster propone cobrar por horas el trabajo de los agentes de IA",
+   "date_published": "2026-11-15T04:42:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261115-biden-ucrania-errores-occidente-responsabilidad-europa/",
+   "url": "https://confilegal.com/20261115-biden-ucrania-errores-occidente-responsabilidad-europa/",
+   "title": "Opinión | «Hasta cuando haga falta»",
+   "date_published": "2026-11-15T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261115-agentes-inteligencia-artificial-cumplimiento-normativo-empresas/",
+   "url": "https://confilegal.com/20261115-agentes-inteligencia-artificial-cumplimiento-normativo-empresas/",
+   "title": "Opinión | La autoridad no se delega: el reto normativo de la IA autónoma",
+   "date_published": "2026-11-15T04:39:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261115-tribunal-supremo-ley-nietos-voto-tutela-cautelar/",
+   "url": "https://confilegal.com/20261115-tribunal-supremo-ley-nietos-voto-tutela-cautelar/",
+   "title": "Opinión | «Ley de nietos» y tutela cautelar: el dilema de la doble irreversibilidad ante el Tribunal Supremo",
+   "date_published": "2026-11-15T04:38:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 8
+  },
+  {
+   "id": "https://confilegal.com/20261115-la-ciberrevolucion-dispara-los-riesgos-legales-las-empresas-se-exponen-a-multas-de-hasta-20-millones-de-euros/",
+   "url": "https://confilegal.com/20261115-la-ciberrevolucion-dispara-los-riesgos-legales-las-empresas-se-exponen-a-multas-de-hasta-20-millones-de-euros/",
+   "title": "La ciberrevolución dispara los riesgos legales: las empresas se exponen a multas de hasta 20 millones de euros",
+   "date_published": "2026-11-14T23:45:00Z",
+   "tags": [
+    "Mercantil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVWNlTEpjOVd4WTMzOV83UGZabXJ6emlTM0FfR2RzNk9aTk9MdWp2YzdTSkw2TVZtSndhT0pETXp3MHp3SnFhTmdsdDZ4Wm14S1pIWlA2ZS1fV2RrMFRWbFNVazUyVDRJVzdudUZFelVaNk1BODczb3BILS1tLTNSOV84d08yNDc5am9JZjJNcGh3Vzg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVWNlTEpjOVd4WTMzOV83UGZabXJ6emlTM0FfR2RzNk9aTk9MdWp2YzdTSkw2TVZtSndhT0pETXp3MHp3SnFhTmdsdDZ4Wm14S1pIWlA2ZS1fV2RrMFRWbFNVazUyVDRJVzdudUZFelVaNk1BODczb3BILS1tLTNSOV84d08yNDc5am9JZjJNcGh3Vzg?oc=5",
+   "title": "El Juzgado de lo Contencioso-Administrativo nº 1 de Lugo exime a un otorrino de 60 años de las guardias por medida cautelar",
+   "date_published": "2026-11-14T15:40:31Z",
+   "tags": [
+    "Administrativo",
+    "galicia"
+   ],
+   "_fuente": "MONCLOA.COM",
+   "_importancia": 8
+  },
+  {
    "id": "https://www.economistjurist.es/actualidad-juridica/legislacion/los-ofertantes-de-productos-ecologicos-pueden-estar-contentos-sera-obligatorio-destinar-un-25-del-gasto-en-alimentos-a-sus-productos/",
    "url": "https://www.economistjurist.es/actualidad-juridica/legislacion/los-ofertantes-de-productos-ecologicos-pueden-estar-contentos-sera-obligatorio-destinar-un-25-del-gasto-en-alimentos-a-sus-productos/",
    "title": "Los ofertantes de productos ecológicos pueden estar contentos: será obligatorio destinar un 25% del gasto en alimentos a sus productos",
@@ -569,162 +725,6 @@
    ],
    "_fuente": "Legal Today",
    "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-extremena-falla-a-favor-de-glovo-y-descarta-que-exista-relacion-laboral-con-sus-repartidores/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/la-justicia-extremena-falla-a-favor-de-glovo-y-descarta-que-exista-relacion-laboral-con-sus-repartidores/",
-   "title": "La justicia extremeña falla a favor de Glovo y descarta que exista relación laboral con sus repartidores",
-   "date_published": "2026-11-13T06:00:51Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-banco-debe-restituir-los-fondos-robados-incluso-si-los-clientes-dieron-las-claves-de-sus-cuentas-a-los-delincuentes/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-banco-debe-restituir-los-fondos-robados-incluso-si-los-clientes-dieron-las-claves-de-sus-cuentas-a-los-delincuentes/",
-   "title": "El banco debe restituir los fondos robados incluso si los clientes dieron las claves de sus cuentas a los delincuentes",
-   "date_published": "2026-11-13T06:00:46Z",
-   "tags": [
-    "Civil",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/nace-martin-porras-abogados-boutique-especializada-en-derecho-penal-economico-y-compliance/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/nace-martin-porras-abogados-boutique-especializada-en-derecho-penal-economico-y-compliance/",
-   "title": "Nace Martín Porras Abogados, boutique especializada en Derecho penal económico y ‘compliance’",
-   "date_published": "2026-11-13T06:00:07Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/la-ley-de-segunda-oportunidad-para-quienes-ya-no-pueden-pagar-sus-deudas/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/la-ley-de-segunda-oportunidad-para-quienes-ya-no-pueden-pagar-sus-deudas/",
-   "title": "La Ley de Segunda Oportunidad para quienes ya no pueden pagar sus deudas",
-   "date_published": "2026-11-13T06:00:04Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261113-tsj-madrid-anula-sentencia-incapacidad-absoluta-ictus-falta-motivacion/",
-   "url": "https://confilegal.com/20261113-tsj-madrid-anula-sentencia-incapacidad-absoluta-ictus-falta-motivacion/",
-   "title": "El TSJ de Madrid declara nula una sentencia de incapacidad por falta de motivación sobre la capacidad laboral",
-   "date_published": "2026-11-13T04:45:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 5
-  },
-  {
-   "id": "https://confilegal.com/20261113-uco-corvillo-abalos-financiacion-inmuebles-andrea-de-la-torre/",
-   "url": "https://confilegal.com/20261113-uco-corvillo-abalos-financiacion-inmuebles-andrea-de-la-torre/",
-   "title": "La UCO sitúa a Cristian Corvillo detrás del dinero con el que la pareja de Ábalos compró dos inmuebles en Vallecas",
-   "date_published": "2026-11-13T04:44:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261113-criticar-a-tu-empresa-en-redes-sociales-puede-costarte-el-empleo-cuando-es-legal-y-cuando-vulnera-tus-derechos/",
-   "url": "https://confilegal.com/20261113-criticar-a-tu-empresa-en-redes-sociales-puede-costarte-el-empleo-cuando-es-legal-y-cuando-vulnera-tus-derechos/",
-   "title": "Criticar a tu empresa en redes sociales puede costarte el empleo: cuándo es legal y cuándo vulnera tus derechos",
-   "date_published": "2026-11-13T04:43:00Z",
-   "tags": [
-    "Mercantil",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261113-jorge-carrera-ia-abogados-jueces-colapso-judicial/",
-   "url": "https://confilegal.com/20261113-jorge-carrera-ia-abogados-jueces-colapso-judicial/",
-   "title": "Jorge Carrera: «La IA pone a los abogados en otra liga y deja a los jueces en el banquillo»",
-   "date_published": "2026-11-13T04:43:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261113-de-cuidar-a-sus-padres-a-controlar-su-patrimonio-los-limites-legales-que-los-hijos-no-pueden-cruzar/",
-   "url": "https://confilegal.com/20261113-de-cuidar-a-sus-padres-a-controlar-su-patrimonio-los-limites-legales-que-los-hijos-no-pueden-cruzar/",
-   "title": "De cuidar a sus padres a controlar su patrimonio: los límites legales que los hijos no pueden cruzar",
-   "date_published": "2026-11-13T04:42:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261113-seis-meses-de-prision-por-utilizar-una-tarjeta-ajena-para-pagar-31-euros-de-consumiciones-en-un-bar/",
-   "url": "https://confilegal.com/20261113-seis-meses-de-prision-por-utilizar-una-tarjeta-ajena-para-pagar-31-euros-de-consumiciones-en-un-bar/",
-   "title": "Seis meses de prisión por utilizar una tarjeta ajena para pagar 31 euros de consumiciones en un bar",
-   "date_published": "2026-11-13T04:41:00Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261113-fraude-streaming-musical-inteligencia-artificial-spotify-derechos-autor/",
-   "url": "https://confilegal.com/20261113-fraude-streaming-musical-inteligencia-artificial-spotify-derechos-autor/",
-   "title": "Opinión | Música artificial y dinero real?: ¿Quién vigila el reparto del «streaming»?",
-   "date_published": "2026-11-13T04:40:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0xISWR6YTZiOExEWDd2a0xUZHdld1lNRXRTcmJiXzh3MzhJcjNOSlh4ajMwTEx6bUMyQi1qSnhvVXU2TjBDY2t5dy1LbjA4emlkYnE4dTFMd1pUZzB3RmRDS3QxUnBjeExyb3dqQnRVR1QwUENjT01mMTB2Sk9oWnhVaWRUamJJd2kwOGhKSU5kc3pWNmtoMmR0NVY2UV9VT2NiVlNjRWVfNkVrZ3VxbDNwXzcwTTdmdVY5dVlTcDktVXpUTWMtbmgzUUlYY2tMU24wclZCa3JtX0VEY0dINTdJc3VZU0U5UFQ0?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0xISWR6YTZiOExEWDd2a0xUZHdld1lNRXRTcmJiXzh3MzhJcjNOSlh4ajMwTEx6bUMyQi1qSnhvVXU2TjBDY2t5dy1LbjA4emlkYnE4dTFMd1pUZzB3RmRDS3QxUnBjeExyb3dqQnRVR1QwUENjT01mMTB2Sk9oWnhVaWRUamJJd2kwOGhKSU5kc3pWNmtoMmR0NVY2UV9VT2NiVlNjRWVfNkVrZ3VxbDNwXzcwTTdmdVY5dVlTcDktVXpUTWMtbmgzUUlYY2tMU24wclZCa3JtX0VEY0dINTdJc3VZU0U5UFQ0?oc=5",
-   "title": "Obligan a la Seguridad Social a dar la incapacidad total a una autónoma agrícola que no podía mover el cuello en Vigo",
-   "date_published": "2026-11-13T04:05:47Z",
-   "tags": [
-    "Laboral",
-    "galicia"
-   ],
-   "_fuente": "La Voz de Galicia",
-   "_importancia": 7
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-teac-exige-motivar-comprobacion-valores-37187",
-   "url": "https://www.iberley.es/noticias/el-teac-exige-motivar-comprobacion-valores-37187",
-   "title": "El TEAC exige motivar la comprobación de valores",
-   "date_published": "2026-11-13T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
   }
  ]
 }

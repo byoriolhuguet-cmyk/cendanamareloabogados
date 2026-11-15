@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-14T12:16:11Z",
+ "updated": "2026-11-15T12:49:23Z",
  "items": [
+  {
+   "title": "¿Es o no factible un ERE por la inteligencia artificial?",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/es-o-no-factible-un-ere-por-la-inteligencia-artificial/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-15T07:00:50Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Lee bien lo que firmas en tu alquiler: de 1.810 euros de garantía solo recuperan 610 euros y el saldo se fue en pintura",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/lee-bien-lo-que-firmas-en-tu-alquiler-de-1-810-euros-de-garantia-solo-recuperan-610-euros-y-el-saldo-se-fue-en-pintura/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-15T07:00:29Z",
+   "area": "civil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "Una comunidad de propietarios debe indemnizar a un restaurante que tuvo que cerrar 79 días por obras en elementos comunes mal conservados",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/una-comunidad-de-propietarios-debe-indemnizar-a-un-restaurante-que-tuvo-que-cerrar-79-dias-por-obras-en-elementos-comunes-mal-conservados/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-15T07:00:13Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "PradaGayoso logra la exoneración de una deuda de 2,34 millones de euros para un empresario navarro",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/pradagayoso-logra-la-exoneracion-de-una-deuda-de-234-millones-de-euros-para-un-empresario-navarro/",
+   "source": "Economist & Jurist",
+   "date": "2026-11-15T07:00:04Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 1
+  },
+  {
+   "title": "La brecha digital amenaza los derechos de miles de mayores ante unas administraciones cada vez más digitalizadas",
+   "url": "https://confilegal.com/20261115-la-brecha-digital-amenaza-los-derechos-de-miles-de-mayores-ante-unas-administraciones-cada-vez-mas-digitalizadas/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:45:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El Supremo avala que una empresa reduzca a la mitad el bonus de sus trabajadores sin negociar una modificación sustancial",
+   "url": "https://confilegal.com/20261115-supremo-reduccion-bonus-trabajadores-modificacion-sustancial/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:44:00Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Baker McKenzie empieza a jubilar la hora facturable: “No es la métrica adecuada”",
+   "url": "https://confilegal.com/20261115-baker-mckenzie-abandona-hora-facturable-ia/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:43:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "“Que facture la máquina”: Seth Fenster propone cobrar por horas el trabajo de los agentes de IA",
+   "url": "https://confilegal.com/20261115-seth-fenster-facturar-horas-agentes-ia-despachos/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:42:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | «Hasta cuando haga falta»",
+   "url": "https://confilegal.com/20261115-biden-ucrania-errores-occidente-responsabilidad-europa/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:40:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | La autoridad no se delega: el reto normativo de la IA autónoma",
+   "url": "https://confilegal.com/20261115-agentes-inteligencia-artificial-cumplimiento-normativo-empresas/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:39:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "Opinión | «Ley de nietos» y tutela cautelar: el dilema de la doble irreversibilidad ante el Tribunal Supremo",
+   "url": "https://confilegal.com/20261115-tribunal-supremo-ley-nietos-voto-tutela-cautelar/",
+   "source": "Confilegal",
+   "date": "2026-11-15T04:38:00Z",
+   "area": "general",
+   "scope": "españa",
+   "score": 8
+  },
+  {
+   "title": "La ciberrevolución dispara los riesgos legales: las empresas se exponen a multas de hasta 20 millones de euros",
+   "url": "https://confilegal.com/20261115-la-ciberrevolucion-dispara-los-riesgos-legales-las-empresas-se-exponen-a-multas-de-hasta-20-millones-de-euros/",
+   "source": "Confilegal",
+   "date": "2026-11-14T23:45:00Z",
+   "area": "mercantil",
+   "scope": "españa",
+   "score": 2
+  },
+  {
+   "title": "El Juzgado de lo Contencioso-Administrativo nº 1 de Lugo exime a un otorrino de 60 años de las guardias por medida cautelar",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVWNlTEpjOVd4WTMzOV83UGZabXJ6emlTM0FfR2RzNk9aTk9MdWp2YzdTSkw2TVZtSndhT0pETXp3MHp3SnFhTmdsdDZ4Wm14S1pIWlA2ZS1fV2RrMFRWbFNVazUyVDRJVzdudUZFelVaNk1BODczb3BILS1tLTNSOV84d08yNDc5am9JZjJNcGh3Vzg?oc=5",
+   "source": "MONCLOA.COM",
+   "date": "2026-11-14T15:40:31Z",
+   "area": "administrativo",
+   "scope": "galicia",
+   "score": 8
+  },
   {
    "title": "Los ofertantes de productos ecológicos pueden estar contentos: será obligatorio destinar un 25% del gasto en alimentos a sus productos",
    "url": "https://www.economistjurist.es/actualidad-juridica/legislacion/los-ofertantes-de-productos-ecologicos-pueden-estar-contentos-sera-obligatorio-destinar-un-25-del-gasto-en-alimentos-a-sus-productos/",
@@ -1233,123 +1350,6 @@
    "area": "tributario",
    "scope": "españa",
    "score": 2
-  },
-  {
-   "title": "El TSJ rechaza alegaciones genéricas sobre derechos fundamentales",
-   "url": "https://www.iberley.es/noticias/el-tsj-rechaza-alegaciones-genericas-derechos-fundamentales-37193",
-   "source": "Iberley",
-   "date": "2026-11-11T00:00:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 2
-  },
-  {
-   "title": "“Los jueces elegirán a los jueces”: el PP lleva al 29N la reforma del CGPJ que no aplicó en 2011",
-   "url": "https://confilegal.com/20261111-pp-programa-electoral-jueces-elijan-12-vocales-cgpj/",
-   "source": "Confilegal",
-   "date": "2026-11-10T23:45:00Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 9
-  },
-  {
-   "title": "La Audiencia Nacional frena los beneficios penitenciarios de tres etarras: revoca la semilibertad de «Anboto» y el tercer grado de Olarra Guridi y Aguirregabiria",
-   "url": "https://confilegal.com/20261110-audiencia-nacional-revoca-semilibertad-anboto-tercer-grado-etarras/",
-   "source": "Confilegal",
-   "date": "2026-11-10T20:57:22Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 8
-  },
-  {
-   "title": "El Congreso Nacional de Gestión Pública de Lefebvre reclama poner el talento público en el centro de la transformación digital",
-   "url": "https://www.lawyerpress.com/2026/11/10/el-congreso-nacional-de-gestion-publica-de-lefebvre-reclama-poner-el-talento-publico-en-el-centro-de-la-transformacion-digital/",
-   "source": "Lawyerpress",
-   "date": "2026-11-10T19:02:34Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Addleshaw Goddard incorporará en Alemania a un equipo de 20 profesionales de Taylor Wessing",
-   "url": "https://www.lawyerpress.com/2026/11/10/addleshaw-goddard-incorporara-en-alemania-a-un-equipo-de-20-profesionales-de-taylor-wessing/",
-   "source": "Lawyerpress",
-   "date": "2026-11-10T18:55:51Z",
-   "area": "general",
-   "scope": "españa",
-   "score": -3
-  },
-  {
-   "title": "El Consejo de Ministros aprueba un decreto ley que equipara las familias monoparentales con dos hijos a las numerosas",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-consejo-de-ministros-aprueba-un-decreto-ley-que-equipara-las-familias-monoparentales-con-dos-hijos-a-las-numerosas-2026-11-10/",
-   "source": "Legal Today",
-   "date": "2026-11-10T15:09:34Z",
-   "area": "civil",
-   "scope": "españa",
-   "score": 6
-  },
-  {
-   "title": "Abogados que hablan con estilo romántico",
-   "url": "https://www.economistjurist.es/zestilo-de-vida/abogados-que-hablan-con-estilo-romantico/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-10T15:03:10Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Supremo avala incluir en una lista de morosos a quien conoce la deuda y sigue sin pagar",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-supremo-avala-incluir-en-una-lista-de-morosos-a-quien-conoce-la-deuda-y-sigue-sin-pagar/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-10T15:00:56Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Administrativando Abogados logra que la Justicia suspenda dos liquidaciones de Hacienda a una empresa sin necesidad de garantía de ningún tipo",
-   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/administrativando-abogados-logra-que-la-justicia-suspenda-dos-liquidaciones-de-hacienda-a-una-empresa-sin-necesidad-de-garantia-de-ningun-tipo/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-10T15:00:52Z",
-   "area": "mercantil",
-   "scope": "españa",
-   "score": 4
-  },
-  {
-   "title": "Alfonso Labella será el nuevo decano de Granada",
-   "url": "https://www.economistjurist.es/noticias-juridicas/alfonso-labella-sera-el-nuevo-decano-de-granada/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-10T15:00:51Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "Efectos de la nulidad por fijación de precios en los contratos de franquicia (STS 546/2026, de 9 de abril)",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/efectos-de-la-nulidad-por-fijacion-de-precios-en-los-contratos-de-franquicia-sts-546-2026-de-9-de-abril/",
-   "source": "Economist & Jurist",
-   "date": "2026-11-10T15:00:46Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Gobierno celebrará cuatro reuniones del Consejo de Ministros antes del 29N para aprobar medidas sociales",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-gobierno-celebrara-cuatro-reuniones-del-consejo-de-ministros-antes-del-29n-para-aprobar-medidas-sociales-2026-11-10/",
-   "source": "Legal Today",
-   "date": "2026-11-10T14:39:54Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
-  },
-  {
-   "title": "El Gobierno obliga a las plataformas a destacar la obra europea en portada y regular el reparto en lenguas cooficiales",
-   "url": "https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/el-gobierno-obliga-a-las-plataformas-a-destacar-la-obra-europea-en-portada-y-regular-el-reparto-en-lenguas-cooficiales-2026-11-10/",
-   "source": "Legal Today",
-   "date": "2026-11-10T14:31:31Z",
-   "area": "general",
-   "scope": "españa",
-   "score": 1
   }
  ]
 }
