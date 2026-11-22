@@ -7,6 +7,150 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/nueva-etapa-para-evenor-abogados-la-firma-estrena-una-identidad-renovada-y-una-nueva-generacion-juridica/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/actualidad-de-los-despachos/nueva-etapa-para-evenor-abogados-la-firma-estrena-una-identidad-renovada-y-una-nueva-generacion-juridica/",
+   "title": "Nueva etapa para EVENOR Abogados: la firma estrena una identidad renovada y una nueva generación jurídica",
+   "date_published": "2026-11-22T07:00:57Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/alegar-vulnerabilidad-no-basta-para-frenar-un-desahucio-esto-es-lo-que-hay-que-demostrar/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/alegar-vulnerabilidad-no-basta-para-frenar-un-desahucio-esto-es-lo-que-hay-que-demostrar/",
+   "title": "Alegar vulnerabilidad no basta para frenar un desahucio: esto es lo que hay que demostrar",
+   "date_published": "2026-11-22T07:00:45Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/rd-ley-39-2026-nuevo-escenario-para-la-nulidad-de-los-despidos-por-la-garantia-de-indemnidad/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/rd-ley-39-2026-nuevo-escenario-para-la-nulidad-de-los-despidos-por-la-garantia-de-indemnidad/",
+   "title": "RD-Ley 39/2026: ¿nuevo escenario para la nulidad de los despidos por la garantía de indemnidad?",
+   "date_published": "2026-11-22T07:00:31Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/firmo-la-rebaja-de-su-clausula-suelo-pero-renuncio-a-reclamar-la-justicia-tumba-el-argumento-del-banco/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/firmo-la-rebaja-de-su-clausula-suelo-pero-renuncio-a-reclamar-la-justicia-tumba-el-argumento-del-banco/",
+   "title": "Firmó la rebaja de su cláusula suelo, pero renunció a reclamar: la Justicia tumba el argumento del banco",
+   "date_published": "2026-11-22T07:00:16Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261122-robert-amsterdam-documental-hacienda-agencia-tributaria/",
+   "url": "https://confilegal.com/20261122-robert-amsterdam-documental-hacienda-agencia-tributaria/",
+   "title": "Robert Amsterdam lleva al cine su ofensiva contra Hacienda: «Es una herramienta de extorsión como ninguna otra»",
+   "date_published": "2026-11-22T04:46:00Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 5
+  },
+  {
+   "id": "https://confilegal.com/20261122-espiar-a-tu-pareja-puede-salir-caro-las-condenas-por-acceder-sin-permiso-a-mensajes-y-conversaciones-privadas/",
+   "url": "https://confilegal.com/20261122-espiar-a-tu-pareja-puede-salir-caro-las-condenas-por-acceder-sin-permiso-a-mensajes-y-conversaciones-privadas/",
+   "title": "Espiar a tu pareja puede salir caro: las condenas por acceder sin permiso a mensajes y conversaciones privadas",
+   "date_published": "2026-11-22T04:45:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261122-se-queda-con-la-vivienda-tras-el-divorcio-pero-una-palabra-en-el-convenio-le-impide-inscribirla-a-su-nombre/",
+   "url": "https://confilegal.com/20261122-se-queda-con-la-vivienda-tras-el-divorcio-pero-una-palabra-en-el-convenio-le-impide-inscribirla-a-su-nombre/",
+   "title": "Se queda con la vivienda tras el divorcio, pero una palabra en el convenio le impide inscribirla a su nombre",
+   "date_published": "2026-11-22T04:44:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261122-el-black-friday-dispara-el-riesgo-de-estafas-online-que-debe-hacer-el-consumidor-y-cuando-tiene-que-devolverle-el-dinero-el-banco/",
+   "url": "https://confilegal.com/20261122-el-black-friday-dispara-el-riesgo-de-estafas-online-que-debe-hacer-el-consumidor-y-cuando-tiene-que-devolverle-el-dinero-el-banco/",
+   "title": "El Black Friday dispara el riesgo de estafas online: qué debe hacer el consumidor y cuándo tiene que devolverle el dinero el banco",
+   "date_published": "2026-11-22T04:43:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261122-despedido-el-mismo-dia-que-coje-la-baja-medica-despido-procedente-por-su-actitud-en-el-trabajo/",
+   "url": "https://confilegal.com/20261122-despedido-el-mismo-dia-que-coje-la-baja-medica-despido-procedente-por-su-actitud-en-el-trabajo/",
+   "title": "Despedido el mismo día que coge la baja médica: despido procedente por su actitud en el trabajo",
+   "date_published": "2026-11-22T04:42:00Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 5
+  },
+  {
+   "id": "https://confilegal.com/20261122-supremo-suspension-regimen-visitas-rechazo-menor-padre/",
+   "url": "https://confilegal.com/20261122-supremo-suspension-regimen-visitas-rechazo-menor-padre/",
+   "title": "Opinión | El régimen de visitas del menor no es un derecho incondicionado del progenitor",
+   "date_published": "2026-11-22T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261122-partidos-politicos-reforma-justicia-independencia-judicial/",
+   "url": "https://confilegal.com/20261122-partidos-politicos-reforma-justicia-independencia-judicial/",
+   "title": "Opinión | La Justicia, ese juguete que todos quieren reformar y ninguno soltar",
+   "date_published": "2026-11-22T04:40:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 7
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XMVV1Nld5ZW1waGtZN20zTlJGWHVpekFuZnlYR250TFN4bGtuQXhhNE9lbXVKX1I1aU0wMmVOT1ZNLUUtWUdzY3lKNFpTcW80ck5CYXl4Zy1Id3JaRXhzb2NkNldrSS1sa3NqTw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XMVV1Nld5ZW1waGtZN20zTlJGWHVpekFuZnlYR250TFN4bGtuQXhhNE9lbXVKX1I1aU0wMmVOT1ZNLUUtWUdzY3lKNFpTcW80ck5CYXl4Zy1Id3JaRXhzb2NkNldrSS1sa3NqTw?oc=5",
+   "title": "Devolver ayudas sociales: el SEPE le reclama 7.500 € por cobrarlas mientras trabajaba en otra provincia",
+   "date_published": "2026-11-21T22:17:15Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Qué.es",
+   "_importancia": 4
+  },
+  {
    "id": "https://www.lawyerpress.com/2026/11/21/jose-soriano-toma-posesion-como-decano-del-colegio-de-abogados-de-valencia-para-un-segundo-mandato/",
    "url": "https://www.lawyerpress.com/2026/11/21/jose-soriano-toma-posesion-como-decano-del-colegio-de-abogados-de-valencia-para-un-segundo-mandato/",
    "title": "José Soriano toma posesión como decano del Colegio de Abogados de Valencia para un segundo mandato",
@@ -581,150 +725,6 @@
    ],
    "_fuente": "Confilegal",
    "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-ts-tiene-cuenta-concebido-no-nacido-aplicar-tipo-reducido-itpyajd-37269",
-   "url": "https://www.iberley.es/noticias/el-ts-tiene-cuenta-concebido-no-nacido-aplicar-tipo-reducido-itpyajd-37269",
-   "title": "El TS tiene en cuenta al concebido no nacido para aplicar el tipo reducido del ITPyAJD",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-tjue-aclara-cuando-puede-dispensarse-traduccion-etiquetado-medicamentos-37275",
-   "url": "https://www.iberley.es/noticias/el-tjue-aclara-cuando-puede-dispensarse-traduccion-etiquetado-medicamentos-37275",
-   "title": "El TJUE aclara cuándo puede dispensarse la traducción del etiquetado de medicamentos",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 8
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-tedh-inhabilita-dos-anos-una-abogada-citas-falsas-ia-37274",
-   "url": "https://www.iberley.es/noticias/el-tedh-inhabilita-dos-anos-una-abogada-citas-falsas-ia-37274",
-   "title": "El TEDH inhabilita dos años a una abogada por citas falsas de IA",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/iva-10-viviendas-protegidas-precio-limitado-36986",
-   "url": "https://www.iberley.es/noticias/iva-10-viviendas-protegidas-precio-limitado-36986",
-   "title": "IVA del 10 % para viviendas protegidas de precio limitado",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/avalado-despido-usar-ordenador-fines-privados-37219",
-   "url": "https://www.iberley.es/noticias/avalado-despido-usar-ordenador-fines-privados-37219",
-   "title": "Avalado el despido por usar el ordenador para fines privados",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 5
-  },
-  {
-   "id": "https://www.iberley.es/noticias/recargo-30-no-prevenir-riesgos-psicosociales-ni-disponer-protocolo-frente-acoso-37215",
-   "url": "https://www.iberley.es/noticias/recargo-30-no-prevenir-riesgos-psicosociales-ni-disponer-protocolo-frente-acoso-37215",
-   "title": "Recargo del 30 % por no prevenir riesgos psicosociales ni disponer de protocolo frente al acoso",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-tc-ampara-critica-redes-un-periodista-policia-37270",
-   "url": "https://www.iberley.es/noticias/el-tc-ampara-critica-redes-un-periodista-policia-37270",
-   "title": "El TC ampara la crítica en redes de un periodista a la policía",
-   "date_published": "2026-11-20T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/19/nueva-mutua-sanitaria-reconoce-a-23-jovenes-abogados-en-los-vi-premios-antonio-hernandez-gil/",
-   "url": "https://www.lawyerpress.com/2026/11/19/nueva-mutua-sanitaria-reconoce-a-23-jovenes-abogados-en-los-vi-premios-antonio-hernandez-gil/",
-   "title": "Nueva Mutua Sanitaria reconoce a 23 jóvenes abogados en los VI Premios Antonio Hernández-Gil",
-   "date_published": "2026-11-19T18:06:01Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": -3
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVlVVnJfYVp1Nnc1N2c4Y0F6SU00NmVkZFdtLXlWamZTV1hUYWw2eFRqb0sxUktXYW9YU1JIdEUySVQyQ2lHVm50T05TbmFDbFNLZy1CMzMtYWRBaFpLbXQ2X1AzODJ0eEhWbXFGMm15dVdCSkVXZTdxQm5WMFYyVkdxb3JOS1ZLTmlRX0tiZzFiQVRfZG81QUJhMUJLTkFfeFI5eUdNbmdhd2tkbnBLR1VaeElrRkk1QlhqbjRJNXTSAcYBQVVfeXFMUHBubnVOaVhSRUtkX056d2lhbkJxWTZIUmI0VE9fczFyTWdBN3o3cnliWU1TRE8teXBMTjZ1NjYxWlNaV18wbm83Q2Z5TUJHLVlaZWdkT3R1LTRaM1JubXpJNHRxcGJOc0tOb083OVRKcUtxVUtfeXhQVmlKa3NrTVU4NzFJU0ZhSUY0Ukl0bExIWTBpNUhVZng5clNfNzQ5TFRZemtnSHdDOFFZQkpLREJRNGJTOTF4a3lFcGN1dHFMdHVOYjBB?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVlVVnJfYVp1Nnc1N2c4Y0F6SU00NmVkZFdtLXlWamZTV1hUYWw2eFRqb0sxUktXYW9YU1JIdEUySVQyQ2lHVm50T05TbmFDbFNLZy1CMzMtYWRBaFpLbXQ2X1AzODJ0eEhWbXFGMm15dVdCSkVXZTdxQm5WMFYyVkdxb3JOS1ZLTmlRX0tiZzFiQVRfZG81QUJhMUJLTkFfeFI5eUdNbmdhd2tkbnBLR1VaeElrRkk1QlhqbjRJNXTSAcYBQVVfeXFMUHBubnVOaVhSRUtkX056d2lhbkJxWTZIUmI0VE9fczFyTWdBN3o3cnliWU1TRE8teXBMTjZ1NjYxWlNaV18wbm83Q2Z5TUJHLVlaZWdkT3R1LTRaM1JubXpJNHRxcGJOc0tOb083OVRKcUtxVUtfeXhQVmlKa3NrTVU4NzFJU0ZhSUY0Ukl0bExIWTBpNUhVZng5clNfNzQ5TFRZemtnSHdDOFFZQkpLREJRNGJTOTF4a3lFcGN1dHFMdHVOYjBB?oc=5",
-   "title": "El TSXG triplica la indemnización a una familia por el retraso en el diagnóstico de un ictus a una mujer que acabó muriendo en Vigo",
-   "date_published": "2026-11-19T18:04:50Z",
-   "tags": [
-    "Civil",
-    "galicia"
-   ],
-   "_fuente": "Faro de Vigo",
-   "_importancia": 8
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/19/el-congreso-nacional-de-derecho-sanitario-debate-las-garantias-ante-las-crisis-de-salud-y-el-acceso-a-los-medicamentos/",
-   "url": "https://www.lawyerpress.com/2026/11/19/el-congreso-nacional-de-derecho-sanitario-debate-las-garantias-ante-las-crisis-de-salud-y-el-acceso-a-los-medicamentos/",
-   "title": "El Congreso Nacional de Derecho Sanitario debate las garantías ante las crisis de salud y el acceso a los medicamentos",
-   "date_published": "2026-11-19T17:48:13Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/19/inmolex-lleva-la-ia-juridica-especializada-al-analisis-de-operaciones-inmobiliarias/",
-   "url": "https://www.lawyerpress.com/2026/11/19/inmolex-lleva-la-ia-juridica-especializada-al-analisis-de-operaciones-inmobiliarias/",
-   "title": "InmoLex lleva la IA jurídica especializada al análisis de operaciones inmobiliarias",
-   "date_published": "2026-11-19T17:42:46Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/19/victor-soriano-denuncia-retrasos-en-las-medidas-cautelares-solicitadas-por-afectados-de-presuntas-estafas/",
-   "url": "https://www.lawyerpress.com/2026/11/19/victor-soriano-denuncia-retrasos-en-las-medidas-cautelares-solicitadas-por-afectados-de-presuntas-estafas/",
-   "title": "Víctor Soriano denuncia retrasos en las medidas cautelares solicitadas por afectados de presuntas estafas",
-   "date_published": "2026-11-19T17:35:12Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
   }
  ]
 }
