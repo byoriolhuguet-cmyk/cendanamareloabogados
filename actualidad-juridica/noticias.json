@@ -7,6 +7,474 @@
  "description": "Noticias jurídicas de Galicia y España seleccionadas cada mañana. Cada entrada enlaza a su fuente original.",
  "items": [
   {
+   "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaGNlQnBXdXBmazhOSTRmRnlLTFFCVVg4cFBXVTc4bjc5aUpzR3A1dl8tQm5KRFc0eUFfNWlVcV9yN045U1plTElneDVoNmdYM0FHcWFfTU9CQUdJNXRjTTk1OFRRQ0tfOUNVV0VPUmZaaHNHOVYwTmQ1Z09MMGpGOWhNTFlWOFN1TFpRYktGUEI0SjgzdkJBd2pBaldNQUtscm9GVkNnVUxqVklyU3VpV2xGbkhZdw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaGNlQnBXdXBmazhOSTRmRnlLTFFCVVg4cFBXVTc4bjc5aUpzR3A1dl8tQm5KRFc0eUFfNWlVcV9yN045U1plTElneDVoNmdYM0FHcWFfTU9CQUdJNXRjTTk1OFRRQ0tfOUNVV0VPUmZaaHNHOVYwTmQ1Z09MMGpGOWhNTFlWOFN1TFpRYktGUEI0SjgzdkJBd2pBaldNQUtscm9GVkNnVUxqVklyU3VpV2xGbkhZdw?oc=5",
+   "title": "El TSXG confirma los 20 años de cárcel para el autor del crimen de Salceda",
+   "date_published": "2026-11-27T15:07:47Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Diario de Santiago",
+   "_importancia": 8
+  },
+  {
+   "id": "https://confilegal.com/20261127-el-tsjcv-rebaja-a-siete-anos-la-condena-de-rafa-mir-por-agresion-sexual-al-absolverle-del-delito-de-lesiones/",
+   "url": "https://confilegal.com/20261127-el-tsjcv-rebaja-a-siete-anos-la-condena-de-rafa-mir-por-agresion-sexual-al-absolverle-del-delito-de-lesiones/",
+   "title": "El TSJCV rebaja a siete años la condena de Rafa Mir por agresión sexual al absolverle del delito de lesiones",
+   "date_published": "2026-11-27T15:01:45Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=261333",
+   "url": "https://www.economistjurist.es/?p=261333",
+   "title": "Diez años peleando 35.000 euros contra Hacienda: el fallo que vuelve a tumbar el Modelo 720",
+   "date_published": "2026-11-27T15:00:23Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=261336",
+   "url": "https://www.economistjurist.es/?p=261336",
+   "title": "Si no localizas a tu cliente, avisa por escrito: la sentencia que frena el archivo automático de recursos",
+   "date_published": "2026-11-27T15:00:14Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=259726",
+   "url": "https://www.economistjurist.es/?p=259726",
+   "title": "Mar Posada, de Hidalgo Abogados y Asesores: «Es necesario distinguir los gastos derivados de la constitución de la hipoteca»",
+   "date_published": "2026-11-27T15:00:02Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/?p=261105",
+   "url": "https://www.economistjurist.es/?p=261105",
+   "title": "Preocupación preventiva por el secreto profesional ante la creación del Consejo Nacional de Prevención del Blanqueo de Capitales",
+   "date_published": "2026-11-27T15:00:01Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/premium/sala-2-0/demanda-de-reclamacion-de-cantidad-por-incumplimiento-de-contrato-de-prestacion-de-servicios/",
+   "url": "https://www.economistjurist.es/premium/sala-2-0/demanda-de-reclamacion-de-cantidad-por-incumplimiento-de-contrato-de-prestacion-de-servicios/",
+   "title": "Demanda de reclamación de cantidad por incumplimiento de contrato de prestación de servicios",
+   "date_published": "2026-11-27T14:54:24Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261127-los-jueces-sustitutos-decepcionados-con-el-gobierno-por-dejar-pendiente-la-mejora-de-sus-condiciones-laborales/",
+   "url": "https://confilegal.com/20261127-los-jueces-sustitutos-decepcionados-con-el-gobierno-por-dejar-pendiente-la-mejora-de-sus-condiciones-laborales/",
+   "title": "Los jueces sustitutos, decepcionados con el Gobierno por dejar pendiente la mejora de sus condiciones laborales",
+   "date_published": "2026-11-27T14:02:49Z",
+   "tags": [
+    "Laboral",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261127-la-fundacion-icam-destinara-mas-de-dos-millones-de-euros-en-2027-a-reforzar-la-proteccion-social-de-los-abogados-y-unir-generaciones/",
+   "url": "https://confilegal.com/20261127-la-fundacion-icam-destinara-mas-de-dos-millones-de-euros-en-2027-a-reforzar-la-proteccion-social-de-los-abogados-y-unir-generaciones/",
+   "title": "La Fundación ICAM destinará más de dos millones de euros en 2027 a reforzar la protección social de los abogados y unir generaciones",
+   "date_published": "2026-11-27T13:39:30Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNjVnUWNuSjlpaTBxOHY1cUtYS0JmUWx1TFhKZHBrWjRfVUpobDBEMWIyUUZsN3JBRTJaUTJLUTFIQ1FWUWFjRHBobnQtSi1NZE14N1B1MjFEcmFsb0xmaUMyTEgyQ1NHMUtVMGtOVG1ycVhfSkhia0lsRlVjNUxKLUxfRDVoN0tiRUxyWUhBYXQ5ZnJNbFk2dXFwdGxBRERGRmlwa042VmxLUzZDUW9Dcy1Ha3FrT19VNHpiWGZmRzA2UnpfdWg0MU1odjFFMy1aZEtLMUQteHk0Zm5VWnZV0gHkAUFVX3lxTE9NVDk4bUhMZGhQSHBLM3NhMUZPZDduNTN2Mmpsd1BqMTAyVjVuYUFXUE1vSERDVUoyZTZmVHhJb3l3Z001Mk1yX2FHMklfWlRjMnJYb3FPdS1jaU5jak5wSmdmNERMZUE0TlpEYW1DMmZQUkswQXpmZnIzQktTbVM0UDU5elVQM0k3MnpZR0huNVlnVW4tVzNzaVdnNEZqQ2NxVG1XOWlJN0hmeWJNbTI0cDA2VFJlcW5WOFRKU3hGdkZSTVVfTGc2cEoyVGN2VWtIY2hOS2lLbmJNSWItSkhBYzBLYQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNjVnUWNuSjlpaTBxOHY1cUtYS0JmUWx1TFhKZHBrWjRfVUpobDBEMWIyUUZsN3JBRTJaUTJLUTFIQ1FWUWFjRHBobnQtSi1NZE14N1B1MjFEcmFsb0xmaUMyTEgyQ1NHMUtVMGtOVG1ycVhfSkhia0lsRlVjNUxKLUxfRDVoN0tiRUxyWUhBYXQ5ZnJNbFk2dXFwdGxBRERGRmlwa042VmxLUzZDUW9Dcy1Ha3FrT19VNHpiWGZmRzA2UnpfdWg0MU1odjFFMy1aZEtLMUQteHk0Zm5VWnZV0gHkAUFVX3lxTE9NVDk4bUhMZGhQSHBLM3NhMUZPZDduNTN2Mmpsd1BqMTAyVjVuYUFXUE1vSERDVUoyZTZmVHhJb3l3Z001Mk1yX2FHMklfWlRjMnJYb3FPdS1jaU5jak5wSmdmNERMZUE0TlpEYW1DMmZQUkswQXpmZnIzQktTbVM0UDU5elVQM0k3MnpZR0huNVlnVW4tVzNzaVdnNEZqQ2NxVG1XOWlJN0hmeWJNbTI0cDA2VFJlcW5WOFRKU3hGdkZSTVVfTGc2cEoyVGN2VWtIY2hOS2lLbmJNSWItSkhBYzBLYQ?oc=5",
+   "title": "El TSXG ratifica 20 años de prisión para el autor del asesinato a puñaladas de un joven en Salceda de Caselas",
+   "date_published": "2026-11-27T13:36:42Z",
+   "tags": [
+    "Penal",
+    "galicia"
+   ],
+   "_fuente": "Demócrata",
+   "_importancia": 8
+  },
+  {
+   "id": "https://www.economistjurist.es/hemeroteca-revista-derecho/revista-nro-297-diciembre-2026-enero-2027/",
+   "url": "https://www.economistjurist.es/hemeroteca-revista-derecho/revista-nro-297-diciembre-2026-enero-2027/",
+   "title": "Revista Nro. 297 Diciembre 2026 – Enero 2027",
+   "date_published": "2026-11-27T13:06:47Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeFVrZUVDZUsxa3RFYWdKV29vRXU3UXRvYlUwNTh2X0lhcm1DWUFtVGI4OTNraHdta05QY3VzTnJIZnJwa1hlU3BRajRMTFZidGNzQXZIV204U0dkd2NmcTNfNzRVUm5RX3FHTEl3dldCSlN2c0QxZHBLY3BseVF2dWtiMzJUSTFtN1lXLVlRbGVDcmdwWExXVE9CZm9OOTJDU2pjUVBnaVpkNzZzUHdaeHNOU2VWaVJ3MHpUdVVnUUhHR0xxd0ZwdEhqX2I0V29rcXZVWGdIVUxtWFpKemZHSndYeXFSY0xITUNnMm5XYXJGcVnSAY8CQVVfeXFMTVZEVy1xTnhvLTJBSG1WaDN4VDdTSEY5d0doM0dUeXhkamk2aGdWY3FJLUJqcUtDYjRKRkZCZm0zOUVnejNSVS0xN3Q0SDRSYmpfN0FIcDBLWVVnZXJBSGJVRlZ1QUVKMUdBdDhHZlJXakJpajlrQlIwUXRNTFNuYkpkOFNKNXFvQ0RaNnc5dTRQVDE2dllDYTNFVVotOFhqdmd1clRJUXhSSGNPbHQ0MVJEOWF2MFhralRlM0xNZGVDVnZQUk50REVoNDNJSVlnbVNzcTdDeGRYV01MekJiX2hKcjJ3RkhWTmNkOHZyeUNxY3pzcGY4eGZZTlRDUUxKRDE3bWlrNS1wSGhocm55RQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeFVrZUVDZUsxa3RFYWdKV29vRXU3UXRvYlUwNTh2X0lhcm1DWUFtVGI4OTNraHdta05QY3VzTnJIZnJwa1hlU3BRajRMTFZidGNzQXZIV204U0dkd2NmcTNfNzRVUm5RX3FHTEl3dldCSlN2c0QxZHBLY3BseVF2dWtiMzJUSTFtN1lXLVlRbGVDcmdwWExXVE9CZm9OOTJDU2pjUVBnaVpkNzZzUHdaeHNOU2VWaVJ3MHpUdVVnUUhHR0xxd0ZwdEhqX2I0V29rcXZVWGdIVUxtWFpKemZHSndYeXFSY0xITUNnMm5XYXJGcVnSAY8CQVVfeXFMTVZEVy1xTnhvLTJBSG1WaDN4VDdTSEY5d0doM0dUeXhkamk2aGdWY3FJLUJqcUtDYjRKRkZCZm0zOUVnejNSVS0xN3Q0SDRSYmpfN0FIcDBLWVVnZXJBSGJVRlZ1QUVKMUdBdDhHZlJXakJpajlrQlIwUXRNTFNuYkpkOFNKNXFvQ0RaNnc5dTRQVDE2dllDYTNFVVotOFhqdmd1clRJUXhSSGNPbHQ0MVJEOWF2MFhralRlM0xNZGVDVnZQUk50REVoNDNJSVlnbVNzcTdDeGRYV01MekJiX2hKcjJ3RkhWTmNkOHZyeUNxY3pzcGY4eGZZTlRDUUxKRDE3bWlrNS1wSGhocm55RQ?oc=5",
+   "title": "Indemnizarán con 4.800 euros a una intérprete de lengua de signos por casi doce años de abuso de temporalidad",
+   "date_published": "2026-11-27T12:54:23Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "La Voz de Galicia",
+   "_importancia": 4
+  },
+  {
+   "id": "https://confilegal.com/20261127-perez-llorca-conquista-cuatro-premios-internacionales-y-se-corona-como-mejor-despacho-de-la-peninsula-iberica/",
+   "url": "https://confilegal.com/20261127-perez-llorca-conquista-cuatro-premios-internacionales-y-se-corona-como-mejor-despacho-de-la-peninsula-iberica/",
+   "title": "Pérez-Llorca conquista cuatro premios internacionales y se corona como mejor despacho de la península ibérica",
+   "date_published": "2026-11-27T12:19:56Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": -2
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNHctU3V2dlgwaldZVFpRZU9VbWliNVZYTDQ1YllEeGhRRl9XT0JOeXRMWURrWXIwN2pZWE1xNFY2UV9HWEFDbVd0Tl9weFQwMEpSdzhITHdHdy1UWjlrSmt5b2tGTXBPMUNHUnBSaEk1djB1WGpQbzhxMFZkOWE0cF9hak1ySHoybFNWUlQzOUVLRnJuYlVrTlBIVQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNHctU3V2dlgwaldZVFpRZU9VbWliNVZYTDQ1YllEeGhRRl9XT0JOeXRMWURrWXIwN2pZWE1xNFY2UV9HWEFDbVd0Tl9weFQwMEpSdzhITHdHdy1UWjlrSmt5b2tGTXBPMUNHUnBSaEk1djB1WGpQbzhxMFZkOWE0cF9hak1ySHoybFNWUlQzOUVLRnJuYlVrTlBIVQ?oc=5",
+   "title": "El Gobierno vuelve a nombrar a Eladio Santos subdelegado en Ourense tras la anulación del TSXG",
+   "date_published": "2026-11-27T11:39:00Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "La Región",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/allianz-condenada-a-pagar-148-000-euros-a-un-asegurado-que-no-declaro-una-enfermedad-ocular-sobre-la-que-nunca-le-preguntaron/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/allianz-condenada-a-pagar-148-000-euros-a-un-asegurado-que-no-declaro-una-enfermedad-ocular-sobre-la-que-nunca-le-preguntaron/",
+   "title": "Allianz, condenada a pagar 148.000 euros a un asegurado que no declaró una enfermedad ocular sobre la que no le preguntaron",
+   "date_published": "2026-11-27T11:00:50Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/condenados-a-retirar-dos-ventanas-velux-abiertas-en-el-tejado-comunitario-sin-permiso-de-la-comunidad/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/condenados-a-retirar-dos-ventanas-velux-abiertas-en-el-tejado-comunitario-sin-permiso-de-la-comunidad/",
+   "title": "Condenados a retirar dos ventanas velux abiertas en el tejado comunitario sin permiso de la comunidad",
+   "date_published": "2026-11-27T11:00:19Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/dieron-de-comer-a-los-mayores-31-meses-con-el-contrato-caducado-y-ahora-ganan-el-pulso-a-la-generalitat/",
+   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/dieron-de-comer-a-los-mayores-31-meses-con-el-contrato-caducado-y-ahora-ganan-el-pulso-a-la-generalitat/",
+   "title": "Dieron de comer a los mayores 31 meses con el contrato caducado y ahora ganan el pulso a la Generalitat",
+   "date_published": "2026-11-27T11:00:18Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/el-abuso-del-decreto-ley-seguridad-juridica-deliberacion-parlamentaria-y-expansion-reciente-en-materia-de-vivienda-parte-ii/",
+   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/el-abuso-del-decreto-ley-seguridad-juridica-deliberacion-parlamentaria-y-expansion-reciente-en-materia-de-vivienda-parte-ii/",
+   "title": "El abuso del decreto-ley: seguridad jurídica, deliberación parlamentaria y expansión reciente en materia de vivienda (parte II)",
+   "date_published": "2026-11-27T11:00:18Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Economist & Jurist",
+   "_importancia": 1
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMlRpZGpxaTdHQzhhLUJWZkVEeFVWT2ZBYnpkX0NWUDJ1bnJ6a2hvNjh2bms5bzktWkM4d19BNUxVMXNmQ1FuRXdNekZjY0I5QnFORTBrUld6ODdIUFVDMDY5bkhSNDJXRUdMdGZneVUzX1lDWmVPa0tGLVN5WWZXSXRfNVFqVFFCTzNmQ0NEWlF5ZTNLd3U2SWVEeVYwek5ka2VPV1NjZXFWa1JUczlCbEZIMnRWekJ6bTVkTUlZZ0lqTEQ1MnplRWF6dnNXbjN0eFQzcjVvN3l1WnlnRzJuMTVTWG5XT0MtOVkwaA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMlRpZGpxaTdHQzhhLUJWZkVEeFVWT2ZBYnpkX0NWUDJ1bnJ6a2hvNjh2bms5bzktWkM4d19BNUxVMXNmQ1FuRXdNekZjY0I5QnFORTBrUld6ODdIUFVDMDY5bkhSNDJXRUdMdGZneVUzX1lDWmVPa0tGLVN5WWZXSXRfNVFqVFFCTzNmQ0NEWlF5ZTNLd3U2SWVEeVYwek5ka2VPV1NjZXFWa1JUczlCbEZIMnRWekJ6bTVkTUlZZ0lqTEQ1MnplRWF6dnNXbjN0eFQzcjVvN3l1WnlnRzJuMTVTWG5XT0MtOVkwaA?oc=5",
+   "title": "El Gobierno vuelve a nombrar a Eladio Santos como subdelegado en Ourense después de que el TSXG anulase su designación",
+   "date_published": "2026-11-27T10:25:20Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "GC Diario",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/27/la-abogacia-de-zaragoza-aborda-el-ciberacoso-y-la-violencia-sexual-a-traves-de-las-nuevas-tecnologias/",
+   "url": "https://www.lawyerpress.com/2026/11/27/la-abogacia-de-zaragoza-aborda-el-ciberacoso-y-la-violencia-sexual-a-traves-de-las-nuevas-tecnologias/",
+   "title": "La Abogacía de Zaragoza aborda el ciberacoso y la violencia sexual a través de las nuevas tecnologías",
+   "date_published": "2026-11-27T09:56:32Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 3
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/27/un-juzgado-de-palma-condena-a-bbva-a-devolver-2-938-euros-a-un-cliente-victima-de-un-fraude-por-sms/",
+   "url": "https://www.lawyerpress.com/2026/11/27/un-juzgado-de-palma-condena-a-bbva-a-devolver-2-938-euros-a-un-cliente-victima-de-un-fraude-por-sms/",
+   "title": "Un juzgado de Palma condena a BBVA a devolver 2.938 euros a un cliente víctima de un fraude por SMS",
+   "date_published": "2026-11-27T09:51:37Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://confilegal.com/20261127-las-brechas-de-datos-aumentan-un-153-pese-al-cierre-policial-de-los-grandes-foros-de-la-darknet/",
+   "url": "https://confilegal.com/20261127-las-brechas-de-datos-aumentan-un-153-pese-al-cierre-policial-de-los-grandes-foros-de-la-darknet/",
+   "title": "Las brechas de datos aumentan un 15,3 % pese al cierre policial de los grandes foros de la «darknet»",
+   "date_published": "2026-11-27T09:41:37Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261127-maia-roman-fernandez-primera-decana-colegio-abogados-alcala-de-henares/",
+   "url": "https://confilegal.com/20261127-maia-roman-fernandez-primera-decana-colegio-abogados-alcala-de-henares/",
+   "title": "Maia Román, nueva decana del Colegio de Abogados de Alcalá de Henares al no haber concurrido otra candidatura",
+   "date_published": "2026-11-27T07:30:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 4
+  },
+  {
+   "id": "https://confilegal.com/20261127-gestores-administrativos-iva-franquiciado-autonomos/",
+   "url": "https://confilegal.com/20261127-gestores-administrativos-iva-franquiciado-autonomos/",
+   "title": "Los gestores administrativos denuncian que España sigue cerrando la puerta al IVA franquiciado: pierden los autónomos y los consumidores",
+   "date_published": "2026-11-27T04:44:00Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261127-iii-premios-inkietos-2026-innovacion-transformacion-abogacia/",
+   "url": "https://confilegal.com/20261127-iii-premios-inkietos-2026-innovacion-transformacion-abogacia/",
+   "title": "Inkietos premia a Rosalina Díaz, Hugo Écija, Santander y EY-Fundación Integra: «No os deseo tranquilidad, os deseo inquietud»",
+   "date_published": "2026-11-27T04:43:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261127-el-icam-renueva-su-portal-de-empleo-tras-15-anos-para-facilitar-la-contratacion-de-abogados-y-la-captacion-de-talento-juridico/",
+   "url": "https://confilegal.com/20261127-el-icam-renueva-su-portal-de-empleo-tras-15-anos-para-facilitar-la-contratacion-de-abogados-y-la-captacion-de-talento-juridico/",
+   "title": "El ICAM renueva su Portal de Empleo tras 15 años para facilitar la contratación de abogados y la captación de talento jurídico",
+   "date_published": "2026-11-27T04:42:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://confilegal.com/20261127-aecid-condenada-a-pagar-mas-de-100-000-euros-a-7-trabajadores-por-no-abonarles-sus-complementos-salariales/",
+   "url": "https://confilegal.com/20261127-aecid-condenada-a-pagar-mas-de-100-000-euros-a-7-trabajadores-por-no-abonarles-sus-complementos-salariales/",
+   "title": "AECID, condenada a pagar más de 100.000 euros a 7 trabajadores por no abonarles sus complementos salariales",
+   "date_published": "2026-11-27T04:42:00Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Confilegal",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/gases-refrigerantes-nuevas-reglas-venta-e-instalacion-37306",
+   "url": "https://www.iberley.es/noticias/gases-refrigerantes-nuevas-reglas-venta-e-instalacion-37306",
+   "title": "Gases refrigerantes: nuevas reglas de venta e instalación",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/el-supremo-limita-agravacion-sanciones-tributarias-facturas-falseadas-37204",
+   "url": "https://www.iberley.es/noticias/el-supremo-limita-agravacion-sanciones-tributarias-facturas-falseadas-37204",
+   "title": "El Supremo limita la agravación de sanciones tributarias por facturas falseadas",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/rd-1037-2026-informacion-comite-clinico-aborto-37304",
+   "url": "https://www.iberley.es/noticias/rd-1037-2026-informacion-comite-clinico-aborto-37304",
+   "title": "RD 1037/2026: información y comité clínico en el aborto",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 2
+  },
+  {
+   "id": "https://www.iberley.es/noticias/seguridad-social-acogimiento-dedicacion-exclusiva-37303",
+   "url": "https://www.iberley.es/noticias/seguridad-social-acogimiento-dedicacion-exclusiva-37303",
+   "title": "Seguridad Social para el acogimiento a dedicación exclusiva",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "Tributario",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 5
+  },
+  {
+   "id": "https://www.iberley.es/noticias/la-indemnizacion-despido-cuenta-perder-imv-37253",
+   "url": "https://www.iberley.es/noticias/la-indemnizacion-despido-cuenta-perder-imv-37253",
+   "title": "La indemnización por despido cuenta para perder el IMV",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "Civil",
+    "españa"
+   ],
+   "_fuente": "Iberley",
+   "_importancia": 5
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdUtvU05pYlRvaTRqSUJTYmNrdE1vajBkck9HOUdEbE5qWWVFMXlfUnVJRDhZSlEtbXN1TnVHZGhTM3IwZ3VZRXI5WTdpVmliUTBFRWVzbXBfSnd2b0pkakl6U3RPREl6NjhSQkYtYnpCT2V1QWtBY3ZEcERCcjBoUDBLRkxiYUZJMTY2RUpFR25WdnJBSk4zVmpocjFMSTVKNndVYVRwc0ZaOXp0eXBjektvTS11WnFGTGJHRG94WTdHc29GSGIxMUpMZlZzdldnbWlqMmRuSmZmVGNpVjhTQWxzQmMzeWVob3Z5b1dsTdIBiwJBVV95cUxQZ1Y4MkduREEwZkx2WVFvRG5OV3BpODFpSDlQUXo4ajVGbG9LTHExNmdzUnFPaHRlb0tqMnQ0LXZkOWp5T0xhYjV4M2xxOE9CcTAtVzVXVDVfVWppRVRUS3JmQXZfcWl4QmtmWkdOM1VNX1hpM2pNZVJyMzJvdV9fV01xMGZpVVNIaldBeEFyU0RzMXhxbzlPbjJwbl9oNzRmd05KT1NVa2JaRWZBZVRpUURlaDhJYzBYSURld3I0VGZaVVkwM2Y0dzN1RGwyNlpPUmRMV2FxSWc1ellwWGtuZkxTa3NDVnlaRkhQSXp2Mjk5bm9ScDVHR292cDNuN0R3c2F4eWVmLUs1SVk?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdUtvU05pYlRvaTRqSUJTYmNrdE1vajBkck9HOUdEbE5qWWVFMXlfUnVJRDhZSlEtbXN1TnVHZGhTM3IwZ3VZRXI5WTdpVmliUTBFRWVzbXBfSnd2b0pkakl6U3RPREl6NjhSQkYtYnpCT2V1QWtBY3ZEcERCcjBoUDBLRkxiYUZJMTY2RUpFR25WdnJBSk4zVmpocjFMSTVKNndVYVRwc0ZaOXp0eXBjektvTS11WnFGTGJHRG94WTdHc29GSGIxMUpMZlZzdldnbWlqMmRuSmZmVGNpVjhTQWxzQmMzeWVob3Z5b1dsTdIBiwJBVV95cUxQZ1Y4MkduREEwZkx2WVFvRG5OV3BpODFpSDlQUXo4ajVGbG9LTHExNmdzUnFPaHRlb0tqMnQ0LXZkOWp5T0xhYjV4M2xxOE9CcTAtVzVXVDVfVWppRVRUS3JmQXZfcWl4QmtmWkdOM1VNX1hpM2pNZVJyMzJvdV9fV01xMGZpVVNIaldBeEFyU0RzMXhxbzlPbjJwbl9oNzRmd05KT1NVa2JaRWZBZVRpUURlaDhJYzBYSURld3I0VGZaVVkwM2Y0dzN1RGwyNlpPUmRMV2FxSWc1ellwWGtuZkxTa3NDVnlaRkhQSXp2Mjk5bm9ScDVHR292cDNuN0R3c2F4eWVmLUs1SVk?oc=5",
+   "title": "El TSXG avala la extinción de una baja médica por no acudir a las citas de la mutua comunicadas mediante SMS",
+   "date_published": "2026-11-26T19:55:27Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "La Voz de Galicia",
+   "_importancia": 8
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdURtV1BPdHYwTjcyQjZfZTZQU0dvdmt6Q1dWQlZHRVg3RWxOdVE3OXRrMzI2a3BCWFFHZVlhWnFRSUd6eXFvb0hqRnJmWDlqT3A3VGgyRmdFNU5rRkdmYTRIMWhtT25Kcm9Qa3JFWnBBdm5kVjlaelNnNDdLQ3dkdkprZXdLNjFFM1VFampQY0hjNW5NT1BRQVZodFZYb2JhQ0psSVFoONIBrAFBVV95cUxOUnEyN0ZWT0laOEZoSkpPYUc2WUJWdFZ3OXZzbk9iUHh4N0ZocDVTaElEeGh1a0d4c194TjdPVU05bnkyT09pd0pRSWxzQTlHZF9KMzJ3aHlBR09uamYwYjJJRk1zazZqVUlvWHBiQjRYX3ZUQTc2UnJFUWRzQ28wSHpZV01MSGxveDEyNTJhMGxfOGc2ckNIeTh0LVlPN2RLai1LSUI0NGpvNnVa?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdURtV1BPdHYwTjcyQjZfZTZQU0dvdmt6Q1dWQlZHRVg3RWxOdVE3OXRrMzI2a3BCWFFHZVlhWnFRSUd6eXFvb0hqRnJmWDlqT3A3VGgyRmdFNU5rRkdmYTRIMWhtT25Kcm9Qa3JFWnBBdm5kVjlaelNnNDdLQ3dkdkprZXdLNjFFM1VFampQY0hjNW5NT1BRQVZodFZYb2JhQ0psSVFoONIBrAFBVV95cUxOUnEyN0ZWT0laOEZoSkpPYUc2WUJWdFZ3OXZzbk9iUHh4N0ZocDVTaElEeGh1a0d4c194TjdPVU05bnkyT09pd0pRSWxzQTlHZF9KMzJ3aHlBR09uamYwYjJJRk1zazZqVUlvWHBiQjRYX3ZUQTc2UnJFUWRzQ28wSHpZV01MSGxveDEyNTJhMGxfOGc2ckNIeTh0LVlPN2RLai1LSUI0NGpvNnVa?oc=5",
+   "title": "El TSXG avala la demolición de una edificación auxiliar junto a la playa de Rodeira",
+   "date_published": "2026-11-26T19:30:35Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Faro de Vigo",
+   "_importancia": 8
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeGVSS3dCNUZxbXczc1Z5Q2cwUzFOT3FyRlNYczdhTkJtSmRpVlUxb2p4WGdpNUFBa0NldW9xc1MtRlBmR1NNcjlzNW5KbHg1bGptYkxCbXV1LUZJV3RGWjg3NEM1RWFaSU9XX3BSREpVQjBzeUluOUpYWEhnQWc2T3hta2tNNTlaMTNGLWxSQS1QQ2REU0ZSSnhJY2NqOVlYX1Jqa1htNGt3QkpsRDBTbk1WcHFieDIzV3N5QVpiV1RmUl9OTmh5Yg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeGVSS3dCNUZxbXczc1Z5Q2cwUzFOT3FyRlNYczdhTkJtSmRpVlUxb2p4WGdpNUFBa0NldW9xc1MtRlBmR1NNcjlzNW5KbHg1bGptYkxCbXV1LUZJV3RGWjg3NEM1RWFaSU9XX3BSREpVQjBzeUluOUpYWEhnQWc2T3hta2tNNTlaMTNGLWxSQS1QQ2REU0ZSSnhJY2NqOVlYX1Jqa1htNGt3QkpsRDBTbk1WcHFieDIzV3N5QVpiV1RmUl9OTmh5Yg?oc=5",
+   "title": "El actor y empresario francés Gérard Depardieu será juzgado por un caso de violación",
+   "date_published": "2026-11-26T17:23:09Z",
+   "tags": [
+    "Mercantil",
+    "galicia"
+   ],
+   "_fuente": "Europa Press",
+   "_importancia": 4
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVGdEUkxUQ3VWaW1hbFRfbXZtYkU3eUJsdWJXaTZjYlZ4RVFERzVzX1U2WHFoUU1QQTZiNTI1QTVVbXhGdzN6YWp3eTZhaUFyMXVHNjhWZDViQ3NEVUJqMkJSd0xxUUR2REktQjBTeGd5bEp2dUNJQ2V5cHR5UWNQQVptdnpuRUlJWVJlMl9mdDFJTzFzQnhGY25wNVJDREp5UVpRZFNnVWJwMGZTVWQ0UktFTUUxVFpGMVJTd0VqWdIBxAFBVV95cUxONUlCRkY2U0NfSFNsWUZ2bElVTWZMdTBRLUQzRGI1cHAyVVBUVzZPeUszclBaVUNjOWl5V3l2VkZGZE02RWs3YUljdXBRS0l1MkNLczlMSDY4eVRDZWp3TGtvSzlHUXl1TVV2VndvWmJqZ29UUlo5NmZ5WVZtSFl6eU0taDBKU2QtZ1Vua0loVFE2WEtBMnVDSG1GOWdvVUVDOE1GMnpRR0I5X29aRWQ4aFduVWlVRTFCZ21jcVp0NmNXVEJt?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVGdEUkxUQ3VWaW1hbFRfbXZtYkU3eUJsdWJXaTZjYlZ4RVFERzVzX1U2WHFoUU1QQTZiNTI1QTVVbXhGdzN6YWp3eTZhaUFyMXVHNjhWZDViQ3NEVUJqMkJSd0xxUUR2REktQjBTeGd5bEp2dUNJQ2V5cHR5UWNQQVptdnpuRUlJWVJlMl9mdDFJTzFzQnhGY25wNVJDREp5UVpRZFNnVWJwMGZTVWQ0UktFTUUxVFpGMVJTd0VqWdIBxAFBVV95cUxONUlCRkY2U0NfSFNsWUZ2bElVTWZMdTBRLUQzRGI1cHAyVVBUVzZPeUszclBaVUNjOWl5V3l2VkZGZE02RWs3YUljdXBRS0l1MkNLczlMSDY4eVRDZWp3TGtvSzlHUXl1TVV2VndvWmJqZ29UUlo5NmZ5WVZtSFl6eU0taDBKU2QtZ1Vua0loVFE2WEtBMnVDSG1GOWdvVUVDOE1GMnpRR0I5X29aRWQ4aFduVWlVRTFCZ21jcVp0NmNXVEJt?oc=5",
+   "title": "Depardieu será juzgado por la violación de Charlotte Arnould",
+   "date_published": "2026-11-26T15:54:34Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "MUNDIARIO",
+   "_importancia": 4
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/26/el-icam-renueva-su-portal-de-empleo-con-busquedas-especializadas-y-gestion-de-candidaturas/",
+   "url": "https://www.lawyerpress.com/2026/11/26/el-icam-renueva-su-portal-de-empleo-con-busquedas-especializadas-y-gestion-de-candidaturas/",
+   "title": "El ICAM renueva su Portal de Empleo con búsquedas especializadas y gestión de candidaturas",
+   "date_published": "2026-11-26T15:52:20Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/26/la-catedra-andersen-upv-situa-la-seguridad-juridica-como-condicion-para-impulsar-la-autonomia-energetica-europea/",
+   "url": "https://www.lawyerpress.com/2026/11/26/la-catedra-andersen-upv-situa-la-seguridad-juridica-como-condicion-para-impulsar-la-autonomia-energetica-europea/",
+   "title": "La Cátedra Andersen-UPV sitúa la seguridad jurídica como condición para impulsar la autonomía energética europea",
+   "date_published": "2026-11-26T15:47:40Z",
+   "tags": [
+    "General",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
+   "id": "https://www.lawyerpress.com/2026/11/26/la-condena-a-juan-francisco-ramirez-incluye-un-decomiso-de-mas-de-136-millones-de-dolares/",
+   "url": "https://www.lawyerpress.com/2026/11/26/la-condena-a-juan-francisco-ramirez-incluye-un-decomiso-de-mas-de-136-millones-de-dolares/",
+   "title": "La condena a Juan Francisco Ramírez incluye un decomiso de más de 13,6 millones de dólares",
+   "date_published": "2026-11-26T15:30:50Z",
+   "tags": [
+    "Penal",
+    "españa"
+   ],
+   "_fuente": "Lawyerpress",
+   "_importancia": 1
+  },
+  {
    "id": "https://confilegal.com/20261126-andema-advierte-de-que-europa-no-podra-liderar-la-innovacion-sin-proteger-la-propiedad-industrial/",
    "url": "https://confilegal.com/20261126-andema-advierte-de-que-europa-no-podra-liderar-la-innovacion-sin-proteger-la-propiedad-industrial/",
    "title": "ANDEMA advierte de que Europa no podrá liderar la innovación sin proteger la propiedad industrial",
@@ -100,6 +568,18 @@
     "españa"
    ],
    "_fuente": "Confilegal",
+   "_importancia": 4
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSmFKT3dqNW5ERHFEMEJZOFJtbDdOOGROb0xzTW1mc290UFBidjhTMjZYV25yek03NjlLSXJaRXZrRG1abHFXSXRMeGYwaEdXejN5d1BmZDlVRXE1YWZNMUdXZ2ktLUxZTXFINmoxZEJEMzhMV0Nfd1VlOEN5UExnbkl5aC1pLXdCQTNLNm9SZmhZYV9VeUlrUUJWUHVCM1NScE5DTmdYRzhPUHZKNy1NUU40Ym5zNExJUWVWZFVJbXFlTF9WWDRkeFVTdTFobC1LZTVrbVRDRzhCQ1dLeVB1T3VCNUVYbEVsM2JQcWN4UQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSmFKT3dqNW5ERHFEMEJZOFJtbDdOOGROb0xzTW1mc290UFBidjhTMjZYV25yek03NjlLSXJaRXZrRG1abHFXSXRMeGYwaEdXejN5d1BmZDlVRXE1YWZNMUdXZ2ktLUxZTXFINmoxZEJEMzhMV0Nfd1VlOEN5UExnbkl5aC1pLXdCQTNLNm9SZmhZYV9VeUlrUUJWUHVCM1NScE5DTmdYRzhPUHZKNy1NUU40Ym5zNExJUWVWZFVJbXFlTF9WWDRkeFVTdTFobC1LZTVrbVRDRzhCQ1dLeVB1T3VCNUVYbEVsM2JQcWN4UQ?oc=5",
+   "title": "El Tribunal de Apelación de París ratifica que el actor Gérard Depardieu será juzgado por un caso de violación",
+   "date_published": "2026-11-26T14:09:24Z",
+   "tags": [
+    "General",
+    "galicia"
+   ],
+   "_fuente": "Europa Press",
    "_importancia": 4
   },
   {
@@ -244,486 +724,6 @@
     "españa"
    ],
    "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/zbloque-1/la-reputacion-digital-de-los-despachos-cuando-la-confianza-del-cliente-tambien-se-mide-en-resenas/",
-   "url": "https://www.economistjurist.es/zbloque-1/la-reputacion-digital-de-los-despachos-cuando-la-confianza-del-cliente-tambien-se-mide-en-resenas/",
-   "title": "La reputación digital de los despachos: cuando la confianza del cliente también se mide en reseñas",
-   "date_published": "2026-11-26T11:00:11Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/26/lawesome-asesora-a-profesiolan-en-el-cierre-de-una-ronda-de-financiacion-de-690-000-euros/",
-   "url": "https://www.lawyerpress.com/2026/11/26/lawesome-asesora-a-profesiolan-en-el-cierre-de-una-ronda-de-financiacion-de-690-000-euros/",
-   "title": "Lawesome asesora a Profesiolan en el cierre de una ronda de financiación de 690.000 euros",
-   "date_published": "2026-11-26T10:58:26Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/26/el-iv-congreso-aranzadi-de-abogados-in-house-aborda-el-papel-estrategico-de-las-asesorias-juridicas/",
-   "url": "https://www.lawyerpress.com/2026/11/26/el-iv-congreso-aranzadi-de-abogados-in-house-aborda-el-papel-estrategico-de-las-asesorias-juridicas/",
-   "title": "El IV Congreso Aranzadi de Abogados In-House aborda el papel estratégico de las asesorías jurídicas",
-   "date_published": "2026-11-26T10:51:51Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/26/mascwell-propone-combinar-ia-y-trazabilidad-documental-para-gestionar-reclamaciones-y-masc/",
-   "url": "https://www.lawyerpress.com/2026/11/26/mascwell-propone-combinar-ia-y-trazabilidad-documental-para-gestionar-reclamaciones-y-masc/",
-   "title": "MASCWELL propone combinar IA y trazabilidad documental para gestionar reclamaciones y MASC",
-   "date_published": "2026-11-26T10:47:53Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/26/la-abogacia-de-malaga-reconoce-a-sus-profesionales-por-25-y-50-anos-de-colegiacion/",
-   "url": "https://www.lawyerpress.com/2026/11/26/la-abogacia-de-malaga-reconoce-a-sus-profesionales-por-25-y-50-anos-de-colegiacion/",
-   "title": "La Abogacía de Málaga reconoce a sus profesionales por 25 y 50 años de colegiación",
-   "date_published": "2026-11-26T10:39:52Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 3
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/cajas-de-carton-el-voto-reservado-que-nadie-diseno/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/cajas-de-carton-el-voto-reservado-que-nadie-diseno/",
-   "title": "Cajas de cartón: el voto reservado que nadie diseñó",
-   "date_published": "2026-11-26T06:00:42Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261126-justicia-gran-olvidada-campana-electoral-cgpj/",
-   "url": "https://confilegal.com/20261126-justicia-gran-olvidada-campana-electoral-cgpj/",
-   "title": "Opinión | La justicia, la gran olvidada de la campaña electoral",
-   "date_published": "2026-11-26T05:33:45Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261126-felipe-gonzalez-millones-de-votos-badajoz/",
-   "url": "https://confilegal.com/20261126-felipe-gonzalez-millones-de-votos-badajoz/",
-   "title": "Opinión | La reticencia de Felipe González",
-   "date_published": "2026-11-26T05:12:45Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261126-del-algoritmo-al-juzgado-las-nuevas-reglas-que-permitiran-reclamar-danos-por-fallos-de-inteligencia-artificial/",
-   "url": "https://confilegal.com/20261126-del-algoritmo-al-juzgado-las-nuevas-reglas-que-permitiran-reclamar-danos-por-fallos-de-inteligencia-artificial/",
-   "title": "Del algoritmo al juzgado: las nuevas reglas que permitirán reclamar daños por fallos de inteligencia artificial",
-   "date_published": "2026-11-26T04:43:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/nuevo-plan-estatal-frente-amenazas-graves-salud-37298",
-   "url": "https://www.iberley.es/noticias/nuevo-plan-estatal-frente-amenazas-graves-salud-37298",
-   "title": "Nuevo Plan Estatal frente a amenazas graves para la salud",
-   "date_published": "2026-11-26T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/el-supremo-confirma-cinco-anos-medio-un-procurador-apropiarse-fondos-clientes-37299",
-   "url": "https://www.iberley.es/noticias/el-supremo-confirma-cinco-anos-medio-un-procurador-apropiarse-fondos-clientes-37299",
-   "title": "El Supremo confirma cinco años y medio a un procurador por apropiarse de fondos de clientes",
-   "date_published": "2026-11-26T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/la-dgt-aclara-que-gastos-hereditarios-aumentan-valor-adquisicion-37273",
-   "url": "https://www.iberley.es/noticias/la-dgt-aclara-que-gastos-hereditarios-aumentan-valor-adquisicion-37273",
-   "title": "La DGT aclara qué gastos hereditarios aumentan el valor de adquisición",
-   "date_published": "2026-11-26T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/la-dgt-aclara-iva-transporte-escolar-financiado-publicamente-37261",
-   "url": "https://www.iberley.es/noticias/la-dgt-aclara-iva-transporte-escolar-financiado-publicamente-37261",
-   "title": "La DGT aclara el IVA del transporte escolar financiado públicamente",
-   "date_published": "2026-11-26T00:00:00Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/15-000-euros-denegar-teletrabajo-forma-discriminatoria-37288",
-   "url": "https://www.iberley.es/noticias/15-000-euros-denegar-teletrabajo-forma-discriminatoria-37288",
-   "title": "15.000 euros por denegar el teletrabajo de forma discriminatoria",
-   "date_published": "2026-11-26T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.iberley.es/noticias/la-perdida-vision-un-ojo-justifica-ipt-soldador-37251",
-   "url": "https://www.iberley.es/noticias/la-perdida-vision-un-ojo-justifica-ipt-soldador-37251",
-   "title": "La pérdida de visión de un ojo justifica la IPT del soldador",
-   "date_published": "2026-11-26T00:00:00Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Iberley",
-   "_importancia": 2
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbWZfUm5zeEZ1YnBYa2dvb2ItbDhodlQ3dEctMUlaU3JleFp3cWppQVNtdktzbnJXTVN4MmFuV3gyWExjOHB1Y0ZfMjVmRDhmR1NoSlVpQl9fM0tDTVJpOGxVUEtKZjVvcDZlUkRMQ2FuWUtlWkNRcFFzcGlmMHA4YXl4V0hDRlFjMTVsYy1sbGRtWXJ1MEQzTmZneGplMlVhRmhBdjQ0SWhNbkVXRllDc21Kb29IQndBNURwVVpRbkZjOTRWNEZFdEVrUmczQnFva3pfRzRZUXhfc1RjZkFYdFpMdVdnd2VMTHhib2I5YUdpRG5ibmRiRDYyLXB6N21DY2Yw0gGDAkFVX3lxTE1tZl9SbnN4RnVicFhrZ29vYi1sOGh2VDd0Ry0xSVpTcmV4WndxamlBU212S3NucldNU3gyYW5XeDJYTGM4cHVjRl8yNWZEOGZHU2hKVWlCX18zS0NNUmk4bFVQS0pmNW9wNmVSRExDYW5ZS2VaQ1FwUXNwaWYwcDhheXhXSENGUWMxNWxjLWxsZG1ZcnUwRDNOZmd4amUyVWFGaEF2NDRJaE1uRVdGWUNzbUpvb0hCd0E1RHBVWlFuRmM5NFY0RkV0RWtSZzNCcW9rel9HNFlReF9zVGNmQVh0Wkx1V2d3ZUxMeGJvYjlhR2lEbmJuZGJENjItcHo3bUNjZjA?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbWZfUm5zeEZ1YnBYa2dvb2ItbDhodlQ3dEctMUlaU3JleFp3cWppQVNtdktzbnJXTVN4MmFuV3gyWExjOHB1Y0ZfMjVmRDhmR1NoSlVpQl9fM0tDTVJpOGxVUEtKZjVvcDZlUkRMQ2FuWUtlWkNRcFFzcGlmMHA4YXl4V0hDRlFjMTVsYy1sbGRtWXJ1MEQzTmZneGplMlVhRmhBdjQ0SWhNbkVXRllDc21Kb29IQndBNURwVVpRbkZjOTRWNEZFdEVrUmczQnFva3pfRzRZUXhfc1RjZkFYdFpMdVdnd2VMTHhib2I5YUdpRG5ibmRiRDYyLXB6N21DY2Yw0gGDAkFVX3lxTE1tZl9SbnN4RnVicFhrZ29vYi1sOGh2VDd0Ry0xSVpTcmV4WndxamlBU212S3NucldNU3gyYW5XeDJYTGM4cHVjRl8yNWZEOGZHU2hKVWlCX18zS0NNUmk4bFVQS0pmNW9wNmVSRExDYW5ZS2VaQ1FwUXNwaWYwcDhheXhXSENGUWMxNWxjLWxsZG1ZcnUwRDNOZmd4amUyVWFGaEF2NDRJaE1uRVdGWUNzbUpvb0hCd0E1RHBVWlFuRmM5NFY0RkV0RWtSZzNCcW9rel9HNFlReF9zVGNmQVh0Wkx1V2d3ZUxMeGJvYjlhR2lEbmJuZGJENjItcHo3bUNjZjA?oc=5",
-   "title": "El Supremo avala al TSXG y anula el plan aprobado por la Xunta para activar la cantera de A Casalonga",
-   "date_published": "2026-11-25T18:09:00Z",
-   "tags": [
-    "Tributario",
-    "galicia"
-   ],
-   "_fuente": "La Voz de Galicia",
-   "_importancia": 8
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/25/un-libro-recorre-los-cien-anos-del-palacio-ansoti-como-sede-del-notariado-en-granada/",
-   "url": "https://www.lawyerpress.com/2026/11/25/un-libro-recorre-los-cien-anos-del-palacio-ansoti-como-sede-del-notariado-en-granada/",
-   "title": "Un libro recorre los cien años del Palacio Ansoti como sede del notariado en Granada",
-   "date_published": "2026-11-25T17:39:43Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOZkZzZjJVQXh5N2Zoa2htcXJkS3gwM0xyS19RNE84dWpjUjhlWU1DTF92djV2OTVVcXZELXJ4dVlLUDVRMEozVUZTdV9KRzh2a283UzY3cEJESG95cDlBa1V1dWw1SHZwX2MwY3IyV2RlVXhfdmJqT01yT093cm0yRmNSRUFJb1FRazJfdjhDaDlacldQVWphRW94SWd3b1pDc0FfQVl4ckFKZEFodkZacFVQc3FPQzd6aWxZb1VmMG5WcWdNamN5NnBxUTVHV2xUTEZrX0NWOVlDZnVjU0RFM0Jlb2lJUWV0X2VvNVpKX2JNajV2QkVKbWxuNEw1cmNieUJaVnc0V0dXcW5uaENoeUg5TjR6V3lHNWhoNlB0YUhUUW9uVlhOMmRKRENPWlROT2taUm1R0gG7AkFVX3lxTE8zcmZIZDZweTY4OE44eVRzMW1PNURicUJuYWt3djB4WWpEbkZGYVdLQjNYZDNoWEFMS0JRazZ1aG4xd0Nqb3BKLXhTZFhkNWlsS3NoWDVmOTVYb2hSWmx3dDZ6cDlZbTZBR1V6eENFeXBTZ19IbWFSckxvbGdsSGx6Y2N5UWs0TUJtRktrVjNuX253ZDZ5RkFmTnRNZ3FqdW1tTk01UWR6cEVGZTFtRHN4RTJ4RGJQcW9HWTBPWjNEYnVjZmV3QWFVSDhfcmctTGVVYUNpU2lVQUNlbXc3ejNGQU53UmhNc3ZQdkJIY0Q1TzhCeG9zMHlHVE1mWENsX0VybnpoUXluMG8weHNYWkY5UkJObFM0YTI4WGNiS1dpZWFwcnZDNXN6Y0RZUmstMDJnOWFaM3MydjVUOA?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOZkZzZjJVQXh5N2Zoa2htcXJkS3gwM0xyS19RNE84dWpjUjhlWU1DTF92djV2OTVVcXZELXJ4dVlLUDVRMEozVUZTdV9KRzh2a283UzY3cEJESG95cDlBa1V1dWw1SHZwX2MwY3IyV2RlVXhfdmJqT01yT093cm0yRmNSRUFJb1FRazJfdjhDaDlacldQVWphRW94SWd3b1pDc0FfQVl4ckFKZEFodkZacFVQc3FPQzd6aWxZb1VmMG5WcWdNamN5NnBxUTVHV2xUTEZrX0NWOVlDZnVjU0RFM0Jlb2lJUWV0X2VvNVpKX2JNajV2QkVKbWxuNEw1cmNieUJaVnc0V0dXcW5uaENoeUg5TjR6V3lHNWhoNlB0YUhUUW9uVlhOMmRKRENPWlROT2taUm1R0gG7AkFVX3lxTE8zcmZIZDZweTY4OE44eVRzMW1PNURicUJuYWt3djB4WWpEbkZGYVdLQjNYZDNoWEFMS0JRazZ1aG4xd0Nqb3BKLXhTZFhkNWlsS3NoWDVmOTVYb2hSWmx3dDZ6cDlZbTZBR1V6eENFeXBTZ19IbWFSckxvbGdsSGx6Y2N5UWs0TUJtRktrVjNuX253ZDZ5RkFmTnRNZ3FqdW1tTk01UWR6cEVGZTFtRHN4RTJ4RGJQcW9HWTBPWjNEYnVjZmV3QWFVSDhfcmctTGVVYUNpU2lVQUNlbXc3ejNGQU53UmhNc3ZQdkJIY0Q1TzhCeG9zMHlHVE1mWENsX0VybnpoUXluMG8weHNYWkY5UkJObFM0YTI4WGNiS1dpZWFwcnZDNXN6Y0RZUmstMDJnOWFaM3MydjVUOA?oc=5",
-   "title": "Carlos Tomé, abogado en A Coruña: \"Las denuncias falsas son una minoría. No hay más que pasarse una semana en el juzgado de violencia de género para ver cuál es la realidad\"",
-   "date_published": "2026-11-25T15:06:31Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "COPE",
-   "_importancia": 4
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/improcedente-el-despido-de-un-trabajador-de-lidl-que-se-bebio-tres-cafes-de-099-euros-que-habian-sido-retirados-de-la-venta/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/improcedente-el-despido-de-un-trabajador-de-lidl-que-se-bebio-tres-cafes-de-099-euros-que-habian-sido-retirados-de-la-venta/",
-   "title": "Improcedente el despido de un trabajador de Lidl que se bebió tres cafés de 0,99 euros que habían sido retirados de la venta",
-   "date_published": "2026-11-25T15:00:55Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 4
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/derecho-procesal/miguel-angel-gomez-arias-de-eix30-abogados-la-venta-extrajudicial-menos-garantista-en-lo-procesal-ofrece-hoy-al-deudor-el-tipo-mas-alto/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/derecho-procesal/miguel-angel-gomez-arias-de-eix30-abogados-la-venta-extrajudicial-menos-garantista-en-lo-procesal-ofrece-hoy-al-deudor-el-tipo-mas-alto/",
-   "title": "Miguel Ángel Gómez Arias, de Eix30 Abogados: «La venta extrajudicial, menos garantista en lo procesal, ofrece hoy al deudor el tipo más alto»",
-   "date_published": "2026-11-25T15:00:25Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/la-vivienda-asequible-empieza-mucho-antes-que-este-construida-empieza-cuando-las-personas-se-movilizan/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/la-vivienda-asequible-empieza-mucho-antes-que-este-construida-empieza-cuando-las-personas-se-movilizan/",
-   "title": "La vivienda asequible empieza mucho antes que este construida: empieza cuando las personas se movilizan",
-   "date_published": "2026-11-25T15:00:11Z",
-   "tags": [
-    "Civil",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/articulos-juridicos-destacados/requiem-por-el-segun-convenio-asi-transforman-el-rd-723-2026-y-el-rdl-39-2026-la-contratacion-los-salarios-y-el-riesgo-sancionador-en-las-empresas/",
-   "url": "https://www.economistjurist.es/articulos-juridicos-destacados/requiem-por-el-segun-convenio-asi-transforman-el-rd-723-2026-y-el-rdl-39-2026-la-contratacion-los-salarios-y-el-riesgo-sancionador-en-las-empresas/",
-   "title": "Réquiem por el «según convenio»: así transforman el RD 723/2026 y el RDL 39/2026 la contratación, los salarios y el riesgo sancionador en las empresas",
-   "date_published": "2026-11-25T15:00:01Z",
-   "tags": [
-    "Mercantil",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261125-los-peritos-judiciales-de-adamuz-apuntan-a-una-soldadura-mal-ejecutada-y-el-hundimiento-de-la-via-como-causa-del-accidente/",
-   "url": "https://confilegal.com/20261125-los-peritos-judiciales-de-adamuz-apuntan-a-una-soldadura-mal-ejecutada-y-el-hundimiento-de-la-via-como-causa-del-accidente/",
-   "title": "Los peritos judiciales de Adamuz apuntan a una soldadura mal ejecutada y el hundimiento de la vía como causa del accidente",
-   "date_published": "2026-11-25T13:30:10Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.economistjurist.es/premium/sala-2-0/demanda-por-despido-improcedente-4/",
-   "url": "https://www.economistjurist.es/premium/sala-2-0/demanda-por-despido-improcedente-4/",
-   "title": "Demanda por despido improcedente",
-   "date_published": "2026-11-25T13:11:58Z",
-   "tags": [
-    "Laboral",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 4
-  },
-  {
-   "id": "https://confilegal.com/20261125-burocracia-presion-fiscal-competitividad-pymes-gestores-administrativos/",
-   "url": "https://confilegal.com/20261125-burocracia-presion-fiscal-competitividad-pymes-gestores-administrativos/",
-   "title": "Los gestores administrativos advierten: «En España, el pequeño negocio no compite. Resiste»",
-   "date_published": "2026-11-25T13:00:01Z",
-   "tags": [
-    "Administrativo",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX0ZWUHdnTXFfSXVQeUtzOWhXdW1MdlZWM2VLWUVWeS1RN1pvVUNNTnJXQlBORU1vTFdwVmppelIxM29XNDF2U0tCcjlLMS03dHlvWGpwRkdnM3c4cWRLcWt4U0htRlRNY3NxS21fVHBLLWU3ejlnOVp6Ym5YRE5Sc0h0SWFRMi1fMjdmQnJ6V3pZUnVNZHZtNk1UclZoNVlVQWNjQjlhalJVOTB0N0NiRkxZYzJSNGhZYjk5VXZic3piLW1vTWNJVkFB?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX0ZWUHdnTXFfSXVQeUtzOWhXdW1MdlZWM2VLWUVWeS1RN1pvVUNNTnJXQlBORU1vTFdwVmppelIxM29XNDF2U0tCcjlLMS03dHlvWGpwRkdnM3c4cWRLcWt4U0htRlRNY3NxS21fVHBLLWU3ejlnOVp6Ym5YRE5Sc0h0SWFRMi1fMjdmQnJ6V3pZUnVNZHZtNk1UclZoNVlVQWNjQjlhalJVOTB0N0NiRkxZYzJSNGhZYjk5VXZic3piLW1vTWNJVkFB?oc=5",
-   "title": "Eladio Santos seguirá subdelegado en adscripción provisional",
-   "date_published": "2026-11-25T12:56:00Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "GaliciaPress",
-   "_importancia": 4
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/25/elena-annez-de-taboada-lanza-annez-una-practica-independiente-de-ma-y-gobierno-corporativo/",
-   "url": "https://www.lawyerpress.com/2026/11/25/elena-annez-de-taboada-lanza-annez-una-practica-independiente-de-ma-y-gobierno-corporativo/",
-   "title": "Elena Annez de Taboada lanza ANNEZ, una práctica independiente de M&A y gobierno corporativo",
-   "date_published": "2026-11-25T12:42:14Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/25/eskariam-solicita-acceso-a-pruebas-de-booking-para-preparar-reclamaciones-de-danos-de-hoteles-espanoles/",
-   "url": "https://www.lawyerpress.com/2026/11/25/eskariam-solicita-acceso-a-pruebas-de-booking-para-preparar-reclamaciones-de-danos-de-hoteles-espanoles/",
-   "title": "Eskariam solicita acceso a pruebas de Booking para preparar reclamaciones de daños de hoteles españoles",
-   "date_published": "2026-11-25T12:35:58Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261125-eskariam-prepara-una-demanda-contra-booking-en-nombre-de-mas-de-1-000-hoteles-por-danos-superiores-a-300-millones-de-euros/",
-   "url": "https://confilegal.com/20261125-eskariam-prepara-una-demanda-contra-booking-en-nombre-de-mas-de-1-000-hoteles-por-danos-superiores-a-300-millones-de-euros/",
-   "title": "Eskariam prepara una demanda contra Booking en nombre de más de 1.000 hoteles por daños superiores a 300 millones de euros",
-   "date_published": "2026-11-25T12:34:32Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261125-la-an-revoca-el-tercer-grado-de-henri-parot-por-la-gravedad-de-sus-crimenes-y-propone-dar-voz-a-las-victimas/",
-   "url": "https://confilegal.com/20261125-la-an-revoca-el-tercer-grado-de-henri-parot-por-la-gravedad-de-sus-crimenes-y-propone-dar-voz-a-las-victimas/",
-   "title": "La AN revoca el tercer grado de Henri Parot por la gravedad de sus crímenes y propone dar voz a las víctimas",
-   "date_published": "2026-11-25T12:28:12Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://confilegal.com/20261125-el-cgpj-reclama-reforzar-la-proteccion-de-las-victimas-de-violencia-cada-crimen-nos-obliga-a-preguntarnos-si-habria-sido-posible-evitarlo/",
-   "url": "https://confilegal.com/20261125-el-cgpj-reclama-reforzar-la-proteccion-de-las-victimas-de-violencia-cada-crimen-nos-obliga-a-preguntarnos-si-habria-sido-posible-evitarlo/",
-   "title": "El CGPJ reclama reforzar la protección de las víctimas de Violencia: «Cada crimen nos obliga a preguntarnos si habría sido posible evitarlo»",
-   "date_published": "2026-11-25T12:14:55Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 4
-  },
-  {
-   "id": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb19Tci1wNTUtM0NXTHdycHNYM0g3TFBmT2dfaFo4TmxoN1RocmdhMXNBRnlzT3EtTkNraWU2V2o2b1NQYmZZNlp5RFA3WGZNYXFMNkYxZnBXVGpkNndyU2xPZmc0dWVnRXVPc0JIbDZrc1htYjNmeXhTMVZBak5ZR1hhM0hLazhIZkJQWTJNUWVvVlFZU2ZsSFhoMDFnUjRMeVJfb2EySWtqajJEOTRRb2FtRC1aQU9tV21wMW9qNUR3bDhVNEFKOFV5WjlyLWFkWGltR2YxbjdtbG9NSnptUFJoMXE1MFVDSzlBUVJOdFJ6bjg?oc=5",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb19Tci1wNTUtM0NXTHdycHNYM0g3TFBmT2dfaFo4TmxoN1RocmdhMXNBRnlzT3EtTkNraWU2V2o2b1NQYmZZNlp5RFA3WGZNYXFMNkYxZnBXVGpkNndyU2xPZmc0dWVnRXVPc0JIbDZrc1htYjNmeXhTMVZBak5ZR1hhM0hLazhIZkJQWTJNUWVvVlFZU2ZsSFhoMDFnUjRMeVJfb2EySWtqajJEOTRRb2FtRC1aQU9tV21wMW9qNUR3bDhVNEFKOFV5WjlyLWFkWGltR2YxbjdtbG9NSnptUFJoMXE1MFVDSzlBUVJOdFJ6bjg?oc=5",
-   "title": "Subdelegado del Gobierno en modo \"provisional\": Eladio Santos espera nuevo nombramiento tras anular el TSXG el anterior",
-   "date_published": "2026-11-25T12:14:41Z",
-   "tags": [
-    "General",
-    "galicia"
-   ],
-   "_fuente": "Europa Press",
-   "_importancia": 4
-  },
-  {
-   "id": "https://confilegal.com/20261125-leire-diez-y-el-expresidente-de-correos-citados-como-investigados-por-presuntas-irregularidades-en-contratos-publicos/",
-   "url": "https://confilegal.com/20261125-leire-diez-y-el-expresidente-de-correos-citados-como-investigados-por-presuntas-irregularidades-en-contratos-publicos/",
-   "title": "Leire Díez y el expresidente de Correos, citados como investigados por presuntas irregularidades en contratos públicos",
-   "date_published": "2026-11-25T12:00:18Z",
-   "tags": [
-    "Penal",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 2
-  },
-  {
-   "id": "https://www.economistjurist.es/noticias-juridicas/las-peligrosas-travesuras-de-algunos-jueces-con-la-ia/",
-   "url": "https://www.economistjurist.es/noticias-juridicas/las-peligrosas-travesuras-de-algunos-jueces-con-la-ia/",
-   "title": "Las peligrosas travesuras de algunos jueces con la IA",
-   "date_published": "2026-11-25T11:00:36Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/aplicar-la-perspectiva-de-genero-obliga-a-valorar-como-afecto-el-cuidado-de-la-familia-a-la-carrera-profesional-de-un-conyuge-pero-no-convierte-la-pension-en-vitalicia/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/aplicar-la-perspectiva-de-genero-obliga-a-valorar-como-afecto-el-cuidado-de-la-familia-a-la-carrera-profesional-de-un-conyuge-pero-no-convierte-la-pension-en-vitalicia/",
-   "title": "Aplicar la perspectiva de género obliga a valorar cómo afectó el cuidado de la familia a la carrera profesional de un cónyuge, pero no convierte la pensión en vitalicia",
-   "date_published": "2026-11-25T11:00:25Z",
-   "tags": [
-    "Tributario",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/declarado-nulo-por-desproporcionado-el-recargo-de-50-centimos-diarios-que-una-comunidad-de-propietarios-imponia-a-los-vecinos-morosos/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/declarado-nulo-por-desproporcionado-el-recargo-de-50-centimos-diarios-que-una-comunidad-de-propietarios-imponia-a-los-vecinos-morosos/",
-   "title": "Declarado nulo, por desproporcionado, el recargo de 50 céntimos diarios que una comunidad de propietarios imponía a los vecinos morosos",
-   "date_published": "2026-11-25T11:00:20Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-supremo-zanja-el-pleito-del-cartel-de-camiones-con-el-5-y-habla-de-multas-a-quienes-sigan-litigando/",
-   "url": "https://www.economistjurist.es/actualidad-juridica/jurisprudencia/el-supremo-zanja-el-pleito-del-cartel-de-camiones-con-el-5-y-habla-de-multas-a-quienes-sigan-litigando/",
-   "title": "El Supremo zanja el pleito del cártel de camiones con el 5% y habla de multas a quienes sigan litigando",
-   "date_published": "2026-11-25T11:00:01Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Economist & Jurist",
-   "_importancia": 1
-  },
-  {
-   "id": "https://confilegal.com/20261125-la-abogacia-ante-el-doble-desafio-de-la-ia-garantizar-la-responsabilidad-profesional-y-demostrar-su-rentabilidad/",
-   "url": "https://confilegal.com/20261125-la-abogacia-ante-el-doble-desafio-de-la-ia-garantizar-la-responsabilidad-profesional-y-demostrar-su-rentabilidad/",
-   "title": "La abogacía ante el doble desafío de la IA: garantizar la responsabilidad profesional y demostrar su rentabilidad",
-   "date_published": "2026-11-25T10:11:03Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Confilegal",
-   "_importancia": 4
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/25/la-abogacia-catalana-y-la-generalitat-acuerdan-destinar-mas-de-13-millones-de-euros-a-reforzar-la-asistencia-juridica-a-las-victimas-de-violencia-machista/",
-   "url": "https://www.lawyerpress.com/2026/11/25/la-abogacia-catalana-y-la-generalitat-acuerdan-destinar-mas-de-13-millones-de-euros-a-reforzar-la-asistencia-juridica-a-las-victimas-de-violencia-machista/",
-   "title": "La Abogacía Catalana y la Generalitat acuerdan destinar más de 1,3 millones de euros a reforzar la asistencia jurídica a las víctimas de violencia machista",
-   "date_published": "2026-11-25T08:53:34Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
-   "_importancia": 3
-  },
-  {
-   "id": "https://www.lawyerpress.com/2026/11/25/comunicado-jjpd-con-motivo-del-dia-internacional-de-la-eliminacion-de-la-violencia-contra-las-mujeres/",
-   "url": "https://www.lawyerpress.com/2026/11/25/comunicado-jjpd-con-motivo-del-dia-internacional-de-la-eliminacion-de-la-violencia-contra-las-mujeres/",
-   "title": "COMUNICADO JJpD CON MOTIVO DEL DÍA INTERNACIONAL DE LA ELIMINACIÓN DE LA VIOLENCIA CONTRA LAS MUJERES",
-   "date_published": "2026-11-25T08:33:02Z",
-   "tags": [
-    "General",
-    "españa"
-   ],
-   "_fuente": "Lawyerpress",
    "_importancia": 1
   }
  ]
